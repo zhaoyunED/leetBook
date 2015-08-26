@@ -12,3 +12,6 @@
 * [3Sum](3Sum.md)
 * [3SumCloest](3SumCloest.md)
 * [4Sum](4Sum.md)
+* [ValidPalindrome](ValidPalindrome.md)
+* [MinimumWindowSubstring](MinimumWindowSubstring.md)
+* [ContainerWithMostWater](ContainerWithMostWater.md)
