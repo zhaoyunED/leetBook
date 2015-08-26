@@ -9,11 +9,16 @@ Your algorithm should run in O(n) complexity.
 
 
 
-//Ã¿´ÎÕÒ s-1 Óë s+1 Êı µÄ ±ß³¤¶È
-//See if n - 1 and n + 1 exist in the map, and if so, it means there is an existing sequence next to n. 
+//æ¯æ¬¡æ‰¾ s-1 ä¸ s+1 æ•° çš„ è¾¹é•¿åº¦
+
+//See if n - 1 and n + 1 exist in the map, and if so, it means there is an existing sequence next to n.
+
 //Variables left and right will be the length of those two sequences, 
+
 //while 0 means there is no sequence and n will be the boundary point later. 
+
 //Store (left + right + 1) as the associated value to key n into the map.
+ ```
  int longestConsecutive(vector<int>& nums) {
         unordered_map<int, int> m;
         int r = 0;
@@ -35,9 +40,11 @@ Your algorithm should run in O(n) complexity.
         }
         return r;
 }
+```
 
-//¾«¼ò°æ´úÂë
+//ç²¾ç®€ç‰ˆä»£ç 
 
+```
 int longestConsecutive(vector<int> &num)
 {
     unordered_map<int, int> m;
@@ -48,3 +55,4 @@ int longestConsecutive(vector<int> &num)
     }
     return r;
 }
+```
