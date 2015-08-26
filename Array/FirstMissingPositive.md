@@ -1,3 +1,4 @@
+
 Given an unsorted integer array, find the first missing positive integer.
 
 For example,
@@ -8,7 +9,10 @@ Your algorithm should run in O(n) time and uses constant space.
 
 
 
-//每次把数组的元素移动到其对应的位置 之后从头遍历找不符合条件的index
+//姣忔鎶婃暟缁勭殑鍏冪礌绉诲姩鍒板叾瀵瑰簲鐨勪綅缃箣鍚庝粠澶撮亶鍘嗘壘涓嶇鍚堟潯浠剁殑
+index
+
+```
 int firstMissingPositive(vector<int>& nums)
 {
         int n = nums.size();
@@ -21,4 +25,4 @@ int firstMissingPositive(vector<int>& nums)
             if(nums[i]!=i+1)
                 return i+1;
         return n+1;
-}
+}```
