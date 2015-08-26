@@ -1,11 +1,11 @@
 # **双指针**
 
 * [TrappingRainWater](TrappingRainWater.md) 
-* [MergeSortedArray](TwoPointer/MergeSortedArray.md)
-* [MinimumSizeSubarraySum](TwoPointer/MinimumSizeSubarraySum.md)
-* [ImplementstrStr](TwoPointer/ImplementstrStr.md)
-* [RemoveDuplicateFromSortArray](TwoPointer/RemoveDuplicateFromSortArray.md)
-* [RemoveDulicateFromSortArray2](TwoPointer/RemoveDulicateFromSortArray2.md)
+* [MergeSortedArray](./MergeSortedArray.md)
+* [MinimumSizeSubarraySum](./MinimumSizeSubarraySum.md)
+* [ImplementstrStr](./ImplementstrStr.md)
+* [RemoveDuplicateFromSortArray](./RemoveDuplicateFromSortArray.md)
+* [RemoveDulicateFromSortArray2](./RemoveDulicateFromSortArray2.md)
 * [LongestSubstringWithoutRepeatingChar](LongestSubstringWithoutRepeatingChar.md)
 * [PartitonList](PartitonList.md)
 * [RemoveElement](RemoveElement.md)
