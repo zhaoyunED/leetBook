@@ -16,7 +16,7 @@
    * [Set Matrix Zeroes](Set Matrix Zeroes.md)
    * [ProductOfArrayExcept](ProductOfArrayExcept.md)
    * [RoateImage](RoateImage.md)
-* TwoPointer
+* [TwoPointer](TwoPointer/README.md)
    * [TrappingRainWater](TwoPointer/TrappingRainWater.md) 
    * [MergeSortedArray](TwoPointer/MergeSortedArray.md)
 * [MinimumSizeSubarraySum](TwoPointer/MinimumSizeSubarraySum.md)
