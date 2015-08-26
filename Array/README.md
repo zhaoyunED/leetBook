@@ -2,9 +2,9 @@
 # **数组**
 
 * [FirstMissingPositive](./FirstMissingPositive.md) 
-* [LongestConsecutiveSequence](Array/LongestConsecutiveSequence.md)
-* [MajorityElements](Array/MajorityElements.md) 
-* [MajorityElement II](Array/MajorityElement II.md)
+* [LongestConsecutiveSequence](./LongestConsecutiveSequence.md)
+* [MajorityElements](./MajorityElements.md) 
+* [MajorityElement II](./MajorityElement II.md)
 * [Pascal'sTriangle](Pascal'sTriangle.md)
 * [Pascal's Triangle II](Pascal's Triangle II .md)
 * [SpiralMatrix](SpiralMatrix.md)
