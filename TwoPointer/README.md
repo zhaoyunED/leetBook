@@ -1,6 +1,7 @@
 # **双指针**
 
 * [TrappingRainWater](TwoPointer/TrappingRainWater.md) 
-* [MergeSortedArray](MergeSortedArray.md)
-* [MinimumSizeSubarraySum](MinimumSizeSubarraySum.md)
-* [ImplementstrStr](ImplementstrStr.md)
+* [MergeSortedArray](TwoPointer/MergeSortedArray.md)
+* [MinimumSizeSubarraySum](TwoPointer/MinimumSizeSubarraySum.md)
+* [ImplementstrStr](TwoPointer/ImplementstrStr.md)
+* [RemoveDuplicateFromSortArray](TwoPointer/RemoveDuplicateFromSortArray.md)
