@@ -23,8 +23,8 @@ if he follows the optimal path RIGHT-> RIGHT -> DOWN -> DOWN.
 
 
 
-// O(MN)µÄ¿Õ¼ä¸´ÔÓ¶È
-//ÀàËÆ unique path
+// O(MN)çš„ç©ºé—´å¤æ‚åº¦
+//ç±»ä¼¼ unique path
 int calculateMinimumHP(vector<vector<int> > &dungeon) {
         int M = dungeon.size();
         int N = dungeon[0].size();
@@ -43,7 +43,7 @@ int calculateMinimumHP(vector<vector<int> > &dungeon) {
 }
 
 
-//O(N)¿Õ¼ä¸´ÔÓ¶È
+//O(N)ç©ºé—´å¤æ‚åº¦
 int calculateMinimumHP(vector<vector<int> > &dungeon)
 {
         const int m = dungeon.size();
@@ -61,7 +61,7 @@ int getMin(int n)
        return n <= 0 ? 1 : n;
 }
 
-//ÔÚÔ­ÓĞµÄÊı×éÉÏ½øĞĞ²Ù×÷ ²»½¨Òé
+//åœ¨åŸæœ‰çš„æ•°ç»„ä¸Šè¿›è¡Œæ“ä½œ ä¸å»ºè®®
 int calculateMinimumHP(vector<vector<int> > &dungeon)
 {
      int m = dungeon.size();
