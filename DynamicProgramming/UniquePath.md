@@ -12,7 +12,7 @@ How many possible unique paths are there?
 
 
 
-// ¿Õ¼ä¸´ÔÓ¶ÈO£¨m*n£©
+// ç©ºé—´å¤æ‚åº¦Oï¼ˆm*nï¼‰
 int uniquePaths(int m, int n) {
         int f[m][n];  
         memset(f, 0, sizeof(int) * m * n);  
@@ -31,7 +31,7 @@ int uniquePaths(int m, int n) {
     }
 
 
-// ¿Õ¼ä¸´ÔÓ¶ÈO£¨n£©
+// ç©ºé—´å¤æ‚åº¦Oï¼ˆnï¼‰
 int uniquePaths(int m, int n)
 {
         if(m ==1 || n==1) return 1;
@@ -47,7 +47,7 @@ int uniquePaths(int m, int n)
         return sum[n-1];
 }
 
-//ÅÅÁĞ×éºÏµÄ·½·¨
+//æ’åˆ—ç»„åˆçš„æ–¹æ³•
 int uniquePaths(int m, int n)
 {
         int A = m + n - 2, B = std::min(m - 1, n - 1);
