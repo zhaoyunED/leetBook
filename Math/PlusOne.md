@@ -3,8 +3,8 @@ Given a non-negative number represented as an array of digits, plus one to the n
 The digits are stored such that the most significant digit is at the head of the list.
 
 
-//´ÓÄ©Î²ÅĞ¶ÏÃ¿¸öÊı×ÖÊÇ·ñÊÇ9
-//²»ÊÇÔòÌø³ö·µ»Ø
+//ä»æœ«å°¾åˆ¤æ–­æ¯ä¸ªæ•°å­—æ˜¯å¦æ˜¯9
+//ä¸æ˜¯åˆ™è·³å‡ºè¿”å›
 vector<int> plusOne(vector<int>& digits) {
         bool carry =true;
         for(int i=digits.size()-1; i>=0 && carry; i--)
