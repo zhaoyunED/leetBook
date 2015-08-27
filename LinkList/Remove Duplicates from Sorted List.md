@@ -5,7 +5,7 @@ Given 1->1->2, return 1->2.
 Given 1->1->2->3->3, return 1->2->3.
 
 
-//ÓĞpreÖ¸ÕëµÄ
+//æœ‰preæŒ‡é’ˆçš„
 ListNode *deleteDuplicates(ListNode *head) 
 {
         if(head==NULL || head->next==NULL) return head;  
@@ -31,7 +31,7 @@ ListNode *deleteDuplicates(ListNode *head)
     return head;  
 }
 
-//	Ë«ÖØÖ¸Õë
+//	åŒé‡æŒ‡é’ˆ
 ListNode* deleteDuplicates(ListNode* head) 
 {
         if(head ==NULL || head->next ==NULL)
@@ -55,7 +55,7 @@ ListNode* deleteDuplicates(ListNode* head)
         return head;
 }
 
-//ÆäÊµÒ²¿ÉÒÔ²»ÓÃË«ÖØÖ¸Õë ²¢Ã»ÓĞ¿¼ÂÇµ½deleteµÄ
+//å…¶å®ä¹Ÿå¯ä»¥ä¸ç”¨åŒé‡æŒ‡é’ˆ å¹¶æ²¡æœ‰è€ƒè™‘åˆ°deleteçš„
 ListNode *deleteDuplicates(ListNode *head) 
 {
         ListNode* cur = head;
