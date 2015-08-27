@@ -6,7 +6,7 @@ Each child must have at least one candy.
 Children with a higher rating get more candies than their neighbors.
 What is the minimum candies you must give?
 
-//方法1
+//路陆路篓1
 int candy(vector<int>& ratings) {
         int nCandyCnt = 0;///Total candies
     int nSeqLen = 0;  /// Continuous ratings descending sequence length
@@ -58,7 +58,7 @@ int candy(vector<int>& ratings) {
     return nCandyCnt;
 }
 
-//方法2
+//路陆路篓2
 int candy(vector<int> &ratings) {
         
     int size=ratings.size();
