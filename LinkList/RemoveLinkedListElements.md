@@ -6,7 +6,7 @@ Return: 1 --> 2 --> 3 --> 4 --> 5
 
 
 
-//Ë«ÖØÖ¸Õë
+//Ã‹Â«Ã–Ã˜Ã–Â¸Ã•Ã«
 ListNode* removeElements(ListNode* head, int val)
 {
         ListNode** cur = &head;
@@ -23,7 +23,7 @@ ListNode* removeElements(ListNode* head, int val)
         return head;
 }
 
-//¸¨ÖúÍ·½áµã
+//Â¸Â¨Ã–ÃºÃÂ·Â½Ã¡ÂµÃ£
 ListNode* removeElements(ListNode* head, int val)
 {
         ListNode *pseudo_head = new ListNode(0);
