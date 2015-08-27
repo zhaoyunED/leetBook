@@ -13,7 +13,7 @@ Note: The numbers can be arbitrarily large and are non-negative.
 
 
 
-//°´ÕÕ´«Í³µÄ³Ë·¨·½·¨ ´ÓstringÄ©Î² ¿ªÊ¼Ëã
+//æŒ‰ç…§ä¼ ç»Ÿçš„ä¹˜æ³•æ–¹æ³• ä»Žstringæœ«å°¾ å¼€å§‹ç®—
 string multiply(string num1, string num2)
 {
         string sum(num1.size() + num2.size(), '0');
