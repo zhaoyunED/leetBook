@@ -7,8 +7,8 @@ determine the maximum amount of money you can rob tonight without alerting the p
 
 
 
-//·½·¨1 O£¨1£©¿Õ¼ä O(n)Ê±¼ä
-//¹¹³É»·µÄ»·µÄ»°¿¼ÂÇÁ½ÖÖÇé¿ö£¬Ò»ÖÖÑ¡×îºóÒ»¸ö£»Ò»ÖÖ²»Ñ¡×îºóÒ»¸ö
+//æ–¹æ³•1 Oï¼ˆ1ï¼‰ç©ºé—´ O(n)æ—¶é—´
+//æ„æˆç¯çš„ç¯çš„è¯è€ƒè™‘ä¸¤ç§æƒ…å†µï¼Œä¸€ç§é€‰æœ€åä¸€ä¸ªï¼›ä¸€ç§ä¸é€‰æœ€åä¸€ä¸ª
 int rob(vector<int>& nums)
 {
        if(nums.size() == 0)
@@ -35,8 +35,8 @@ int rob(vector<int>& nums)
         return max(cur1, cur2);
  }
 
- //·½·¨2
- //¸Ğ¾õĞ´µÄ±È½Ï¼òÁ· Ë¼Â·ÊÇÒ»ÑùµÄ
+ //æ–¹æ³•2
+ //æ„Ÿè§‰å†™çš„æ¯”è¾ƒç®€ç»ƒ æ€è·¯æ˜¯ä¸€æ ·çš„
  private int rob(int[] num, int lo, int hi) {
     int include = 0, exclude = 0;
     for (int j = lo; j <= hi; j++) {
