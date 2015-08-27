@@ -1,6 +1,6 @@
 Given an integer, write a function to determine if it is a power of two.
 
-//类似求 二进制中1的个数
+//脌脿脣脝脟贸 露镁陆酶脰脝脰脨1碌脛赂枚脢媒
 bool isPowerOfTwo(int n)
 {
         if(n == INT_MIN)
