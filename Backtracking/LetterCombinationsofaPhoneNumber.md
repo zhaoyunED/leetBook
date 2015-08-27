@@ -13,7 +13,7 @@ Although the above answer is in lexicographical order, your answer could be in a
 
 
 
-//·½·¨1
+//æ–¹æ³•1
 vector<string> letterCombinations(string digits) 
 {
         vector<string> res;
@@ -32,7 +32,7 @@ vector<string> letterCombinations(string digits)
         backtracking(table,res,local,0,digits);
         return res;
 }
-//µäĞÍµÄbacktracking·½Ê½
+//å…¸å‹çš„backtrackingæ–¹å¼
 void backtracking(const vector<vector<char>>& table, vector<string>& res, string& local, int index, const string& digits) 
 {
         if(index==digits.size())
@@ -49,7 +49,7 @@ void backtracking(const vector<vector<char>>& table, vector<string>& res, string
 
 
 
-//·½·¨2 ¼òµ¥´Ö±©µÄdfs ÆäÊµÒ²ÊÇ°üº¬»ØËİ Ö»²»¹ıĞÎ²ÎÊÇ ·ÇÒıÓÃ ÏûºÄµÄÄÚ´æ¶àÒ»Ğ©
+//æ–¹æ³•2 ç®€å•ç²—æš´çš„dfs å…¶å®ä¹Ÿæ˜¯åŒ…å«å›æº¯ åªä¸è¿‡å½¢å‚æ˜¯ éå¼•ç”¨ æ¶ˆè€—çš„å†…å­˜å¤šä¸€äº›
  private:
     map<char,vector<char>> dict;
     vector<string> ret;
