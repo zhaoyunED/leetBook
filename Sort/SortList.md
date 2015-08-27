@@ -1,8 +1,8 @@
 Sort a linked list in O(n log n) time using constant space complexity.
 
 
-//merge sort的利用
-// 加强 链表的使用
+//merge sort木脛艛疟脫膫
+// 藕脫脟偶 脕麓膮铆木脛臉拧脫膫
 ListNode* sortList(ListNode* head) {
         if(head==NULL||head->next==NULL) {
             return head;
