@@ -9,7 +9,7 @@ You may not engage in multiple transactions at the same time (ie, you must sell 
 
 
 
-//·½·¨1  ¶¯¹æ
+//æ–¹æ³•1  åŠ¨è§„
 //space complexity can be O(n) because this DP only uses the result from last step.
 int maxProfit(vector<int> &prices) {
         // f[k, ii] represents the max profit up until prices[ii] (Note: NOT ending with prices[ii]) using at most k transactions. 
@@ -35,7 +35,7 @@ int maxProfit(vector<int> &prices) {
 }
 
 
-// ÀàËÆ single number 2 ÌâÄ¿
+// ç±»ä¼¼ single number 2 é¢˜ç›®
 public int maxProfit(int[] prices)
 {
         int hold1 = Integer.MIN_VALUE, hold2 = Integer.MIN_VALUE;
@@ -51,7 +51,7 @@ public int maxProfit(int[] prices)
 
 
 
-//´ÓÁ½±ß ·Ö±ğ±éÀúÒ»´Î
+//ä»ä¸¤è¾¹ åˆ†åˆ«éå†ä¸€æ¬¡
 int maxProfit(vector<int> &prices)
 {
          int maxPro = 0;
