@@ -3,14 +3,14 @@ Given a sorted array and a target value, return the index if the target is found
 You may assume no duplicates in the array.
 
 Here are few examples.
-[1,3,5,6], 5 ¡ú 2
-[1,3,5,6], 2 ¡ú 1
-[1,3,5,6], 7 ¡ú 4
-[1,3,5,6], 0 ¡ú 0
+[1,3,5,6], 5 â†’ 2
+[1,3,5,6], 2 â†’ 1
+[1,3,5,6], 7 â†’ 4
+[1,3,5,6], 0 â†’ 0
 
 
 
-int searchInsert(vector<int>& nums, int target)   //µäÐÍµÄ¶þ·Ö²éÕÒ
+int searchInsert(vector<int>& nums, int target)   //å…¸åž‹çš„äºŒåˆ†æŸ¥æ‰¾
 {
         int left =0,right = nums.size()-1;
         while(left<=right)
