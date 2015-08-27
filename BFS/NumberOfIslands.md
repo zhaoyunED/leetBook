@@ -61,7 +61,7 @@ int numIslands(vector<vector<char>> &grid)
 
 
 //BFS
-//广度优先搜索 用一个队列来保存 
+//骞垮害浼樺厛鎼滅储 鐢ㄤ竴涓槦鍒楁潵淇濆瓨 
 int numIslands(vector<vector<char>> &grid)
 {
         if(grid.size() == 0 || grid[0].size() == 0)
