@@ -9,16 +9,16 @@ The function prototype should be:
 bool isMatch(const char *s, const char *p)
 
 Some examples:
-isMatch("aa","a") ¡ú false
-isMatch("aa","aa") ¡ú true
-isMatch("aaa","aa") ¡ú false
-isMatch("aa", "a*") ¡ú true
-isMatch("aa", ".*") ¡ú true
-isMatch("ab", ".*") ¡ú true
-isMatch("aab", "c*a*b") ¡ú true
+isMatch("aa","a") â†’ false
+isMatch("aa","aa") â†’ true
+isMatch("aaa","aa") â†’ false
+isMatch("aa", "a*") â†’ true
+isMatch("aa", ".*") â†’ true
+isMatch("ab", ".*") â†’ true
+isMatch("aab", "c*a*b") â†’ true
 
 
-//µİ¹é·½·¨
+//é€’å½’æ–¹æ³•
 bool isMatch(string s, string p) 
 {
         if ( p.empty() ) return s.empty();
@@ -45,7 +45,7 @@ bool isMatch(string s, string p)
 
 
 
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 bool isMatch(string s, string p) {
         /**
          * f[i][j]: if s[0..i-1] matches p[0..j-1]
