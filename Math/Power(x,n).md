@@ -1,8 +1,8 @@
 
 Implement pow(x, n).
 
-// ÀûÓÃµÄÊÇ ÃÉ¸çÂíÀû¿ìËÙÄ£³ËËã·¨ 
-// ½« ÃÝ ×ª»»Îª ¶þ½øÖÆ 
+// åˆ©ç”¨çš„æ˜¯ è’™å“¥é©¬åˆ©å¿«é€Ÿæ¨¡ä¹˜ç®—æ³• 
+// å°† å¹‚ è½¬æ¢ä¸º äºŒè¿›åˆ¶ 
  double myPow(double x, int n) {
 
 	if(n<0)
