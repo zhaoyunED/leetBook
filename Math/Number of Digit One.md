@@ -5,7 +5,7 @@ Given n = 13,
 Return 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
 
 
-//编程之美上的题目
+//卤脿鲁脤脰庐脙脌脡脧碌脛脤芒脛驴
 
 int countDigitOne(int n)
 {
