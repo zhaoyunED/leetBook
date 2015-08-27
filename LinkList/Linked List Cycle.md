@@ -2,7 +2,7 @@ Given a linked list, determine if it has a cycle in it.
 
 Follow up:
 Can you solve it without using extra space?
-//Ò»¸öÖ¸Õë×ßÁ½²½ Ò»¸öÖ¸Õë×ßÒ»²½
+//ä¸€ä¸ªæŒ‡é’ˆèµ°ä¸¤æ­¥ ä¸€ä¸ªæŒ‡é’ˆèµ°ä¸€æ­¥
 
 bool hasCycle(ListNode *head)
 {
@@ -24,7 +24,7 @@ bool hasCycle(ListNode *head)
 
 
 Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
-//»­Í¼¼´¶®
+//ç”»å›¾å³æ‡‚
 ListNode *detectCycle(ListNode *head)
 {
         ListNode *fast = head;
