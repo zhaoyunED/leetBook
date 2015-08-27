@@ -15,7 +15,7 @@ return [1,6],[8,10],[15,18].
  * };
  */
 
-//先按照起始边从小到大进行排序
+//鍏堟寜鐓ц捣濮嬭竟浠庡皬鍒板ぇ杩涜鎺掑簭
 
 static bool compare(const Interval& a, const Interval& b)
 {
