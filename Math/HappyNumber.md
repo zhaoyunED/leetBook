@@ -13,7 +13,7 @@ Example: 19 is a happy number
 62 + 82 = 100
 12 + 02 + 02 = 1
 
-//简单的小逻辑题目
+//录貌碌楼碌脛脨隆脗脽录颅脤芒脛驴
 bool isHappy(int n)
 {
         if(n ==1) return true;
