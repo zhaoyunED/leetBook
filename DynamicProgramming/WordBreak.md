@@ -8,7 +8,7 @@ dict = ["leet", "code"].
 Return true because "leetcode" can be segmented as "leet code".
 
 
-//¶¯Ì¬¹æ»®·½·¨
+//åŠ¨æ€è§„åˆ’æ–¹æ³•
 
 bool wordBreak(string s, unordered_set<string> &dict)
 {
@@ -36,8 +36,8 @@ bool wordBreak(string s, unordered_set<string> &dict)
         return dp[s.size()];
 }
 
-//¶¯Ì¬¹æ»®·½·¨2
-//ÓÅ»¯°æ Ö»Õë¶Ô ×ÖµäÀïÃæµÄ×Ö·û´®µÄ´óĞ¡ ½øĞĞ±éÀú
+//åŠ¨æ€è§„åˆ’æ–¹æ³•2
+//ä¼˜åŒ–ç‰ˆ åªé’ˆå¯¹ å­—å…¸é‡Œé¢çš„å­—ç¬¦ä¸²çš„å¤§å° è¿›è¡Œéå†
 
 bool wordBreak(string s, unordered_set<string> &dict) {
         int n = s.size();
@@ -61,7 +61,7 @@ bool wordBreak(string s, unordered_set<string> &dict) {
     }
 
 
-//BFSµÄ·½·¨
+//BFSçš„æ–¹æ³•
 bool wordBreak(string s, unordered_set<string> &dict) {
     // BFS
     queue<int> BFS;
