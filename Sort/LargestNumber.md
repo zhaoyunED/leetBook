@@ -7,8 +7,8 @@ Note: The result may be very large, so you need to return a string instead of an
 
 
 
-//ÀûÓÃÁË stringÖ±½Ó¿ÉÒÔ±È½ÏµÄÌØĞÔ
-//×Ô¶¨ÒåĞÂµÄ±È½Ïº¯Êı
+//åˆ©ç”¨äº† stringç›´æ¥å¯ä»¥æ¯”è¾ƒçš„ç‰¹æ€§
+//è‡ªå®šä¹‰æ–°çš„æ¯”è¾ƒå‡½æ•°
 
 string largestNumber(vector<int>& nums)
 {
