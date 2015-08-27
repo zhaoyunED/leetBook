@@ -12,8 +12,8 @@ The array may contain duplicates.
 
 
 
-//Í¬ÀíSearch in Rotate array 2
-//Ö»ÓĞ mid left right ¶¼ÏàµÈµÄÊ±ºò ²ÅÎŞ·¨ÅĞ¶Ï left ++
+//åŒç†Search in Rotate array 2
+//åªæœ‰ mid left right éƒ½ç›¸ç­‰çš„æ—¶å€™ æ‰æ— æ³•åˆ¤æ–­ left ++
 int findMin(vector<int>& nums) {
         int left =0;
         int right = nums.size()-1;
@@ -29,7 +29,7 @@ int findMin(vector<int>& nums) {
                 right = mid;
             else if(nums[right] != nums[mid])//[mid] == [left]
                 left = mid+1;
-            else //¶¼ÏàµÈ
+            else //éƒ½ç›¸ç­‰
                 left++;
         }
         
