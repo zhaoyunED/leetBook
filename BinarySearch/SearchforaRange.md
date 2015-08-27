@@ -38,7 +38,7 @@ vector<int> searchRange(int A[], int n, int target) {
         }
         if(A[low] != target)
             return -1;
-        return low; // q3   ÈôÖ»ÓÐÒ»¸öÔªËØ ×îÖÕA[low]= target and low>high
+        return low; // q3   è‹¥åªæœ‰ä¸€ä¸ªå…ƒç´  æœ€ç»ˆA[low]= target and low>high
     }
     
     int rSearch(int A[], int n, int target) {
@@ -53,5 +53,5 @@ vector<int> searchRange(int A[], int n, int target) {
         }
         if(A[high] != target)
             return -1;
-        return high; // q3 ÈôÖ»ÓÐÒ»¸öÔªËØ ×îÖÕA[high]= target and low>high ·µ»Øhigh
+        return high; // q3 è‹¥åªæœ‰ä¸€ä¸ªå…ƒç´  æœ€ç»ˆA[high]= target and low>high è¿”å›žhigh
     }
