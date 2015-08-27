@@ -15,8 +15,8 @@ A = [3,2,1,0,4], return false.
 
 
 
-//基本都是贪心的思想
-//方法1
+//鍩烘湰閮芥槸璐績鐨勬�濇兂
+//鏂规硶1
  bool canJump(int A[], int n) {
         if(n==0||n==1){  
             return true;  
@@ -34,7 +34,7 @@ A = [3,2,1,0,4], return false.
         }
     }
 
-//方法2
+//鏂规硶2
 
 bool canJump(vector<int>& nums) 
 {
@@ -44,7 +44,7 @@ bool canJump(vector<int>& nums)
         return(truepos==0); 
 }
 
-//方法3
+//鏂规硶3
 
 bool canJump(vector<int>& nums)
 {
