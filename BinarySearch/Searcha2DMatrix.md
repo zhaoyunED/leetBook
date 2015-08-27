@@ -14,7 +14,7 @@ Consider the following matrix:
 Given target = 3, return true.
 
 
-//方法1 两次二分查找
+//鏂规硶1 涓ゆ浜屽垎鏌ユ壘
 
 bool searchMatrix(vector<vector<int> > &matrix, int target) {
         if(matrix.size()<=0 || matrix[0].size()<=0)
@@ -64,7 +64,7 @@ bool searchMatrix(vector<vector<int> > &matrix, int target) {
     }
 
 
-//方法2 直接看成一个连贯的array
+//鏂规硶2 鐩存帴鐪嬫垚涓�涓繛璐殑array
 
 bool searchMatrix(vector<vector<int> > &matrix, int target) {
         int n = matrix.size();
