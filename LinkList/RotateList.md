@@ -5,7 +5,7 @@ Given 1->2->3->4->5->NULL and k = 2,
 return 4->5->1->2->3->NULL.
 
 
-//方法1 make a circle
+//路陆路篓1 make a circle
 ListNode* rotateRight(ListNode* head, int k) {
         if(head == NULL || head->next == NULL||k==0) return head;
         
