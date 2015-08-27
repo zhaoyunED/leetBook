@@ -9,7 +9,7 @@ dict = ["cat", "cats", "and", "sand", "dog"].
 A solution is ["cats and dog", "cat sand dog"].
 
 
-//动规之后 加上 DFS和backtracking
+//露炉鹿忙脰庐潞贸 录脫脡脧 DFS潞脥backtracking
  void dfs(vector<string> &result,vector<int> * vect,int end,vector<string> cur,string s)
 {
            
