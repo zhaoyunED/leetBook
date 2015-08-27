@@ -21,15 +21,15 @@ All words have the same length.
     int ladderLength(string start, string end, unordered_set<string> &dict) 
 {
 	
-	if (dict.empty() || dict.find(start) == dict.end() || dict.find(end) == dict.end()) return 0;//Ã»ÕÒµ½
+	if (dict.empty() || dict.find(start) == dict.end() || dict.find(end) == dict.end()) return 0;//æ²¡æ‰¾åˆ°
 	
-	//Ã¿´ÎÕÒºÍ¶ÓÁĞÖĞ×Ö·û´®Ïà²î1µÄ×Ö·û´® ²¢Ìí¼Óµ½¶ÓÁĞÖĞ 
+	//æ¯æ¬¡æ‰¾å’Œé˜Ÿåˆ—ä¸­å­—ç¬¦ä¸²ç›¸å·®1çš„å­—ç¬¦ä¸² å¹¶æ·»åŠ åˆ°é˜Ÿåˆ—ä¸­ 
 	queue<string> q;
         q.push(start);
 
-	unordered_map<string,int> map_visit;//ÓÃÀ´±£´æÃ¿¸ö×Ö·û´®ÊÇ·ñ±»·ÃÎÊ¹ıÒÔ¼°ĞèÒª¸Ä±äµÄ´ÎÊı ÓÃun_map±£´æ·ÃÎÊ¿ì
+	unordered_map<string,int> map_visit;//ç”¨æ¥ä¿å­˜æ¯ä¸ªå­—ç¬¦ä¸²æ˜¯å¦è¢«è®¿é—®è¿‡ä»¥åŠéœ€è¦æ”¹å˜çš„æ¬¡æ•° ç”¨un_mapä¿å­˜è®¿é—®å¿«
         map_visit[start] =1;
-	unordered_set<string> left_dict = dict; //±£´æÃ»ÓĞ±»·ÃÎÊ¹ıµÄ×Ö·û´®
+	unordered_set<string> left_dict = dict; //ä¿å­˜æ²¡æœ‰è¢«è®¿é—®è¿‡çš„å­—ç¬¦ä¸²
 	left_dict.erase(start);
 
 	while(q.size()!=0)
@@ -41,9 +41,9 @@ All words have the same length.
 		{
 			if(oneCharDiff(*it,word))
 			{
-				map_visit[*it] = map_visit[word] + 1; //¾àÀë¼Ó1
+				map_visit[*it] = map_visit[word] + 1; //è·ç¦»åŠ 1
 				if(*it == end) return map_visit[*it];
-				q.push(*it); //¼Óµ½¶ÓÁĞÖĞ
+				q.push(*it); //åŠ åˆ°é˜Ÿåˆ—ä¸­
 				it = left_dict.erase(it);
 			}else
 			{
@@ -52,7 +52,7 @@ All words have the same length.
 		}
 	}
 
-	return 0;//Ã»ÓĞÕÒµ½	
+	return 0;//æ²¡æœ‰æ‰¾åˆ°	
 }
 
 inline bool oneCharDiff(const string& str1, const string& str2)
