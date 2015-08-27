@@ -10,7 +10,7 @@ Given 1->1->1->2->3, return 2->3.
 
 
 
-//µİ¹é·½·¨
+//é€’å½’æ–¹æ³•
 
 ListNode* deleteDuplicates(ListNode* head) {
         if (!head) return 0;
@@ -29,7 +29,7 @@ ListNode* deleteDuplicates(ListNode* head) {
     }
 
 
-// Ë«ÖØÖ¸Õë
+// åŒé‡æŒ‡é’ˆ
 ListNode *deleteDuplicates(ListNode *head) {
         ListNode **runner = &head;
 
@@ -52,7 +52,7 @@ ListNode *deleteDuplicates(ListNode *head) {
         return head;
     }
 
-//ÀàËÆµÄ·½·¨
+//ç±»ä¼¼çš„æ–¹æ³•
 ListNode* deleteDuplicates(ListNode* head) {
         ListNode** curNext = &head;
         ListNode* cur =head;
