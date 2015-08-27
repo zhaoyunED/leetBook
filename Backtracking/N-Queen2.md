@@ -6,7 +6,7 @@ Now, instead outputting board configurations, return the total number of distinc
 
 
 
-//ºÍ N-QUEEN 1 Ò»Ä£Ò»Ñù
+//å’Œ N-QUEEN 1 ä¸€æ¨¡ä¸€æ ·
 int totalNQueens(int n) {
         int result =0;
         if(n<=0 ) return 0;
@@ -25,7 +25,7 @@ int totalNQueens(int n) {
         return true;
     }
     
-    void Queen(vector<int>& vec,int n,int cur,int& total) //vec ¿ÉÒÔÓÃÒıÓÃ Ò²¿ÉÒÔ²»ÓÃÒıÓÃ
+    void Queen(vector<int>& vec,int n,int cur,int& total) //vec å¯ä»¥ç”¨å¼•ç”¨ ä¹Ÿå¯ä»¥ä¸ç”¨å¼•ç”¨
     {
         if(cur == n)
         {
