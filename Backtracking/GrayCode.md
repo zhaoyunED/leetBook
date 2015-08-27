@@ -18,7 +18,7 @@ For now, the judge is able to judge based on one instance of gray code sequence.
 
 
 
-//方法1
+//路陆路篓1
 vector<int> grayCode(int n) {
         int size = 1<<n;
         vector<int> grayCodes;
@@ -33,7 +33,7 @@ vector<int> grayCode(int n) {
     }
 
 
-//方法2
+//路陆路篓2
 vector<int> grayCode(int n) {
         vector<int> result(1, 0);        
     for (int i = 0; i < n; i++) {
