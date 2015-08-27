@@ -9,10 +9,10 @@ Note:
 The order of the result is not important. So in the above example, [5, 3] is also correct.
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant space complexity?
 
-//ÏÈÇóµÃ a^b
-// ÕÒµ½aÓëb×îµÍ²»ÏàÍ¬µÄÎ»
-// °´ÕÕÕâÎ» Öµ µÄ0»òÕß1 ·Ö³ÉÁ½×é 
-//Òì»ò Ò»±é ¼´¿ÉÇóµÃaÓëb
+//å…ˆæ±‚å¾— a^b
+// æ‰¾åˆ°aä¸bæœ€ä½ä¸ç›¸åŒçš„ä½
+// æŒ‰ç…§è¿™ä½ å€¼ çš„0æˆ–è€…1 åˆ†æˆä¸¤ç»„ 
+//å¼‚æˆ– ä¸€é å³å¯æ±‚å¾—aä¸b
 vector<int> singleNumber(vector<int>& nums) {
          int diff = accumulate(nums.begin(), nums.end(), 0, bit_xor<int>());
         diff &= -diff;
