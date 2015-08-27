@@ -4,7 +4,7 @@ Compute and return the square root of x.
 
 
 
-//¶ş·Ö²éÕÒ
+//äºŒåˆ†æŸ¥æ‰¾
 int sqrt(int x)
 {
         unsigned long long begin = 0;  
@@ -27,7 +27,7 @@ int sqrt(int x)
 }
 
 
-//Î»ÔËËã
+//ä½è¿ç®—
 int mySqrt(int x)
 {
      unsigned int res = 0;
@@ -40,7 +40,7 @@ int mySqrt(int x)
 }
 
 
-//Å£¶Ùµü´úËã·¨
+//ç‰›é¡¿è¿­ä»£ç®—æ³•
 
 int sqrt(int x)
 {
