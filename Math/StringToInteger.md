@@ -28,7 +28,7 @@ int myAtoi(string str)
             sign =-1;
             index++;
         }
-        long result =0;//important sheidng wei long 才能与INT_MAX比较
+        long result =0;//important sheidng wei long 虏脜脛脺脫毛INT_MAX卤脠陆脧
         
         while(index<n && result< INT_MAX && isdigit(str[index]) )
         {
