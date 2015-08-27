@@ -14,7 +14,7 @@ If n = 4 and k = 2, a solution is:
 
 
 
-//·½·¨1 dfs¼Ó backtracking
+//æ–¹æ³•1 dfsåŠ  backtracking
 vector<vector<int>> combine(int n, int k) {
         vector<vector<int>> result;
         vector<int> temp;
@@ -30,7 +30,7 @@ void getcombine(int n, int k,vector<vector<int>> &result,vector<int> temp,int cu
         if(temp.size() == k)
         {
             result.push_back(temp);
-        }else if(n-cur+1+temp.size() >=k) //½øĞĞ¼õÖ¦
+        }else if(n-cur+1+temp.size() >=k) //è¿›è¡Œå‡æ
         {
            for(int i=cur ;i<=n ;i++)
            {
@@ -42,7 +42,7 @@ void getcombine(int n, int k,vector<vector<int>> &result,vector<int> temp,int cu
         
 }
 
-//·½·¨2   C(n,k) = C(n-1, k-1) U n + C(n-1,k)  ÀàËÆ¶¯Ì¬¹æ»®µÄ·½·¨
+//æ–¹æ³•2   C(n,k) = C(n-1, k-1) U n + C(n-1,k)  ç±»ä¼¼åŠ¨æ€è§„åˆ’çš„æ–¹æ³•
 vector<vector<int> > combine(int n, int k) 
 {
 
