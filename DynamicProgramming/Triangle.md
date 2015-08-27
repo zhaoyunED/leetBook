@@ -15,8 +15,8 @@ Bonus point if you are able to do this using only O(n) extra space, where n is t
 
 
 
-//µäĞÍµÄDPÌâÄ¿ Í¬Ê±Ö»ĞèÒª O(n)µÄ¿Õ¼ä¸´ÔÓ¶È
-//×Ôµ×ÏòÉÏ½â¾ö´úÂë¼òÁ·
+//å…¸å‹çš„DPé¢˜ç›® åŒæ—¶åªéœ€è¦ O(n)çš„ç©ºé—´å¤æ‚åº¦
+//è‡ªåº•å‘ä¸Šè§£å†³ä»£ç ç®€ç»ƒ
 int minimumTotal(vector<vector<int> > &triangle) {
     int n = triangle.size();
     vector<int> minlen(triangle.back());
