@@ -3,8 +3,8 @@ Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of 
 For example, given the range [5, 7], you should return 4.
 
 
-//·½·¨1
-//ÕÒ×î×ó±ßÏàÍ¬µÄ²¿ÃÅ ÆäÓàÊ£ÏÂµÄ×ÜÊÇ ÎªANDÎª0
+//æ–¹æ³•1
+//æ‰¾æœ€å·¦è¾¹ç›¸åŒçš„éƒ¨é—¨ å…¶ä½™å‰©ä¸‹çš„æ€»æ˜¯ ä¸ºANDä¸º0
 int rangeBitwiseAnd(int m, int n)
 {
         int i = 0;
@@ -16,8 +16,8 @@ int rangeBitwiseAnd(int m, int n)
         return m<<i;
 }
 
-//·½·¨2
-//¸ü¿ìÒ»Ğ©
+//æ–¹æ³•2
+//æ›´å¿«ä¸€äº›
 int rangeBitwiseAnd(int m, int n)
 {
     while(n > m) { 
