@@ -16,19 +16,19 @@ then 1's and followed by 2's.
 Could you come up with an one-pass algorithm using only constant space?
 
 
-//·½·¨1 ¼ÆÊıÅÅĞò
+//æ–¹æ³•1 è®¡æ•°æ’åº
 
 void sortColors(vector<int>& nums) {
         
     }
 
 
-// ·½·¨2 ÀàËÆ two pointers
+// æ–¹æ³•2 ç±»ä¼¼ two pointers
 
 void sortColors(vector<int>& nums) {
         int n =nums.size();
         
-        int i=-1, j=-1;//·Ö±ğÊÇ0,1 µÄË÷Òı
+        int i=-1, j=-1;//åˆ†åˆ«æ˜¯0,1 çš„ç´¢å¼•
 
         for(int p = 0; p < n; p++) {
     
@@ -48,7 +48,7 @@ void sortColors(vector<int>& nums) {
     }
 
 
-//·½·¨3
+//æ–¹æ³•3
 // one pass in place solution
 void sortColors(int A[], int n) {
     int j = 0, k = n-1;
