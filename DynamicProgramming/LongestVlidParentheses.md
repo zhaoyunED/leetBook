@@ -10,7 +10,7 @@ int longestValidParentheses(string s)
 {
         if(s.length() <= 1) return 0;
         int curMax = 0;
-        vector<int> longest(s.size(),0); //保存substr(0至i)的最大valid长度
+        vector<int> longest(s.size(),0); //卤拢麓忙substr(0脰脕i)碌脛脳卯麓贸valid鲁陇露脠
         for(int i=1; i < s.length(); i++){
             if(s[i] == ')' && i-longest[i-1]-1 >= 0 && s[i-longest[i-1]-1] == '('){
                     longest[i] = longest[i-1] + 2 + ((i-longest[i-1]-2 >= 0)?longest[i-longest[i-1]-2]:0);
