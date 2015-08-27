@@ -22,7 +22,7 @@ Visually, the graph looks like the following:
          \_/
 
 //DFS
-//最后返回 hash[node];
+//脳卯潞贸路碌禄脴 hash[node];
 unordered_map<UndirectedGraphNode *,UndirectedGraphNode *> hash;
     
 UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node)
