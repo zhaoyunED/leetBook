@@ -21,7 +21,7 @@ Note: m and n will be at most 100.
 
 
 
-// Í¬ÑùµÄË¼Â· Ö»²»¹ı ¿¼ÂÇ ×è°­µã Â·¾¶ÊıÄ¿ÉèÎª1
+// åŒæ ·çš„æ€è·¯ åªä¸è¿‡ è€ƒè™‘ é˜»ç¢ç‚¹ è·¯å¾„æ•°ç›®è®¾ä¸º1
 int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
     int m = obstacleGrid.size();
     int n = obstacleGrid[0].size();
