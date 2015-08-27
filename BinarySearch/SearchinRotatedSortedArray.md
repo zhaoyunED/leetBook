@@ -6,16 +6,16 @@ You are given a target value to search. If found in the array return its index, 
 
 You may assume no duplicate exists in the array.
 
-//·½·¨1
+//æ–¹æ³•1
 int search(vector<int>& nums, int target) 
 {
         int lo = 0;
         int hi = nums.size() - 1;
-        while (lo < hi) { //»ù±¾Ò²ÊÇ ¶ş·Ö²éÕÒ µ«ÊÇÒª¼ÓÌØÊâµÄÅĞ¶Ï »­¸öÍ¼ ¾Í±È½ÏÈİÒ×Àí½â
+        while (lo < hi) { //åŸºæœ¬ä¹Ÿæ˜¯ äºŒåˆ†æŸ¥æ‰¾ ä½†æ˜¯è¦åŠ ç‰¹æ®Šçš„åˆ¤æ–­ ç”»ä¸ªå›¾ å°±æ¯”è¾ƒå®¹æ˜“ç†è§£
             int mid =lo+(hi-lo)/2;
             if (nums[mid] == target) return mid;
     
-            if (nums[lo] <= nums[mid]) { //ÒòÎªrotatdedÁË ËùÒÔ²»Ò»¶¨ÄÄ¸ö´ó
+            if (nums[lo] <= nums[mid]) { //å› ä¸ºrotatdedäº† æ‰€ä»¥ä¸ä¸€å®šå“ªä¸ªå¤§
                 if (target >= nums[lo] && target < nums[mid]) {
                     hi = mid - 1;
                 } else {
@@ -32,7 +32,7 @@ int search(vector<int>& nums, int target)
         return nums[lo] == target ? lo : -1;
 }
 
-//·½·¨2
+//æ–¹æ³•2
 int search(vector<int>& nums, int target) 
 {
         int lo=0,hi=nums.size()-1;
@@ -43,7 +43,7 @@ int search(vector<int>& nums, int target)
             int mid=lo+(hi-lo)/2;
             if(nums[mid]>nums[hi]) lo=mid+1;
             else hi=mid;
-        }//ÏÈÕÒµ½¹Õµã£¬È»ºóÔÙÓÃ´«Í³µÄ¶ş·Ö²éÕÒ·½·¨
+        }//å…ˆæ‰¾åˆ°æ‹ç‚¹ï¼Œç„¶åå†ç”¨ä¼ ç»Ÿçš„äºŒåˆ†æŸ¥æ‰¾æ–¹æ³•
         // lo==hi is the index of the smallest value and also the number of places rotated.
         int rot=lo;
         lo=0;hi=nums.size()-1;
