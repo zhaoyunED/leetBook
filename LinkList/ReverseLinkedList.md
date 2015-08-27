@@ -3,7 +3,7 @@ Reverse a singly linked list.
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 
 
-//µÝ¹é
+//ÂµÃÂ¹Ã©
 ListNode* reverseList(ListNode* head)
 {
         if(head == NULL || head->next ==NULL)
@@ -15,7 +15,7 @@ ListNode* reverseList(ListNode* head)
 }
 
 
-//µü´ú
+//ÂµÃ¼Â´Ãº
 ListNode *reverseList(ListNode *head)
 {
     if (head == NULL || head->next == NULL)
@@ -39,7 +39,7 @@ ListNode *reverseList(ListNode *head)
 }
 
 
-//¾«¼ò°æµü´ú
+//Â¾Â«Â¼Ã²Â°Ã¦ÂµÃ¼Â´Ãº
 ListNode* reverseList(ListNode* head)
 {
      ListNode* pre =NULL;
