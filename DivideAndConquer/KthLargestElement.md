@@ -5,12 +5,12 @@ For example,
 Given [3,2,1,5,6,4] and k = 2, return 5.
 
 Note: 
-You may assume k is always valid, 1 ¡Ü k ¡Ü array's length.
+You may assume k is always valid, 1 â‰¤ k â‰¤ array's length.
 
 
 
 
-//ÀàËÆ¿ìËÙÅÅĞòµÄË¼Ïë
+//ç±»ä¼¼å¿«é€Ÿæ’åºçš„æ€æƒ³
 int partition(vector<int>& nums, int i, int j)
     {
         if (i == j) return i;
