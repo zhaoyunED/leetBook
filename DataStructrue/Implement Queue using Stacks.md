@@ -11,7 +11,7 @@ Depending on your language, stack may not be supported natively. You may simulat
 
 You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
 
-//双栈实现方法
+//脣芦脮禄脢碌脧脰路陆路篓
 class Queue {
     stack<int> input,output;
 public:
