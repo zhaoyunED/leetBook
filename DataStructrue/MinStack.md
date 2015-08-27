@@ -8,7 +8,7 @@ getMin() -- Retrieve the minimum element in the stack.
 
 
 
-//方法1 两个栈
+//路陆路篓1 脕陆赂枚脮禄
 
 stack<int> data;
 stack<int> min;
@@ -49,7 +49,7 @@ public:
         return min.top();
     }
 
-//方法2
+//路陆路篓2
 class MinStack {
     int min=Integer.MAX_VALUE;
     Stack<Integer> stack = new Stack<Integer>();
@@ -87,7 +87,7 @@ class MinStack {
     }
 }
 
-//方法3
+//路陆路篓3
 
 public class MinStack {
     long min;
