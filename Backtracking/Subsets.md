@@ -20,7 +20,7 @@ If nums = [1,2,3], a solution is:
 
 
 
-//方法1 DFS+BACKTRACKING
+//路陆路篓1 DFS+BACKTRACKING
  vector<vector<int> > subsets(vector<int> &S) 
     {
         
@@ -49,7 +49,7 @@ void dfs(vector<vector<int> > &result,vector<int> &vec, vector<int> &a, int star
 }
 
 
-//方法2 ITERATIVE 方法
+//路陆路篓2 ITERATIVE 路陆路篓
 
 vector<vector<int> > subsets(vector<int> &S)
 {
@@ -67,7 +67,7 @@ vector<vector<int> > subsets(vector<int> &S)
     return res;
   }
 
-//位操作
+//脦禄虏脵脳梅
 
 vector<vector<int> > subsets(vector<int> &S)
 {
