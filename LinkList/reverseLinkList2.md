@@ -7,11 +7,11 @@ return 1->4->3->2->5->NULL.
 
 Note:
 Given m, n satisfy the following condition:
-1 ¡Ü m ¡Ü n ¡Ü length of list.
+1 â‰¤ m â‰¤ n â‰¤ length of list.
 
 
 
-//±£´æµÚn,m¸ö½Úµã,µÚm½ÚµãµÄÇ°Ò»¸ö½Úµã£¬µÚn¸ö½ÚµãµÄºóÒ»¸ö½Úµã
+//ä¿å­˜ç¬¬n,mä¸ªèŠ‚ç‚¹,ç¬¬mèŠ‚ç‚¹çš„å‰ä¸€ä¸ªèŠ‚ç‚¹ï¼Œç¬¬nä¸ªèŠ‚ç‚¹çš„åä¸€ä¸ªèŠ‚ç‚¹
 ListNode* reverseBetween(ListNode* head, int m, int n) {
         if(head == NULL || head->next ==NULL || m>=n)
             return head;
