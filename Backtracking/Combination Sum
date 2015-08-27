@@ -4,7 +4,7 @@ The same repeated number may be chosen from C unlimited number of times.
 
 Note:
 All numbers (including target) will be positive integers.
-Elements in a combination (a1, a2, ¡­ , ak) must be in non-descending order. (ie, a1 ¡Ü a2 ¡Ü ¡­ ¡Ü ak).
+Elements in a combination (a1, a2, Â¡Â­ , ak) must be in non-descending order. (ie, a1 Â¡Ãœ a2 Â¡Ãœ Â¡Â­ Â¡Ãœ ak).
 The solution set must not contain duplicate combinations.
 For example, given candidate set 2,3,6,7 and target 7, 
 A solution set is: 
@@ -12,7 +12,7 @@ A solution set is:
 [2, 2, 3] 
 
 
-//µäĞÍµÄÉî¶ÈËÑË÷Ö®ºó»ØËİµÄÌâÄ¿
+//ÂµÃ¤ÃÃÂµÃ„Ã‰Ã®Â¶ÃˆÃ‹Ã‘Ã‹Ã·Ã–Â®ÂºÃ³Â»Ã˜Ã‹ÃÂµÃ„ÃŒÃ¢Ã„Â¿
 std::vector<std::vector<int> > combinationSum(std::vector<int> &candidates, int target) {
         std::sort(candidates.begin(), candidates.end());
         std::vector<std::vector<int> > res;
