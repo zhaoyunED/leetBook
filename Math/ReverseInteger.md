@@ -19,7 +19,7 @@ Test cases had been added to test the overflow behavior.
 
 
 
-//方法1
+//路陆路篓1
 int reverse(int x) 
 {
     long long val = 0;
@@ -33,7 +33,7 @@ int reverse(int x)
 }
 
 
-//方法二
+//路陆路篓露镁
 int reverse(int x) 
 {
      int sign = 1;
