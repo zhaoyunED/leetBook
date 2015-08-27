@@ -2,8 +2,8 @@ Given n points on a 2D plane, find the maximum number of points that lie on the 
 
 
 
-//ÇĞ¼Ç ²»Òª½«Ğ±ÂÊÖ±½Ó×÷Îª hash µÄkeyÖµ
-//ÒòÎªdouble ×÷Îª keyÖµ ÊÇÓĞ ·çÏÕµÄ
+//åˆ‡è®° ä¸è¦å°†æ–œç‡ç›´æ¥ä½œä¸º hash çš„keyå€¼
+//å› ä¸ºdouble ä½œä¸º keyå€¼ æ˜¯æœ‰ é£é™©çš„
 int maxPoints(vector<Point> &points) {
 
         if(points.size()<2) return points.size();
