@@ -23,8 +23,8 @@ Another correct ordering is[0,2,1,3].
 
 
 
-//ÓÃÀàËÆÁÚ½Ó±íµÄ½á¹¹´æ´¢Í¼
-//ÓÃBFSÀàËÆµÄ·½·¨½øĞĞÍØÆËÅÅĞò
+//ç”¨ç±»ä¼¼é‚»æ¥è¡¨çš„ç»“æ„å­˜å‚¨å›¾
+//ç”¨BFSç±»ä¼¼çš„æ–¹æ³•è¿›è¡Œæ‹“æ‰‘æ’åº
 vector<int> findOrder(int numCourses, vector<pair<int, int>>& prerequisites) 
 {
         vector<unordered_set<int>> table(numCourses);
