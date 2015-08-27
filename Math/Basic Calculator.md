@@ -14,7 +14,7 @@ Note: Do not use the eval built-in library function.
 
 int calculate(string s)
 {
-        stack<int> signs; //用来存放 符号
+        stack<int> signs; //脫脙脌麓麓忙路脜 路没潞脜
         int sign = 1;
         int num = 0;
         int ans = 0;
