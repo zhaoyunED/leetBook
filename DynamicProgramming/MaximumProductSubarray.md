@@ -3,7 +3,7 @@ Find the contiguous subarray within an array (containing at least one number) wh
 For example, given the array [2,3,-2,4],
 the contiguous subarray [2,3] has the largest product = 6.
 
-//·½·¨1
+//æ–¹æ³•1
 //Fist we assume there is no zero in the A[]. The answer must be A[0] A[1] .... A[i] OR A[j] *A[j+1] A[n - 1]. 
 //(Try to prove yourself)
 //Then when we have zero in the A[] (assum A[k] == 0). We could see A[0],A[1]...A[k - 1 ] 
@@ -25,7 +25,7 @@ int maxProduct(int A[], int n)
         return ans;
 }
 
-//·½·¨2
+//æ–¹æ³•2
 int maxProduct(vector<int>& A)
 {
          // store the result that is the max we have found so far
@@ -51,8 +51,8 @@ int maxProduct(vector<int>& A)
         return r;
 }
 
-//·½·¨3
-//ÊÇ·½·¨2µÄ¸´ÔÓ°æ±¾
+//æ–¹æ³•3
+//æ˜¯æ–¹æ³•2çš„å¤æ‚ç‰ˆæœ¬
 public int maxProduct(int[] A)
 {
         if(A.length<=0) return 0;  
