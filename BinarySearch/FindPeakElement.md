@@ -1,10 +1,10 @@
 A peak element is an element that is greater than its neighbors.
 
-Given an input array where num[i] ¡Ù num[i+1], find a peak element and return its index.
+Given an input array where num[i] â‰  num[i+1], find a peak element and return its index.
 
 The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
 
-You may imagine that num[-1] = num[n] = -¡Þ.
+You may imagine that num[-1] = num[n] = -âˆž.
 
 For example, in array [1, 2, 3, 1], 3 is a peak element and your function should return the index number 2.
 
@@ -16,7 +16,7 @@ Your solution should be in logarithmic complexity.
 
 
 
-//±ê×¼µÄ¶þ·Ö²éÕÒ·½·¨
+//æ ‡å‡†çš„äºŒåˆ†æŸ¥æ‰¾æ–¹æ³•
 int findPeakElement(const vector<int> &num)
 {
         int low = 0, high = num.size() - 1;
@@ -33,7 +33,7 @@ int findPeakElement(const vector<int> &num)
  }
 
 
-//·½·¨2
+//æ–¹æ³•2
 //This problem is similar to Local Minimum. And according to the given condition, 
 //num[i] != num[i+1], there must exist a O(logN) solution. So we use binary search for this problem.
 
@@ -74,8 +74,8 @@ public int helper(int[] num,int start,int end){
 }
 
 
-//·½·¨3
-//always Ñ°ÕÒ ¾Ö²¿×î´óµÄÄÇ¸öÔªËØ
+//æ–¹æ³•3
+//always å¯»æ‰¾ å±€éƒ¨æœ€å¤§çš„é‚£ä¸ªå…ƒç´ 
 int findPeakElement(const vector<int> &num)
 {
         int low = 0;
