@@ -18,9 +18,9 @@ word = "ABCB", -> returns false.
 
 
 
-//˼·�ܼ򵥣���ÿ�����������һ�飬ÿ���ƶ��Ĺ����м�¼
-//�ѱ��߹��ĵ㣬���ݵ�ʱ��Ҫ�Ļ�״̬.  ע�������������˱߽�ͻ���
-//�����ߵ����յ� ���ǰ�word������ �򷵻�true
+//思路很简单，从每个点出发都试一遍，每次移动的过程中记录
+//已被走过的点，回溯的时候要改回状态.  注意若是索引出了边界就回溯
+//若是走到了终点 就是把word遍历完 则返回true
 
  bool isInboard(int i, int j,vector<vector<char>>& board)
     {
