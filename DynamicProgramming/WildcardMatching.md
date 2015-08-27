@@ -9,13 +9,13 @@ The function prototype should be:
 bool isMatch(const char *s, const char *p)
 
 Some examples:
-isMatch("aa","a") ¡ú false
-isMatch("aa","aa") ¡ú true
-isMatch("aaa","aa") ¡ú false
-isMatch("aa", "*") ¡ú true
-isMatch("aa", "a*") ¡ú true
-isMatch("ab", "?*") ¡ú true
-isMatch("aab", "c*a*b") ¡ú false
+isMatch("aa","a") Â¡Ãº false
+isMatch("aa","aa") Â¡Ãº true
+isMatch("aaa","aa") Â¡Ãº false
+isMatch("aa", "*") Â¡Ãº true
+isMatch("aa", "a*") Â¡Ãº true
+isMatch("ab", "?*") Â¡Ãº true
+isMatch("aab", "c*a*b") Â¡Ãº false
 
 
 
