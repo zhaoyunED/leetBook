@@ -5,8 +5,8 @@ For example,
 [1,1,2], [1,2,1], and [2,1,1].
 
 
-//ÈôÊÇÓÃnumµÄÒıÓÃ ²¢ÇÒ µİ¹éÍêÈÔÈ»swap(num[i], num[k]) ÊÇ»á³öÏÖÖØ¸´µÄ½á¹û
-//ÕâÊÇºÍµÚÒ»¸öÌâÄ¿²»Í¬µÄµØ·½
+//è‹¥æ˜¯ç”¨numçš„å¼•ç”¨ å¹¶ä¸” é€’å½’å®Œä»ç„¶swap(num[i], num[k]) æ˜¯ä¼šå‡ºç°é‡å¤çš„ç»“æœ
+//è¿™æ˜¯å’Œç¬¬ä¸€ä¸ªé¢˜ç›®ä¸åŒçš„åœ°æ–¹
 void recursion(vector<int> num, int i, int j, vector<vector<int> > &res) {
         if (i == j-1) {
             res.push_back(num);
