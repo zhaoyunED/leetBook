@@ -6,7 +6,7 @@ set(key, value) - Set or insert the value if the key is not already present. Whe
 it should invalidate the least recently used item before inserting a new item.
 
 
-//方法1
+//路陆路篓1
 class LRUCache {
 public:
     LRUCache(int capacity) : _capacity(capacity) {}
@@ -49,7 +49,7 @@ private:
 };
 
 
-//方法2
+//路陆路篓2
 class LRUCache{
 private:
     struct item_t{
