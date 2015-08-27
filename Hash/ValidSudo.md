@@ -10,10 +10,10 @@ A valid Sudoku board (partially filled) is not necessarily solvable. Only the fi
 
 
 
-//Ö»ÊÇ¼òµ¥µÄ¼ì²éÒ»ÏÂÊı¶À°åÉÏµÄÊı×ÖÊÇ·ñ³åÍ»
+//åªæ˜¯ç®€å•çš„æ£€æŸ¥ä¸€ä¸‹æ•°ç‹¬æ¿ä¸Šçš„æ•°å­—æ˜¯å¦å†²çª
 bool isValidSudoku(vector<vector<char> > &board) 
 {
-      int used1[9][9] = {0}, used2[9][9] = {0}, used3[9][9] = {0};//used3±íÊ¾9¸öĞ¡¾Å¹¬¸ñ
+      int used1[9][9] = {0}, used2[9][9] = {0}, used3[9][9] = {0};//used3è¡¨ç¤º9ä¸ªå°ä¹å®«æ ¼
 
       for(int i = 0; i < board.size(); ++ i)
             for(int j = 0; j < board[i].size(); ++ j)
