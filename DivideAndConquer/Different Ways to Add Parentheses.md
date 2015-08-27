@@ -21,7 +21,7 @@ Input: "2*3-4*5"
 Output: [-34, -14, -10, -10, 10]
 
 
-//µİ¹é
+//ÂµÃÂ¹Ã©
  vector<int> diffWaysToCompute(string input)
 {
         vector<int> result;
@@ -50,7 +50,7 @@ Output: [-34, -14, -10, -10, 10]
         return result;
 }
 
-//¶¯¹æ
+//Â¶Â¯Â¹Ã¦
 vector<int> diffWaysToCompute(string input) {
         unordered_map<string, vector<int>> dpMap;
         return computeWithDP(input, dpMap);
