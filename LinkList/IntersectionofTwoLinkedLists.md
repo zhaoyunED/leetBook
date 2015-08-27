@@ -3,11 +3,11 @@ Write a program to find the node at which the intersection of two singly linked 
 
 For example, the following two linked lists:
 
-A:          a1 ¡ú a2
-                   ¨K
-                     c1 ¡ú c2 ¡ú c3
-                   ¨J            
-B:     b1 ¡ú b2 ¡ú b3
+A:          a1 â†’ a2
+                   â†˜
+                     c1 â†’ c2 â†’ c3
+                   â†—            
+B:     b1 â†’ b2 â†’ b3
 begin to intersect at node c1.
 
 
@@ -21,7 +21,7 @@ Your code should preferably run in O(n) time and use only O(1) memory.
 
 
 
-//·½·¨1 ÏÈ¼ÆËãlength
+//æ–¹æ³•1 å…ˆè®¡ç®—length
 int getLen(ListNode *head) {
         int len = 0;
         while(head) { len++; head = head->next; } 
@@ -48,8 +48,8 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
         return p1;
 }
 
-//·½·¨2 ÆäÊµ ÊÇÀûÓÃÁËÍ¬ÑùµÄÔ­Àí
-//µ«ÊÇ´úÂë¸ü¼Ó¼òÁ·
+//æ–¹æ³•2 å…¶å® æ˜¯åˆ©ç”¨äº†åŒæ ·çš„åŸç†
+//ä½†æ˜¯ä»£ç æ›´åŠ ç®€ç»ƒ
 ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
 {
          ListNode *ptrA = headA, *ptrB = headB;
