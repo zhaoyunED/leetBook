@@ -7,8 +7,8 @@ Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 
 
 
 //dp
-//²»ĞèÒªµ¥¶À ÏÈÇóÒ»±é dpÊı×é 
-//ÔÚ Í¬Ò»¸öË«ÖØforÑ­»·ÖĞ ¾Í¿ÉÒÔ ½â¾ö ×îĞ¡Öµ ºÍ ÊÇ·ñÊÇ »ØÎÄ×Ó´®
+//ä¸éœ€è¦å•ç‹¬ å…ˆæ±‚ä¸€é dpæ•°ç»„ 
+//åœ¨ åŒä¸€ä¸ªåŒé‡forå¾ªç¯ä¸­ å°±å¯ä»¥ è§£å†³ æœ€å°å€¼ å’Œ æ˜¯å¦æ˜¯ å›æ–‡å­ä¸²
 int minCut(string s)
 {
         if(s.size()<=0)
