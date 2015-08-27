@@ -21,8 +21,8 @@ All words contain only lowercase alphabetic characters.
 
 
 
-//·½·¨1 ÊÇÍ¨¹ı²»¶ÏµÄÕÒ¿ÉÄÜµÄ×Ö·ûÓëÏÖÓĞ±È½Ï×Ö·ûµÄ¾àÀëÊÇ·ñÎª1
-//·½·¨2 ÊÇÍ¨¹ı²»¶ÏµÄÊ£Óà×ÖµäÖĞµÄ×Ö·û´®ÓëÏÖÓĞ±È½Ï×Ö·ûµÄ¾àÀëÊÇ·ñÎª1£¬ÈôÕâ¸ö×ÖµäºÜ´ó»°Ê±¼ä»áºÜ³¤
+//æ–¹æ³•1 æ˜¯é€šè¿‡ä¸æ–­çš„æ‰¾å¯èƒ½çš„å­—ç¬¦ä¸ç°æœ‰æ¯”è¾ƒå­—ç¬¦çš„è·ç¦»æ˜¯å¦ä¸º1
+//æ–¹æ³•2 æ˜¯é€šè¿‡ä¸æ–­çš„å‰©ä½™å­—å…¸ä¸­çš„å­—ç¬¦ä¸²ä¸ç°æœ‰æ¯”è¾ƒå­—ç¬¦çš„è·ç¦»æ˜¯å¦ä¸º1ï¼Œè‹¥è¿™ä¸ªå­—å…¸å¾ˆå¤§è¯æ—¶é—´ä¼šå¾ˆé•¿
 //function 1
 vector<vector<string>> findLadders(string start, string end, unordered_set<string> &dict) {
           vector<vector<string> >ans;
@@ -116,7 +116,7 @@ vector<vector<string>> findLadders(string start, string end, unordered_set<strin
             			{
             				father[*it].push_back(x);
             				if(*it == end) found =true;
-            				next.insert(*it); //¼Óµ½¶ÓÁĞÖĞ
+            				next.insert(*it); //åŠ åˆ°é˜Ÿåˆ—ä¸­
 							it++;
             			}else
             			{
