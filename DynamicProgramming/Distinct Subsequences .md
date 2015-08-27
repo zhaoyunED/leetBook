@@ -11,7 +11,7 @@ Return 3.
 
 
 
-//²»´íµÄ¶¯¹æÌâÄ¿ O(mn)¿Õ¼ä¸´ÔÓ¶È
+//ä¸é”™çš„åŠ¨è§„é¢˜ç›® O(mn)ç©ºé—´å¤æ‚åº¦
 
 /**
  * Solution (DP):
@@ -42,7 +42,7 @@ int numDistinct(string S, string T) {
 }
 
 
-/**  O(m) ¿Õ¼ä¸´ÔÓ¶È
+/**  O(m) ç©ºé—´å¤æ‚åº¦
  * Further optimization could be made that we can use only 1D array instead of a
  * matrix, since we only need data from last time step.
  */
