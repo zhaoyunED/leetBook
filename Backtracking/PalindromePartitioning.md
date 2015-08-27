@@ -10,7 +10,7 @@ Return
     ["a","a","b"]
   ]
 
-//C++ 版本 backtracking
+//C++ 鐗堟湰 backtracking
 void getPalin(vector<vector<bool>>& vect,string s)
     {
         for(int i=vect.size()-1;i>=0;i--)
@@ -58,8 +58,8 @@ void dfs(vector<vector<string>> &result,vector<string> cur,int idx,string s,vect
 }
 
 
-//Java 版本 backtracking
-//生成标志回文字符串的数组，partitioning_map[i][j]=1的话，表明：string[i..j]是一个回文字符串
+//Java 鐗堟湰 backtracking
+//鐢熸垚鏍囧織鍥炴枃瀛楃涓茬殑鏁扮粍锛宲artitioning_map[i][j]=1鐨勮瘽锛岃〃鏄庯細string[i..j]鏄竴涓洖鏂囧瓧绗︿覆
  void dp(String s, char [][] palindrome_map) {
         for(int i=s.length()-1;i>=0;i--) {
             for(int j=i;j<s.length();j++) {
@@ -76,7 +76,7 @@ void dfs(vector<vector<string>> &result,vector<string> cur,int idx,string s,vect
         }
 }
     
-//根据生成好的回文标记数组对字符串进行划分
+//鏍规嵁鐢熸垚濂界殑鍥炴枃鏍囪鏁扮粍瀵瑰瓧绗︿覆杩涜鍒掑垎
 void dfs(String s, int begin, char [][] palindrome_map, ArrayList<String> array, ArrayList<ArrayList<String>> result) {
         if(begin==s.length()) {
             result.add(array);
