@@ -5,11 +5,11 @@ You have the following 3 operations permitted on a word:
 a) Insert a character
 b) Delete a character
 c) Replace a character
-//µäĞÍµÄ×Ö·û´®Æ¥ÅäµÄÎÊÌâ
+//å…¸å‹çš„å­—ç¬¦ä¸²åŒ¹é…çš„é—®é¢˜
 
 
 
-//·½·¨1 O(mn)µÄ¿Õ¼ä
+//æ–¹æ³•1 O(mn)çš„ç©ºé—´
 int minDistance(string word1, string word2)
 {
        vector<vector<int>> distance(word1.length()+1, vector<int>(word2.length()+1, 0));
@@ -34,7 +34,7 @@ int minDistance(string word1, string word2)
         return distance[word1.length()][word2.length()];
 }
 
-//O(n)µÄ¿Õ¼ä¸´ÔÓ¶È
+//O(n)çš„ç©ºé—´å¤æ‚åº¦
 //(a) if we replaced c with d: f[i][j] = f[i-1][j-1] + 1;
 //(b) if we added d after c: f[i][j] = f[i][j-1] + 1;
 //(c) if we deleted c: f[i][j] = f[i-1][j] + 1;
