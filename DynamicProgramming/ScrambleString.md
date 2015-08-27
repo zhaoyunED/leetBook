@@ -36,7 +36,7 @@ We say that "rgtae" is a scrambled string of "great".
 Given two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.
 
 
-//递归法
+//碌脻鹿茅路篓
 bool isScramble(string s1, string s2) {
         if(s1==s2)
             return true;
@@ -66,7 +66,7 @@ bool isScramble(string s1, string s2) {
 }
 
 
-// DP 方法
+// DP 路陆路篓
 //dp[i][j][l] means whether s2.substr(j,l) is a scrambled string of s1.substr(i,l) or not.
 bool isScramble(string s1, string s2) {
         if (s1.length() != s2.length()) {  
