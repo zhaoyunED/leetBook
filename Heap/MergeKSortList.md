@@ -3,7 +3,7 @@ Merge k sorted linked lists and return it as one sorted list. Analyze and descri
 
 
 
-//朴素方法  O(n*k) ?\\O(n*k*k)
+//鏈寸礌鏂规硶  O(n*k) ?\\O(n*k*k)
 ListNode *mergeKLists(vector<ListNode *> &lists) {
         if(lists.empty()){
             return nullptr;
@@ -33,10 +33,10 @@ ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
         }
 }
 
-//利用归并排序  O(n*k*lgk)
+//鍒╃敤褰掑苟鎺掑簭  O(n*k*lgk)
 
 
-//优先队列  O(n*k*lg(n))
+//浼樺厛闃熷垪  O(n*k*lg(n))
 
 public ListNode mergeKLists(List<ListNode> lists) 
 {
