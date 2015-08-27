@@ -4,7 +4,7 @@ which minimizes the sum of all numbers along its path.
 Note: You can only move either down or right at any point in time.
 
 
-//µäĞÍµÄ¶¯Ì¬¹æ»®ÌâÄ¿ O(n2)µÄ¿Õ¼ä¸´ÔÓ¶È
+//å…¸å‹çš„åŠ¨æ€è§„åˆ’é¢˜ç›® O(n2)çš„ç©ºé—´å¤æ‚åº¦
 int minPathSum(vector<vector<int>>& grid) 
 	{
         if(grid.size()==0 || grid[0].size()==0)
@@ -30,8 +30,8 @@ int minPathSum(vector<vector<int>>& grid)
 }
 
 
-//µäĞÍµÄ¶¯Ì¬¹æ»®ÌâÄ¿ O(n)µÄ¿Õ¼ä¸´ÔÓ¶È 
-//¿ªÊ¼¼ÆËãĞÂµÄÒ»ĞĞµÄminPathµÄÊ±ºò Ö»ĞèÒªÉÏÒ»ĞĞµÄÊı¾İ ËùÒÔÖ»ĞèÒªO(n)µÄ¿Õ¼ä¸´ÔÓ¶È
+//å…¸å‹çš„åŠ¨æ€è§„åˆ’é¢˜ç›® O(n)çš„ç©ºé—´å¤æ‚åº¦ 
+//å¼€å§‹è®¡ç®—æ–°çš„ä¸€è¡Œçš„minPathçš„æ—¶å€™ åªéœ€è¦ä¸Šä¸€è¡Œçš„æ•°æ® æ‰€ä»¥åªéœ€è¦O(n)çš„ç©ºé—´å¤æ‚åº¦
 //
 int minPathSum(vector<vector<int>>& grid) 
 {
@@ -51,7 +51,7 @@ int minPathSum(vector<vector<int>>& grid)
              minPath[0] += grid[i][0];
              for(int j=1;j<n;j++)
              {
-				 //               minPath[j]±íÊ¾¶ÔÓ¦µÄminPath[i-1][j]  minPath[j-1]±íÊ¾¶ÔÓ¦µÄ minPath[i][j-1]
+				 //               minPath[j]è¡¨ç¤ºå¯¹åº”çš„minPath[i-1][j]  minPath[j-1]è¡¨ç¤ºå¯¹åº”çš„ minPath[i][j-1]
                  minPath[j] = min(minPath[j],minPath[j-1])+grid[i][j];
              }
          }
