@@ -3,7 +3,7 @@ Description:
 Count the number of prime numbers less than a non-negative number, n.
 
 
-//Sieve of Eratosthenes 方法
+//Sieve of Eratosthenes 路陆路篓
 
 int countPrimes(int n)
 {
