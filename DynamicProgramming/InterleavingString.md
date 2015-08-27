@@ -9,8 +9,8 @@ When s3 = "aadbbcbcac", return true.
 When s3 = "aadbbbaccc", return false.
 
 
-//µäĞÍµÄDPÌâÄ¿
-//V[i][j]  ±íÊ¾ s1(i,n1)Óës2(j,n2) ÄÜ·ñÆ´×°³É s3(i+j,n3)
+//å…¸å‹çš„DPé¢˜ç›®
+//V[i][j]  è¡¨ç¤º s1(i,n1)ä¸s2(j,n2) èƒ½å¦æ‹¼è£…æˆ s3(i+j,n3)
 //V[i][j] = ((s1[i] == s3[i+j]) && V[i+1][j]) | ((s2[j] == s3[i+j]) && V[i][j+1]);
 bool isInterleave(string s1, string s2, string s3) {
         int n1 = s1.length(), n2 = s2.length(), n3 = s3.length();
