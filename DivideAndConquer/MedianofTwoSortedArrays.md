@@ -2,10 +2,10 @@ There are two sorted arrays nums1 and nums2 of size m and n respectively.
 Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
 
-//²»¶ÏÉ¸µô ²»·ûºÏµÄÇøÓò¶Î
+//ä¸æ–­ç­›æ‰ ä¸ç¬¦åˆçš„åŒºåŸŸæ®µ
 double findKth(vector<int>& nums1, int s1,int e1,vector<int>& nums2, int s2, int e2, int k)  
 {
-       if(e1-s1 > e2-s2) //×ÜÊÇ±£³Önums1µÄÇøÓò¶Î±Ènums2µÄÇøÓò¶ÎĞ¡
+       if(e1-s1 > e2-s2) //æ€»æ˜¯ä¿æŒnums1çš„åŒºåŸŸæ®µæ¯”nums2çš„åŒºåŸŸæ®µå°
         return findKth(nums2,s2,e2,nums1,s1,e1,k);
        if(e1<s1)
             return nums2[s2+k-1];
