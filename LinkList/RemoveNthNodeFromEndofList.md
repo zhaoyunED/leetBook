@@ -11,7 +11,7 @@ Given n will always be valid.
 Try to do this in one pass.
 
 
-//ÆÕÍ¨·½·¨ 
+//æ™®é€šæ–¹æ³• 
 ListNode *removeNthFromEnd(ListNode *head, int n)
 {
          if (head == NULL)
@@ -20,7 +20,7 @@ ListNode *removeNthFromEnd(ListNode *head, int n)
         ListNode *pPre = NULL;
         ListNode *p = head;
         ListNode *q = head;
-        for(int i = 0; i < n - 1; i++)  //ÏÈÈÃqÖ¸ÕëÏÈ×ßn²½
+        for(int i = 0; i < n - 1; i++)  //å…ˆè®©qæŒ‡é’ˆå…ˆèµ°næ­¥
             q = q->next;
             
         while(q->next)
@@ -45,7 +45,7 @@ ListNode *removeNthFromEnd(ListNode *head, int n)
 }
 
 
-//Linus Torvalds µÄË«ÖØÖ¸Õë·½·¨
+//Linus Torvalds çš„åŒé‡æŒ‡é’ˆæ–¹æ³•
 
 ListNode *removeNthFromEnd(ListNode *head, int n)
 {
@@ -59,7 +59,7 @@ ListNode *removeNthFromEnd(ListNode *head, int n)
         while(fast)
         {
             fast = fast->next;
-            pre = &(*pre)->next; //pre ×ÜÊÇ±£´æµ±Ç°½ÚµãµÄnextÖ¸ÕëµÄµØÖ·
+            pre = &(*pre)->next; //pre æ€»æ˜¯ä¿å­˜å½“å‰èŠ‚ç‚¹çš„nextæŒ‡é’ˆçš„åœ°å€
         }
         
         ListNode* current = *pre;
