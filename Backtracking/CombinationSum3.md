@@ -20,7 +20,7 @@ Output:
 [[1,2,6], [1,3,5], [2,3,4]]
 
 
-// ÉÔÎ¢¸´ÔÓµãµÄÉî¶ÈËÑË÷¼Ó»ØËİ
+// ç¨å¾®å¤æ‚ç‚¹çš„æ·±åº¦æœç´¢åŠ å›æº¯
 vector<vector<int>> combinationSum3(int k, int n) 
 {
         vector<vector<int>> result;
