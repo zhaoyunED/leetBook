@@ -3,8 +3,8 @@ such that nums[i] = nums[j] and the difference between i and j is at most k.
 
 
 
-//¾àÀëÎªkÖ®ÄÚµÄ Êı¾İ²»ÔÊĞíÖØ¸´
-//´óÓÚKÖ®ºó°ÑÖ®Ç°µÄÊı¾İ´ÓsetÀïÃæÉ¾³ıµô
+//è·ç¦»ä¸ºkä¹‹å†…çš„ æ•°æ®ä¸å…è®¸é‡å¤
+//å¤§äºKä¹‹åæŠŠä¹‹å‰çš„æ•°æ®ä»seté‡Œé¢åˆ é™¤æ‰
 bool containsNearbyDuplicate(vector<int>& nums, int k)
 {
         unordered_set<int> s;
