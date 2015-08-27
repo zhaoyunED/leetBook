@@ -20,7 +20,7 @@ and to take course 0 you should also have finished course 1. So it is impossible
 
 bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
 {
-        color[num] =-1; //正在被访问还没有访问完事
+        color[num] =-1; //姝ｅ湪琚闂繕娌℃湁璁块棶瀹屼簨
          for(auto  i: table[num])
         {
             if(color[i] ==-1)
@@ -28,7 +28,7 @@ bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
             if(color[i]==0 && !DFS(table,color,i))
                 return false;
         }
-        color[num] =1; //访问完成
+        color[num] =1; //璁块棶瀹屾垚
         return true;
 }
 
