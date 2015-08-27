@@ -2,7 +2,7 @@ Write a function to delete a node (except the tail) in a singly linked list, giv
 
 Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node with value 3, the linked list should become 1 -> 2 -> 4 after calling your function.
 
-//也是编程之美上的题目
+//脪虏脢脟卤脿鲁脤脰庐脙脌脡脧碌脛脤芒脛驴
 void deleteNode(ListNode* node)
 {
         if(node->next)
