@@ -15,7 +15,7 @@ You should gather all requirements up front before implementing one.
 
 
 
-//利用自动机的方法进行验证
+//鍒╃敤鑷姩鏈虹殑鏂规硶杩涜楠岃瘉
 bool isNumber(string str) {
         int state=0, flag=0; // flag to judge the special case "."
         while(str[0]==' ')  str.erase(0,1);//delete the  prefix whitespace 
@@ -44,7 +44,7 @@ bool isNumber(string str) {
     }
 
 
-//传统方法
+//浼犵粺鏂规硶
  public boolean isNumber(String s) {  
         s = s.trim();  
         if (s.length() == 0) return false;  
