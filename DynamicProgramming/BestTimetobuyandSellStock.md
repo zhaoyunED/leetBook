@@ -7,7 +7,7 @@ design an algorithm to find the maximum profit.
 
 
 
-//·½·¨1
+//æ–¹æ³•1
 int maxProfit(vector<int> &prices) 
 {
     if(prices.size() <=0) return 0;
@@ -25,8 +25,8 @@ int maxProfit(vector<int> &prices)
     return maxPro;
 }
 
-//·½·¨2 ¸úÇómaxSumArray ±¾ÖÊÊÇÒ»ÑùµÄ  
-//Êı×é¼äµÄ²îÖµÊı×é ¾Í×ª»»³ÉÁËºÍÇómaxSumArrayÒ»ÑùµÄÎÊÌâÁË
+//æ–¹æ³•2 è·Ÿæ±‚maxSumArray æœ¬è´¨æ˜¯ä¸€æ ·çš„  
+//æ•°ç»„é—´çš„å·®å€¼æ•°ç»„ å°±è½¬æ¢æˆäº†å’Œæ±‚maxSumArrayä¸€æ ·çš„é—®é¢˜äº†
 int maxProfit(vector<int> &prices) 
 {
         if(prices.size() <=0) return 0;
