@@ -5,7 +5,7 @@ You may complete as many transactions as you like (ie, buy one and sell one shar
 However, you may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 
 
-//µäĞÍµÄÌ°ĞÄËã·¨ÌâÄ¿
+//å…¸å‹çš„è´ªå¿ƒç®—æ³•é¢˜ç›®
 
 int maxProfit(vector<int>& prices)
 {
@@ -18,15 +18,15 @@ int maxProfit(vector<int>& prices)
         for(int i=1;i<n;i++)
         {
             if(prices[i]>min)
-                result += prices[i]-min; //Ö»ÒªÕÇÁË¾ÍÂôµô
-            min = prices[i]; //ÖØĞÂÉèÖÃµÍ¼Û
+                result += prices[i]-min; //åªè¦æ¶¨äº†å°±å–æ‰
+            min = prices[i]; //é‡æ–°è®¾ç½®ä½ä»·
         }
         return result;
 }
 
 
-//»òÕß¸ü¼òµ¥´Ö±©µÄ´úÂë
-//Ö±½Ó°ÑÏàÁÚµÄÕı²îÖµ  È«²¿¼ÓÆğÀ´ ¾ÍĞĞ
+//æˆ–è€…æ›´ç®€å•ç²—æš´çš„ä»£ç 
+//ç›´æ¥æŠŠç›¸é‚»çš„æ­£å·®å€¼  å…¨éƒ¨åŠ èµ·æ¥ å°±è¡Œ
 public int maxProfit(int[] prices)
 {
         int total = 0;
