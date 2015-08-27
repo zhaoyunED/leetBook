@@ -1,4 +1,4 @@
-//方法1
+//路陆路篓1
 
 void  quickSort(int A[],int len)
 {
@@ -19,7 +19,7 @@ void  quickSort(int A[],int len)
 	quickSort(A+j,len-j);
 }
 
-//方法2
+//路陆路篓2
 
 void quickSort(int A[],int low,int high)
 {
@@ -31,7 +31,7 @@ void quickSort(int A[],int low,int high)
 	}
 }
 
-//不用swap的方法
+//虏禄脫脙swap碌脛路陆路篓
 int Partition(int A[],int low ,int high)
 {
 	int pivot = A[low];
