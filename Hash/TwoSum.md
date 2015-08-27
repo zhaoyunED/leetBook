@@ -10,7 +10,7 @@ Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 
 
-//利用hash来保存 对应的index
+//脌没脫脙hash脌麓卤拢麓忙 露脭脫娄碌脛index
 vector<int> twoSum(vector<int>& nums, int target) 
 {
         vector<int> result;
