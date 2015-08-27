@@ -9,7 +9,7 @@ Given array A = [2,3,1,1,4]
 
 The minimum number of jumps to reach the last index is 2. (Jump 1 step from index 0 to 1, then 3 steps to the last index.)
 
-//·½·¨1 Ã¿´ÎÕÒµ½iµã·¶Î§ÄÚ ÄÜ´ïµ½×îÔ¶¾àÀëµÄÄÇ¸öindex
+//æ–¹æ³•1 æ¯æ¬¡æ‰¾åˆ°iç‚¹èŒƒå›´å†… èƒ½è¾¾åˆ°æœ€è¿œè·ç¦»çš„é‚£ä¸ªindex
 int jump(vector<int>& nums) 
 {
         int n = nums.size();
@@ -32,8 +32,8 @@ int jump(vector<int>& nums)
         return ++ret;
 }
 
-//·½·¨¶ş  Ã¿´ÎÅĞ¶ÏÒ»¸öĞÂµÄindexÊÇ·ñÔÚ curRch·¶Î§ÄÚ
-//curRch±íÊ¾Ã¿Ò»²½ËùÄÜ×ßµ½µÄ×îÔ¶µÄµØ·½
+//æ–¹æ³•äºŒ  æ¯æ¬¡åˆ¤æ–­ä¸€ä¸ªæ–°çš„indexæ˜¯å¦åœ¨ curRchèŒƒå›´å†…
+//curRchè¡¨ç¤ºæ¯ä¸€æ­¥æ‰€èƒ½èµ°åˆ°çš„æœ€è¿œçš„åœ°æ–¹
 int jump(int A[], int n)
 {
          int ret = 0;
