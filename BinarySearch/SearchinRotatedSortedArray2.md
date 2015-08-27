@@ -33,7 +33,7 @@ bool search(vector<int>& A, int key) {
 }
 
 
-//½âÊÍ
+//Â½Ã¢ÃŠÃ
 Yes, when there could be duplicates in the array, the worst case is O(n).
 
 To explain why, consider this sorted array 1111115, which is rotated to 1151111.
