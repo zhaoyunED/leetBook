@@ -17,8 +17,8 @@ return its bottom-up level order traversal as:
 
 
 
-//Í¬ÑùµÄ·½·¨ Í¬ 1
-// µİ¹é DFS
+//åŒæ ·çš„æ–¹æ³• åŒ 1
+// é€’å½’ DFS
 
 vector<vector<int>> levelOrderBottom(TreeNode* root)
 {
@@ -52,7 +52,7 @@ vector<vector<int>> levelOrder(TreeNode* root) {
         if(!root) return result;
         
         queue<TreeNode*> list;
-        queue<int> level; //´æ·ÅÃ¿¸ö½ÚµãËùÊôµÄlevel
+        queue<int> level; //å­˜æ”¾æ¯ä¸ªèŠ‚ç‚¹æ‰€å±çš„level
         
         list.push(root);
         level.push(0);
