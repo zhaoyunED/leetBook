@@ -7,7 +7,7 @@ Some examples:
   ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
 
 
- //stack 的经典利用
+ //stack 碌脛戮颅碌盲脌没脫脙
 
  int perop(int a,int b,string op)
 {
