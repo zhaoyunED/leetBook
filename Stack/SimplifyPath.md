@@ -13,7 +13,7 @@ Another corner case is the path might contain multiple slashes '/' together, suc
 In this case, you should ignore redundant slashes and return "/home/foo".
 
 
-//·½·¨1
+//æ–¹æ³•1
 string simplifyPath(string path) 
 {
        vector<string>   nameVect;
@@ -23,9 +23,9 @@ string simplifyPath(string path)
         for(int i=0;i<path.size();i++){
             if(path[i]=='/'){
                 if(name.size()==0)continue;
-                if(name==".."){     //special case 1£ºdouble dot£¬pop dir
+                if(name==".."){     //special case 1ï¼šdouble dotï¼Œpop dir
                      if(nameVect.size()>0)nameVect.pop_back();
-                }else if(name=="."){//special case 2:singel dot£¬don`t push
+                }else if(name=="."){//special case 2:singel dotï¼Œdon`t push
                 }else{          
                     nameVect.push_back(name);
                 }
@@ -43,7 +43,7 @@ string simplifyPath(string path)
         return result;
 }
 
-//·½·¨2 ÀûÓÃ stringstream µÄ getline·½·¨ ÀàËÆÓÚ java µÄsplit
+//æ–¹æ³•2 åˆ©ç”¨ stringstream çš„ getlineæ–¹æ³• ç±»ä¼¼äºŽ java çš„split
 string simplifyPath(string path)
 {
     string res, tmp;
