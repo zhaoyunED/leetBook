@@ -13,7 +13,7 @@ return [1,2,3].
 Note: Recursive solution is trivial, could you do it iteratively?
 
 
-//µİ¹é·½Ê½
+//é€’å½’æ–¹å¼
 
 void preorder(TreeNode *root, vector<int> &result)
 {
@@ -21,9 +21,9 @@ void preorder(TreeNode *root, vector<int> &result)
       {
             result.push_back(root->val);
             if(root->left) 
-                preorder(root->left,result);//µİ¹é×ó×ÓÊ÷
+                preorder(root->left,result);//é€’å½’å·¦å­æ ‘
             if(root->right)
-                preorder(root->right,result);//µİ¹éÓÒ×ÓÊ÷
+                preorder(root->right,result);//é€’å½’å³å­æ ‘
       }
 }
 
@@ -35,7 +35,7 @@ vector<int> preorderTraversal(TreeNode *root)
         return result;
 }
 
-//·Çµİ¹é·½Ê½
+//éé€’å½’æ–¹å¼
 
 vector<int> preorderTraversal(TreeNode *root)
 {
@@ -50,7 +50,7 @@ vector<int> preorderTraversal(TreeNode *root)
             TreeNode* n = s.top(); 
             result.push_back(n->val);
             s.pop();
-            //¸ù¾İÕ»ºó½øÏÈ³öµÄÌØµãÏÈ´æÈëÓÒ×ÓÊ÷£¬ÔÙ´æÈë×ó×ÓÊ÷£¬È·±£                                ÁËÃ¿´Î¶¼ÏÈ·ÃÎÊ½ÚµãµÄ×ó×ÓÊ÷£¬È»ºóÊÇÓÒ×ÓÊ÷
+            //æ ¹æ®æ ˆåè¿›å…ˆå‡ºçš„ç‰¹ç‚¹å…ˆå­˜å…¥å³å­æ ‘ï¼Œå†å­˜å…¥å·¦å­æ ‘ï¼Œç¡®ä¿                                äº†æ¯æ¬¡éƒ½å…ˆè®¿é—®èŠ‚ç‚¹çš„å·¦å­æ ‘ï¼Œç„¶åæ˜¯å³å­æ ‘
             if(n->right) s.push(n->right);
             if(n->left) s.push(n->left);
 
