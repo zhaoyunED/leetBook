@@ -7,8 +7,8 @@ Given "aacecaaa", return "aaacecaaa".
 
 Given "abcd", return "dcbabcd".
 
-//KMPËã·¨ ½«s·´×ªÖ®ºóÆ´µ½ºóÃæ£¬Ëã×îºóµÄ×Ö·û´®ÖĞ ¼ÈÊÇÇ°×º×Ó´®ÓÖÊÇºó×º×Ó´®ÖĞµÄ×î³¤´®
-//¼´ÊÇ ×î³¤µÄ²»ĞèÒª±ä¶¯µÄ²¿·Ö
+//KMPç®—æ³• å°†såè½¬ä¹‹åæ‹¼åˆ°åé¢ï¼Œç®—æœ€åçš„å­—ç¬¦ä¸²ä¸­ æ—¢æ˜¯å‰ç¼€å­ä¸²åˆæ˜¯åç¼€å­ä¸²ä¸­çš„æœ€é•¿ä¸²
+//å³æ˜¯ æœ€é•¿çš„ä¸éœ€è¦å˜åŠ¨çš„éƒ¨åˆ†
 string shortestPalindrome(string s)
 {
         string rev_s = s;
@@ -29,8 +29,8 @@ string shortestPalindrome(string s)
 
 
 
-//·½·¨2 Manacher's Ëã·¨
-//ÒÑ×Ü½á¹ı
+//æ–¹æ³•2 Manacher's ç®—æ³•
+//å·²æ€»ç»“è¿‡
 public:
     string preProcess(string s) {
   int n = s.length();
