@@ -4,7 +4,7 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle con
 
 
 
-//DP ·½·¨ 
+//DP æ–¹æ³• 
 This solution is so clever that I think so hard to understand it. height 
 counts the number of successive '1's above (plus the current one). 
 The value of left & right means the boundaries of the rectangle which contains the current point with a 
@@ -39,15 +39,15 @@ int maximalRectangle(vector<vector<char> > &matrix) {
 }
 
 
-// stack ·½·¨ ºÍ ÇóhistogramµÄ·½·¨Ò»Ñù
-//O(n)µÄ¿Õ¼ä¸´ÔÓ¶È
+// stack æ–¹æ³• å’Œ æ±‚histogramçš„æ–¹æ³•ä¸€æ ·
+//O(n)çš„ç©ºé—´å¤æ‚åº¦
 int maximalRectangle(vector<vector<char>>& matrix)
 {
         if (matrix.size() <= 0 || matrix[0].size() <= 0)
         return 0;
 
         int m = matrix.size();
-        int n = matrix[0].size()+1; //×îºóÒ»¸öÔªËØÊÇ0 ·½±ãÈÃËùÓĞµÄÔªËØ³öÕ»
+        int n = matrix[0].size()+1; //æœ€åä¸€ä¸ªå…ƒç´ æ˜¯0 æ–¹ä¾¿è®©æ‰€æœ‰çš„å…ƒç´ å‡ºæ ˆ
         int h = 0, w = 0, ret = 0;
         vector<int> height(n, 0);
     
@@ -64,7 +64,7 @@ int maximalRectangle(vector<vector<char>>& matrix)
                 }
                 
                 
-                while(!s.empty() && height[s.top()]>= height[j]) //¼ÆËãËùÓĞ¸ßÓÚ×îµÍµãµÄ¿ÉÄÜµÄÃæ»ı µ«×îÖÕÒ²¼ÆËãÁË°üº¬×îµÍµãµÄÃæ»ı
+                while(!s.empty() && height[s.top()]>= height[j]) //è®¡ç®—æ‰€æœ‰é«˜äºæœ€ä½ç‚¹çš„å¯èƒ½çš„é¢ç§¯ ä½†æœ€ç»ˆä¹Ÿè®¡ç®—äº†åŒ…å«æœ€ä½ç‚¹çš„é¢ç§¯
                 {
                     int idx = s.top();
                     s.pop();
