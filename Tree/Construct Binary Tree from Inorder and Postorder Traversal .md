@@ -29,7 +29,7 @@ TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
     }
 
 
-//µü´ú·¨
+//ÂµÃ¼Â´ÃºÂ·Â¨
 
 TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder)
 {
