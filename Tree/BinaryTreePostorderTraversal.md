@@ -13,7 +13,7 @@ Note: Recursive solution is trivial, could you do it iteratively?
 
 
 
-//�ǵݹ�
+//·ÇµÝ¹é
 
 vector<int> postorderTraversal(TreeNode *root)
 {
@@ -37,7 +37,7 @@ vector<int> postorderTraversal(TreeNode *root)
         return result;
 }
 
-//�ݹ�
+//µÝ¹é
 
 void postorder(TreeNode *root,vector<int> &result)
 {
