@@ -4,7 +4,7 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 
 
 
-//典型的栈题目
+//碌盲脨脥碌脛脮禄脤芒脛驴
 bool isValid(string s)
 {
         stack <char> stk;
