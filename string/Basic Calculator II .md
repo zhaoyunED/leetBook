@@ -12,8 +12,8 @@ Note: Do not use the eval built-in library function.
 
 
 
-//方法1
-//利用 istringstream
+//路陆路篓1
+//脌没脫脙 istringstream
 int calculate(string s) {
         istringstream in('+' + s + '+');
         long long total = 0, term = 0, n;
@@ -34,7 +34,7 @@ int calculate(string s) {
         return total;
  }
 
- //方法2 利用stack
+ //路陆路篓2 脌没脫脙stack
   int calculate(string s) {
         stack<char> opS;
        stack<int>  numS;
