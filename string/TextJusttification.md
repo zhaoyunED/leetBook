@@ -24,7 +24,7 @@ Note: Each word is guaranteed not to exceed L in length.
 
 
 
-//¿¼ÑéÄãµÄ±à³Ì¼¼ÇÉ
+//Â¿Â¼Ã‘Ã©Ã„Ã£ÂµÃ„Â±Ã Â³ÃŒÂ¼Â¼Ã‡Ã‰
 vector<string> fullJustify(vector<string>& words, int L) {
          vector<string> res;
         for(int i = 0, k, l; i < words.size(); i += k) {
