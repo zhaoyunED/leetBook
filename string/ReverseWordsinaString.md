@@ -20,20 +20,20 @@ void reverseWord(string &s,int left, int right)
 }
 
 
-//O(1)¿Õ¼ä
+//O(1)ç©ºé—´
 void reverseWords(string &s) 
 {
       int i=0;
-	  int j=0;//È¥³ı¿Õ¸ñºóÊµ¼Ê×Ö·û´®×Ö·ûµÄÎ»ÖÃ
-	  int l=0; //¼ÇÂ¼Ã¿¸öĞÂµÄµ¥´ÊµÄÆğÊ¼Î»ÖÃ
+	  int j=0;//å»é™¤ç©ºæ ¼åå®é™…å­—ç¬¦ä¸²å­—ç¬¦çš„ä½ç½®
+	  int l=0; //è®°å½•æ¯ä¸ªæ–°çš„å•è¯çš„èµ·å§‹ä½ç½®
 	  int len = s.length();
-	  bool isFirstWord =true; //µÚÒ»¸öµ¥´ÊÇ°Ãæ²»ĞèÒª¿Õ¸ñ
+	  bool isFirstWord =true; //ç¬¬ä¸€ä¸ªå•è¯å‰é¢ä¸éœ€è¦ç©ºæ ¼
 
 	  while(true)
 	{
-		while((i< len) && s[i]==' ') i++; //Ã¿¸öwordÇ°µÄ¿Õ¸ñÈ¥µô
+		while((i< len) && s[i]==' ') i++; //æ¯ä¸ªwordå‰çš„ç©ºæ ¼å»æ‰
 		if(i==len) break;
-		if(!isFirstWord) s[j++]=' ';// ¼Ó¿Õ¸ñ
+		if(!isFirstWord) s[j++]=' ';// åŠ ç©ºæ ¼
 		l=j;
 		while(i<len && s[i] != ' ') 
 		{
