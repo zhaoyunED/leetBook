@@ -56,7 +56,7 @@ vector<TreeNode*> getTree(int from,int to)
 
 
 
-//方法2 迭代的方法
+//路陆路篓2 碌眉麓煤碌脛路陆路篓
 
 vector<TreeNode *> generateTrees(int n) {
     vector<TreeNode *> tmp;
