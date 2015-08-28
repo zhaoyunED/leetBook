@@ -13,10 +13,10 @@ to
 9   6 3   1
 Trivia:
 This problem was inspired by this original tweet by Max Howell:
-Google: 90% of our engineers use the software you wrote (Homebrew), but you can��t invert a binary tree on a whiteboard so fuck off.
+Google: 90% of our engineers use the software you wrote (Homebrew), but you can¡¯t invert a binary tree on a whiteboard so fuck off.
 
 
-//just �ݹ�
+//just µÝ¹é
 TreeNode* invertTree(TreeNode* root)
 {        
         if(root)
@@ -34,7 +34,7 @@ TreeNode* invertTree(TreeNode* root)
         return root;
 }
 
-//�ǵݹ�
+//·ÇµÝ¹é
 TreeNode* invertTree(TreeNode* root)
 {
         if (!root) return NULL;
