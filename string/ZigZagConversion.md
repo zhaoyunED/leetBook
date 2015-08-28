@@ -12,7 +12,7 @@ string convert(string text, int nRows);
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
 
-//方法1
+//路陆路篓1
 string convert(string s, int numRows) 
 {
         if (s == "" || numRows == 1) return s;
@@ -29,7 +29,7 @@ string convert(string s, int numRows)
         return res;
 }
 
-//方法2
+//路陆路篓2
 
 ///nRows:2
 ///1,   3,  5   step: 2
