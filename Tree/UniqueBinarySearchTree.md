@@ -10,7 +10,7 @@ Given n = 3, there are a total of 5 unique BST's.
    2     1         2                 3
 
 
-//¶¯Ì¬¹æ»®·½·¨
+//åŠ¨æ€è§„åˆ’æ–¹æ³•
 
 int numTrees(int n)
 {
@@ -31,10 +31,10 @@ int numTrees(int n)
 
 
 
-//¿¨ÌØÀ¼Êı
+//å¡ç‰¹å…°æ•°
 
 int numTrees(int n) {
-    //cantalanÊ÷
+    //cantalanæ ‘
     //C(2n,n)/(n+1)
     long long ans =1;
     for(int i=n+1;i<=2*n;i++){
