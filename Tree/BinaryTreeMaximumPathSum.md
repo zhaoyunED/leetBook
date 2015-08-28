@@ -17,7 +17,7 @@ int maxPathSum(TreeNode* root)
         return maxPath;
 }
 
-//精简的代码值得学习
+//戮芦录貌碌脛麓煤脗毛脰碌碌脙脩搂脧掳
 int dfsMaxPath(TreeNode *root, int &maxPath)
 {
         if (!root) return 0;
