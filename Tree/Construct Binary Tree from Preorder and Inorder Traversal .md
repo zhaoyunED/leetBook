@@ -6,7 +6,7 @@ You may assume that duplicates do not exist in the tree.
 
 
 
-//方法 1 递归法
+//路陆路篓 1 碌脻鹿茅路篓
 
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder)
 {
@@ -36,7 +36,7 @@ template<typename Iter>
 
 
 
-//迭代法
+//碌眉麓煤路篓
 
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder)
 {
