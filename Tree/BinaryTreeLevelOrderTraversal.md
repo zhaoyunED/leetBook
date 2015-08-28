@@ -15,7 +15,7 @@ return its level order traversal as:
 ]
 
 
-//方法1 递归方法
+//鏂规硶1 閫掑綊鏂规硶
 
 vector<vector<int>> levelOrder(TreeNode* root)
 {
@@ -44,14 +44,14 @@ void level(TreeNode* root,int depth,vector<vector<int>> &result)
 }
 
 
-//方法2 BFS方法
+//鏂规硶2 BFS鏂规硶
 
 vector<vector<int>> levelOrder(TreeNode* root) {
         vector<vector<int>> result;
         if(!root) return result;
         
         queue<TreeNode*> list;
-        queue<int> level; //存放每个节点所属的level
+        queue<int> level; //瀛樻斁姣忎釜鑺傜偣鎵�灞炵殑level
         
         list.push(root);
         level.push(0);
