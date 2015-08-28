@@ -12,7 +12,7 @@ Given the below binary tree and sum = 22,
 return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 
 
-//tree中 的 典型利用 DFS 的题目
+//tree脰脨 碌脛 碌盲脨脥脌没脫脙 DFS 碌脛脤芒脛驴
 
 bool hasPathSum(TreeNode* root, int sum) {
         if (root == NULL)
