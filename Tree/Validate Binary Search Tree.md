@@ -9,7 +9,7 @@ Both the left and right subtrees must also be binary search trees.
 
 
 
-//·½·¨1
+//æ–¹æ³•1
 
 class Solution {
     bool first = true;
@@ -41,7 +41,7 @@ public:
 };
 
 
-//·½·¨2 ºÍ·½·¨1»ù±¾Ò»Ñù// ÓÃÒ»¸ö±äÁ¿À´±£´æ prev 
+//æ–¹æ³•2 å’Œæ–¹æ³•1åŸºæœ¬ä¸€æ ·// ç”¨ä¸€ä¸ªå˜é‡æ¥ä¿å­˜ prev 
 bool isValidBST(TreeNode* root)
 {
         TreeNode* prev =NULL;
@@ -58,7 +58,7 @@ bool validate(TreeNode* node, TreeNode* &prev)
 }
 
 
-//·½·¨3
+//æ–¹æ³•3
 bool isValidBST(TreeNode *root) {
         return isValidBSTHelper(root, LONG_MIN, LONG_MAX);
     }
