@@ -6,8 +6,8 @@ It can have between 1 and 2h nodes inclusive at the last level h.
 
 
 
-//ÏÈËãÁ½±ßµÄÊ÷µÄÉî¶ÈÈôÒ»Ñù Ö±½Ó·µ»Ø
-//Ö®ºó·ÖÖÎ
+//å…ˆç®—ä¸¤è¾¹çš„æ ‘çš„æ·±åº¦è‹¥ä¸€æ · ç›´æ¥è¿”å›
+//ä¹‹ååˆ†æ²»
 int countNodes(TreeNode* root) {
         if (!root)
             return 0;
