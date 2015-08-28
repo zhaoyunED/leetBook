@@ -4,7 +4,7 @@ Given a singly linked list where elements are sorted in ascending order, convert
 
 
 
-//ÕÒÖĞ¼ä½Úµã
+//æ‰¾ä¸­é—´èŠ‚ç‚¹
 TreeNode* sortedListToBST(ListNode* head)
 {
          return sortedListToBST( head, NULL );
@@ -20,7 +20,7 @@ TreeNode *sortedListToBST(ListNode *head, ListNode *tail)
             return root;
         }
         ListNode *mid = head, *temp = head;
-        while( temp != tail && temp->next != tail )    // Ñ°ÕÒÖĞ¼ä½Úµã
+        while( temp != tail && temp->next != tail )    // å¯»æ‰¾ä¸­é—´èŠ‚ç‚¹
         {
             mid = mid->next;
             temp = temp->next->next;
@@ -32,7 +32,7 @@ TreeNode *sortedListToBST(ListNode *head, ListNode *tail)
 }
 
 
-//·½·¨2  ÀûÓÃÖĞĞò±éÀúµÄË¼Â·
+//æ–¹æ³•2  åˆ©ç”¨ä¸­åºéå†çš„æ€è·¯
 //run time complexity is still O(N).
 ListNode *list;
 int count(ListNode *node){
