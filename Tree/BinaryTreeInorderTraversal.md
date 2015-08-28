@@ -13,7 +13,7 @@ Note: Recursive solution is trivial, could you do it iteratively?
 
 
 
-//µİ¹éµÄ·½·¨
+//é€’å½’çš„æ–¹æ³•
 vector<int> inorderTraversal(TreeNode* root)
 {
         vector<int> result;
@@ -36,7 +36,7 @@ void inorder(TreeNode *root,vector<int> &ret)
 }
 
 
-//·Çµİ¹éµÄ·½·¨
+//éé€’å½’çš„æ–¹æ³•
 
 vector<int> inorderTraversal(TreeNode* root)
 {
