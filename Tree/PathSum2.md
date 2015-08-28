@@ -16,7 +16,7 @@ return
 ]
 
 
-//µäĞÍµÄ DFS Çó È«²¿Â·¾¶µÄÎÊÌâ
+//å…¸å‹çš„ DFS æ±‚ å…¨éƒ¨è·¯å¾„çš„é—®é¢˜
 vector<vector<int>> pathSum(TreeNode* root, int sum)
 {
         vector<vector<int>> result;
