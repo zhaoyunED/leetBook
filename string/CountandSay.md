@@ -9,7 +9,7 @@ Given an integer n, generate the nth sequence.
 Note: The sequence of integers will be represented as a string.
 
 
-//一个简单的循环迭代处理
+//涓�涓畝鍗曠殑寰幆杩唬澶勭悊
 string convert(string say)
     {
         stringstream ss;
