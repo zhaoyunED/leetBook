@@ -27,7 +27,7 @@ If you notice carefully in the flattened tree, each node's right child points to
 
 
 
-//·½·¨1 µİ¹é  beautiful
+//Â·Â½Â·Â¨1 ÂµÃÂ¹Ã©  beautiful
 private TreeNode prev = null;
 
 public void flatten(TreeNode root) {
@@ -41,7 +41,7 @@ public void flatten(TreeNode root) {
 }
 
 
-//µİ¹é
+//ÂµÃÂ¹Ã©
 private static TreeNode lastVisited = null;
 
 public static void flatten(TreeNode root)
@@ -60,7 +60,7 @@ public static void flatten(TreeNode root)
         flatten(savedRight);
 }
 
-//µü´ú
+//ÂµÃ¼Â´Ãº
 void flatten(TreeNode *root) {
         if(root == NULL) return;  
 		while(root){  
