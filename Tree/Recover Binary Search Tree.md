@@ -7,14 +7,14 @@ A solution using O(n) space is pretty straight forward. Could you devise a const
 
 
 
-//Í¨¹ıÖ¸ÕëÀ´¼ÇÂ¼ Á½¸ö µ÷»»µÄnode
+//é€šè¿‡æŒ‡é’ˆæ¥è®°å½• ä¸¤ä¸ª è°ƒæ¢çš„node
 //1. Given a sequence {1, 4, 3, 7, 9}, you find pair 4(!<=)3, swap this pair and sequence is in order.
 // 2. Given a sequence {1, 9, 4, 5, 3, 10}, you get first pair 9(!<=)4 and second pair 5(!<=)3, 
 //swap pair 9(!<=)3 and sequence is in order.
 // 3. Given a sequence, only in two above (general) cases, that you can just swap one pair numbers to convert 
 //an unordered sequence into ordered. 
-// Òò´Ë one Ö¸Õë Ö»±»ĞŞ¸Ä1´Î
-// two Ö¸Õë ¿ÉÄÜ ±»ĞŞ¸ÄÁ½´Î »òÕß1´Î
+// å› æ­¤ one æŒ‡é’ˆ åªè¢«ä¿®æ”¹1æ¬¡
+// two æŒ‡é’ˆ å¯èƒ½ è¢«ä¿®æ”¹ä¸¤æ¬¡ æˆ–è€…1æ¬¡
 void recoverTree(TreeNode* root) {
         if(root ==NULL)
             return;
