@@ -4,7 +4,7 @@ Calling next() will return the next smallest number in the BST.
 
 Note: next() and hasNext() should run in average O(1) time and uses O(h) memory, where h is the height of the tree.
 
-//如同中序遍历
+//脠莽脥卢脰脨脨貌卤茅脌煤
 
 public:
     stack<TreeNode *> s;
