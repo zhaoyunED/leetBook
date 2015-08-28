@@ -12,7 +12,7 @@ Given height = [2,1,5,6,2,3],
 return 10.
 
 
-//µäĞÍµÄstack Ê¹ÓÃ
+//å…¸å‹çš„stack ä½¿ç”¨
 int largestRectangleArea(vector<int> &height)
 {
         
@@ -20,7 +20,7 @@ int largestRectangleArea(vector<int> &height)
          
         int res = 0;
         vector<int> tmp = height;
-        tmp.push_back(0);  // Important  ÈÃ ×îÖÕËùÓĞµÄÔªËØ³öÕ»
+        tmp.push_back(0);  // Important  è®© æœ€ç»ˆæ‰€æœ‰çš„å…ƒç´ å‡ºæ ˆ
  
         stack<int> s;
         for(int i = 0; i < tmp.size(); i++)
