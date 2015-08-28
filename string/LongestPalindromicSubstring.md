@@ -4,7 +4,7 @@ and there exists one unique longest palindromic substring.
 
 
 
-//·½·¨Ò» O(n^2)µÄËã·¨ ´Ö±©·¨
+//æ–¹æ³•ä¸€ O(n^2)çš„ç®—æ³• ç²—æš´æ³•
 
 string longestPalindrome(string s) 
 {
@@ -33,7 +33,7 @@ string longestPalindrome(string s)
         return s.substr(ss, max);
 }
 
-//·½·¨¶þ Is it O(n) ?
+//æ–¹æ³•äºŒ Is it O(n) ?
 
  string longestPalindrome(string s) 
 {
@@ -53,7 +53,7 @@ string longestPalindrome(string s)
         return s.substr(min_start, max_len);
  }
 
- //·½·¨Èý Manacher's algorithm
+ //æ–¹æ³•ä¸‰ Manacher's algorithm
  
 string longestPalindrome(string s) 
 {
