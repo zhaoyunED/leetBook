@@ -41,7 +41,7 @@ Your algorithm should run in O(n) complexity.
 }
 ```
 
-//精简版代码
+精简版代码
 
 ```
 int longestConsecutive(vector<int> &num)
