@@ -17,12 +17,6 @@ Your algorithm should run in O(n) complexity.
 对于数组中的每个数s,找 s-1 与 s+1 的序列长度,分别为left，right，最终s所在最长连续序列的长度即为left+right+1
 
 
-
-
-//每次找 s-1 与 s+1 数 的 边长度
-
-
-//Store (left + right + 1) as the associated value to key n into the map.
  ```
  int longestConsecutive(vector<int>& nums) {
         unordered_map<int, int> m;
