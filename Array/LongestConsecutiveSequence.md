@@ -1,9 +1,6 @@
 
 # longestConsecutiveSequence
 
-
-
-
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
 
 For example,
@@ -13,15 +10,17 @@ The longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4.
 Your algorithm should run in O(n) complexity.
 
 
+---
+思路：
+
+用一个map来存每个元素所在的最长连续序列的长度。
+对于数组中的每个数s,找 s-1 与 s+1 的序列长度,分别为left，right，最终s所在最长连续序列的长度即为left+right+1
+
+
 
 
 //每次找 s-1 与 s+1 数 的 边长度
 
-//See if n - 1 and n + 1 exist in the map, and if so, it means there is an existing sequence next to n.
-
-//Variables left and right will be the length of those two sequences, 
-
-//while 0 means there is no sequence and n will be the boundary point later. 
 
 //Store (left + right + 1) as the associated value to key n into the map.
  ```
