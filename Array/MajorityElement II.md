@@ -7,10 +7,8 @@ Do you have a better hint? Suggest it!
 
 ---
 
-
-
-
-//最多两个元素 出现超过n/3
+思路：
+最多两个元素 出现超过n/3
 ```
 vector<int> majorityElement(vector<int> &a) {
     int y = 0, z = 1, cy = 0, cz = 0;
