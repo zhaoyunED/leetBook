@@ -9,8 +9,13 @@ Your algorithm should run in O(n) time and uses constant space.
 
 
 
-//每次把数组的元素移动到其对应的位置之后从头遍历找不符合条件的
-index
+
+---
+
+
+思路：
+每次把数组的元素移动到其对应的位置之后从头遍历找不符合条件的
+index(此题目在面试中遇到过)
 
 ```
 int firstMissingPositive(vector<int>& nums)
