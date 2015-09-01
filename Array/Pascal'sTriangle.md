@@ -1,3 +1,4 @@
+#Psscal's Triangle
 Given numRows, generate the first numRows of Pascal's triangle.
 
 For example, given numRows = 5,
@@ -13,9 +14,10 @@ Return
 
 
 
+---
 
-//ºÜ¼òµ¥µÄÒ»¸öÌâÄ¿
 
+```
 vector<vector<int>> generate(int numRows)
 {
         vector<vector<int>> result;
@@ -42,10 +44,12 @@ vector<vector<int>> generate(int numRows)
         
         return result;
 }
+```
 
 
-//¾«¼ò´úÂë°æ
+ç²¾ç®€ä»£ç ç‰ˆ
 
+```
 vector<vector<int> > generate(int numRows) {
           vector<vector<int> > r;  
 			for(int i = 0; i < numRows; i++){  
@@ -62,3 +66,4 @@ vector<vector<int> > generate(int numRows) {
 			}  
 			return r;
     }
+```
