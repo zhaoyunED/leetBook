@@ -8,11 +8,8 @@ Note:
 Could you optimize your algorithm to use only O(k) extra space?
 
 ---
-
-
-
-
-O(k)的空间 在 原数组上 进行操作
+思路：
+在原数组上进行操作
 ```
 vector<int> getRow(int rowIndex)
 {
