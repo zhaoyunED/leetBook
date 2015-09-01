@@ -1,3 +1,4 @@
+#Pascal's Triangle II
 Given an index k, return the kth row of the Pascal's triangle.
 
 For example, given k = 3,
@@ -6,8 +7,13 @@ Return [1,3,3,1].
 Note:
 Could you optimize your algorithm to use only O(k) extra space?
 
+---
 
-//O(k)µÄ¿Õ¼ä ÔÚ Ô­Êı×éÉÏ ½øĞĞ²Ù×÷
+
+
+
+O(k)çš„ç©ºé—´ åœ¨ åŸæ•°ç»„ä¸Š è¿›è¡Œæ“ä½œ
+```
 vector<int> getRow(int rowIndex)
 {
         vector<int> result;
@@ -26,3 +32,4 @@ vector<int> getRow(int rowIndex)
         
         return result;
 }
+```
