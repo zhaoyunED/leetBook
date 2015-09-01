@@ -1,11 +1,17 @@
+#majorityElement
 Given an integer array of size n, find all elements that appear more than  n/3 times. The algorithm should run in linear time and in O(1) space.
 
 Hint:
-
 How many majority elements could it possibly have?
 Do you have a better hint? Suggest it!
 
-//×î¶àÁ½¸öÔªËØ ³öÏÖ³¬¹ın/3
+---
+
+
+
+
+//æœ€å¤šä¸¤ä¸ªå…ƒç´  å‡ºç°è¶…è¿‡n/3
+```
 vector<int> majorityElement(vector<int> &a) {
     int y = 0, z = 1, cy = 0, cz = 0;
     for (auto x: a) {
@@ -13,7 +19,7 @@ vector<int> majorityElement(vector<int> &a) {
       else if (x == z) cz++;
       else if (! cy) y = x, cy = 1;
       else if (! cz) z = x, cz = 1;
-      else cy--, cz--; //²»Í¬ÒªÏà¼õ
+      else cy--, cz--; //ä¸åŒè¦ç›¸å‡
     }
     cy = cz = 0;
     for (auto x: a)
@@ -25,5 +31,6 @@ vector<int> majorityElement(vector<int> &a) {
     if (cz > a.size()/3) r.push_back(z);
     return r;
   }
+  ```
 
 
