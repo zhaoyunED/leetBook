@@ -12,8 +12,13 @@ Given the following matrix:
 You should return [1,2,3,6,9,8,7,4,5].
 
 
-//用x1  x2  y1  y2 记录 索引 然后按照要求来遍历 二维数组
-//简单的 考察的 数组的操作和 小思维逻辑
+---
+
+
+
+思路：
+用x1  x2  y1  y2 记录 索引 然后按照要求来遍历 二维数组
+
 ```
 vector<int> spiralOrder(vector<vector<int> > &matrix) {
         vector<int> result;
