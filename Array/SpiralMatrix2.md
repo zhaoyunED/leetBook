@@ -16,6 +16,7 @@ You should return the following matrix:
 
 
 
+```
 vector<vector<int>> generateMatrix(int n)
 {
         if(n<=0)
@@ -46,3 +47,4 @@ vector<vector<int>> generateMatrix(int n)
         
         return result;
 }
+```
