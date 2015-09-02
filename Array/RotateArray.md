@@ -9,10 +9,10 @@ Try to come up as many solutions as you can, there are at least 3 different ways
 
 ---
 
+方法1：
 
+exactly O(n)time O(1) space
 
-//·½·¨1
-//exactly O(n)time O(1) space
 ```
 void rotate(vector<int>& nums, int k) {
         int n = nums.size();
