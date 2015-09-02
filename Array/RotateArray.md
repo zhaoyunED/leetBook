@@ -7,6 +7,10 @@ Note:
 Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
 
 
+---
+
+
+
 //·½·¨1
 //exactly O(n)time O(1) space
 ```
