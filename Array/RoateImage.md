@@ -1,3 +1,4 @@
+#RotateImage
 You are given an n x n 2D matrix representing an image.
 
 Rotate the image by 90 degrees (clockwise).
@@ -6,7 +7,11 @@ Follow up:
 Could you do this in-place?
 
 
-//·½·¨1 Òì»òµÄ²Ù×÷ÖµµÃÑ§Ï°¹ş
+---
+
+
+
+//æ–¹æ³•1 å¼‚æˆ–çš„æ“ä½œå€¼å¾—å­¦ä¹ å“ˆ
  void rotate(vector<vector<int> >& matrix) {
         //reverse
         for(int i = 0; i < matrix.size() / 2; i++)
@@ -31,7 +36,7 @@ Could you do this in-place?
         }
     }
 
-//·½·¨2 ÆäÊµÊÇÒ»¸öË¼Â·
+//æ–¹æ³•2 å…¶å®æ˜¯ä¸€ä¸ªæ€è·¯
 void rotate(vector<vector<int> > &matrix)
 {
         
@@ -42,7 +47,7 @@ void rotate(vector<vector<int> > &matrix)
      }
 }
 
-//·½·¨3
+//æ–¹æ³•3
 void rotate(vector<vector<int>>& matrix) 
 {
         
