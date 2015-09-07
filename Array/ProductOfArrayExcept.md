@@ -13,9 +13,7 @@ Could you solve it with constant space complexity?
 
 ---
 
-
-
-//just use your brains to think.
+just use your brains to think.
 ```
 vector<int> productExceptSelf(vector<int>& nums) {
         int size = nums.size();
