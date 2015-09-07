@@ -4,6 +4,7 @@ For example, given [0,1,2,4,5,7], return ["0->2","4->5","7"].
 
 
 
+```
 vector<string> summaryRanges(vector<int>& nums) {
         int i = 0, size = nums.size();
         vector<string> result; 
@@ -15,3 +16,4 @@ vector<string> summaryRanges(vector<int>& nums) {
         }
         return result; 
     }
+```
