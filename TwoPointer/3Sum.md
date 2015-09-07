@@ -17,8 +17,11 @@ A solution set is:
 
 
 
-//类似 two sum
-//要注意 去重复元素的边界问题，这个纠结了好久
+思路：
+
+类似 two sum
+
+要注意 去重复元素的边界问题
 ```
 vector<vector<int>> threeSum(vector<int>& nums) 
 {
