@@ -1,3 +1,4 @@
+#NextPermutation
 Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
 
 If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
@@ -5,19 +6,19 @@ If such arrangement is not possible, it must rearrange it as the lowest possible
 The replacement must be in-place, do not allocate extra memory.
 
 Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
-1,2,3 ¡ú 1,3,2
-3,2,1 ¡ú 1,2,3
-1,1,5 ¡ú 1,5,1
+1,2,3 â†’ 1,3,2
+3,2,1 â†’ 1,2,3
+1,1,5 â†’ 1,5,1
 
 
-//¾Ù¸öÀı×Ó¿ÉÄÜ»á¸üÈİÒ×Àí½â
+//ä¸¾ä¸ªä¾‹å­å¯èƒ½ä¼šæ›´å®¹æ˜“ç†è§£
 void nextPermutation(vector<int>& nums) 
 {
         int end = nums.size()-1;
         int pivot = end;
         while(pivot>0)
         {
-            if(nums[pivot] > nums[pivot-1] )  //´ÓºóÕÒµÚÒ»¸öÉıĞòµÄÊı×Ö
+            if(nums[pivot] > nums[pivot-1] )  //ä»åæ‰¾ç¬¬ä¸€ä¸ªå‡åºçš„æ•°å­—
                 break;
             pivot--;
         }
@@ -26,7 +27,7 @@ void nextPermutation(vector<int>& nums)
         {
             pivot--;
             int large = end;
-            while(nums[large] <= nums[pivot]) large--;  //ÕÒµ½µÚÒ»¸ö±Ènums[pivot]´óµÄÊı
+            while(nums[large] <= nums[pivot]) large--;  //æ‰¾åˆ°ç¬¬ä¸€ä¸ªæ¯”nums[pivot]å¤§çš„æ•°
             swap(nums[large],nums[pivot]);
             reverse(nums.begin()+pivot+1,nums.end());
         }else
