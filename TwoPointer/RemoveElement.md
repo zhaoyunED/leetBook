@@ -1,15 +1,20 @@
+#RemoveElement
 Given an array and a value, remove all instances of that value in place and return the new length.
 
 The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
 
 
-//µäĞÍµÄtwo pointer ÌâÄ¿ ºÍ removeDuplicateElementsÒ»ÑùµÄË¼Â·
+æ€è·¯ï¼š
+
+å…¸å‹çš„two pointer é¢˜ç›® å’Œ removeDuplicateElementsä¸€æ ·çš„æ€è·¯
+```
 int removeElement(vector<int>& nums, int val) 
 {
-    int index=0;//ÓÃÀ´Î¬»¤Êµ¼ÊµÄÔªËØÊıÄ¿
+    int index=0;//ç”¨æ¥ç»´æŠ¤å®é™…çš„å…ƒç´ æ•°ç›®
     for(int i=0;i<nums.size();i++)
        if(nums[i] != val)
           nums[index++] = nums[i];
     return index;
 }
+```
