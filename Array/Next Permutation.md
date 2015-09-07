@@ -15,7 +15,8 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 ---
 
 
-//举个例子可能会更容易理解
+举个例子可能会更容易理解
+```
 void nextPermutation(vector<int>& nums) 
 {
         int end = nums.size()-1;
@@ -31,7 +32,8 @@ void nextPermutation(vector<int>& nums)
         {
             pivot--;
             int large = end;
-            while(nums[large] <= nums[pivot]) large--;  //找到第一个比nums[pivot]大的数
+            //找到第一个比nums[pivot]大的数
+            while(nums[large] <= nums[pivot]) large--;  
             swap(nums[large],nums[pivot]);
             reverse(nums.begin()+pivot+1,nums.end());
         }else
@@ -39,3 +41,4 @@ void nextPermutation(vector<int>& nums)
             reverse(nums.begin(),nums.end());
         }
 }
+```
