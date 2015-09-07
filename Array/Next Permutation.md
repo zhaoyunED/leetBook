@@ -11,6 +11,10 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 1,1,5 → 1,5,1
 
 
+
+---
+
+
 //举个例子可能会更容易理解
 void nextPermutation(vector<int>& nums) 
 {
