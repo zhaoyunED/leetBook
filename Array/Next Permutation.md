@@ -18,6 +18,10 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 ---
 
 思路：
+
+对于一个序列，从右向左找第一个升序的数字，之后
+
+
 举个例子可能会更容易理解
 ```
 void nextPermutation(vector<int>& nums) 
