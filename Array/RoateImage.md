@@ -11,7 +11,8 @@ Could you do this in-place?
 
 思路：
 
-//方法1 异或的操作值得学习哈
+方法1 ：异或的操作
+```
  void rotate(vector<vector<int> >& matrix) {
         //reverse
         for(int i = 0; i < matrix.size() / 2; i++)
@@ -35,6 +36,7 @@ Could you do this in-place?
             }
         }
     }
+```
 
 //方法2 其实是一个思路
 void rotate(vector<vector<int> > &matrix)
