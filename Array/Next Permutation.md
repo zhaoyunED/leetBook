@@ -23,13 +23,20 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 * 
 若pivot>0
-下一步我们就需要找到(从右向左找)第一个比nums[pivot-1]大的元素，假设其下表为large,交换nums[pivot-1]与nums[large],最后我们将序列下标从pivot+1到末尾的元素reverse
+下一步我们就需要找到(从右向左找)第一个比nums[pivot-1]大的元素，假设其下表为large,交换nums[pivot-1]与nums[large],最后我们将序列下标从pivot到末尾的元素reverse
 
 * 
 若pivot<=0 整个序列则是降序排列，该序列的下一个序列需要将整个现有序列reverse
 
 
 举个例子可能会更容易理解
+
+序列：
+4 6 5 3 2 1 找到pivot元素为6
+
+从末尾找第一个比4大的元素为5，交换这两个元素，为
+
+5 6 4 
 
 ```
 void nextPermutation(vector<int>& nums) 
