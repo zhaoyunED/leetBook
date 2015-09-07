@@ -36,7 +36,9 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 从末尾找第一个比4大的元素为5，交换这两个元素，为
 
-5 6 4 
+5 6 4 3 2 1 reverse 从 6到末尾1的元素，最终为
+
+5 1 2 3 4 6
 
 ```
 void nextPermutation(vector<int>& nums) 
