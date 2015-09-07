@@ -9,8 +9,9 @@ The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1].
 In this case, 6 units of rain water (blue section) are being trapped. 
 
 
-//方法1
+//路陆路篓1
 
+```
 int trap(vector<int>& height) 
 {
         int left =0;
@@ -33,10 +34,12 @@ int trap(vector<int>& height)
         }
         return result;
 }
+```
 
 
 
-//方法二
+//路陆路篓露镁
+```
 int trap(int A[], int n) 
 {
         if(A==NULL || n<1)return 0;  
@@ -66,10 +69,12 @@ int trap(int A[], int n)
         }  
         return water;
 }
+```
 
-//方法3
+//路陆路篓3
 
- struct Node  
+``` 
+struct Node  
  {  
         int h, len;  
         Node(int _h = 0, int _len = 0):h(_h), len(_len){};  
@@ -111,3 +116,4 @@ int trap(int A[], int n)
         }  
         return areaSum ;  
  }  
+ ```
