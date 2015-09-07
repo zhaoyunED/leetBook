@@ -1,3 +1,4 @@
+#SetMatrixZeros
 Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.
 
 click to show follow up.
@@ -10,6 +11,7 @@ Could you devise a constant space solution?
 
 
 
+```
 void setZeroes(vector<vector<int>>& matrix) {
         int col0 = 1, rows = matrix.size(), cols = matrix[0].size();
 
@@ -17,13 +19,14 @@ void setZeroes(vector<vector<int>>& matrix) {
         if (matrix[i][0] == 0) col0 = 0;
         for (int j = 1; j < cols; j++)
             if (matrix[i][j] == 0)
-                matrix[i][0] = matrix[0][j] = 0; //°ÑÊÇ0µÄÔªËØµÄ µÚ0ÐÐjÁÐ ºÍ µÚjÐÐ0ÁÐ ÉèÎª0
+                matrix[i][0] = matrix[0][j] = 0; //æŠŠæ˜¯0çš„å…ƒç´ çš„ ç¬¬0è¡Œjåˆ— å’Œ ç¬¬jè¡Œ0åˆ— è®¾ä¸º0
     }
 
-    for (int i = rows - 1; i >= 0; i--) {  //¸ù¾øÒÑÉèÎª0µÄ±êÖ¾ À´ÉèÖÃÔªËØ 
+    for (int i = rows - 1; i >= 0; i--) {  //æ ¹ç»å·²è®¾ä¸º0çš„æ ‡å¿— æ¥è®¾ç½®å…ƒç´  
         for (int j = cols - 1; j >= 1; j--)
             if (matrix[i][0] == 0 || matrix[0][j] == 0)
                 matrix[i][j] = 0;
         if (col0 == 0) matrix[i][0] = 0;
     }
 }
+```
