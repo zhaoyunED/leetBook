@@ -1,8 +1,9 @@
+#3Sum
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? 
 Find all unique triplets in the array which gives the sum of zero.
 
 Note:
-Elements in a triplet (a,b,c) must be in non-descending order. (ie, a ¡Ü b ¡Ü c)
+Elements in a triplet (a,b,c) must be in non-descending order. (ie, a â‰¤ b â‰¤ c)
 The solution set must not contain duplicate triplets.
 For example, given array S = {-1 0 1 2 -1 -4},
 
@@ -11,9 +12,14 @@ A solution set is:
     (-1, -1, 2)
 
 
+---
 
-//ÀàËÆ two sum
-//Òª×¢Òâ È¥ÖØ¸´ÔªËØµÄ±ß½çÎÊÌâ£¬Õâ¸ö¾À½áÁËºÃ¾Ã
+
+
+
+//ç±»ä¼¼ two sum
+//è¦æ³¨æ„ å»é‡å¤å…ƒç´ çš„è¾¹ç•Œé—®é¢˜ï¼Œè¿™ä¸ªçº ç»“äº†å¥½ä¹…
+```
 vector<vector<int>> threeSum(vector<int>& nums) 
 {
         
@@ -58,3 +64,4 @@ vector<vector<int>> threeSum(vector<int>& nums)
         
         return result;
 }
+```
