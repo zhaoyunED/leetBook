@@ -38,7 +38,8 @@ Could you do this in-place?
     }
 ```
 
-//方法2 其实是一个思路
+方法2 ：同方法1其实是一个思路
+```
 void rotate(vector<vector<int> > &matrix)
 {
         
@@ -48,8 +49,10 @@ void rotate(vector<vector<int> > &matrix)
                 swap(matrix[i][j], matrix[j][i]);
      }
 }
+```
 
-//方法3
+方法3
+```
 void rotate(vector<vector<int>>& matrix) 
 {
         
@@ -66,3 +69,4 @@ void rotate(vector<vector<int>>& matrix)
             }
         }
 }
+```
