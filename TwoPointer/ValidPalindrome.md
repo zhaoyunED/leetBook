@@ -14,8 +14,10 @@ For the purpose of this problem, we define empty string as valid palindrome.
 ---
 
 
-//¼òµ¥µÄtwopointerÌâÄ¿
-bool isPalindrome(string s) {
+
+```
+bool isPalindrome(string s) 
+{
         
         int st=0,e=s.size()-1;
        
@@ -38,7 +40,7 @@ bool isPalindrome(string s) {
         }
         
         return true;
-    }
+}
     
     
 bool isalpha(char &c)
@@ -49,3 +51,4 @@ bool isalpha(char &c)
     }
     return (c>='a'&&c<='z') || (c>='0'&&c<='9');
 }
+```
