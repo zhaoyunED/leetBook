@@ -14,7 +14,7 @@ It doesn't matter what you leave beyond the new length.
 
 
 
-//¿ÉÒÔÀ©Õ¹µ½ duplicate K µÄÒ»°ãÇé¿ö
+思路：这题目可以拓展到at most K 的情况
 ```
 int removeDuplicates(vector<int>& nums) {
         int length = nums.size();
