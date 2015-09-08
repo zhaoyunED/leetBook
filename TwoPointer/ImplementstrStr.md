@@ -8,8 +8,9 @@ or -1 if needle is not part of haystack.
 ---
 
 
-
-//ÆÓËØËã·¨
+方法1：
+盖提
+```
 int strStr(string haystack, string needle)
 {
         
@@ -29,7 +30,7 @@ int strStr(string haystack, string needle)
         }
         return -1;
 }
-
+```
 //KMPËã·¨
 
 int strStr(string haystack, string needle) 
