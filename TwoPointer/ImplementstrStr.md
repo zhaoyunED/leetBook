@@ -31,6 +31,7 @@ int strStr(string haystack, string needle)
         return -1;
 }
 ```
+方法2：
 //KMPËã·¨
 
 int strStr(string haystack, string needle) 
