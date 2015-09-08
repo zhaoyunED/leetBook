@@ -6,6 +6,10 @@ You may assume that nums1 has enough space (size that is greater or equal to m +
 The number of elements initialized in nums1 and nums2 are m and n respectively.
 
 
+---
+
+
+
 
 //two pointer 算法 
 //需要从 nums1的末尾开始 添加元素
