@@ -13,6 +13,7 @@ The number of elements initialized in nums1 and nums2 are m and n respectively.
 
 //two pointer 算法 
 //需要从 nums1的末尾开始 添加元素
+```
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
        int index = m + n - 1, i = m - 1, j = n - 1;
               while(j >=0)
@@ -20,3 +21,4 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
                       nums1[index--] = nums2[j--];
                   else nums1[index--] = nums1[i--];
 }
+```
