@@ -14,8 +14,11 @@ A solution set is:
 
 
 
+---
 
-//two pointer的思路
+
+思路：
+two pointer的思路
 
 vector<vector<int> > fourSum(vector<int> &num, int target) 
 {
