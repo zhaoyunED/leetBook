@@ -14,7 +14,7 @@ If you have figured out the O(n) solution, try coding another solution of which 
 
 
 思路：
-two pointer 
+two pointer 时间复杂度为O(N)
 ```
 int minSubArrayLen(int s, vector<int>& nums)
 {
