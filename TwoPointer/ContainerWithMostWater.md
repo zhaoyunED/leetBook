@@ -5,9 +5,10 @@ Find two lines, which together with x-axis forms a container, such that the cont
 
 Note: You may not slant the container.
 
-
+---
 
 // two pointers
+```
 int maxArea(vector<int> &height)
 {
 	if (height.empty()) return 0;
@@ -39,3 +40,4 @@ int maxArea(vector<int> &height)
 
 	return result;	
 }
+```
