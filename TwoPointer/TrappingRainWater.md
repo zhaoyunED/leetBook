@@ -80,7 +80,7 @@ int trap(int A[], int n)
 }
 ```
 
-//·½·¨3
+方法3：
 
 ``` 
 struct Node  
