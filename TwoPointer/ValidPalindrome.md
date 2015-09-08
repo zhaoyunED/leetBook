@@ -1,3 +1,4 @@
+#ValidPalindrome
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
 For example,
@@ -9,7 +10,7 @@ Have you consider that the string might be empty? This is a good question to ask
 
 For the purpose of this problem, we define empty string as valid palindrome.
 
-//�򵥵�twopointer��Ŀ
+//¼òµ¥µÄtwopointerÌâÄ¿
 bool isPalindrome(string s) {
         
         int st=0,e=s.size()-1;
