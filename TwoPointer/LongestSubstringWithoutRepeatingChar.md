@@ -10,7 +10,8 @@ which the length is 3. For "bbbbb" the longest substring is "b", with the length
 
 思路：
 所有可能的字符 存在 256大小的vector中
-对于串中的一个字符找到它上次出现的位置，然后重新计算maxlength
+
+对于串中的每一个字符找到它上次出现的位置，然后重新计算maxlength
 ```
 int lengthOfLongestSubstring(string s) 
 {
