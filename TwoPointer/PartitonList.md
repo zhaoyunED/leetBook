@@ -14,6 +14,7 @@ return 1->2->2->4->3->5.
 
 
 
+```
 ListNode *partition(ListNode *head, int x)
 {
         ListNode node1(0), node2(0);
@@ -29,3 +30,4 @@ ListNode *partition(ListNode *head, int x)
     p1->next = node2.next;
     return node1.next;
 }
+```
