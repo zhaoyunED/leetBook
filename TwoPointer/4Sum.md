@@ -18,7 +18,7 @@ A solution set is:
 
 
 思路：
-two pointer的思路
+two pointer的思路,同3Sum一致
 
 ```
 vector<vector<int> > fourSum(vector<int> &num, int target) 
