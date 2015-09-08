@@ -1,3 +1,4 @@
+#Remove Duplicates from Sorted Array2
 Follow up for "Remove Duplicates":
 What if duplicates are allowed at most twice?
 
@@ -9,7 +10,7 @@ It doesn't matter what you leave beyond the new length.
 
 
 
-//可以扩展到 duplicate K 的一般情况
+//驴脡脪脭脌漏脮鹿碌陆 duplicate K 碌脛脪禄掳茫脟茅驴枚
 int removeDuplicates(vector<int>& nums) {
         int length = nums.size();
         if(length<=2)
