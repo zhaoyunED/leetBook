@@ -43,8 +43,8 @@ int minSubArrayLen(int s, vector<int>& nums)
 }
 ```
 
-
-//·ÖÖ®·½·¨
+方法2：
+分治的方法，时间复杂度O(nlgn)
 ```
 int minSubArrayLen(int s, vector<int>& nums)
 {
