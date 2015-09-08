@@ -45,6 +45,7 @@ int minSubArrayLen(int s, vector<int>& nums)
 
 
 //·ÖÖ®·½·¨
+```
 int minSubArrayLen(int s, vector<int>& nums)
 {
         return findMinArray(s,0,nums.size()-1,nums);
@@ -98,3 +99,4 @@ int findMinArray(int s,int start,int end,vector<int>& nums)
         
         return minS;
 }
+```
