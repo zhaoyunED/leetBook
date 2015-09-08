@@ -6,7 +6,7 @@ Find two lines, which together with x-axis forms a container, such that the cont
 Note: You may not slant the container.
 
 ---
-
+典型的TwoPointer题目
 ```
 int maxArea(vector<int> &height)
 {
