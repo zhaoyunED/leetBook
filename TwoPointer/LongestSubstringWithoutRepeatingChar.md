@@ -13,6 +13,7 @@ which the length is 3. For "bbbbb" the longest substring is "b", with the length
 
 
 //所有可能的字符 存在 256大小的vector中
+```
 int lengthOfLongestSubstring(string s) 
 {
         vector<int> vect(256,-1);
@@ -25,3 +26,4 @@ int lengthOfLongestSubstring(string s)
         }
         return maxlength;
 }
+```
