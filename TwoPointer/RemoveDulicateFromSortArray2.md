@@ -10,7 +10,12 @@ It doesn't matter what you leave beyond the new length.
 
 
 
+---
+
+
+
 //¿ÉÒÔÀ©Õ¹µ½ duplicate K µÄÒ»°ãÇé¿ö
+```
 int removeDuplicates(vector<int>& nums) {
         int length = nums.size();
         if(length<=2)
@@ -31,4 +36,5 @@ int removeDuplicates(vector<int>& nums) {
         }
         
         return id;
-    }
+}
+```
