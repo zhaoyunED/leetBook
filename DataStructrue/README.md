@@ -1,6 +1,6 @@
 # **数据结构设计**
 
-* [FirstMissingPositive](./FirstMissingPositive.md) 
+* [Add and Search Word](./FirstMissingPositive.md) 
 * [LongestConsecutiveSequence](./LongestConsecutiveSequence.md)
 * [MajorityElements](./MajorityElements.md) 
 * [MajorityElement II](./MajorityElement II.md)
