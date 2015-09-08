@@ -6,9 +6,7 @@ Find two lines, which together with x-axis forms a container, such that the cont
 Note: You may not slant the container.
 
 ---
-思路：
 
-// two pointers
 ```
 int maxArea(vector<int> &height)
 {
