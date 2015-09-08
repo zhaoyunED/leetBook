@@ -1,5 +1,6 @@
+#MinimumSizeSubArrayLen
 Given an array of n positive integers and a positive integer s, 
-find the minimal length of a subarray of which the sum ≥ s. If there isn't one, return 0 instead.
+find the minimal length of a subarray of which the sum 隆脻 s. If there isn't one, return 0 instead.
 
 For example, given the array [2,3,1,2,4,3] and s = 7,
 the subarray [4,3] has the minimal length under the problem constraint.
@@ -36,7 +37,7 @@ int minSubArrayLen(int s, vector<int>& nums)
 }
 
 
-//分之方法
+//路脰脰庐路陆路篓
 int minSubArrayLen(int s, vector<int>& nums)
 {
         return findMinArray(s,0,nums.size()-1,nums);
