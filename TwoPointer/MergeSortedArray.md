@@ -13,9 +13,9 @@ The number of elements initialized in nums1 and nums2 are m and n respectively.
 ```
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
        int index = m + n - 1, i = m - 1, j = n - 1;
-              while(j >=0)
-                  if(i < 0 || nums1[i] < nums2[j])
-                      nums1[index--] = nums2[j--];
-                  else nums1[index--] = nums1[i--];
+        while(j >=0)
+            if(i < 0 || nums1[i] < nums2[j])
+                nums1[index--] = nums2[j--];
+            else nums1[index--] = nums1[i--];
 }
 ```
