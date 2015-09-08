@@ -46,7 +46,8 @@ int trap(vector<int>& height)
 
 每个bar能装的容量即是min(leftMostHeight[i],rightMostHeight[i])-A[i]
 
-该方法思路跟方法1的思路是一致的。
+该方法思路跟方法1的思路是等价的。
+
 ```
 int trap(int A[], int n) 
 {
