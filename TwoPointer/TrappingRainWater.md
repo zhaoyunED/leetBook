@@ -42,7 +42,11 @@ int trap(vector<int>& height)
 
 
 
-//·½·¨¶þ
+方法2：先遍历一遍数组，记录每个bar左右两边最高的bar高度
+
+每个bar能装的容量即是min(leftMostHeight[i],rightMostHeight[i])-A[i]
+
+该方法思路跟方法1的思路是一致的。
 ```
 int trap(int A[], int n) 
 {
@@ -86,8 +90,7 @@ struct Node
 
  int trap(vector<int>& A) 
 {  
-        // Start typing your C/C++ solution below  
-        // DO NOT write int main() function  
+        
         int n= A.size();
         int areaSum = 0;  
         stack<Node> S;  
