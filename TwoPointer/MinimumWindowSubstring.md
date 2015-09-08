@@ -1,3 +1,4 @@
+#MinimumWindowSubstring
 Given a string S and a string T, find the minimum window 
 in S which will contain all the characters in T in complexity O(n).
 
@@ -25,7 +26,7 @@ string minWindow(string s, string T)
         int tLen=T.size();
         if(tLen==0 || sLen<tLen) return "";
         
-        int needFind[256]={0};//¿ÉÓÃunordered_map ´úÌæ
+        int needFind[256]={0};//Â¿Ã‰Ã“Ãƒunordered_map Â´ÃºÃŒÃ¦
         int hasFind[256]={0};
         
         for(auto &c : T)
