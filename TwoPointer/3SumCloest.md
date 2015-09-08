@@ -8,6 +8,11 @@ For example, given array S = {-1 2 1 -4}, and target = 1.
 The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 
+---
+
+
+
+```
 int threeSumClosest(vector<int> &num, int target) 
 {        
     vector<int> v(num.begin(), num.end()); // I didn't wanted to disturb original array.
@@ -49,3 +54,4 @@ int threeSumClosest(vector<int> &num, int target)
     }
     return ans;
 }
+```
