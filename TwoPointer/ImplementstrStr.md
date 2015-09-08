@@ -1,10 +1,11 @@
+#Implement strStr
 implement strStr().
 
 Returns the index of the first occurrence of needle in haystack, 
 or -1 if needle is not part of haystack.
 
 
-//�����㷨
+//ÆÓËØËã·¨
 int strStr(string haystack, string needle)
 {
         
@@ -25,7 +26,7 @@ int strStr(string haystack, string needle)
         return -1;
 }
 
-//KMP�㷨
+//KMPËã·¨
 
 int strStr(string haystack, string needle) 
 {
