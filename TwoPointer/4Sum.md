@@ -20,6 +20,7 @@ A solution set is:
 思路：
 two pointer的思路
 
+```
 vector<vector<int> > fourSum(vector<int> &num, int target) 
 {
     vector<vector<int> > ret;
@@ -85,5 +86,6 @@ vector<vector<int> > fourSum(vector<int> &num, int target)
     
     return ret;
 }
+```
 
-//方法二 还有hashmap的思路
+方法二 还有hashmap的思路，这里没贴代码
