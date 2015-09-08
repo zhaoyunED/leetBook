@@ -1,3 +1,4 @@
+#LongestSubstringWithoutRepeatingChar
 Given a string, find the length of the longest substring without repeating characters. 
 
 For example, the longest substring without repeating letters for "abcabcbb" is "abc", 
@@ -7,7 +8,7 @@ which the length is 3. For "bbbbb" the longest substring is "b", with the length
 
 
 
-//ËùÓĞ¿ÉÄÜµÄ×Ö·û ´æÔÚ 256´óĞ¡µÄvectorÖĞ
+//æ‰€æœ‰å¯èƒ½çš„å­—ç¬¦ å­˜åœ¨ 256å¤§å°çš„vectorä¸­
 int lengthOfLongestSubstring(string s) 
 {
         vector<int> vect(256,-1);
