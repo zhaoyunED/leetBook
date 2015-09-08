@@ -9,7 +9,7 @@ or -1 if needle is not part of haystack.
 
 
 方法1：
-盖提
+该题就是字符串匹配问题，该方法是暴力法，时间复杂度为O(N^2)
 ```
 int strStr(string haystack, string needle)
 {
