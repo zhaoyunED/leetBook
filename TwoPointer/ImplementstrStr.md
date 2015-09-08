@@ -34,6 +34,7 @@ int strStr(string haystack, string needle)
 方法2：
 KMP算法 时间复杂度为O(N)
 
+```
 int strStr(string haystack, string needle) 
 {
         if(needle =="") return 0;
@@ -67,3 +68,4 @@ int strStr(string haystack, string needle)
         
         return -1;
 }
+```
