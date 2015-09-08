@@ -13,6 +13,7 @@ It doesn't matter what you leave beyond the new length.
 ---
 
 
+```
 int removeDuplicates(int A[], int n) {
 	if(n<2) return n;
 	int id=1;
@@ -22,3 +23,4 @@ int removeDuplicates(int A[], int n) {
 	}
 	return id;
 }
+```
