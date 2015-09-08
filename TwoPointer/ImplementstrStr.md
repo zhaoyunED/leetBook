@@ -32,7 +32,7 @@ int strStr(string haystack, string needle)
 }
 ```
 方法2：
-//KMPËã·¨
+KMP算法 时间复杂度为O(N)
 
 int strStr(string haystack, string needle) 
 {
