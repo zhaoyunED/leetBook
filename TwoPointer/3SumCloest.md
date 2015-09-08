@@ -11,7 +11,7 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 ---
 
 思路：
-
+同3Sum思路相近，这里是求sum和target最相近的值
 
 ```
 int threeSumClosest(vector<int> &num, int target) 
