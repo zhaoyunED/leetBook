@@ -13,8 +13,7 @@ In this case, 6 units of rain water (blue section) are being trapped.
 
 ---
 
-
-//·½·¨1
+方法1：two Pointer
 
 ```
 int trap(vector<int>& height) 
