@@ -68,7 +68,9 @@ private:
 ```
 
 
-//·½·¨2
+方法2：
+
+```
 class LRUCache{
 private:
     struct item_t{
@@ -113,3 +115,4 @@ public:
         return inew;
     }
 };
+```
