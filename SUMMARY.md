@@ -33,9 +33,8 @@
    * [MinimumWindowSubstring](TwoPointer/MinimumWindowSubstring.md)
    * [ContainerWithMostWater](TwoPointer/ContainerWithMostWater.md)
 
-
 * [DataStructure](DataStructure/README.md)
-    * [ImplementTrie](./ImplementTrie.md)
+    * [ImplementTrie](DataStructure/ImplementTrie.md)
     * [Add and Search Word](./Add and Search Word.md) 
     * [Word Search II](./Word Search II.md) 
     * [LRUCache](./LRUCache.md) 
