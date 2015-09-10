@@ -1,3 +1,4 @@
+#Implement Queue using Stack
 Implement the following operations of a queue using stacks.
 
 push(x) -- Push element x to the back of queue.
