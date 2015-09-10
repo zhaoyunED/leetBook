@@ -11,7 +11,9 @@ it should invalidate the least recently used item before inserting a new item.
 
 
 
-//·½·¨1
+方法1：
+
+```
 class LRUCache {
 public:
     LRUCache(int capacity) : _capacity(capacity) {}
@@ -52,6 +54,7 @@ private:
     LI used;
     int _capacity;
 };
+```
 
 
 //·½·¨2
