@@ -23,8 +23,6 @@ You may assume that all operations are valid (for example, no pop or top operati
 
 ---
 
-
-
 ```
 class Stack {
 public:
