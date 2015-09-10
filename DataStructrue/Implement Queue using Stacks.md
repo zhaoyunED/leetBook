@@ -23,7 +23,9 @@ You may assume that all operations are valid (for example, no pop or peek operat
 
 利用两个stack 来实现
 
-input插入元素 
+插入元素时先放入input
+返回队首元素时先看看output栈里是否有元素，若有的话，直接返回output栈顶元素，若没有的话先将input栈里元素一个个push到output栈中
+
 ```
 class Queue {
     stack<int> input,output;
