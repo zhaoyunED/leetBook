@@ -1,3 +1,4 @@
+#Add and Search Word
 Design a data structure that supports the following two operations:
 
 void addWord(word)
