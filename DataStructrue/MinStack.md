@@ -60,7 +60,8 @@ public:
 }
 ```
 
-//·½·¨2
+方法2：
+
 ```
 class MinStack {
     int min=Integer.MAX_VALUE;
