@@ -1,6 +1,7 @@
 #ImplementTrie
 
 
+```
 class TrieNode {
 public:
 	bool isWord;
@@ -60,3 +61,4 @@ private:
 		return p;
 	}
 };
+```
