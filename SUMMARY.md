@@ -32,7 +32,7 @@
    * [ValidPalindrome](TwoPointer/ValidPalindrome.md)
    * [MinimumWindowSubstring](TwoPointer/MinimumWindowSubstring.md)
    * [ContainerWithMostWater](TwoPointer/ContainerWithMostWater.md)
-* [DataStructure](DataStructure/readmemd.md)
+* [DataStructure](DataStructrue/readmemd.md)
    * [ImplementTrie](DataStructure/ImplementTrie.md)
    * [Add and Search Word](DataStructure/Add and Search Word.md)
    * [Word Search II](DataStructure/Word Search II.md)
