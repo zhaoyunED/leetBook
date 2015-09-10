@@ -40,4 +40,4 @@
     * [LRUCache](DataStructure/LRUCache.md) 
     * [Implement Queue using Stacks](DataStructure/Implement Queue using Stacks.md)
     * [Implement Stack using Queues](DataStructure/Implement Stack using Queues.md)
-    * [MinStack](MinStack.md)
+    * [MinStack](DataStructure/MinStack.md)
