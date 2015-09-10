@@ -101,7 +101,8 @@ class MinStack {
 }
 ```
 
-//·½·¨3
+方法3：
+
 
 ```
 public class MinStack {
