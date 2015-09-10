@@ -22,6 +22,8 @@ You may assume that all operations are valid (for example, no pop or peek operat
 思路：
 
 利用两个stack 来实现
+
+input插入元素 
 ```
 class Queue {
     stack<int> input,output;
