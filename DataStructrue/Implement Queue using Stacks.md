@@ -12,7 +12,12 @@ Depending on your language, stack may not be supported natively. You may simulat
 
 You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
 
+
+---
+
+
 //Ë«Õ»ÊµÏÖ·½·¨
+```
 class Queue {
     stack<int> input,output;
 public:
@@ -42,3 +47,4 @@ public:
         return input.empty() && output.empty();
     }
 };
+```
