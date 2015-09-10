@@ -3,6 +3,7 @@ Design and implement a data structure for Least Recently Used (LRU) cache. It sh
 get and set.
 
 get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+
 set(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, 
 it should invalidate the least recently used item before inserting a new item.
 
@@ -12,6 +13,16 @@ it should invalidate the least recently used item before inserting a new item.
 
 
 方法1：
+
+用一个链表list存储缓存信息
+
+用一个map来存储每个信息和其对应在链表中的位置
+
+注意的地方：
+
+每来一个value值，若在链表中存在，就需要将其置在链首部的位置。
+
+set一个value值得时候，若capacity达到最大值，需要将list末尾的元素删掉，然后将value值插入到链首部
 
 ```
 class LRUCache {
