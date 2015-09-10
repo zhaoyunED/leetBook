@@ -22,7 +22,7 @@ it should invalidate the least recently used item before inserting a new item.
 
 每来一个key值，若在链表中存在，就需要将其置在链首部的位置。
 
-set一个key和value值得时候，若capacity达到最大值，需要将list末尾的元素删掉，然后将key值插入到链首部
+set一个key和value值得时候，若capacity达到最大值，需要将list末尾的元素删掉，然后插入到链首部
 
 ```
 class LRUCache {
