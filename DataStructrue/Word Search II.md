@@ -1,3 +1,4 @@
+#Word Search 2
 Given a 2D board and a list of words from the dictionary, find all words in the board.
 
 Each word must be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. 
@@ -20,8 +21,8 @@ You may assume that all inputs are consist of lowercase letters a-z.
 
 
 
-//通过trie树来辅助搜索
-//若在trie树中找不到对应的节点 直接回溯
+//閫氳繃trie鏍戞潵杈呭姪鎼滅储
+//鑻ュ湪trie鏍戜腑鎵句笉鍒板搴旂殑鑺傜偣 鐩存帴鍥炴函
 class TrieNode
 {
 public:
