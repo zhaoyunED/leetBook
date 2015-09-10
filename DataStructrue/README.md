@@ -6,4 +6,4 @@
 * [LRUCache](./LRUCache.md) 
 * [Implement Queue using Stacks](./Implement Queue using Stacks.md)
 * [Implement Stack using Queues](Implement Stack using Queues.md)
-* [MinStack](Pascal's Triangle II .md)
+* [MinStack](MinStack.md)
