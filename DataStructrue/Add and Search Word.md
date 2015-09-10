@@ -24,8 +24,10 @@ search("b..") -> true
 
 ---
 
+思路：
+利用字典树进行查找插入，注意遇到“.”的时候需要递归处理所有字母情况
 
-
+```
 class TrieNode {
 public:
 	bool isWord;
@@ -96,3 +98,4 @@ private:
 		return p->isWord;
 	}
 };
+```
