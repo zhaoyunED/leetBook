@@ -16,7 +16,7 @@ it should invalidate the least recently used item before inserting a new item.
 
 用一个链表list存储缓存信息的key值
 
-用一个map来存储每个信息和其对应在链表中的位置
+用一个map来存储每个信息key值和value值和其对应在链表中的位置
 
 注意的地方：
 
