@@ -2,7 +2,7 @@
 
 * [ImplementTrie](./ImplementTrie.md)
 * [Add and Search Word](./Add and Search Word.md) 
-* [Word Search II](./LRUCache.md) 
+* [Word Search II](./Word Search II.md) 
 * [LRUCache](./LRUCache.md) 
 * [MajorityElement II](./MajorityElement II.md)
 * [Pascal'sTriangle](Pascal'sTriangle.md)
