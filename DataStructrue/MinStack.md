@@ -15,6 +15,8 @@ getMin() -- Retrieve the minimum element in the stack.
 
 此题也是编程之美上的一道题目,这里列举了多种方法（参考网上）
 
+方法1：
+
 ```
 class MinStack {
 stack<int> data;
