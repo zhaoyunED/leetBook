@@ -29,12 +29,11 @@ You may assume that all inputs are consist of lowercase letters a-z.
 
 ---
 
+思路：
+通过trie树来辅助搜索
 
-
-
-
-//通过trie树来辅助搜索
-//若在trie树中找不到对应的节点 直接回溯
+若在trie树中找不到对应的节点 直接回溯
+```
 class TrieNode
 {
 public:
@@ -137,3 +136,4 @@ public:
          return res;
     }
 };
+```
