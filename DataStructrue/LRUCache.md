@@ -14,15 +14,15 @@ it should invalidate the least recently used item before inserting a new item.
 
 方法1：
 
-用一个链表list存储缓存信息
+用一个链表list存储缓存信息的key值
 
 用一个map来存储每个信息和其对应在链表中的位置
 
 注意的地方：
 
-每来一个value值，若在链表中存在，就需要将其置在链首部的位置。
+每来一个key值，若在链表中存在，就需要将其置在链首部的位置。
 
-set一个value值得时候，若capacity达到最大值，需要将list末尾的元素删掉，然后将value值插入到链首部
+set一个key和value值得时候，若capacity达到最大值，需要将list末尾的元素删掉，然后将value值插入到链首部
 
 ```
 class LRUCache {
