@@ -59,6 +59,7 @@ public:
 ```
 
 //·½·¨2
+```
 class MinStack {
     int min=Integer.MAX_VALUE;
     Stack<Integer> stack = new Stack<Integer>();
@@ -95,9 +96,11 @@ class MinStack {
         return min;
     }
 }
+```
 
 //·½·¨3
 
+```
 public class MinStack {
     long min;
     Stack<Long> stack;
@@ -138,3 +141,4 @@ public class MinStack {
         return (int)min;
     }
 }
+```
