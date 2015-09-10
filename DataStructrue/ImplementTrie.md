@@ -5,7 +5,7 @@ Implement a trie with insert, search, and startsWith methods.
 
 ---
 
-考察字典树的设计实现
+考察字典树的设计实现（答案不唯一，但要实现字典树的功能）
 ```
 class TrieNode {
 public:
