@@ -1,6 +1,11 @@
 #ImplementTrie
 
 Implement a trie with insert, search, and startsWith methods.
+
+
+---
+
+字典树
 ```
 class TrieNode {
 public:
