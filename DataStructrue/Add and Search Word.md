@@ -16,6 +16,10 @@ search(".ad") -> true
 search("b..") -> true
 
 
+---
+
+
+
 class TrieNode {
 public:
 	bool isWord;
