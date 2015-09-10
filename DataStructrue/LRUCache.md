@@ -18,7 +18,7 @@ it should invalidate the least recently used item before inserting a new item.
 
 用一个map来存储每个信息key值和value值和其对应在链表中的位置
 
-注意的地方：
+需要注意的地方：
 
 每来一个key值，若在链表中存在，就需要将其置在链首部的位置。
 
