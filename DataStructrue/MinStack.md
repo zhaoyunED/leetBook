@@ -15,6 +15,8 @@ getMin() -- Retrieve the minimum element in the stack.
 
 //·½·¨1 Á½¸öÕ»
 
+```
+class MinStack {
 stack<int> data;
 stack<int> min;
 
@@ -53,6 +55,8 @@ public:
     int getMin() {
         return min.top();
     }
+}
+```
 
 //·½·¨2
 class MinStack {
