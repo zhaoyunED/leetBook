@@ -29,7 +29,7 @@ ListNode* deleteDuplicates(ListNode* head) {
     }
 ```
 
-// 双重指针
+方法2：双指针
 ```
 ListNode *deleteDuplicates(ListNode *head) {
         ListNode **runner = &head;
