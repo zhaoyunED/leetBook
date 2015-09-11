@@ -44,7 +44,7 @@
    * [MinStack](DataStructrue/MinStack.md)
 
 
-* [LinkList](DataStructrue/README.md)
+* [LinkList](LinkList/README.md)
     * [AddTwoNumbers](AddTwoNumbers.md) 
     * [CopyListwithRandomPointer](./CopyListwithRandomPointer.md)
     * [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
