@@ -9,13 +9,7 @@ Given 1->1->1->2->3, return 2->3.
 
 ---
 
-
-
-
-
-
-
-//递归方法
+方法1：递归方法
 
 ```
 ListNode* deleteDuplicates(ListNode* head) {
