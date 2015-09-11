@@ -10,6 +10,7 @@ Return a deep copy of the list.
 
 
 
+```
 RandomListNode *copyRandomList(RandomListNode *head)
 {
         if(head == NULL) return NULL;
@@ -36,8 +37,10 @@ RandomListNode *copyRandomList(RandomListNode *head)
     }
     return r;
 }
+```
 
 
+```
 RandomListNode *copyRandomList(RandomListNode *head) {
         map<RandomListNode*, RandomListNode*> relation;  
           
@@ -76,4 +79,5 @@ RandomListNode *copyRandomList(RandomListNode *head) {
         }  
         return copiedHead;  
     
-    }
+}
+```
