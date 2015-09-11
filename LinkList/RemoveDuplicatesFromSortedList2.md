@@ -54,7 +54,7 @@ ListNode *deleteDuplicates(ListNode *head) {
 }
 ```
 
-//类似的方法
+方法3：类似的方法
 ```
 ListNode* deleteDuplicates(ListNode* head) {
         ListNode** curNext = &head;
