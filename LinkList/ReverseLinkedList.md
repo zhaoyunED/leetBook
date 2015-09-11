@@ -22,7 +22,7 @@ ListNode* reverseList(ListNode* head)
 ```
 
 
-//µü´ú
+方法2,3：迭代的方法
 ```
 ListNode *reverseList(ListNode *head)
 {
@@ -48,7 +48,7 @@ ListNode *reverseList(ListNode *head)
 ```
 
 
-//¾«¼ò°æµü´ú
+
 ```
 ListNode* reverseList(ListNode* head)
 {
