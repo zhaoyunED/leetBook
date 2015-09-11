@@ -32,6 +32,8 @@
    * [ValidPalindrome](TwoPointer/ValidPalindrome.md)
    * [MinimumWindowSubstring](TwoPointer/MinimumWindowSubstring.md)
    * [ContainerWithMostWater](TwoPointer/ContainerWithMostWater.md)
+
+
 * [DataStructure](DataStructrue/README.md)
    * [ImplementTrie](DataStructrue/ImplementTrie.md)
    * [Add and Search Word](DataStructrue/Add and Search Word.md)
@@ -41,3 +43,11 @@
    * [Implement Stack using Queues](DataStructrue/Implement Stack using Queues.md)
    * [MinStack](DataStructrue/MinStack.md)
 
+
+* [DataStructure](DataStructrue/README.md)
+    * [AddTwoNumbers](AddTwoNumbers.md) 
+    * [CopyListwithRandomPointer](./CopyListwithRandomPointer.md)
+    * [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
+    * [Palindrome Linked List](./Palindrome Linked List.md)
+    * [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
+    * [ReverseLinkedList](./ReverseLinkedList.md)
