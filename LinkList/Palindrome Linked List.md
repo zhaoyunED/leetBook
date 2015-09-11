@@ -9,6 +9,7 @@ Could you do it in O(n) time and O(1) space?
 
 
 
+```
 bool isPalindrome(ListNode* head) {
         if(head == NULL || head->next == NULL)
             return true;
@@ -29,7 +30,8 @@ bool isPalindrome(ListNode* head) {
         }
         
         return true;
-    }
+}
+```
     
 ListNode* reverseList(ListNode* head) {
         ListNode* pre =NULL;
