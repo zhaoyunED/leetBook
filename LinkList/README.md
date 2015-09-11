@@ -4,7 +4,7 @@
 * [CopyListwithRandomPointer](./CopyListwithRandomPointer.md)
 * [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
 * [Palindrome Linked List](./Palindrome Linked List.md)
-* [Swap Nodes in Pairs](./RemoveDuplicateFromSortArray.md)
+* [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
 * [RemoveDulicateFromSortArray2](./RemoveDulicateFromSortArray2.md)
 * [LongestSubstringWithoutRepeatingChar](LongestSubstringWithoutRepeatingChar.md)
 * [PartitonList](PartitonList.md)
