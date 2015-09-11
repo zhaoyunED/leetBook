@@ -40,7 +40,7 @@ ListNode *swapPairs(ListNode *head)
 }
 ```
 
-//Java °ćąžľÄ˛ť´í´úÂë
+方法2：Java版本的方法
 
 ```
 public ListNode swapPairs(ListNode head)
