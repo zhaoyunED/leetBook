@@ -7,12 +7,17 @@ Given 1->2->3->3->4->4->5, return 1->2->5.
 Given 1->1->1->2->3, return 2->3.
 
 
+---
+
+
+
 
 
 
 
 //递归方法
 
+```
 ListNode* deleteDuplicates(ListNode* head) {
         if (!head) return 0;
         if (!head->next) return head;
@@ -28,9 +33,10 @@ ListNode* deleteDuplicates(ListNode* head) {
             return deleteDuplicates(p);
         }
     }
-
+```
 
 // 双重指针
+```
 ListNode *deleteDuplicates(ListNode *head) {
         ListNode **runner = &head;
 
@@ -51,7 +57,8 @@ ListNode *deleteDuplicates(ListNode *head) {
         }
 
         return head;
-    }
+}
+```
 
 //类似的方法
 ListNode* deleteDuplicates(ListNode* head) {
