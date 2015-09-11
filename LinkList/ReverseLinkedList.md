@@ -8,7 +8,8 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 
 
-//µÝ¹é
+方法1：递归
+```
 ListNode* reverseList(ListNode* head)
 {
         if(head == NULL || head->next ==NULL)
@@ -18,9 +19,11 @@ ListNode* reverseList(ListNode* head)
         head->next =NULL;
        return newhead;
 }
+```
 
 
 //µü´ú
+```
 ListNode *reverseList(ListNode *head)
 {
     if (head == NULL || head->next == NULL)
@@ -42,9 +45,11 @@ ListNode *reverseList(ListNode *head)
 
     return head;
 }
+```
 
 
 //¾«¼ò°æµü´ú
+```
 ListNode* reverseList(ListNode* head)
 {
      ListNode* pre =NULL;
@@ -57,3 +62,4 @@ ListNode* reverseList(ListNode* head)
       }
       return pre;
 }
+```
