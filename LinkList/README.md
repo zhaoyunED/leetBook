@@ -5,7 +5,7 @@
 * [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
 * [Palindrome Linked List](./Palindrome Linked List.md)
 * [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
-* [ReverseLinkedList](./RemoveDulicateFromSortArray2.md)
+* [ReverseLinkedList](./ReverseLinkedList.md)
 * [LongestSubstringWithoutRepeatingChar](LongestSubstringWithoutRepeatingChar.md)
 * [PartitonList](PartitonList.md)
 * [RemoveElement](RemoveElement.md)
