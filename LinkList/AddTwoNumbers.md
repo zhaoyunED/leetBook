@@ -9,9 +9,7 @@ Output: 7 -> 0 -> 8
 
 ---
 
-
-
-//
+```
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) 
 {
 	 if(l1 == NULL) return l2;
@@ -31,3 +29,4 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2)
 
 	return preHead->next;
 }
+```
