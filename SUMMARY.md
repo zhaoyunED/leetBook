@@ -45,9 +45,9 @@
 
 
 * [LinkList](LinkList/README.md)
-    * [AddTwoNumbers](./AddTwoNumbers.md) 
-    * [CopyListwithRandomPointer](./CopyListwithRandomPointer.md)
-    * [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
-    * [Palindrome Linked List](./Palindrome Linked List.md)
-    * [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
-    * [ReverseLinkedList](./ReverseLinkedList.md)
+    * [AddTwoNumbers](LinkList/AddTwoNumbers.md) 
+    * [CopyListwithRandomPointer](LinkList/CopyListwithRandomPointer.md)
+    * [RemoveDuplicatesFromSortedList2](LinkList/RemoveDuplicatesFromSortedList2.md)
+    * [Palindrome Linked List](LinkList/Palindrome Linked List.md)
+    * [Swap Nodes in Pairs](LinkList/Swap Nodes in Pairs.md)
+    * [ReverseLinkedList](LinkList/ReverseLinkedList.md)
