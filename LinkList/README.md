@@ -1,7 +1,7 @@
 # **链表**
 
 * [AddTwoNumbers](AddTwoNumbers.md) 
-* [CopyListwithRandomPointer](./MergeSortedArray.md)
+* [CopyListwithRandomPointer](./CopyListwithRandomPointer.md)
 * [MinimumSizeSubarraySum](./MinimumSizeSubarraySum.md)
 * [ImplementstrStr](./ImplementstrStr.md)
 * [RemoveDuplicateFromSortArray](./RemoveDuplicateFromSortArray.md)
