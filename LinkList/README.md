@@ -2,7 +2,7 @@
 
 * [AddTwoNumbers](AddTwoNumbers.md) 
 * [CopyListwithRandomPointer](./CopyListwithRandomPointer.md)
-* [RemoveDuplicatesFromSortedList2](./MinimumSizeSubarraySum.md)
+* [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
 * [ImplementstrStr](./ImplementstrStr.md)
 * [RemoveDuplicateFromSortArray](./RemoveDuplicateFromSortArray.md)
 * [RemoveDulicateFromSortArray2](./RemoveDulicateFromSortArray2.md)
