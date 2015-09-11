@@ -12,6 +12,7 @@ only nodes itself can be changed.
 
 
 
+```
 ListNode *swapPairs(ListNode *head) 
 {
         if(head==NULL) return head;  
@@ -37,9 +38,11 @@ ListNode *swapPairs(ListNode *head)
           
         return head; 
 }
+```
 
 //Java °ćąžľÄ˛ť´í´úÂë
 
+```
 public ListNode swapPairs(ListNode head)
 {
     ListNode start = new ListNode(0); //make head no longer a special case
@@ -57,3 +60,4 @@ public ListNode swapPairs(ListNode head)
     next2.next = next1;
     return next2;
  }
+```
