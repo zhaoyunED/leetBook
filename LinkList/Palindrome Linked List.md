@@ -7,7 +7,9 @@ Could you do it in O(n) time and O(1) space?
 
 ---
 
+思路：
 
+是否存在O(1)空间的解法还存在争议
 
 ```
 bool isPalindrome(ListNode* head) {
