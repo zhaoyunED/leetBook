@@ -3,7 +3,7 @@
 * [AddTwoNumbers](AddTwoNumbers.md) 
 * [CopyListwithRandomPointer](./CopyListwithRandomPointer.md)
 * [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
-* [Palindrome Linked List](./ImplementstrStr.md)
+* [Palindrome Linked List](./Palindrome Linked List.md)
 * [RemoveDuplicateFromSortArray](./RemoveDuplicateFromSortArray.md)
 * [RemoveDulicateFromSortArray2](./RemoveDulicateFromSortArray2.md)
 * [LongestSubstringWithoutRepeatingChar](LongestSubstringWithoutRepeatingChar.md)
