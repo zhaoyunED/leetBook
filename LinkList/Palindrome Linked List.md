@@ -31,8 +31,7 @@ bool isPalindrome(ListNode* head) {
         
         return true;
 }
-```
-    
+
 ListNode* reverseList(ListNode* head) {
         ListNode* pre =NULL;
         ListNode* next =NULL;
@@ -45,4 +44,4 @@ ListNode* reverseList(ListNode* head) {
         }
         
         return pre;
-    }
+}```
