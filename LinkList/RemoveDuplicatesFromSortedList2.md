@@ -61,6 +61,7 @@ ListNode *deleteDuplicates(ListNode *head) {
 ```
 
 //类似的方法
+```
 ListNode* deleteDuplicates(ListNode* head) {
         ListNode** curNext = &head;
         ListNode* cur =head;
@@ -81,4 +82,5 @@ ListNode* deleteDuplicates(ListNode* head) {
         }
         *curNext =NULL;
         return head;
-    }
+}
+```
