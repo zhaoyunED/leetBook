@@ -33,8 +33,9 @@ int maxSubArray(int A[], int n) {
         
 }
     ```
-//更容易解释的 DP方法
+更容易解释理解的 DP方法
 
+```
 public int maxSubArray(int[] A) {
         int n = A.length;
         int[] dp = new int[n];//dp[i] means the maximum subarray ending with A[i];
@@ -48,7 +49,7 @@ public int maxSubArray(int[] A) {
 
         return max;
 } 
-
+```
 //分治方法
 
 int maxSubArray(vector<int>& nums) {
