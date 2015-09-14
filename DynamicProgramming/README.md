@@ -2,7 +2,7 @@
 
 * [EditDistance](./EditDistance.md)
 * [ScrambleString](./ScrambleString.md) 
-* [Word Search II](./Word Search II.md) 
+* [UniquePath](./Word Search II.md) 
 * [LRUCache](./LRUCache.md) 
 * [Implement Queue using Stacks](./Implement Queue using Stacks.md)
 * [Implement Stack using Queues](Implement Stack using Queues.md)
