@@ -78,3 +78,4 @@ bool isMatch(string s, string p) {
 ```
 
 此题详细分析可参考：
+[Leetcode:RegularExpressionMatching](http://blog.csdn.net/zhaoyunfullmetal/article/details/46794377)
