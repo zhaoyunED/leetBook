@@ -13,6 +13,3 @@
 * [Delete Node in a Linked List](Delete Node in a Linked List.md)
 * [RemoveLLinkedListElements](RemoveLLinkedListElements.md)
 * [IntersectionofTwoLinkedLists](IntersectionofTwoLinkedLists.md)
-* [ValidPalindrome](ValidPalindrome.md)
-* [MinimumWindowSubstring](MinimumWindowSubstring.md)
-* [ContainerWithMostWater](ContainerWithMostWater.md)
