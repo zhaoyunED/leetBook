@@ -42,6 +42,9 @@ ListNode* rotateRight(ListNode* head, int k) {
 ```
 
 
+```
+
+
 	ListNode *rotateRight(ListNode *head, int k) {
         if(k==0 || head ==NULL || head->next ==NULL)
             return head;
@@ -70,3 +73,4 @@ ListNode* rotateRight(ListNode* head, int k) {
           
         return head;  
     }
+```
