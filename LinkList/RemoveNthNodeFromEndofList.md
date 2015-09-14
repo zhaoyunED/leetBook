@@ -53,6 +53,7 @@ ListNode *removeNthFromEnd(ListNode *head, int n)
 
 //Linus Torvalds 的双重指针方法
 
+```
 ListNode *removeNthFromEnd(ListNode *head, int n)
 {
 	   ListNode* fast = head;
@@ -74,3 +75,4 @@ ListNode *removeNthFromEnd(ListNode *head, int n)
         
         return head;
 }
+```
