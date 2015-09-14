@@ -3,11 +3,15 @@ Remove all elements from a linked list of integers that have value val.
 
 Example
 Given: 1 --> 2 --> 6 --> 3 --> 4 --> 5 --> 6, val = 6
+
 Return: 1 --> 2 --> 3 --> 4 --> 5
 
 
 
-//Ë«ÖØÖ¸Õë
+---
+
+
+```
 ListNode* removeElements(ListNode* head, int val)
 {
         ListNode** cur = &head;
@@ -23,7 +27,7 @@ ListNode* removeElements(ListNode* head, int val)
         }
         return head;
 }
-
+```
 //¸¨ÖúÍ·½áµã
 ListNode* removeElements(ListNode* head, int val)
 {
