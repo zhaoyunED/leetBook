@@ -36,7 +36,8 @@ ListNode *deleteDuplicates(ListNode *head)
 }
 ```
 
-//	双重指针
+方法2：双重指针
+```
 ListNode* deleteDuplicates(ListNode* head) 
 {
         if(head ==NULL || head->next ==NULL)
@@ -59,9 +60,11 @@ ListNode* deleteDuplicates(ListNode* head)
         
         return head;
 }
-
-//其实也可以不用双重指针 并没有考虑到delete的
+```
+方法3:
+其实也可以不用双重指针 并没有考虑到delete的
 ListNode *deleteDuplicates(ListNode *head) 
+```
 {
         ListNode* cur = head;
         while (cur) {
@@ -71,3 +74,4 @@ ListNode *deleteDuplicates(ListNode *head)
         }
         return head;
  }
+ ```
