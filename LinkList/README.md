@@ -11,6 +11,7 @@
 * [RotateList](./RotateList.md)
 * [ReorderList](ReorderList.md)
 * [ReverseNodesInK_Group](ReverseNodesInK_Group.md)
+* [RemovwNthNodeFromEndofList](ReverseNodesInK_Group.md)
 * [Delete Node in a Linked List](Delete Node in a Linked List.md)
 * [RemoveLLinkedListElements](RemoveLLinkedListElements.md)
 * [IntersectionofTwoLinkedLists](IntersectionofTwoLinkedLists.md)
