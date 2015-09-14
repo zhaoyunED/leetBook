@@ -76,3 +76,5 @@ bool isMatch(string s, string p) {
         return f[m][n];
 }
 ```
+
+此题详细分析可参考：
