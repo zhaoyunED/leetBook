@@ -51,7 +51,7 @@ ListNode *removeNthFromEnd(ListNode *head, int n)
 ```
 
 
-//Linus Torvalds 的双重指针方法
+方法2：Linus Torvalds 的双重指针方法
 
 ```
 ListNode *removeNthFromEnd(ListNode *head, int n)
