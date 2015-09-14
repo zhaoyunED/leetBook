@@ -81,31 +81,27 @@ bool isScramble(string s1, string s2) {
 dp[i][j][l] 表示 s2.substr(j,l) 是否是 s1.substr(i,l) 的一个Scramble string.
 ```
 bool isScramble(string s1, string s2) {
-        if (s1.length() != s2.length()) {  
-            return false;  
-        }  
-        int length = s1.length();  
-        bool f[length][length][length];  
-        memset(f, false, sizeof(bool) * length * length * length);  
-          
-        for (int k = 1; k <= length; k++) {  
-            for (int i = 0; i <= length - k; i++) {  
-                for (int j = 0; j <= length - k; j++) {  
-                    if (k == 1) {  
-                        f[i][j][k] = s1[i] == s2[j];  
-                    }  
-                    else {  
-                        for (int l = 1; l < k; l++) {  
-                            if ((f[i][j][l] && f[i + l][j + l][k - l]) || (f[i][j + k - l][l] && f[i + l][j][k - l])) {  
-                                f[i][j][k] = true;  
-                                break;  
-                            }                              
-                        }  
-                    }  
-                }  
-            }              
-        }  
-                  
-        return f[0][0][length];
+        int sSize = s1.size(), len, i, j, k;
+        if(0==sSize) return true;
+        if(1==sSize) return s1==s2;
+        bool isS[sSize+1][sSize][sSize];
+
+        for(i=0; i<sSize; ++i)
+            for(j=0; j<sSize; ++j)
+                isS[1][i][j] = s1[i] == s2[j];
+
+        for(len=2; len <=sSize; ++len)
+            for(i=0; i<=sSize-len; ++i)
+                for(j=0; j<=sSize-len; ++j)
+                {
+                    isS[len][i][j] = false;
+                        for(k=1; k<len && !isS[len][i][j]; ++k)
+                        {
+                            isS[len][i][j] = isS[len][i][j] || (isS[k][i][j] && isS[len-k][i+k][j+k]);
+                            isS[len][i][j] = isS[len][i][j] || (isS[k][i+len-k][j] && isS[len-k][i][j+k]);
+                        }
+                }
+        return isS[sSize][0][0];            
+
     }
 ```
