@@ -7,6 +7,7 @@ Implement regular expression matching with support for '.' and '*'.
 The matching should cover the entire input string (not partial).
 
 The function prototype should be:
+```
 bool isMatch(const char *s, const char *p)
 
 Some examples:
@@ -17,9 +18,14 @@ isMatch("aa", "a*") → true
 isMatch("aa", ".*") → true
 isMatch("ab", ".*") → true
 isMatch("aab", "c*a*b") → true
+```
+
+---
+
 
 
 //递归方法
+```
 bool isMatch(string s, string p) 
 {
         if ( p.empty() ) return s.empty();
@@ -37,7 +43,7 @@ bool isMatch(string s, string p)
         // p's next is * but curr s not match curr p
         return Solution::isMatch(s.substr(i), p.substr(2));
 }
-
+```
 
 
 
