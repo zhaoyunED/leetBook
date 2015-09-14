@@ -7,4 +7,4 @@
 * [RegularExpressionMacthing](./RegularExpressionMacthing.md)
 * [WildcardMatching](WildcardMatching.md)
 * [MaximumSubarray](MaximumSubarray.md)
-* 
+* [MinimumPathSum](MaximumSubarray.md)
