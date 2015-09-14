@@ -15,9 +15,14 @@ For k = 2, you should return: 2->1->4->3->5
 For k = 3, you should return: 3->2->1->4->5
 
 
+---
 
 
 
+
+
+
+```
 ListNode *reverseKGroup(ListNode *head, int k)
 {
         if(head==NULL||k==1) return head;
@@ -41,3 +46,4 @@ ListNode *reverseKGroup(ListNode *head, int k)
         }
         return preheader->next;
 }
+```
