@@ -21,6 +21,7 @@ Your code should preferably run in O(n) time and use only O(1) memory.
 
 
 //方法1 先计算length
+```
 int getLen(ListNode *head) {
         int len = 0;
         while(head) { len++; head = head->next; } 
@@ -46,6 +47,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
         if (!p1 || !p2) return NULL;
         return p1;
 }
+```
 
 //方法2 其实 是利用了同样的原理
 //但是代码更加简练
