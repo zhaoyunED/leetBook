@@ -1,6 +1,6 @@
 # **动态规划**
 
-* [ImplementTrie](./ImplementTrie.md)
+* [EditDistance](./EditDistance.md)
 * [Add and Search Word](./Add and Search Word.md) 
 * [Word Search II](./Word Search II.md) 
 * [LRUCache](./LRUCache.md) 
