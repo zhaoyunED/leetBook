@@ -23,8 +23,7 @@ isMatch("aab", "c*a*b") → true
 ---
 
 
-
-//递归方法
+方法1：递归方法
 ```
 bool isMatch(string s, string p) 
 {
