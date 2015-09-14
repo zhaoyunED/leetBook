@@ -48,7 +48,8 @@ int uniquePaths(int m, int n)
         return sum[n-1];
 }
 ```
-//排列组合的方法
+方法3：排列组合的方法,该题目其实就是计算
+```
 int uniquePaths(int m, int n)
 {
         int A = m + n - 2, B = std::min(m - 1, n - 1);
@@ -57,3 +58,4 @@ int uniquePaths(int m, int n)
             result = result * A-- / i;
         return static_cast<int>(result);
 }
+```
