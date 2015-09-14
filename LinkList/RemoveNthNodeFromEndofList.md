@@ -14,9 +14,9 @@ Try to do this in one pass.
 
 ---
 
-
-
 方法1：普通方法 
+
+```
 ListNode *removeNthFromEnd(ListNode *head, int n)
 {
          if (head == NULL)
@@ -48,6 +48,7 @@ ListNode *removeNthFromEnd(ListNode *head, int n)
         
         return head;
 }
+```
 
 
 //Linus Torvalds 的双重指针方法
