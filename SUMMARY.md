@@ -63,7 +63,7 @@
     * [ScrambleString](DynamicProgramming/ScrambleString.md) 
     * [UniquePath](DynamicProgramming/UniquePath.md) 
     * [UniquePath2](DynamicProgramming/UniquePath2.md) 
-    * [RegularExpressionMacthing](DynamicProgramming/RegularExpressionMacthing.md)
+    * [RegularExpressionMatching](DynamicProgramming/RegularExpressionMatching.md)
     * [WildcardMatching](DynamicProgramming/WildcardMatching.md)
     * [MaximumSubarray](DynamicProgramming/MaximumSubarray.md)
     * [MinimumPathSum](DynamicProgramming/MinimumPathSum.md)
