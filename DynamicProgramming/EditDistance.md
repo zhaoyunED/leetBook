@@ -50,12 +50,12 @@ int minDistance(string word1, string word2)
 }
 ```
 
-//O(n)的空间复杂度
-//(a) if we replaced c with d: f[i][j] = f[i-1][j-1] + 1;
-//(b) if we added d after c: f[i][j] = f[i][j-1] + 1;
-//(c) if we deleted c: f[i][j] = f[i-1][j] + 1;
-//Note that f[i][j] only depends on f[i-1][j-1], f[i-1][j] and f[i][j-1], 
-//therefore we can reduce the space to O(n) by using only the (i-1)th array and previous updated element(f[i][j-1]).
+方法2：
+O(n)的空间复杂度
+
+f[i][j] 只依赖 f[i-1][j-1], f[i-1][j] 和 f[i][j-1] ，我们可以把算法的空间复杂度降到O(n)
+
+
 
 ```
 int minDistance(string word1, string word2)
