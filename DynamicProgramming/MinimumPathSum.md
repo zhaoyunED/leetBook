@@ -4,7 +4,6 @@ which minimizes the sum of all numbers along its path.
 
 Note: You can only move either down or right at any point in time.
 
-
 ---
 
 
