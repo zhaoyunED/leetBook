@@ -6,7 +6,12 @@ Given 1->2->3->4->5->NULL and k = 2,
 return 4->5->1->2->3->NULL.
 
 
-//·½·¨1 make a circle
+---
+
+
+
+方法1： make a circle
+```
 ListNode* rotateRight(ListNode* head, int k) {
         if(head == NULL || head->next == NULL||k==0) return head;
         
@@ -33,8 +38,8 @@ ListNode* rotateRight(ListNode* head, int k) {
         node->next=NULL;
 
         return first;
-    }
-
+}
+```
 
 
 	ListNode *rotateRight(ListNode *head, int k) {
