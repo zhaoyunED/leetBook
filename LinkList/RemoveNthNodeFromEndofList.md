@@ -16,7 +16,7 @@ Try to do this in one pass.
 
 
 
-//普通方法 
+方法1：普通方法 
 ListNode *removeNthFromEnd(ListNode *head, int n)
 {
          if (head == NULL)
