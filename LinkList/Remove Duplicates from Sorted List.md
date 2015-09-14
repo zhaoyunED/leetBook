@@ -8,11 +8,11 @@ Given 1->1->2->3->3, return 1->2->3.
 ---
 
 
-方法1：
-有pre指针的
+方法1：有pre指针的
+```
 ListNode *deleteDuplicates(ListNode *head) 
 {
-        if(head==NULL || head->next==NULL) return head;  
+    if(head==NULL || head->next==NULL) return head;  
     ListNode* c = head->next;  
     ListNode* p = head;  
       
@@ -34,6 +34,7 @@ ListNode *deleteDuplicates(ListNode *head)
     }  
     return head;  
 }
+```
 
 //	双重指针
 ListNode* deleteDuplicates(ListNode* head) 
