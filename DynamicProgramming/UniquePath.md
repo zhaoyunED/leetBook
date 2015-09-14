@@ -10,14 +10,9 @@ How many possible unique paths are there?
 
 ---
 
-
-
-
-
-
-
-
-// 空间复杂度O（m*n）
+方法1：
+动态规划题目，很简单，空间复杂度O（m*n）
+```
 int uniquePaths(int m, int n) {
         int f[m][n];  
         memset(f, 0, sizeof(int) * m * n);  
@@ -33,8 +28,8 @@ int uniquePaths(int m, int n) {
             }  
         }  
         return f[m - 1][n - 1]; 
-    }
-
+}
+```
 
 // 空间复杂度O（n）
 int uniquePaths(int m, int n)
