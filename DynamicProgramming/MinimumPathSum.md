@@ -4,7 +4,8 @@ which minimizes the sum of all numbers along its path.
 Note: You can only move either down or right at any point in time.
 
 
-//典型的动态规划题目 O(n2)的空间复杂度
+典型的动态规划题目,在微软面试中我被问到过这个题目 O(n2)的空间复杂度
+```
 int minPathSum(vector<vector<int>>& grid) 
 	{
         if(grid.size()==0 || grid[0].size()==0)
@@ -28,11 +29,12 @@ int minPathSum(vector<vector<int>>& grid)
         
         return minPath[m-1][n-1];
 }
-
+```
 
 //典型的动态规划题目 O(n)的空间复杂度 
 //开始计算新的一行的minPath的时候 只需要上一行的数据 所以只需要O(n)的空间复杂度
 //
+```
 int minPathSum(vector<vector<int>>& grid) 
 {
 	if(grid.size()==0 || grid[0].size()==0)
@@ -57,3 +59,4 @@ int minPathSum(vector<vector<int>>& grid)
          }
         return minPath[n-1];
 }
+```
