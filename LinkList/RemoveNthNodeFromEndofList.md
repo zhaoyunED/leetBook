@@ -14,7 +14,7 @@ Try to do this in one pass.
 
 ---
 
-方法1：普通方法 
+方法1：普通方法 ，保存pre指针
 
 ```
 ListNode *removeNthFromEnd(ListNode *head, int n)
