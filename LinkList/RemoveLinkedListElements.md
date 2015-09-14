@@ -10,7 +10,7 @@ Return: 1 --> 2 --> 3 --> 4 --> 5
 
 ---
 
-
+思路：利用双重指针
 ```
 ListNode* removeElements(ListNode* head, int val)
 {
@@ -29,6 +29,7 @@ ListNode* removeElements(ListNode* head, int val)
 }
 ```
 //¸¨ÖúÍ·½áµã
+```
 ListNode* removeElements(ListNode* head, int val)
 {
         ListNode *pseudo_head = new ListNode(0);
@@ -47,3 +48,4 @@ ListNode* removeElements(ListNode* head, int val)
         
         return pseudo_head->next;
 }
+```
