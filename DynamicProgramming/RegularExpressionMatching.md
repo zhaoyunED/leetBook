@@ -52,6 +52,7 @@ bool isMatch(string s, string p)
 
 
 方法2：动态规划
+```
 bool isMatch(string s, string p) {
         /**
          * f[i][j]: if s[0..i-1] matches p[0..j-1]
@@ -83,3 +84,4 @@ bool isMatch(string s, string p) {
 
         return f[m][n];
 }
+```
