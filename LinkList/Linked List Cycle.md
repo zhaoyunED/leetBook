@@ -33,6 +33,7 @@ bool hasCycle(ListNode *head)
 
 Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
 //画图即懂
+```
 ListNode *detectCycle(ListNode *head)
 {
         ListNode *fast = head;
@@ -51,3 +52,4 @@ ListNode *detectCycle(ListNode *head)
         }
         return NULL;
 }
+```
