@@ -1,12 +1,12 @@
 #MergeTwoSortedList
 Merge two sorted linked lists and return it as a new list. 
+
 The new list should be made by splicing together the nodes of the first two lists.
 
 
 ---
 
-
-
+```
 ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) 
 {
         ListNode *helper=new ListNode(0);
@@ -23,3 +23,4 @@ ListNode *mergeTwoLists(ListNode *l1, ListNode *l2)
         if(l2) helper->next=l2;
         return head->next;
 }
+```
