@@ -6,7 +6,7 @@ Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node wi
 
 ---
 
-
+思路：修改value值
 ```
 void deleteNode(ListNode* node)
 {
