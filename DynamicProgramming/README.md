@@ -4,6 +4,6 @@
 * [ScrambleString](./ScrambleString.md) 
 * [UniquePath](./UniquePath.md) 
 * [UniquePath](./UniquePath2.md) 
-* [Implement Queue using Stacks](./Implement Queue using Stacks.md)
+* [RegularExpression](./Implement Queue using Stacks.md)
 * [Implement Stack using Queues](Implement Stack using Queues.md)
 * [MinStack](MinStack.md)
