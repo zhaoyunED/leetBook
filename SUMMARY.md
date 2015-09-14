@@ -62,7 +62,7 @@
     * [EditDistance](DynamicProgramming/EditDistance.md)
     * [ScrambleString](DynamicProgramming/ScrambleString.md) 
     * [UniquePath](DynamicProgramming/UniquePath.md) 
-    * [UniquePath](DynamicProgramming/UniquePath2.md) 
+    * [UniquePath2](DynamicProgramming/UniquePath2.md) 
     * [RegularExpressionMacthing](DynamicProgramming/RegularExpressionMacthing.md)
     * [WildcardMatching](DynamicProgramming/WildcardMatching.md)
     * [MaximumSubarray](DynamicProgramming/MaximumSubarray.md)
