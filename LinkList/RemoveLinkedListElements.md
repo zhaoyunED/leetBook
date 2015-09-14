@@ -29,7 +29,7 @@ ListNode* removeElements(ListNode* head, int val)
 }
 ```
 
-思路：¸¨利用辅助头结点
+思路：利用辅助头结点
 ```
 ListNode* removeElements(ListNode* head, int val)
 {
