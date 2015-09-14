@@ -50,6 +50,7 @@ ListNode* reverseBetween(ListNode* head, int m, int n) {
             pre = curr;
             curr =next;
         }
+        
         if(m==1)
         {
             mTh->next = nNext;
