@@ -11,7 +11,7 @@
 * [RecordList](RecordList.md)
 * [ReverseNodesInK_Group](ReverseNodesInK_Group.md)
 * [Delete Node in a Linked List](Delete Node in a Linked List.md)
-* [3SumCloest](3SumCloest.md)
+* [RemoveLLinkedListElements](3SumCloest.md)
 * [4Sum](4Sum.md)
 * [ValidPalindrome](ValidPalindrome.md)
 * [MinimumWindowSubstring](MinimumWindowSubstring.md)
