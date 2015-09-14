@@ -50,6 +50,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
 ```
 
 方法2: 其实 是利用了同样的原理 但是代码更加简练
+```
 ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
 {
          ListNode *ptrA = headA, *ptrB = headB;
@@ -59,3 +60,4 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
         }
         return ptrA;
 }
+```
