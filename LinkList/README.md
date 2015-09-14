@@ -7,7 +7,7 @@
 * [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
 * [ReverseLinkedList](./ReverseLinkedList.md)
 * [RotateList](./RotateList.md)
-* [PartitonList](PartitonList.md)
+* [RecordList](PartitonList.md)
 * [RemoveElement](RemoveElement.md)
 * [3Sum](3Sum.md)
 * [3SumCloest](3SumCloest.md)
