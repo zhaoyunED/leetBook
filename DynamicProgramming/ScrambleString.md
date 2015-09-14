@@ -77,7 +77,8 @@ bool isScramble(string s1, string s2) {
 
 
 方法2：动态规划法
-dp[i][j][l]  s2.substr(j,l) 是否是 s1.substr(i,l) 的一个Scramble string.
+
+dp[i][j][l] 表示 s2.substr(j,l) 是否是 s1.substr(i,l) 的一个Scramble string.
 ```
 bool isScramble(string s1, string s2) {
         if (s1.length() != s2.length()) {  
