@@ -11,6 +11,10 @@ If you have figured out the O(n) solution, try coding another solution using the
 which is more subtle.
 
 
+---
+
+
+
 //方法1 编程之美的上的题目
 int maxSubArray(int A[], int n) {
         
