@@ -15,5 +15,5 @@
 * [RotateList](./RotateList.md)
 * [ReorderList](ReorderList.md)
  [IntersectionofTwoLinkedLists](IntersectionofTwoLinkedLists.md)
-* [Linked List Cycle](MergeTwoSortedLists.md)
+* [Linked List Cycle](Linked List Cycle.md)
 * [MergeTwoSortedLists](MergeTwoSortedLists.md)
