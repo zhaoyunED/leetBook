@@ -9,9 +9,10 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 
 思路：
-说是动规
-//其实 就是 求一个个 裴波那契数f(n) 可用递归 或者迭代的方法
-//迭代的方法最好
+说是动规，其实 就是求一个个裴波那契数f(n) 
+
+可用递归 或者迭代的方法
+
 ```
 int climbStairs(int n)
 {
