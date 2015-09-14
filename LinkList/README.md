@@ -6,7 +6,7 @@
 * [Palindrome Linked List](./Palindrome Linked List.md)
 * [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
 * [ReverseLinkedList](./ReverseLinkedList.md)
-* [RotateList](LongestSubstringWithoutRepeatingChar.md)
+* [RotateList](RotateList.md)
 * [PartitonList](PartitonList.md)
 * [RemoveElement](RemoveElement.md)
 * [3Sum](3Sum.md)
