@@ -72,7 +72,7 @@ bool isMatch(string s, string p)
 }
 ```
 
-// Recursion version.
+方法2： Recursion version.
 bool isMatch(const char *s, const char *p) 
 {
     if (s == NULL || p == NULL) return false;
