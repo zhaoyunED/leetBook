@@ -50,6 +50,7 @@ public int maxSubArray(int[] A) {
         return max;
 } 
 ```
+
 方法2：分治方法
 
 ```
