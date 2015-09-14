@@ -10,6 +10,7 @@ Can you solve it without using extra space?
 思路：
 一个指针走两步 一个指针走一步
 
+```
 bool hasCycle(ListNode *head)
 {
         ListNode* pfast = head;  
@@ -25,6 +26,7 @@ bool hasCycle(ListNode *head)
         }while(pfast != pslow);  
         return true;  
 }
+```
 
 
 
