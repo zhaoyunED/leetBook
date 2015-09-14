@@ -76,7 +76,7 @@ bool isScramble(string s1, string s2) {
 ```
 
 
-// DP ·½·¨
+方法2：动态规划法
 //dp[i][j][l] means whether s2.substr(j,l) is a scrambled string of s1.substr(i,l) or not.
 ```
 bool isScramble(string s1, string s2) {
