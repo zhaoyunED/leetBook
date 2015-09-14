@@ -58,7 +58,7 @@
     * [IntersectionofTwoLinkedLists](LinkList/IntersectionofTwoLinkedLists.md)
     * [Linked List Cycle](LinkList/Linked List Cycle.md)
     * [MergerTwoSortedLists](LinkList/MergerTwoSortedLists.md)
-* [DynamicProgramming](LinkList/README.md)
+* [DynamicProgramming](DynamicProgramming/README.md)
 * [EditDistance](./EditDistance.md)
 * [ScrambleString](./ScrambleString.md) 
 * [UniquePath](./UniquePath.md) 
