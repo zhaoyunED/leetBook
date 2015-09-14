@@ -6,7 +6,7 @@
 * [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
 * [RemoveNthNodeFromEndofList](RemoveNthNodeFromEndofList.md)
 * [Delete Node in a Linked List](Delete Node in a Linked List.md)
-* [RemoveLLinkedListElements](RemoveLLinkedListElements.md)
+* [RemoveLinkedListElements](RemoveLinkedListElements.md)
 * [Palindrome Linked List](./Palindrome Linked List.md)
 * [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
 * [ReverseLinkedList](./ReverseLinkedList.md)
