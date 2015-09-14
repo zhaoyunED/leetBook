@@ -15,6 +15,7 @@ which is more subtle.
 编程之美的上的题目
 
 方法1:
+```
 int maxSubArray(int A[], int n) {
         
         if(n<=0)
@@ -30,7 +31,8 @@ int maxSubArray(int A[], int n) {
         }
         return maxsum;
         
-    }
+}
+    ```
 //更容易解释的 DP方法
 
 public int maxSubArray(int[] A) {
