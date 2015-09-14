@@ -11,8 +11,12 @@ Given m, n satisfy the following condition:
 1 ≤ m ≤ n ≤ length of list.
 
 
+---
 
-//保存第n,m个节点,第m节点的前一个节点，第n个节点的后一个节点
+
+思路：
+保存第n,m个节点,第m节点的前一个节点，第n个节点的后一个节点
+```
 ListNode* reverseBetween(ListNode* head, int m, int n) {
         if(head == NULL || head->next ==NULL || m>=n)
             return head;
@@ -58,4 +62,5 @@ ListNode* reverseBetween(ListNode* head, int m, int n) {
         }
         
         return head;
-    }
+}
+```
