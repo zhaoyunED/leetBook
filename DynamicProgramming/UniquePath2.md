@@ -20,11 +20,6 @@ Note: m and n will be at most 100.
 
 ---
 
-
-
-
-
-
 // 同样的思路 只不过 考虑 阻碍点 路径数目设为1
 ```
 int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
