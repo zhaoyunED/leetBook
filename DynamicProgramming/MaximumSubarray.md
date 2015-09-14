@@ -12,10 +12,9 @@ which is more subtle.
 
 
 ---
+编程之美的上的题目
 
-
-
-//方法1 编程之美的上的题目
+方法1:
 int maxSubArray(int A[], int n) {
         
         if(n<=0)
