@@ -1,7 +1,7 @@
 # **动态规划**
 
 * [EditDistance](./EditDistance.md)
-* [Longest](./Add and Search Word.md) 
+* [ScrambleString](./Add and Search Word.md) 
 * [Word Search II](./Word Search II.md) 
 * [LRUCache](./LRUCache.md) 
 * [Implement Queue using Stacks](./Implement Queue using Stacks.md)
