@@ -12,7 +12,17 @@ c) Replace a character
 
 ---
 思路：老题目了
-//方法1 O(mn)的空间
+
+方法1 O(mn)的空间
+
+distance[i][j]表示word1[0..i]与word2[0..j]大的最小距离
+我们可以得到动规方程：
+
+当word1[i-1] == word2[j-1] distance[i][j] = distance[i-1][j-1];
+当word1[i-1] ！= word2[j-1]
+distance[i][j] = 1+ min(distance[i-1][j-1], distance[i-1][j], distance[i][j-1])
+
+```
 int minDistance(string word1, string word2)
 {
        vector<vector<int>> distance(word1.length()+1, vector<int>(word2.length()+1, 0));
@@ -36,6 +46,7 @@ int minDistance(string word1, string word2)
         
         return distance[word1.length()][word2.length()];
 }
+```
 
 //O(n)的空间复杂度
 //(a) if we replaced c with d: f[i][j] = f[i-1][j-1] + 1;
