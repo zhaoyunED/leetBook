@@ -2,6 +2,7 @@
 
 * [AddTwoNumbers](AddTwoNumbers.md) 
 * [CopyListwithRandomPointer](./CopyListwithRandomPointer.md)
+* [Remove Duplicates From Sorted List](./Remove Duplicates From Sorted List.md)
 * [RemoveDuplicatesFromSortedList2](./RemoveDuplicatesFromSortedList2.md)
 * [Palindrome Linked List](./Palindrome Linked List.md)
 * [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
