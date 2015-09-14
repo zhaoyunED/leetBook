@@ -31,7 +31,8 @@ int uniquePaths(int m, int n) {
 }
 ```
 
-// 空间复杂度O（n）
+方法2：将空间复杂度降到O（n）
+```
 int uniquePaths(int m, int n)
 {
         if(m ==1 || n==1) return 1;
@@ -46,7 +47,7 @@ int uniquePaths(int m, int n)
         
         return sum[n-1];
 }
-
+```
 //排列组合的方法
 int uniquePaths(int m, int n)
 {
