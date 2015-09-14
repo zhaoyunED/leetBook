@@ -6,6 +6,7 @@ Implement wildcard pattern matching with support for '?' and '*'.
 
 The matching should cover the entire input string (not partial).
 
+```
 The function prototype should be:
 bool isMatch(const char *s, const char *p)
 
@@ -17,6 +18,10 @@ isMatch("aa", "*") ¡ú true
 isMatch("aa", "a*") ¡ú true
 isMatch("ab", "?*") ¡ú true
 isMatch("aab", "c*a*b") ¡ú false
+
+```
+---
+
 
 
 
