@@ -4,7 +4,7 @@
 * [ScrambleString](./ScrambleString.md) 
 * [UniquePath](./UniquePath.md) 
 * [UniquePath2](./UniquePath2.md) 
-* [RegularExpressionMacthing](./RegularExpressionMacthing.md)
+* [RegularExpressionMatching](./RegularExpressionMatching.md)
 * [WildcardMatching](WildcardMatching.md)
 * [MaximumSubarray](MaximumSubarray.md)
 * [MinimumPathSum](MinimumPathSum.md)
