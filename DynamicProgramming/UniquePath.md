@@ -31,7 +31,7 @@ int uniquePaths(int m, int n) {
 }
 ```
 
-方法2：将空间复杂度降到O（n）
+方法2：将空间复杂度降到O(n)
 ```
 int uniquePaths(int m, int n)
 {
