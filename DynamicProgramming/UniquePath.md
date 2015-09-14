@@ -11,7 +11,7 @@ How many possible unique paths are there?
 ---
 
 方法1：
-动态规划题目，很简单，空间复杂度O（m*n）
+动态规划题目，很简单，空间复杂度O(m*n)
 ```
 int uniquePaths(int m, int n) {
         int f[m][n];  
