@@ -6,4 +6,4 @@
 * [UniquePath](./UniquePath2.md) 
 * [RegularExpressionMacthing](./RegularExpressionMacthing.md)
 * [WildcardMatching](WildcardMatching.md)
-* [MaximumSubarray](MinStack.md)
+* [MaximumSubarray](MaximumSubarray.md)
