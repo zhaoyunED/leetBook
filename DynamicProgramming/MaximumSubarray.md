@@ -50,8 +50,9 @@ public int maxSubArray(int[] A) {
         return max;
 } 
 ```
-//分治方法
+方法2：分治方法
 
+```
 int maxSubArray(vector<int>& nums) {
         int result =0;
         result = getMaxSub(nums,0,nums.size()-1);
@@ -86,3 +87,4 @@ int getMaxSub(vector<int>& nums,int left,int right)
         
         return max(max(leftans,rightans),midmax);
 }
+```
