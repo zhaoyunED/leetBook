@@ -22,7 +22,7 @@ Note: m and n will be at most 100.
 
 思路：
 
-同样的思路 要多考虑阻碍点
+同样的动态规划思路 要多考虑阻碍点
 ```
 int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
     int m = obstacleGrid.size();
