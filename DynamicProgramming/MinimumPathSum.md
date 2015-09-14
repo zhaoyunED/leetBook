@@ -38,7 +38,7 @@ int minPathSum(vector<vector<int>>& grid)
 ```
 
 方法2：
-开始计算新的一行的minPath的时候 只需要上一行的数据 所以只需要O(n)的空间复杂度
+动态规划开始计算新的一行的minPath的时候 只需要上一行的数据 所以只需要O(n)的空间复杂度
 //
 ```
 int minPathSum(vector<vector<int>>& grid) 
