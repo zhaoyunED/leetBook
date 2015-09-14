@@ -6,6 +6,7 @@
 * [Palindrome Linked List](./Palindrome Linked List.md)
 * [Swap Nodes in Pairs](./Swap Nodes in Pairs.md)
 * [ReverseLinkedList](./ReverseLinkedList.md)
+* [ReverseLinkedList2](./ReverseLinkedList2.md)
 * [RotateList](./RotateList.md)
 * [RecordList](RecordList.md)
 * [RemoveElement](RemoveElement.md)
