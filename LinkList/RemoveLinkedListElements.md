@@ -28,7 +28,8 @@ ListNode* removeElements(ListNode* head, int val)
         return head;
 }
 ```
-思路：¸¨ÖúÍ·½áµã
+
+思路：¸¨
 ```
 ListNode* removeElements(ListNode* head, int val)
 {
