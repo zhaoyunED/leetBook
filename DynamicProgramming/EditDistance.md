@@ -16,9 +16,11 @@ c) Replace a character
 方法1 O(mn)的空间
 
 distance[i][j]表示word1[0..i]与word2[0..j]大的最小距离
+
 我们可以得到动规方程：
 
 当word1[i-1] == word2[j-1] distance[i][j] = distance[i-1][j-1];
+
 当word1[i-1] ！= word2[j-1]
 distance[i][j] = 1+ min(distance[i-1][j-1], distance[i-1][j], distance[i][j-1])
 
@@ -55,6 +57,7 @@ int minDistance(string word1, string word2)
 //Note that f[i][j] only depends on f[i-1][j-1], f[i-1][j] and f[i][j-1], 
 //therefore we can reduce the space to O(n) by using only the (i-1)th array and previous updated element(f[i][j-1]).
 
+```
 int minDistance(string word1, string word2)
 {
         int l1 = word1.size();
@@ -83,3 +86,4 @@ int minDistance(string word1, string word2)
         }
         return f[l2];
 }
+```
