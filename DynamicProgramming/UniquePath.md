@@ -49,6 +49,8 @@ int uniquePaths(int m, int n)
 }
 ```
 方法3：排列组合的方法,该题目其实就是计算$$C_{m+n-2}^{m-1}$$
+
+公式：
 ```
 int uniquePaths(int m, int n)
 {
