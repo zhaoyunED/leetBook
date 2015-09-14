@@ -11,13 +11,13 @@ The function prototype should be:
 bool isMatch(const char *s, const char *p)
 
 Some examples:
-isMatch("aa","a") ¡ú false
-isMatch("aa","aa") ¡ú true
-isMatch("aaa","aa") ¡ú false
-isMatch("aa", "*") ¡ú true
-isMatch("aa", "a*") ¡ú true
-isMatch("ab", "?*") ¡ú true
-isMatch("aab", "c*a*b") ¡ú false
+isMatch("aa","a") return false
+isMatch("aa","aa") return true
+isMatch("aaa","aa") return false
+isMatch("aa", "*") return true
+isMatch("aa", "a*") return true
+isMatch("ab", "?*") return true
+isMatch("aab", "c*a*b") return false
 
 ```
 ---
@@ -28,6 +28,7 @@ isMatch("aab", "c*a*b") ¡ú false
 
 
 
+```
 bool isMatch(string s, string p) 
 {
         int s_size = s.size();
@@ -68,7 +69,7 @@ bool isMatch(string s, string p)
         
         return p_i>=p_size;
 }
-
+```
 
 // Recursion version.
 bool isMatch(const char *s, const char *p) 
