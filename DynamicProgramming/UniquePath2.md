@@ -17,8 +17,6 @@ The total number of unique paths is 2.
 
 Note: m and n will be at most 100.
 
-
-
 ---
 
 
