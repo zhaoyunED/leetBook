@@ -12,6 +12,10 @@ Given n will always be valid.
 Try to do this in one pass.
 
 
+---
+
+
+
 //普通方法 
 ListNode *removeNthFromEnd(ListNode *head, int n)
 {
