@@ -59,7 +59,7 @@ int minPathSum(vector<vector<int>>& grid)
              minPath[0] += grid[i][0];
              for(int j=1;j<n;j++)
              {
-				 //               minPath[j]表示对应的minPath[i-1][j]  minPath[j-1]表示对应的 minPath[i][j-1]
+				 //minPath[j]表示对应的minPath[i-1][j]  minPath[j-1]表示对应的 minPath[i][j-1]
                  minPath[j] = min(minPath[j],minPath[j-1])+grid[i][j];
              }
          }
