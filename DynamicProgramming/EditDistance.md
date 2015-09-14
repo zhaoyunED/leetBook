@@ -4,12 +4,14 @@ Given two words word1 and word2, find the minimum number of steps required to co
 You have the following 3 operations permitted on a word:
 
 a) Insert a character
+
 b) Delete a character
+
 c) Replace a character
-//典型的字符串匹配的问题
 
 
-
+---
+思路：老题目了
 //方法1 O(mn)的空间
 int minDistance(string word1, string word2)
 {
