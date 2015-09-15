@@ -9,8 +9,12 @@ dict = ["leet", "code"].
 Return true because "leetcode" can be segmented as "leet code".
 
 ---
+```
+方法1：
+动态规划方法
+dp[i]表示s(0..i)是否能被分成多个dict中的文件
+```
 
-方法1：动态规划方法
 
 ```
 bool wordBreak(string s, unordered_set<string> &dict)
