@@ -18,7 +18,6 @@ The number of ways decoding "12" is 2.
 
 
 动态规划：
-
 ```
 int numDecodings(string s)
 {
