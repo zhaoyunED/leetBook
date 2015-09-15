@@ -14,6 +14,7 @@ Return true because "leetcode" can be segmented as "leet code".
 
 //动态规划方法
 
+```
 bool wordBreak(string s, unordered_set<string> &dict)
 {
         if(dict.size()==0) return false;
@@ -39,6 +40,7 @@ bool wordBreak(string s, unordered_set<string> &dict)
 
         return dp[s.size()];
 }
+```
 
 //动态规划方法2
 //优化版 只针对 字典里面的字符串的大小 进行遍历
