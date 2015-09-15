@@ -10,9 +10,7 @@ Return true because "leetcode" can be segmented as "leet code".
 
 ---
 
-
-
-//动态规划方法
+方法1：动态规划方法
 
 ```
 bool wordBreak(string s, unordered_set<string> &dict)
