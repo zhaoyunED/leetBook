@@ -47,6 +47,7 @@ bool wordBreak(string s, unordered_set<string> &dict)
 //动态规划方法2
 //优化版 只针对 字典里面的字符串的大小 进行遍历
 
+```
 bool wordBreak(string s, unordered_set<string> &dict) {
         int n = s.size();
         if(!n)
@@ -66,8 +67,8 @@ bool wordBreak(string s, unordered_set<string> &dict) {
             }
         }
         return ret[0];
-    }
-
+}
+```
 
 //BFS的方法
 ```
