@@ -44,8 +44,9 @@ bool wordBreak(string s, unordered_set<string> &dict)
 }
 ```
 
-//动态规划方法2
-//优化版 只针对 字典里面的字符串的大小 进行遍历
+```
+动态规划方法2
+优化版 只针对 字典里面的字符串的大小 进行遍历```
 
 ```
 bool wordBreak(string s, unordered_set<string> &dict) {
@@ -70,7 +71,8 @@ bool wordBreak(string s, unordered_set<string> &dict) {
 }
 ```
 
-//BFS的方法
+```
+BFS(广度优先搜索)的方法```
 ```
 bool wordBreak(string s, unordered_set<string> &dict) {
     // BFS
