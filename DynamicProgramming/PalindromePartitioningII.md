@@ -14,8 +14,9 @@ Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 
 思路：
 dp[i][j]表示s[i..j]是否是一个回文串
 count[i]表示s[0..i]需要的最小cut数目
+
 不需要单独 先求一遍 dp数组 
-//在 同一个双重for循环中 就可以 解决 最小值 和 是否是 回文子串```
+在 同一个双重for循环中 就可以 解决 最小值 和 是否是 回文子串```
 ```
 int minCut(string s)
 {
