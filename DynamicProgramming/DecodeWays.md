@@ -51,7 +51,7 @@ int numDecodings(string s)
 ```
 
 
-
+空间复杂度O(1)
 
 ```
 int numDecodings(string s)
