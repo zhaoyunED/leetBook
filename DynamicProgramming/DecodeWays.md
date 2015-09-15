@@ -17,7 +17,7 @@ The number of ways decoding "12" is 2.
 ---
 
 
-动态规划：
+动态规划,空间复杂度O(N)
 ```
 int numDecodings(string s)
 {
