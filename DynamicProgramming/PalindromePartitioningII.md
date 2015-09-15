@@ -10,8 +10,8 @@ Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 
 ---
 
 
-
-//dp
+思路：
+dp
 //不需要单独 先求一遍 dp数组 
 //在 同一个双重for循环中 就可以 解决 最小值 和 是否是 回文子串
 ```
