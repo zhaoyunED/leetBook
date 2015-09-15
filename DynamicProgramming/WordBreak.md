@@ -70,6 +70,7 @@ bool wordBreak(string s, unordered_set<string> &dict) {
 
 
 //BFS的方法
+```
 bool wordBreak(string s, unordered_set<string> &dict) {
     // BFS
     queue<int> BFS;
@@ -98,3 +99,4 @@ bool wordBreak(string s, unordered_set<string> &dict) {
 
     return false;
 }
+```
