@@ -1,3 +1,4 @@
+#HouseRobber2
 After robbing those houses on that street, the thief has found himself a new place for his thievery so that he will not get too much attention. 
 This time, all houses at this place are arranged in a circle. 
 That means the first house is the neighbor of the last one. Meanwhile, the security system for these houses remain the same as for those in the previous street.
@@ -9,6 +10,7 @@ determine the maximum amount of money you can rob tonight without alerting the p
 
 //方法1 O（1）空间 O(n)时间
 //构成环的环的话考虑两种情况，一种选最后一个；一种不选最后一个
+```
 int rob(vector<int>& nums)
 {
        if(nums.size() == 0)
@@ -33,11 +35,12 @@ int rob(vector<int>& nums)
         }
     
         return max(cur1, cur2);
- }
+ }```
 
  //方法2
  //感觉写的比较简练 思路是一样的
- private int rob(int[] num, int lo, int hi) {
+```
+private int rob(int[] num, int lo, int hi) {
     int include = 0, exclude = 0;
     for (int j = lo; j <= hi; j++) {
         int i = include, e = exclude;
@@ -51,4 +54,4 @@ public int rob(int[] nums) {
     if (nums.length == 1) return nums[0];
     return Math.max(rob(nums, 0, nums.length - 2), rob(nums, 1, nums.length - 1));
 }
-
+```
