@@ -40,4 +40,5 @@ int maxProfit(int k, vector<int> &prices)
 }
 ```
 
-此题目附上链接：
+此题目附上同学的解析链接：
+
