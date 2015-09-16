@@ -26,8 +26,8 @@ int maxProfit(vector<int> &prices)
 }
 ```
 
-//方法2 跟求maxSumArray 本质是一样的  
-//数组间的差值数组 就转换成了和求maxSumArray一样的问题了
+方法2 :转换成求maxSumArray
+数组间的差值数组 就转换成了和求maxSumArray一样的问题
 ```
 int maxProfit(vector<int> &prices) 
 {
