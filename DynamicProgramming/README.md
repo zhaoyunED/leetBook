@@ -20,4 +20,4 @@
 * [Distinct Subsequences](Distinct Subsequences.md)
 * [HouseRobber](HouseRobber.md)
 * [HouseRobber2](HouseRobber2.md)
-* [InerleavingString]
+* [InerleavingString](InerleavingString.md)
