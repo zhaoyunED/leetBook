@@ -6,6 +6,7 @@ Note:
 You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 
 
+```
 int solveMaxProfit(vector<int> &prices)
 {
         int res = 0;
@@ -16,7 +17,9 @@ int solveMaxProfit(vector<int> &prices)
         }
         return res;
 }
+```
     
+```
 int maxProfit(int k, vector<int> &prices)
 {
         if (prices.empty()) return 0;
@@ -32,3 +35,4 @@ int maxProfit(int k, vector<int> &prices)
         }
         return g[k];
 }
+```
