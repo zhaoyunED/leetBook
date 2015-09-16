@@ -31,7 +31,7 @@ if he follows the optimal path RIGHT-> RIGHT -> DOWN -> DOWN.
 
 方法1：
 
-思路：该题目要求从左上角走到右下角所需要的最少的,思路类似 unique path
+思路：该题目要求从左上角走到右下角所需要的最少的,思路类似 unique path,但是
 O(MN)的空间复杂度
 
 ```
