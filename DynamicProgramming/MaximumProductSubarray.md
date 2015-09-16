@@ -12,7 +12,8 @@ the contiguous subarray [2,3] has the largest product = 6.
 
 ```
 方法1
-假设数组A中没有0， 最大乘积的值对应subarray在数组中的分布 一定是：A[0] A[1] .... A[i] 或者 A[j] *A[j+1] A[n - 1]. 
+假设数组A中没有0， 最大乘积的值对应subarray在数组中的分布 一定是：
+A[0] A[1] .... A[i] 或者 A[j] *A[j+1] A[n - 1]. 
 //(Try to prove yourself)
 //Then when we have zero in the A[] (assum A[k] == 0). We could see A[0],A[1]...A[k - 1 ] 
 //As An Array and A[k + 1] A[k + 2]...A[n-1] is another.
@@ -33,7 +34,8 @@ int maxProduct(int A[], int n)
 }
 ```
 
-//方法2
+```
+方法2
 int maxProduct(vector<int>& A)
 {
          // store the result that is the max we have found so far
@@ -58,10 +60,11 @@ int maxProduct(vector<int>& A)
         }
         return r;
 }
-
-//方法3
-//是方法2的复杂版本
 ```
+
+```
+方法2的复杂版本
+
 public int maxProduct(int[] A)
 {
         if(A.length<=0) return 0;  
