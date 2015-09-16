@@ -11,6 +11,8 @@ of money you can rob tonight without alerting the police.
 ---
 
 
+```
+动规方程：
 
 
 int rob(vector<int> &num)
@@ -33,3 +35,4 @@ int rob(vector<int> &num)
         
         return result[num.size()-1];
 }
+```
