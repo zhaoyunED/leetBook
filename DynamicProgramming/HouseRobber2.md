@@ -14,8 +14,9 @@ determine the maximum amount of money you can rob tonight without alerting the p
 
 ```
 思路：
-方法1 O（1）空间 O(n)时间
-//构成环的环的话考虑两种情况，一种选最后一个；一种不选最后一个
+O（1）空间 O(n)时间
+构成环的环的话考虑两种情况，一种选最后一个；一种不选最后一个
+
 int rob(vector<int>& nums)
 {
        if(nums.size() == 0)
