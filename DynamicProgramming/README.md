@@ -23,3 +23,4 @@
 * [InerleavingString](InerleavingString.md)
 * [MaximumProductSubarray](MaximumProductSubarray.md)
 * [LongestValidParentheses](LongestValidParentheses.md)
+* [Triangle](Triangle.md)
