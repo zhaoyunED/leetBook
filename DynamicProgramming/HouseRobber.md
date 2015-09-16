@@ -16,6 +16,7 @@ of money you can rob tonight without alerting the police.
 result[i]表示偷到第i家为止能获得的最大价值
 得到动规方程：
 result[i]=max(result[i-1],num[i]+result[i-2])
+很简单的一道题目，看看我们能不能用O(1)的空间完成呢？
 
 int rob(vector<int> &num)
 {
