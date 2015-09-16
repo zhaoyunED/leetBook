@@ -9,6 +9,8 @@ s2 = "dbbca",
 When s3 = "aadbbcbcac", return true.
 When s3 = "aadbbbaccc", return false.
 
+---
+
 
 //典型的DP题目
 //V[i][j]  表示 s1(i,n1)与s2(j,n2) 能否拼装成 s3(i+j,n3)
