@@ -23,7 +23,8 @@ int maxProduct(int A[], int n)
         int frontProduct = 1;
         int backProduct = 1;
         int ans = INT_MIN;
-        for (int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++i) 
+        {
             frontProduct *= A[i];
             backProduct *= A[n - i - 1];
             ans = max(ans,max(frontProduct,backProduct));
