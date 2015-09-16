@@ -12,9 +12,11 @@ When s3 = "aadbbbaccc", return false.
 ---
 
 
-//典型的DP题目
-//V[i][j]  表示 s1(i,n1)与s2(j,n2) 能否拼装成 s3(i+j,n3)
-//V[i][j] = ((s1[i] == s3[i+j]) && V[i+1][j]) | ((s2[j] == s3[i+j]) && V[i][j+1]);
+```
+典型的DP题目
+V[i][j]  表示 s1(i,n1)与s2(j,n2) 能否拼装成 s3(i+j,n3)
+V[i][j] = ((s1[i] == s3[i+j]) && V[i+1][j]) | ((s2[j] == s3[i+j]) && V[i][j+1]);
+
 bool isInterleave(string s1, string s2, string s3) {
         int n1 = s1.length(), n2 = s2.length(), n3 = s3.length();
         if (n1+n2 != n3) return false;
@@ -36,4 +38,5 @@ bool isInterleave(string s1, string s2, string s3) {
             }
         
         return V[0][0];
-    }
+}
+```
