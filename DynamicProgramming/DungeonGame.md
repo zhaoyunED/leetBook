@@ -31,7 +31,8 @@ if he follows the optimal path RIGHT-> RIGHT -> DOWN -> DOWN.
 
 方法1：
 
-思路：类似 unique path,O(MN)的空间复杂度
+思路：类似 unique path
+O(MN)的空间复杂度
 
 ```
 int calculateMinimumHP(vector<vector<int> > &dungeon) {
@@ -53,7 +54,8 @@ int calculateMinimumHP(vector<vector<int> > &dungeon) {
 ```
 
 
-//O(N)空间复杂度
+O(N)空间复杂度
+```
 int calculateMinimumHP(vector<vector<int> > &dungeon)
 {
         const int m = dungeon.size();
@@ -70,6 +72,7 @@ int getMin(int n)
 {
        return n <= 0 ? 1 : n;
 }
+```
 
 方法2：在原有的数组上进行操作(不太合适)
 ```
