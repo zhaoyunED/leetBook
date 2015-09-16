@@ -63,10 +63,10 @@ int maxProduct(vector<int>& A)
 ```
 
 ```
-方法2的复杂版本
 
+方法2的复杂版本
 public int maxProduct(int[] A)
-{
+{        
         if(A.length<=0) return 0;  
         if(A.length==1) return A[0];  
         int curMax = A[0];  
