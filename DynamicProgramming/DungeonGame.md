@@ -34,7 +34,10 @@ if he follows the optimal path RIGHT-> RIGHT -> DOWN -> DOWN.
 思路：该题目要求从左上角走到右下角所需要的最少的,思路类似 unique path,但是该题目需要从右下角开始动规
 
 动贵过程：
-
+```
+ need = min(hp[i + 1][j], hp[i][j + 1]) - dungeon[i][j];
+ hp[i][j] = need <= 0 ? 1 : need;
+                ```
 
 O(MN)的空间复杂度
 
