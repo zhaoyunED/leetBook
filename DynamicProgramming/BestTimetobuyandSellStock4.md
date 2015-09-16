@@ -41,4 +41,4 @@ int maxProfit(int k, vector<int> &prices)
 ```
 
 此题目附上同学的解析链接：
-
+[BestTimetobuyandSellStock题解](http://liangjiabin.com/blog/2015/04/leetcode-best-time-to-buy-and-sell-stock.html)
