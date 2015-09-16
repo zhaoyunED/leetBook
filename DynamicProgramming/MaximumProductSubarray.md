@@ -4,14 +4,19 @@ Find the contiguous subarray within an array (containing at least one number) wh
 For example, given the array [2,3,-2,4],
 the contiguous subarray [2,3] has the largest product = 6.
 
+
+---
+
+
+
+
+```
 //方法1
 //Fist we assume there is no zero in the A[]. The answer must be A[0] A[1] .... A[i] OR A[j] *A[j+1] A[n - 1]. 
 //(Try to prove yourself)
 //Then when we have zero in the A[] (assum A[k] == 0). We could see A[0],A[1]...A[k - 1 ] 
 //As An Array and A[k + 1] A[k + 2]...A[n-1] is another.
 
-
-```
 int maxProduct(int A[], int n)
 {
         int frontProduct = 1;
