@@ -41,9 +41,10 @@ int rob(vector<int>& nums)
         return max(cur1, cur2);
  }```
 
- //方法2
- //感觉写的比较简练 思路是一样的
+ 
 ```
+//方法2
+ //感觉写的比较简练 思路是一样的
 private int rob(int[] num, int lo, int hi) {
     int include = 0, exclude = 0;
     for (int j = lo; j <= hi; j++) {
