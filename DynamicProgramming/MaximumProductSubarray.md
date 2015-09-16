@@ -11,8 +11,8 @@ the contiguous subarray [2,3] has the largest product = 6.
 
 
 ```
-//方法1
-//Fist we assume there is no zero in the A[]. The answer must be A[0] A[1] .... A[i] OR A[j] *A[j+1] A[n - 1]. 
+方法1
+假设数组A中没有0， 最大乘积的值对应subarray在数组中的分布 一定是：A[0] A[1] .... A[i] OR A[j] *A[j+1] A[n - 1]. 
 //(Try to prove yourself)
 //Then when we have zero in the A[] (assum A[k] == 0). We could see A[0],A[1]...A[k - 1 ] 
 //As An Array and A[k + 1] A[k + 2]...A[n-1] is another.
