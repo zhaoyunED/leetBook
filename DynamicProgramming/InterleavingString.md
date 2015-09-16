@@ -16,6 +16,8 @@ When s3 = "aadbbbaccc", return false.
 思路：
 典型的DP题目
 V[i][j]  表示 s1(i,n1)与s2(j,n2) 能否拼装成 s3(i+j,n3)
+
+动规方程：
 V[i][j] = ((s1[i] == s3[i+j]) && V[i+1][j]) | ((s2[j] == s3[i+j]) && V[i][j+1]);
 
 bool isInterleave(string s1, string s2, string s3)
