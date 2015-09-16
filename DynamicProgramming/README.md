@@ -20,7 +20,7 @@
 * [Distinct Subsequences](Distinct Subsequences.md)
 * [HouseRobber](HouseRobber.md)
 * [HouseRobber2](HouseRobber2.md)
-* [InterleavingString](InerleavingString.md)
+* [InterleavingString](InterleavingString.md)
 * [MaximumProductSubarray](MaximumProductSubarray.md)
 * [LongestValidParentheses](LongestValidParentheses.md)
 * [Triangle](Triangle.md)
