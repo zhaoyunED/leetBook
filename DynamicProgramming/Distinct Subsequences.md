@@ -13,11 +13,8 @@ Return 3.
 
 ---
 
-
-
-
-//不错的动规题目 O(mn)空间复杂度
-
+题解：不错的动规题目
+```
 /**
  * Solution (DP):
  * We keep a m*n matrix and scanning through string S, while
@@ -69,3 +66,4 @@ int numDistinct(string S, string T) {
 
     return path[m];
 }
+```
