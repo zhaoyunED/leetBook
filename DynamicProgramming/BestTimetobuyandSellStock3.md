@@ -9,8 +9,7 @@ You may not engage in multiple transactions at the same time (ie, you must sell 
 ---
 
 
-//方法1  动规
-//space complexity can be O(n) because this DP only uses the result from last step.
+方法1  动规(还可以把空间复杂度降到O(N))
 ```
 int maxProfit(vector<int> &prices) {
         // f[k, ii] represents the max profit up until prices[ii] (Note: NOT ending with prices[ii]) using at most k transactions. 
