@@ -11,6 +11,7 @@ You may not engage in multiple transactions at the same time (ie, you must sell 
 
 //方法1  动规
 //space complexity can be O(n) because this DP only uses the result from last step.
+```
 int maxProfit(vector<int> &prices) {
         // f[k, ii] represents the max profit up until prices[ii] (Note: NOT ending with prices[ii]) using at most k transactions. 
         // f[k, ii] = max(f[k, ii-1], prices[ii] - prices[jj] + f[k-1, jj]) { jj in range of [0, ii-1] }
@@ -33,6 +34,7 @@ int maxProfit(vector<int> &prices) {
             return maxProf;
         }
 }
+```
 
 
 // 类似 single number 2 题目
@@ -51,7 +53,9 @@ public int maxProfit(int[] prices)
 
 
 
-//从两边 分别遍历一次
+方法3：
+从两边 分别遍历一次
+```
 int maxProfit(vector<int> &prices)
 {
          int maxPro = 0;
@@ -116,3 +120,4 @@ int maxProfit(vector<int> &prices)
         
         return maxPro;        
 }
+```
