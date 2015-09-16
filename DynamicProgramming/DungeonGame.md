@@ -37,6 +37,8 @@ if he follows the optimal path RIGHT-> RIGHT -> DOWN -> DOWN.
 ```
  need = min(hp[i + 1][j], hp[i][j + 1]) - dungeon[i][j];
  hp[i][j] = need <= 0 ? 1 : need;
+ 
+ need小于0表示森林狼
                 ```
 
 O(MN)的空间复杂度
