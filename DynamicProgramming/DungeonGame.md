@@ -63,7 +63,7 @@ int getMin(int n)
        return n <= 0 ? 1 : n;
 }
 
-方法2：在原有的数组上进行操作 不建议
+方法2：在原有的数组上进行操作(不太合适)
 ```
 int calculateMinimumHP(vector<vector<int> > &dungeon)
 {
