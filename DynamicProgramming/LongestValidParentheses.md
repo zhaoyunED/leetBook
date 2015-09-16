@@ -12,7 +12,8 @@ Another example is ")()())", where the longest valid parentheses substring is "(
 
 
 ```
-longest[i]表示
+longest[i]表示s(0..i)最长的validParentheses的长度
+
 int longestValidParentheses(string s) 
 {
         if(s.length() <= 1) return 0;
