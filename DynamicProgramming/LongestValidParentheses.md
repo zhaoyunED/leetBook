@@ -13,8 +13,6 @@ Another example is ")()())", where the longest valid parentheses substring is "(
 
 ```
 longest[i]表示s(0..i)最长的validParentheses的长度
-动规方程：
-
 
 int longestValidParentheses(string s) 
 {
