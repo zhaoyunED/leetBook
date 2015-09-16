@@ -37,7 +37,8 @@ int maxProfit(vector<int> &prices) {
 ```
 
 
-// 类似 single number 2 题目
+方法2：类似 single number 2 题目
+```
 public int maxProfit(int[] prices)
 {
         int hold1 = Integer.MIN_VALUE, hold2 = Integer.MIN_VALUE;
@@ -50,6 +51,7 @@ public int maxProfit(int[] prices)
         }
         return release2; ///Since release1 is initiated as 0, so release2 will always higher than release1.
 }
+```
 
 
 
