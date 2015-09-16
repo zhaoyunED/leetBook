@@ -22,9 +22,7 @@ int solveMaxProfit(vector<int> &prices)
         }
         return res;
 }
-```
-    
-```
+
 int maxProfit(int k, vector<int> &prices)
 {
         if (prices.empty()) return 0;
