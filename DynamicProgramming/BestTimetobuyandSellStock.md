@@ -6,13 +6,7 @@ design an algorithm to find the maximum profit.
 
 
 ---
-
-
-
-
-
-
-//方法1
+方法1
 ```
 int maxProfit(vector<int> &prices) 
 {
