@@ -12,8 +12,9 @@ of money you can rob tonight without alerting the police.
 
 
 ```
+result[i]表示一个
 动规方程：
-
+result[i]=max(result[i-1],num[i]+result[i-2])
 
 int rob(vector<int> &num)
 {
