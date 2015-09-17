@@ -43,6 +43,8 @@ int reverse(int x)
 
 
 ```
+方法2：
+
 int reverse(int x) 
 {
      int sign = 1;
