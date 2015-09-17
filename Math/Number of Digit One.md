@@ -21,6 +21,8 @@ Return 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
 
 千位0 出现1的次数为：（1*1000）
 
+每一位根据0,1和大于1 分成不同的情况 个有着不同的计算方式
+
 int countDigitOne(int n)
 {
         long long res =0;
