@@ -28,6 +28,7 @@ int sqrt(int x)
 
 
 //位运算
+```
 int mySqrt(int x)
 {
      unsigned int res = 0;
@@ -38,7 +39,7 @@ int mySqrt(int x)
      }
      return res;
 }
-
+```
 
 //牛顿迭代算法
 
