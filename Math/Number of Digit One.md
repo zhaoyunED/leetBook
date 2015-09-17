@@ -15,7 +15,8 @@ Return 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
 
 对于每一位上能出现的1次数进行统计
 比如说：1031
-各位1出现1的次数即为103(11 21 31 41 ....1011 1021 1031)
+个位1出现1的次数即为103(11 21 31 41 ....1011 1021 1031)
+
 
 int countDigitOne(int n)
 {
