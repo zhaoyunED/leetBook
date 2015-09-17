@@ -26,7 +26,7 @@ Test cases had been added to test the overflow behavior.
 
 
 ```
-方法1：
+方法1：代码来自leetcode
 
 int reverse(int x) 
 {
