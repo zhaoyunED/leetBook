@@ -8,6 +8,7 @@ Assume that the total area is never beyond the maximum possible value of int.
 
 
 //两个面积相加  减掉 重复的部分
+```
 int computeArea(int A, int B, int C, int D, int E, int F, int G, int H)
 {
         
@@ -24,3 +25,4 @@ int computeArea(int A, int B, int C, int D, int E, int F, int G, int H)
     
         return S1 + S2 - (xi_right - xi_left)*(yi_right - yi_left);
 }
+```
