@@ -6,11 +6,8 @@ Compute and return the square root of x.
 
 ---
 
-
-
-
-//二分查找
 ```
+方法1：
 int sqrt(int x)
 {
         unsigned long long begin = 0;  
