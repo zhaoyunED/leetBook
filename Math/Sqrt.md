@@ -12,7 +12,7 @@ Compute and return the square root of x.
 int sqrt(int x)
 {
         unsigned long long begin = 0;  
-        unsigned long long end = (x+1)/2;  
+        unsigned long long end = (x+1)/2;  //sqrt(x)一定小于x/2
         unsigned long long mid;  
         unsigned long long tmp;  
         while(begin < end)  
