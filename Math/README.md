@@ -6,3 +6,4 @@
 * [AddBinary](./AddBinary.md)
 * [Number of Digit One](Number of Digit One.md)
 * [Sqrt](Sqrt.md)
+* [MultiplyStrings](MultiplyStrings.md)
