@@ -1,4 +1,4 @@
-
+#ValidNumber
 Validate if a given string is numeric.
 
 Some examples:
