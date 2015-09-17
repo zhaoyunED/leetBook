@@ -83,4 +83,4 @@
     * [MaximumProductSubarray](DynamicProgramming/MaximumProductSubarray.md)
     * [LongestValidParentheses](DynamicProgramming/LongestValidParentheses.md)
     * [Triangle](DynamicProgramming/Triangle.md)
-* [Math](DynamicProgramming/README.md)
+* [Math](Math/README.md)
