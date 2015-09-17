@@ -3,4 +3,4 @@
 
 * [ValidNumber](./ValidNumber.md) 
 * [CountPrimes](./CountPrimes.md)
-* [AddBinary](./MajorityElements.md) 
+* [AddBinary](./AddBinary.md) 
