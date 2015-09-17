@@ -5,6 +5,7 @@ Compute and return the square root of x.
 
 
 //二分查找
+```
 int sqrt(int x)
 {
         unsigned long long begin = 0;  
@@ -25,7 +26,7 @@ int sqrt(int x)
         else  
             return end;  
 }
-
+```
 
 //位运算
 ```
