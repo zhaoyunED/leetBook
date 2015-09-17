@@ -7,6 +7,7 @@ Count the number of prime numbers less than a non-negative number, n.
 
 
 
+思路：
 埃拉托色尼选筛法(Sieve of Eratosthenes)
 
 ```
