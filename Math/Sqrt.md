@@ -47,9 +47,10 @@ int mySqrt(int x)
 }
 ```
 
-//牛顿迭代算法
+
 
 ```
+方法3：牛顿迭代算法
 int sqrt(int x)
 {
     double ans    = x;
