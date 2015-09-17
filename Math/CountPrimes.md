@@ -7,8 +7,9 @@ Count the number of prime numbers less than a non-negative number, n.
 
 
 
-//Sieve of Eratosthenes ·½·¨
+埃拉托色尼选筛法(Sieve of Eratosthenes)
 
+```
 int countPrimes(int n)
 {
       vector<bool> isPrime(n,true);
@@ -27,3 +28,4 @@ int countPrimes(int n)
             
      return count;
 }
+```
