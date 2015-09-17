@@ -54,6 +54,7 @@ int sqrt(int x)
 }
 ```
 
+```
 x(n+1) = xn - f(xn) / f'(xn)
 
 x = sqrt(S) where S is the parameter x x^2 = S
@@ -71,3 +72,4 @@ f(x) = x^7 + x^4 + x^2 + 1 f'(x) = 7x^6 + 4x^3 + 2*x
 while( > delta) { x(n+1) = xn - (xn^7 + xn^4 + xn^2 + 1) / (7*xn^6 + 4x_n^3 + 2x_n) }
 
 return x(n_1) // depending initial value and the status of the graph, the result may vary.
+```
