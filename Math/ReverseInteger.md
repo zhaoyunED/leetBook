@@ -24,7 +24,7 @@ Test cases had been added to test the overflow behavior.
 
 
 
-//·½·¨1
+
 ```
 int reverse(int x) 
 {
@@ -39,7 +39,7 @@ int reverse(int x)
 }
 ```
 
-//·½·¨¶þ
+
 ```
 int reverse(int x) 
 {
