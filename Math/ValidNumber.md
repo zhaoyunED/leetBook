@@ -15,7 +15,7 @@ You should gather all requirements up front before implementing one.
 
 
 
-//利用自动机的方法进行验证
+利用自动机的方法进行验证
 ```
 bool isNumber(string str) {
         int state=0, flag=0; // flag to judge the special case "."
