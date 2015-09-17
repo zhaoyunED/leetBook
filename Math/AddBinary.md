@@ -1,9 +1,14 @@
+#AddBinary
 Given two binary strings, return their sum (also a binary string).
 
 For example,
 a = "11"
 b = "1"
 Return "100".
+
+
+---
+
 
 //不用考虑a与b的长度谁大,直接进行二进制加法操作
 ```
