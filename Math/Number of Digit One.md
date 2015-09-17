@@ -9,9 +9,7 @@ Return 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
 ---
 
 
-
-//±à³ÌÖ®ÃÀÉÏµÄÌâÄ¿
-
+```
 int countDigitOne(int n)
 {
         long long res =0;
@@ -39,3 +37,4 @@ int countDigitOne(int n)
         }
         return res;
 }
+```
