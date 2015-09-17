@@ -19,6 +19,8 @@ For example:
 
 
 ```
+思路:
+相当于一个26进制数
 int titleToNumber(string s)
 {
         int res=0;
