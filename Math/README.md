@@ -2,5 +2,5 @@
 # **数学**
 
 * [ValidNumber](./ValidNumber.md) 
-* [CountPrimes](./LongestConsecutiveSequence.md)
+* [CountPrimes](./CountPrimes.md)
 * [MajorityElements](./MajorityElements.md) 
