@@ -6,6 +6,7 @@ b = "1"
 Return "100".
 
 //不用考虑a与b的长度谁大,直接进行二进制加法操作
+```
 string addBinary(string a, string b)
 {
        int c=0;
@@ -28,3 +29,4 @@ string addBinary(string a, string b)
        reverse(s.begin(),s.end());
        return s;
 }
+```
