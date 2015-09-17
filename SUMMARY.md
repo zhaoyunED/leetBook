@@ -84,4 +84,10 @@
     * [LongestValidParentheses](DynamicProgramming/LongestValidParentheses.md)
     * [Triangle](DynamicProgramming/Triangle.md)
 * [Math](Math/README.md)
-    
+    * [ValidNumber](Math/ValidNumber.md) 
+    * [CountPrimes](Math/CountPrimes.md)
+    * [AddBinary](Math/AddBinary.md)
+    * [Number of Digit One](Math/Number of Digit One.md)
+    * [Sqrt](Math/Sqrt.md)
+    * [MultiplyStrings](Math/MultiplyStrings.md)
+    * [ReverseInteger](Math/ReverseInteger.md)    
