@@ -11,7 +11,7 @@ Assume that the total area is never beyond the maximum possible value of int.
 
 ```
 思路:
-两个面积相加  减掉 重复的部分
+两个面积相加减掉重复的部分
 
 int computeArea(int A, int B, int C, int D, int E, int F, int G, int H)
 {
