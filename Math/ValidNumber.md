@@ -57,7 +57,7 @@ bool isNumber(string str) {
 
 方法2：
 
-直接对字符串进行判断
+直接对字符串进行判断(自己比较懒....代码也是摘自leetcode)
  ```
  public boolean isNumber(String s) {  
         s = s.trim();  
