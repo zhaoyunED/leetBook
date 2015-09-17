@@ -25,6 +25,7 @@ Test cases had been added to test the overflow behavior.
 
 
 //·½·¨1
+```
 int reverse(int x) 
 {
     long long val = 0;
@@ -36,9 +37,10 @@ int reverse(int x)
 
     return (val > INT_MAX || val < INT_MIN) ? 0 : val;
 }
-
+```
 
 //·½·¨¶þ
+```
 int reverse(int x) 
 {
      int sign = 1;
@@ -63,4 +65,4 @@ int reverse(int x)
      return res*sign;
 }
 
-
+```
