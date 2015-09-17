@@ -8,3 +8,4 @@
 * [Sqrt](Sqrt.md)
 * [MultiplyStrings](MultiplyStrings.md)
 * [ReverseInteger](ReverseInteger.md)
+* [RectangleArea](RectangleArea.md)
