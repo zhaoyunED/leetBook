@@ -13,6 +13,7 @@ For example:
     AB -> 28 
 
 
+```
 int titleToNumber(string s)
 {
         int res=0;
@@ -22,3 +23,4 @@ int titleToNumber(string s)
         }
         return res;
 }
+```
