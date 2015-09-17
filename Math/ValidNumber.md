@@ -16,6 +16,7 @@ You should gather all requirements up front before implementing one.
 
 
 //利用自动机的方法进行验证
+```
 bool isNumber(string str) {
         int state=0, flag=0; // flag to judge the special case "."
         while(str[0]==' ')  str.erase(0,1);//delete the  prefix whitespace 
@@ -41,10 +42,12 @@ bool isNumber(string str) {
             else return false;
         }
         return (state==2 || state==5 || (flag&&state==6) || state==7);
-    }
+}
+```
 
 
 //传统方法
+ ```
  public boolean isNumber(String s) {  
         s = s.trim();  
         if (s.length() == 0) return false;  
@@ -88,4 +91,5 @@ bool isNumber(string str) {
         if (s.charAt(s.length() - 1) == '-' || s.charAt(s.length() - 1) == '+' || s.charAt(s.length() - 1) == 'e') return false;  
   
         return hasNumber;  
-    }  
+}  
+```
