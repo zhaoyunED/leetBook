@@ -7,6 +7,8 @@ Rectangle Area
 
 Assume that the total area is never beyond the maximum possible value of int.
 
+---
+
 
 //两个面积相加  减掉 重复的部分
 ```
