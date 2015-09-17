@@ -1,6 +1,4 @@
-
-
-
+#MultiplyStrings
 Given two numbers represented as strings, return multiplication of the numbers as a string.
 
 Note: The numbers can be arbitrarily large and are non-negative.
@@ -14,6 +12,7 @@ Note: The numbers can be arbitrarily large and are non-negative.
 
 
 //按照传统的乘法方法 从string末尾 开始算
+```
 string multiply(string num1, string num2)
 {
         string sum(num1.size() + num2.size(), '0');
@@ -35,3 +34,4 @@ string multiply(string num1, string num2)
         }
         return "0";
 }
+```
