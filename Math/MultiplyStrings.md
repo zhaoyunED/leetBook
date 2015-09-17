@@ -5,14 +5,13 @@ Note: The numbers can be arbitrarily large and are non-negative.
 
 
 
+---
 
 
 
-
-
-
-//按照传统的乘法方法 从string末尾 开始算
 ```
+思路：
+按照传统的乘法方法 从string末尾 开始算
 string multiply(string num1, string num2)
 {
         string sum(num1.size() + num2.size(), '0');
