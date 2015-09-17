@@ -42,6 +42,7 @@ int mySqrt(int x)
 
 //牛顿迭代算法
 
+```
 int sqrt(int x)
 {
     double ans    = x;
@@ -51,6 +52,7 @@ int sqrt(int x)
     }
     return ans;
 }
+```
 
 x(n+1) = xn - f(xn) / f'(xn)
 
