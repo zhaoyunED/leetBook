@@ -11,8 +11,9 @@ Return "100".
 ---
 
 
-//不用考虑a与b的长度谁大,直接进行二进制加法操作
+
 ```
+思路:不用考虑a与b的长度谁大,直接进行二进制加法操作
 string addBinary(string a, string b)
 {
        int c=0;
