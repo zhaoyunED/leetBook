@@ -13,7 +13,7 @@ Return 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
 思路：编程之美上的题目
 
 
-
+对于每一位上能出现的1次数进行统计
 
 int countDigitOne(int n)
 {
