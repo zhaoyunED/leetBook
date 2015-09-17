@@ -19,7 +19,7 @@ Return 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
 
 百位3出现1的次数为：(10+1)*100
 
-千位0 出现1的次数为：（）
+千位0 出现1的次数为：（1*1000）
 
 int countDigitOne(int n)
 {
