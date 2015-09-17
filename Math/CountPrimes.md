@@ -22,7 +22,7 @@ int countPrimes(int n)
                 isPrime[j] = false;
       }
         
-     int count =0;
+     int count =0;//统计数目
      for(int i=2;i<n;i++)
         if(isPrime[i])
           count++;
