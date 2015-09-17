@@ -19,9 +19,12 @@ You should gather all requirements up front before implementing one.
 
 
 
-
+方法1：
 
 利用自动机的方法进行验证
+DFA如下图(代码和图是摘自leetcode)：
+
+![DFA图](DFA.jpg)
 ```
 bool isNumber(string str) {
         int state=0, flag=0; // flag to judge the special case "."
