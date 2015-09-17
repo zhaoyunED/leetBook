@@ -33,7 +33,8 @@ int sqrt(int x)
 
 
 ```
-方法2：位运算
+方法2：
+位运算
 int mySqrt(int x)
 {
      unsigned int res = 0;
