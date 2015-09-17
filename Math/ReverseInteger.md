@@ -26,6 +26,8 @@ Test cases had been added to test the overflow behavior.
 
 
 ```
+方法1：
+
 int reverse(int x) 
 {
     long long val = 0;
