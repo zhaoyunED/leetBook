@@ -1,6 +1,6 @@
 
 # **数学**
 
-* [ValidNumber](./FirstMissingPositive.md) 
+* [ValidNumber](./ValidNumber.md) 
 * [LongestConsecutiveSequence](./LongestConsecutiveSequence.md)
 * [MajorityElements](./MajorityElements.md) 
