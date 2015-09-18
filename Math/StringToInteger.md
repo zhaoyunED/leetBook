@@ -19,7 +19,7 @@ int myAtoi(string str)
         int index=0;
         int n = str.size();
         
-        //qu kongge
+        //去掉空格
         while(index<n && str[index]==' ') index++;
         
         if(index>=n) return 0;
