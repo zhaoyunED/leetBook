@@ -11,6 +11,8 @@ If it is overflow, return MAX_INT.
 
 
 ```
+思路：
+
 int divide(int dividend, int divisor)
 {
         auto sign = [=](int x){
