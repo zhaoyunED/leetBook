@@ -10,6 +10,7 @@ Note: The result may be very large, so you need to return a string instead of an
 //利用了 string直接可以比较的特性
 //自定义新的比较函数
 
+```
 string largestNumber(vector<int>& nums)
 {
         sort(nums.begin(),nums.end(),[&](int a,int b)
@@ -23,3 +24,4 @@ string largestNumber(vector<int>& nums)
         }
         return ans[0]=='0' ? "0" : ans;
  }
+```
