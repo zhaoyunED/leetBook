@@ -17,12 +17,9 @@ Note: Given n will be between 1 and 9 inclusive.
 
 
 ---
-
-
-
-
-
 ```
+
+
 string getPermutation(int n, int k) 
 {
         vector<int> nums(n);  
