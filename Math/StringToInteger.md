@@ -1,3 +1,4 @@
+#StringToInteger
 Implement atoi to convert a string to an integer.
 
 Hint: Carefully consider all possible input cases. 
@@ -8,6 +9,7 @@ You are responsible to gather all the input requirements up front.
 
 
 
+```
 int myAtoi(string str) 
 {
    int index=0;
@@ -44,3 +46,4 @@ int myAtoi(string str)
         return result*sign;
 
 }
+```
