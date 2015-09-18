@@ -10,6 +10,7 @@ If it is overflow, return MAX_INT.
 
 
 
+```
 int divide(int dividend, int divisor)
 {
         auto sign = [=](int x){
@@ -42,3 +43,4 @@ int divide(int dividend, int divisor)
         if(d1 != d2) return -res;
         else return res;
 }
+```
