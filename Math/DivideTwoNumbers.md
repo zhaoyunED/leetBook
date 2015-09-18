@@ -13,7 +13,10 @@ If it is overflow, return MAX_INT.
 ```
 思路：
 必须用减法来实现
+
 A=B*(2^k1+2^k2+2^k3+2^k4...)
+转换为求result = (2^k1+2^k2+2^k3+2^k4...)
+
 
 int divide(int dividend, int divisor)
 {
