@@ -102,5 +102,5 @@
     * [FractiontoRecurringDecimal](Math/FractiontoRecurringDecimal.md)
     * [MaxPointsonaLine](Math/MaxPointsonaLine.md)
     * [PlusOne](Math/PlusOne.md)
-    * [HappyNumber](HappyNumber.md)
-    * [PermutationSequence](PermutationSequence.md)
+    * [HappyNumber](Math/HappyNumber.md)
+    * [PermutationSequence](Math/PermutationSequence.md)
