@@ -11,7 +11,7 @@
 * [RectangleArea](RectangleArea.md)
 * [ExcelSheetColumnTitle](ExcelSheetColumnTitle.md)
 * [ExcelSheetColumnNumber](ExcelSheetColumnNumber.md)
-* [FactorialTrailingZeros](FactorialTrailingZeros.md)
+* [FactorialTrailingZeroes](FactorialTrailingZeroes.md)
 * [DivideTwoNumbers](DivideTwoNumbers.md)
 * [Basic Calculator](Basic Calculator.md)
 * [Power(x,n)]( Power(x,n).md )
