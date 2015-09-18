@@ -20,3 +20,4 @@
 * [MaxPointsonaLine](MaxPointsonaLine.md)
 * [PlusOne](PlusOne.md)
 * [HappyNumber](HappyNumber.md)
+* [PermutationSequence](PermutationSequence.md)
