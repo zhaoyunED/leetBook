@@ -14,7 +14,7 @@ Example: 19 is a happy number
 62 + 82 = 100
 12 + 02 + 02 = 1
 
-//¼òµ¥µÄÐ¡Âß¼­ÌâÄ¿
+
 ```
 bool isHappy(int n)
 {
