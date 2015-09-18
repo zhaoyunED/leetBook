@@ -4,4 +4,4 @@
 * [InsertInterval](./InsertInterval.md)
 * [SortList](./SortList.md)
 * [MaximumGap](MaximumGap.md)
-* [Sqrt](Sqrt.md)
+* [SortColors](Sqrt.md)
