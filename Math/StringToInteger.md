@@ -34,7 +34,7 @@ int myAtoi(string str)
             sign =-1;
             index++;
         }
-        long result =0;//important sheidng wei long ²ÅÄÜÓëINT_MAX±È½Ï
+        long result =0;
         
         while(index<n && result< INT_MAX && isdigit(str[index]) )
         {
