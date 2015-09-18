@@ -5,3 +5,4 @@
 * [SortList](./SortList.md)
 * [MaximumGap](MaximumGap.md)
 * [SortColors](SortColors.md)
+* [QuickSort](QuickSort.md)
