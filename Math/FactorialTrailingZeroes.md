@@ -2,6 +2,11 @@
 Given an integer n, return the number of trailing zeroes in n!.
 
 
+---
+
+
+
+```
 int trailingZeroes(int n)
 {
         if(n<=0) return 0;
@@ -13,3 +18,4 @@ int trailingZeroes(int n)
         }
         return ret;
 }
+```
