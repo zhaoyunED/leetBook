@@ -16,3 +16,4 @@
 * [Basic Calculator](Basic Calculator.md)
 * [Power(x,n)]( Power(x,n).md )
 * [StringToInteger](StringToInteger.md)
+* [FractiontoRecurringDecimal]
