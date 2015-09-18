@@ -3,5 +3,5 @@
 * [LargestNumber](./LargestNumber.md) 
 * [InsertInterval](./InsertInterval.md)
 * [SortList](./SortList.md)
-* [MaximumGap](Number of Digit One.md)
+* [MaximumGap](MaximumGap.md)
 * [Sqrt](Sqrt.md)
