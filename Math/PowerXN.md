@@ -1,4 +1,4 @@
-
+#Power(x,n)
 Implement pow(x, n).
 
 // 利用的是 蒙哥马利快速模乘算法 
