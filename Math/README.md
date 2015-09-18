@@ -14,7 +14,7 @@
 * [FactorialTrailingZeroes](FactorialTrailingZeroes.md)
 * [DivideTwoNumbers](DivideTwoNumbers.md)
 * [Basic Calculator](Basic Calculator.md)
-* [PowerXN](Power(x,n)S.md)
+* [PowerXN](PowerXN.md)
 * [StringToInteger](StringToInteger.md)
 * [FractiontoRecurringDecimal](FractiontoRecurringDecimal.md)
 * [MaxPointsonaLine](MaxPointsonaLine.md)
