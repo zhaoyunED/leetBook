@@ -6,10 +6,8 @@ For example, given [3, 30, 34, 5, 9], the largest formed number is 9534330.
 Note: The result may be very large, so you need to return a string instead of an integer.
 
 
+---
 
-
-//利用了 string直接可以比较的特性
-//自定义新的比较函数
 
 ```
 string largestNumber(vector<int>& nums)
