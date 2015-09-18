@@ -8,6 +8,7 @@ Implement pow(x, n).
 思路:
 利用的是 蒙哥马利快速模乘算法 
 将幂转换为二进制
+注意INT_MIN的绝对值比INT_Max大1，因此nINT_MIN转换为正数求幂时，为要多乘以一个x
 
 double myPow(double x, int n) {
 
