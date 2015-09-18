@@ -10,7 +10,8 @@ The digits are stored such that the most significant digit is at the head of the
 
 
 ```
-从末尾判断每个数字是否是9
+思路：
+从末尾判断每个数字加1后是否有进位
 不是则跳出返回
 <int> plusOne(vector<int>& digits) {
         bool carry =true;
