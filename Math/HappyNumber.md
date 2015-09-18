@@ -14,6 +14,7 @@ Example: 19 is a happy number
 12 + 02 + 02 = 1
 
 //¼òµ¥µÄÐ¡Âß¼­ÌâÄ¿
+```
 bool isHappy(int n)
 {
         if(n ==1) return true;
@@ -45,3 +46,4 @@ int getNum(int n)
      }
      return result;
 }
+```
