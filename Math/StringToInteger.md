@@ -35,7 +35,7 @@ int myAtoi(string str)
         }
         long result =0;
         
-        //计算整数值只关注是数字的字符
+        //计算整数值 只关注是数字的字符
         while(index<n && result< INT_MAX && isdigit(str[index]) )
         {
             result = result*10+ str[index]-'0';
