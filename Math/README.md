@@ -11,3 +11,4 @@
 * [RectangleArea](RectangleArea.md)
 * [ExcelSheetColumnTitle](ExcelSheetColumnTitle.md)
 * [ExcelSheetColumnNumber](ExcelSheetColumnNumber.md)
+* [FactorialTrailing]()
