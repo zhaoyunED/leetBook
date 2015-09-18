@@ -5,7 +5,8 @@ Implement pow(x, n).
 
 // 利用的是 蒙哥马利快速模乘算法 
 // 将 幂 转换为 二进制 
- double myPow(double x, int n) {
+``` 
+double myPow(double x, int n) {
 
 	if(n<0)
 	 {
@@ -29,3 +30,4 @@ Implement pow(x, n).
 	 }
 	 return result;
  }
+ ```
