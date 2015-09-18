@@ -34,7 +34,7 @@ bool isHappy(int n)
             if(set.find(newNum) == set.end())
                 set.insert(newNum);
             else
-                return false;
+                return false; //若是出现过，则发生循环返回false
             n = newNum ;   
         }
         
