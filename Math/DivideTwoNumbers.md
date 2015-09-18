@@ -12,7 +12,7 @@ If it is overflow, return MAX_INT.
 
 ```
 思路：
-
+必须用减法来实现,
 int divide(int dividend, int divisor)
 {
         auto sign = [=](int x){
