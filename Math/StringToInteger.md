@@ -16,7 +16,7 @@ You are responsible to gather all the input requirements up front.
 ```
 int myAtoi(string str) 
 {
-   int index=0;
+        int index=0;
         int n = str.size();
         
         //qu kongge
