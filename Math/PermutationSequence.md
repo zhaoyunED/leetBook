@@ -16,7 +16,9 @@ Note: Given n will be between 1 and 9 inclusive.
 
 
 
-string getPermutation(int n, int k) {
+```
+string getPermutation(int n, int k) 
+{
         vector<int> nums(n);  
         int pCount = 1;  
         for(int i = 0 ; i < n; ++i) {  
@@ -36,4 +38,5 @@ string getPermutation(int n, int k) {
             k = k % pCount;  
         }  
         return res;  
-    }
+}
+```
