@@ -22,6 +22,7 @@ int myAtoi(string str)
         
         if(index>=n) return 0;
         
+        //判断正负
         int sign =1;
         if(str[index]=='+')
         {
