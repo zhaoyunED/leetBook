@@ -17,4 +17,4 @@
 * [Power(x,n)]( Power(x,n).md )
 * [StringToInteger](StringToInteger.md)
 * [FractiontoRecurringDecimal](FractiontoRecurringDecimal.md)
-* [MaxPointsonaLine]
+* [MaxPointsonaLine](MaxPointsonaLine.md)
