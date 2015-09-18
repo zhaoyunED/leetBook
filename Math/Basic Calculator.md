@@ -21,7 +21,7 @@ Note: Do not use the eval built-in library function.
 ```
 int calculate(string s)
 {
-        stack<int> signs; //ÓÃÀ´´æ·Å ·ûºÅ
+        stack<int> signs; 
         int sign = 1;
         int num = 0;
         int ans = 0;
