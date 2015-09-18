@@ -1,3 +1,4 @@
+#FractionToDecimal
 Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
 
 If the fractional part is repeating, enclose the repeating part in parentheses.
@@ -9,6 +10,7 @@ Given numerator = 2, denominator = 1, return "2".
 Given numerator = 2, denominator = 3, return "0.(6)".
 
 
+```
 string fractionToDecimal(int64_t n, int64_t d)
 {
     // zero numerator
@@ -54,3 +56,4 @@ string fractionToDecimal(int64_t n, int64_t d)
 
     return res;
 }
+```
