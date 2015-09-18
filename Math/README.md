@@ -19,3 +19,4 @@
 * [FractiontoRecurringDecimal](FractiontoRecurringDecimal.md)
 * [MaxPointsonaLine](MaxPointsonaLine.md)
 * [PlusOne](PlusOne.md)
+* [HappyNumber](HappyNumber.md)
