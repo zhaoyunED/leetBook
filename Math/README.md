@@ -12,4 +12,4 @@
 * [ExcelSheetColumnTitle](ExcelSheetColumnTitle.md)
 * [ExcelSheetColumnNumber](ExcelSheetColumnNumber.md)
 * [FactorialTrailingZeros](FactorialTrailingZeros.md)
-* [DivideTwoNumbers]
+* [DivideTwoNumbers](DivideTwoNumbers.md)
