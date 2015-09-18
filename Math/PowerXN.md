@@ -23,7 +23,7 @@ double myPow(double x, int n) {
 		 return 1.0;
 
 	 double result =1.0;
-	 double ass =1.0;
+	 double ass =x;
 
 	 for( ;n>0;n >>= 1)
 	 {
