@@ -9,7 +9,7 @@ Given n points on a 2D plane, find the maximum number of points that lie on the 
 
 
 ```
-
+思路：
 切记 不要将斜率直接作为 hash 的key值
 因为double 作为 key值 是有 风险的
 int maxPoints(vector<Point> &points) {
