@@ -12,6 +12,7 @@ Note: Do not use the eval built-in library function.
 
 
 
+```
 int calculate(string s)
 {
         stack<int> signs; //ÓÃÀ´´æ·Å ·ûºÅ
@@ -51,3 +52,4 @@ int calculate(string s)
 
         return ans;
 }
+```
