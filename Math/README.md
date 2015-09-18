@@ -13,3 +13,4 @@
 * [ExcelSheetColumnNumber](ExcelSheetColumnNumber.md)
 * [FactorialTrailingZeros](FactorialTrailingZeros.md)
 * [DivideTwoNumbers](DivideTwoNumbers.md)
+* [Basic Calculator]
