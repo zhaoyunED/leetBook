@@ -39,7 +39,7 @@ ListNode* getMiddle(ListNode* head)
 }
     
     
-    ListNode* merge(ListNode* first,ListNode* second)
+ListNode* merge(ListNode* first,ListNode* second)
     {
         ListNode* dummy = new ListNode(-1);
         ListNode* curry = dummy;
@@ -64,5 +64,5 @@ ListNode* getMiddle(ListNode* head)
             curry->next = second;
         
         return dummy->next;
-    }
+}
 ```
