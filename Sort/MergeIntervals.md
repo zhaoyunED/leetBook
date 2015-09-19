@@ -10,6 +10,11 @@ return [1,6],[8,10],[15,18].
 
 
 
+
+//先按照起始边从小到大进行排序
+
+```
+
 /**
  * Definition for an interval.
  * struct Interval {
@@ -19,10 +24,6 @@ return [1,6],[8,10],[15,18].
  *     Interval(int s, int e) : start(s), end(e) {}
  * };
  */
-
-//先按照起始边从小到大进行排序
-
-```
 static bool compare(const Interval& a, const Interval& b)
 {
 	return a.start < b.start;
