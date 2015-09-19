@@ -7,6 +7,7 @@ Return 0 if the array contains less than 2 elements.
 You may assume all elements in the array are non-negative integers and fit in the 32-bit signed integer range.
 
 
+```
 public int maximumGap(int[] num)
 {
          if (num == null || num.length < 2)
@@ -47,3 +48,4 @@ public int maximumGap(int[] num)
     maxGap = Math.max(maxGap, max - previous); // updata the final max value gap
     return maxGap;
 }
+```
