@@ -20,7 +20,9 @@ void  quickSort(int A[],int len)
 	quickSort(A+j,len-j);
 }
 
-//·½·¨2
+
+
+不用swap的quickSort
 
 void quickSort(int A[],int low,int high)
 {
@@ -32,8 +34,6 @@ void quickSort(int A[],int low,int high)
 	}
 }
 
-
-不用swap的quickSort
 int Partition(int A[],int low ,int high)
 {
 	int pivot = A[low];
