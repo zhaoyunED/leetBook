@@ -23,9 +23,26 @@ Could you come up with an one-pass algorithm using only constant space?
 ```
 方法1： 计数排序，需要遍历两遍数组
 
-void sortColors(vector<int>& nums)
-{
-    
+void sortColors(vector<int>& nums) {
+        int numOne=0;
+        int numZero=0;
+        
+        for(auto num : nums)
+        {
+            if(0 == num)
+                numZero++;
+            else if(1 ==num)
+                numOne++;
+        }
+        
+        for(int i=0;i<nums.size();i++)
+        {
+            if(i+1 <=numZero)
+                nums[i]=0;
+            else if(i+1 <=(numZero+numOne))
+                nums[i] =1;
+            else nums[i] =2;
+        }
 }
 
 
@@ -56,7 +73,7 @@ void sortColors(vector<int>& nums) {
 
 方法3
 void sortColors(int A[], int n) {
-    int j = 0, k = n-1;//分别表示下一个 0和2应该出现的位置
+    int j = 0, k = n-1;//分别表示下一个 0和1应该出现的位置
     for (int i=0; i <= k; i++) {
         if (A[i] == 0)
             swap(A[i], A[j++]);
