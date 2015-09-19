@@ -53,8 +53,7 @@ void sortColors(vector<int>& nums) {
     }
 
 
-//方法3
-// one pass in place solution
+方法3
 void sortColors(int A[], int n) {
     int j = 0, k = n-1;
     for (int i=0; i <= k; i++) {
