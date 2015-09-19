@@ -23,7 +23,9 @@ ListNode* sortList(ListNode* head)
     	middle->next = NULL;
     	return merge(sortList(head),sortList(next));
 }
-    
+
+
+//找到中间节点
 ListNode* getMiddle(ListNode* head)
 {
         ListNode* first = head;
