@@ -1,3 +1,4 @@
+#SortColors
 Given an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, 
 with the colors in the order red, white and blue.
 
@@ -15,7 +16,7 @@ then 1's and followed by 2's.
 
 Could you come up with an one-pass algorithm using only constant space?
 
-
+```
 //方法1 计数排序
 
 void sortColors(vector<int>& nums) {
@@ -59,3 +60,4 @@ void sortColors(int A[], int n) {
             swap(A[i--], A[k--]);
     }
 }
+```
