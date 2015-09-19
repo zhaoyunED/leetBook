@@ -27,6 +27,9 @@ You may assume all elements in the array are non-negative integers and fit in th
 
 对于每一个非空的桶p，找出下一个非空的桶q，则q.min - p.max可能就是备选答案。返回所有这些可能值中的最大值。
 
+以下代码摘自leetcode
+
+
 public int maximumGap(int[] num)
 {
          if (num == null || num.length < 2)
