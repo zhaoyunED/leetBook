@@ -10,6 +10,8 @@ Sort a linked list in O(n log n) time using constant space complexity.
 
 ```
  思路：利用归并排序
+ 
+ 时间是O(nlgn)
 
 ListNode* sortList(ListNode* head) {
         if(head==NULL||head->next==NULL) {
