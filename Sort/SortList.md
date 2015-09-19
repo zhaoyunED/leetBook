@@ -40,7 +40,8 @@ ListNode* getMiddle(ListNode* head)
         return first;
 }
     
-    
+
+//将链表合并的过程    
 ListNode* merge(ListNode* first,ListNode* second)
 {
         ListNode* dummy = new ListNode(-1);
