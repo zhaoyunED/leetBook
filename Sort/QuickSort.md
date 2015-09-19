@@ -1,5 +1,6 @@
 //·½·¨1
 
+```
 void  quickSort(int A[],int len)
 {
 	if(len<2)
@@ -31,7 +32,8 @@ void quickSort(int A[],int low,int high)
 	}
 }
 
-//²»ÓÃswapµÄ·½·¨
+
+不用swap的quickSort
 int Partition(int A[],int low ,int high)
 {
 	int pivot = A[low];
@@ -46,3 +48,4 @@ int Partition(int A[],int low ,int high)
 	A[low] = pivot;
 	return low;
 }
+```
