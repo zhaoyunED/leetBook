@@ -19,7 +19,7 @@ You may assume all elements in the array are non-negative integers and fit in th
 
 那么最大差值不会小于ceiling[(B - A) / (N - 1)]
 
-令bucket（桶）的大小len = ceiling[(B - A) / (N - 1)]，则最多会有(B - A) / len + 1个桶
+令bucket（桶）的大小len = ceiling[(B - A) / (N - 1)]
 
 对于数组中的任意整数K，很容易通过算式loc = (K - A) / len找出其桶的位置，然后维护每一个桶的最大值和最小值
 
