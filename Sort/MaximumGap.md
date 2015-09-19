@@ -13,6 +13,8 @@ You may assume all elements in the array are non-negative integers and fit in th
 
 
 ```
+
+
 public int maximumGap(int[] num)
 {
          if (num == null || num.length < 2)
