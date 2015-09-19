@@ -28,7 +28,7 @@ void sortColors(vector<int>& nums) {
     }
 
 
-// 方法2 类似 two pointers
+方法2 :类似 two pointers
 
 void sortColors(vector<int>& nums) {
         int n =nums.size();
