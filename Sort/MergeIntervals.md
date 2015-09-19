@@ -25,12 +25,12 @@ return [1,6],[8,10],[15,18].
  
  
 static bool compare(const Interval& a, const Interval& b)
-        {
+{
             return a.start < b.start;
-        }
+}
         
-         vector<Interval> merge(vector<Interval>& intervals) 
-        {
+vector<Interval> merge(vector<Interval>& intervals) 
+{
         
             if(intervals.size()<=0)
                 return intervals;
@@ -57,5 +57,5 @@ static bool compare(const Interval& a, const Interval& b)
             }
         
             return result;
-        }
+}
 ```
