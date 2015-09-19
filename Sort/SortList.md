@@ -9,6 +9,8 @@ Sort a linked list in O(n log n) time using constant space complexity.
 //merge sortľÄŔűÓĂ
 
 ```
+ 思路：利用归并排序
+
 ListNode* sortList(ListNode* head) {
         if(head==NULL||head->next==NULL) {
             return head;
