@@ -1,4 +1,5 @@
-//·½·¨1
+#QucikSort
+
 
 ```
 void  quickSort(int A[],int len)
