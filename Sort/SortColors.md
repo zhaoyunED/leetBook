@@ -21,7 +21,7 @@ Could you come up with an one-pass algorithm using only constant space?
 
 
 ```
-//方法1 计数排序
+方法1： 计数排序，需要遍历两遍数组
 
 void sortColors(vector<int>& nums) {
         
