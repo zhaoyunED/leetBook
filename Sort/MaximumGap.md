@@ -14,7 +14,8 @@ You may assume all elements in the array are non-negative integers and fit in th
 
 ```
 思路：利用桶排序
-假设有N个元素A到B。
+
+假设有N个元素A(最大)到B(最小)。
 
 那么最大差值不会小于ceiling[(B - A) / (N - 1)]
 
