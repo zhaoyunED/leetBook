@@ -46,7 +46,7 @@ void sortColors(vector<int>& nums) {
 }
 
 
-方法2 :类似 two pointers
+方法2 :类似 two pointers 只需要遍历一遍数组
 
 void sortColors(vector<int>& nums) {
         int n =nums.size();
