@@ -30,6 +30,7 @@ You may assume all elements in the array are non-negative integers and fit in th
 
 这个题目在leetcode上面也有很详细的解释，详见：
 https://leetcode.com/problems/maximum-gap/solution/
+
 以下代码摘自leetcode
 
 
