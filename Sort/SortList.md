@@ -8,6 +8,7 @@ Sort a linked list in O(n log n) time using constant space complexity.
 
 //merge sortľÄŔűÓĂ
 // źÓÇż Á´ąíľÄĘšÓĂ
+```
 ListNode* sortList(ListNode* head) {
         if(head==NULL||head->next==NULL) {
             return head;
@@ -59,3 +60,4 @@ ListNode* sortList(ListNode* head) {
         
         return dummy->next;
     }
+```
