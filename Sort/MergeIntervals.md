@@ -13,6 +13,8 @@ return [1,6],[8,10],[15,18].
 思路：
 先按照起始边从小到大进行排序，之后遍历集合
 
+将集合元素一个个插入result的过程颇像
+
 /**
  * Definition for an interval.
  * struct Interval {
