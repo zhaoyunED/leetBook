@@ -24,6 +24,8 @@ return [1,6],[8,10],[15,18].
  *     Interval(int s, int e) : start(s), end(e) {}
  * };
  */
+ 
+ 
 static bool compare(const Interval& a, const Interval& b)
 {
 	return a.start < b.start;
