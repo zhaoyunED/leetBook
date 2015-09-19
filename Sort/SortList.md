@@ -13,7 +13,8 @@ Sort a linked list in O(n log n) time using constant space complexity.
  
  时间是O(nlgn) 但是空间的话 因为是递归会，所以为不认为这是一个O(1)空间复杂度的算法
 
-ListNode* sortList(ListNode* head) {
+ListNode* sortList(ListNode* head)
+{
         if(head==NULL||head->next==NULL) {
             return head;
         }
@@ -21,7 +22,7 @@ ListNode* sortList(ListNode* head) {
     	ListNode *next   = middle->next;
     	middle->next = NULL;
     	return merge(sortList(head),sortList(next));
-    }
+}
     
     ListNode* getMiddle(ListNode* head)
     {
