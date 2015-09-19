@@ -9,11 +9,9 @@ return [1,6],[8,10],[15,18].
 ---
 
 
-
-
-//先按照起始边从小到大进行排序
-
 ```
+思路：
+先按照起始边从小到大进行排序，之后遍历集合
 
 /**
  * Definition for an interval.
@@ -27,35 +25,37 @@ return [1,6],[8,10],[15,18].
  
  
 static bool compare(const Interval& a, const Interval& b)
-{
-	return a.start < b.start;
-}
-
- vector<Interval> merge(vector<Interval>& intervals) 
-{
-    
-	if(intervals.size()<=0)
-		return intervals;
-	sort(intervals.begin(),intervals.end(),compare);
-    
-	vector<Interval> result;
-	result.push_back(intervals[0]);
-
-	Interval temp =intervals[0]; 
-	for(int i=1; i< intervals.size();i++)
-	{
-		if(intervals[i].start <= temp.end)
-		{
-			Interval interval(temp.start,max(temp.end,intervals[i].end));
-			result.pop_back();
-			result.push_back(interval);
-			temp = interval;
-		}else{
-			 result.push_back(intervals[i]);
-			 temp = intervals[i];
-		}
-	}
-
-	return result;
-}
+        {
+            return a.start < b.start;
+        }
+        
+         vector<Interval> merge(vector<Interval>& intervals) 
+        {
+        
+            if(intervals.size()<=0)
+                return intervals;
+                
+            vector<Interval> assist(intervals);
+            sort(assist.begin(),assist.end(),compare);
+        
+            vector<Interval> result;
+            result.push_back(assist[0]);
+        
+            Interval temp =assist[0]; 
+            for(int i=1; i< assist.size();i++)
+            {
+                if(assist[i].start <= temp.end)
+                {
+                    Interval interval(temp.start,max(temp.end,assist[i].end));
+                    result.pop_back();
+                    result.push_back(interval);
+                    temp = interval;
+                }else{
+                     result.push_back(assist[i]);
+                     temp = assist[i];
+                }
+            }
+        
+            return result;
+        }
 ```
