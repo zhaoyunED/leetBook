@@ -24,8 +24,8 @@ ListNode* sortList(ListNode* head)
     	return merge(sortList(head),sortList(next));
 }
     
-    ListNode* getMiddle(ListNode* head)
-    {
+ListNode* getMiddle(ListNode* head)
+{
         ListNode* first = head;
         ListNode* second = head;
         
@@ -36,7 +36,7 @@ ListNode* sortList(ListNode* head)
         }
         
         return first;
-    }
+}
     
     
     ListNode* merge(ListNode* first,ListNode* second)
