@@ -3,5 +3,5 @@
 * [Evaluate Reverse Polish Notation](./Evaluate Reverse Polish Notation.md) 
 * [LargestRectangleinHistogram](./LargestRectangleinHistogram.md)
 * [MaximalRectangle](./MaximalRectangle.md) 
-* [SimplifyPath](./MajorityElement II.md)
+* [SimplifyPath](./SimplifyPath II.md)
 * [Pascal'sTriangle](Pascal'sTriangle.md)
