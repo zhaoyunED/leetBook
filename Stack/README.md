@@ -1,4 +1,4 @@
-# **数组**
+# **栈**
 
 * [FirstMissingPositive](./FirstMissingPositive.md) 
 * [LongestConsecutiveSequence](./LongestConsecutiveSequence.md)
