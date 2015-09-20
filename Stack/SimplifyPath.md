@@ -45,7 +45,10 @@ string simplifyPath(string path)
         return result;
 }
 ```
-//方法2 利用 stringstream 的 getline方法 类似于 java 的split
+
+```
+方法2 ：
+思路 是利用 stringstream 的 getline方法 类似于 java 的split
 string simplifyPath(string path)
 {
     string res, tmp;
@@ -59,3 +62,4 @@ string simplifyPath(string path)
     for(auto str : stk) res += "/"+str;
     return res.empty() ? "/" : res;
 }
+```
