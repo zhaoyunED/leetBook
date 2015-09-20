@@ -39,8 +39,10 @@ int maximalRectangle(vector<vector<char> > &matrix) {
 }
 
 
-// stack 方法 和 求histogram的方法一样
-//O(n)的空间复杂度
+
+```
+思路：stack 方法 和 求histogram的方法一样
+O(n)的空间复杂度
 int maximalRectangle(vector<vector<char>>& matrix)
 {
         if (matrix.size() <= 0 || matrix[0].size() <= 0)
@@ -78,3 +80,4 @@ int maximalRectangle(vector<vector<char>>& matrix)
     
         return ret;
 }
+```
