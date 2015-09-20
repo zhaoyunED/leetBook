@@ -1,3 +1,4 @@
+#
 Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, 
 find the area of largest rectangle in the histogram.
 
@@ -12,7 +13,12 @@ Given height = [2,1,5,6,2,3],
 return 10.
 
 
+---
+
+
+
 //典型的stack 使用
+```
 int largestRectangleArea(vector<int> &height)
 {
         
@@ -38,3 +44,4 @@ int largestRectangleArea(vector<int> &height)
         }
      return res;
 }
+```
