@@ -4,11 +4,11 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle con
 
 
 
-//DP 方法 
-This solution is so clever that I think so hard to understand it. height 
-counts the number of successive '1's above (plus the current one). 
+方法1： DP 抄自leetcode上的一大神 
+height counts the number of successive '1's above (plus the current one). 
 The value of left & right means the boundaries of the rectangle which contains the current point with a 
 height of value height.
+```
 int maximalRectangle(vector<vector<char> > &matrix) {
     if(matrix.empty()) return 0;
     const int m = matrix.size();
@@ -38,7 +38,7 @@ int maximalRectangle(vector<vector<char> > &matrix) {
     return maxA;
 }
 
-
+```
 
 ```
 方法2思路：stack 方法 和 求histogram的方法一样
