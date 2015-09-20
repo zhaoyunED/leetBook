@@ -14,6 +14,10 @@ In this case, you should ignore redundant slashes and return "/home/foo".
 
 
 
+---
+
+
+
 ```
 方法1
 string simplifyPath(string path) 
