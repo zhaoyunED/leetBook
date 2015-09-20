@@ -10,7 +10,7 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 
 
 ```
-思路： 这个题目很简单，用一个栈来保存 "左边"类型的括号
+思路： 这个题目很简单，用一个栈来保存 "左边"类型的括号,遇到对应的"右边"括号则弹出
 bool isValid(string s)
 {
         stack <char> stk;
