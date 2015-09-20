@@ -4,4 +4,4 @@
 * [LargestRectangleinHistogram](./LargestRectangleinHistogram.md)
 * [MaximalRectangle](./MaximalRectangle.md) 
 * [SimplifyPath](./SimplifyPath.md)
-* [Pascal'sTriangle](Pascal'sTriangle.md)
+* [Valid](Pascal'sTriangle.md)
