@@ -1,10 +1,12 @@
+#Valid
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
 
 
 
-//µäÐÍµÄÕ»ÌâÄ¿
+```
+思路： 这个题目很简单，用一个栈来保存 "左边"类型的括号
 bool isValid(string s)
 {
         stack <char> stk;
@@ -24,3 +26,4 @@ bool isValid(string s)
         
         return stk.empty();
 }
+```
