@@ -9,7 +9,8 @@ Some examples:
 
  //stack µÄ¾­µäÀûÓÃ
 
- int perop(int a,int b,string op)
+``` 
+int perop(int a,int b,string op)
 {
         if(op=="+")
             return a+b;
@@ -40,3 +41,4 @@ int evalRPN(vector<string>& tokens)
         
         return ss.top();
 }
+```
