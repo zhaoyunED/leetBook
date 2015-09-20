@@ -16,7 +16,7 @@ return 10.
 ---
 
 ```
-典型的stack 使用
+思路:典型的stack使用
 
 int largestRectangleArea(vector<int> &height)
 {
