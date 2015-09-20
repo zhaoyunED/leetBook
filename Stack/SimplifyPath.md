@@ -1,4 +1,4 @@
-
+#SimplifyPath
 Given an absolute path for a file (Unix-style), simplify it.
 
 For example,
@@ -14,6 +14,7 @@ In this case, you should ignore redundant slashes and return "/home/foo".
 
 
 //方法1
+```
 string simplifyPath(string path) 
 {
        vector<string>   nameVect;
@@ -42,7 +43,7 @@ string simplifyPath(string path)
         }
         return result;
 }
-
+```
 //方法2 利用 stringstream 的 getline方法 类似于 java 的split
 string simplifyPath(string path)
 {
