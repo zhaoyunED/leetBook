@@ -48,7 +48,8 @@ string simplifyPath(string path)
 
 ```
 方法2 ：
-思路 是利用 stringstream 的 getline方法 类似于 java 的split
+思路 是利用 stringstream 的 getline方法 
+类似于 java 的split  操作起来相比方法1要简单很多
 string simplifyPath(string path)
 {
     string res, tmp;
