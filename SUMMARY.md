@@ -120,3 +120,6 @@
     * [SimplifyPath](Stack/SimplifyPath.md)
     * [ValidParentheses](Stack/ValidParentheses.md)
 * [Backtracking](Backtracing/README.md)
+    * [permutations](./permutations.md)
+    * [permutations2](./permutations2.md) 
+    * [GenerateParentheses](./GenerateParentheses.md) 
