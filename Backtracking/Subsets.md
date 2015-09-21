@@ -63,7 +63,7 @@ void dfs(vector<vector<int> > &result,vector<int> &vec, vector<int> &a, int star
 
 一次迭代后 变成 {[],[1]}
 二次迭代后 变成 {[],[1],[3],[1,3]}
-
+三次迭代后 变成 {[],[1],[3],[1,3],[5],[1,5],[3,5],[1,3,5]}
 vector<vector<int> > subsets(vector<int> &S)
 {
     vector<vector<int> > res(1, vector<int>());
