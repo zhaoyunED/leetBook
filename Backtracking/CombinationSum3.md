@@ -44,7 +44,7 @@ void combination(vector<vector<int>>& result,int sum,vector<int>& tempRes,int st
             for(int i=start; i<=9 && sum >= i * k + k * (k - 1) / 2; i++)
             {
                     tempRes.push_back(i);
-                    combination(result,sum-i,tempRes,i+1,k-1); //important
+                    combination(result,sum-i,tempRes,i+1,k-1); //注意
                     tempRes.pop_back();
             }
         }
