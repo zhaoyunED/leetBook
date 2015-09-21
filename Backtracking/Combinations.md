@@ -1,6 +1,8 @@
+#Combination
 Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 
 For example,
+```
 If n = 4 and k = 2, a solution is:
 
 [
@@ -12,7 +14,7 @@ If n = 4 and k = 2, a solution is:
   [1,4],
 ]
 
-
+```
 
 //方法1 dfs加 backtracking
 vector<vector<int>> combine(int n, int k) {
