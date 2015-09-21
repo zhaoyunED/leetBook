@@ -17,11 +17,14 @@ If nums = [1,2,2], a solution is:
 ]
 
 
+
+```
 ---
 
 
 ```
-vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+vector<vector<int>> subsetsWithDup(vector<int>& nums)
+{
         
         vector<vector<int> > result;
         if(nums.size()<=0)
@@ -31,7 +34,7 @@ vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         getSubsets(result,nums,0,temp);
         
         return result;
-    }
+}
     
 void getSubsets(vector<vector<int>> &result,vector<int>& nums,int start,vector<int>& temp)
 {
@@ -45,3 +48,4 @@ void getSubsets(vector<vector<int>> &result,vector<int>& nums,int start,vector<i
                  temp.pop_back();
          }
 }
+```
