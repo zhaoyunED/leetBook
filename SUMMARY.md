@@ -119,7 +119,7 @@
     * [MaximalRectangle](Stack/MaximalRectangle.md) 
     * [SimplifyPath](Stack/SimplifyPath.md)
     * [ValidParentheses](Stack/ValidParentheses.md)
-* [Backtracking](Backtracing/README.md)
+* [Backtracking](Backtracking/README.md)
     * [permutations](Backtracing/permutations.md)
     * [permutations2](Backtracing/permutations2.md) 
     * [GenerateParentheses](Backtracing/GenerateParentheses.md) 
