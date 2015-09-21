@@ -12,7 +12,7 @@ For example, given n = 3, a solution set is:
 
 ```
 思路： 递归过程需要记录还需要生成多少个  “（”和 “）”
-一开始
+一开始将")"0设置为0可保证 左括号的数目总是 大于等于右括号的数目 并且 左括号总是先加入字符串
 
 vector<string> generateParenthesis(int n) 
 {
