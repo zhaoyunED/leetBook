@@ -10,10 +10,9 @@ For example,
 ---
 
 
-
-
-典型的DFS加回溯 的题目
 ```
+思路：
+典型的DFS加回溯 的题目
 vector<vector<int> > permute(vector<int> &num) {
         vector<vector<int>> result;
         if (num.size() == 0)
