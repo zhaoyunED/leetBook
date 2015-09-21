@@ -15,7 +15,6 @@ A solution is ["cats and dog", "cat sand dog"].
 ---
 
 
-//¶¯¹æÖ®ºó ¼ÓÉÏ DFSºÍbacktracking
 ``` 
 void dfs(vector<string> &result,vector<int> * vect,int end,vector<string> cur,string s)
 {
