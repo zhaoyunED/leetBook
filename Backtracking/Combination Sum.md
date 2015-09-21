@@ -17,8 +17,6 @@ A solution set is:
 ---
 
 
-
-//µäÐÍµÄÉî¶ÈËÑË÷Ö®ºó»ØËÝµÄÌâÄ¿
 ```
 std::vector<std::vector<int> > combinationSum(std::vector<int> &candidates, int target) {
         std::sort(candidates.begin(), candidates.end());
