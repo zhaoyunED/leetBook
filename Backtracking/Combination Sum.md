@@ -18,15 +18,15 @@ A solution set is:
 
 
 ```
-std::vector<std::vector<int> > combinationSum(std::vector<int> &candidates, int target) {
-        std::sort(candidates.begin(), candidates.end());
-        std::vector<std::vector<int> > res;
-        std::vector<int> combination;
+vector<std::vector<int> > combinationSum(vector<int> &candidates, int target) {
+        sort(candidates.begin(), candidates.end());
+        vector<std::vector<int> > res;
+        vector<int> combination;
         combinationSum(candidates, target, res, combination, 0);
         return res;
     }
 private:
-    void combinationSum(std::vector<int> &candidates, int target, std::vector<std::vector<int> > &res, std::vector<int> &combination, int begin) {
+    void combinationSum(std::vector<int> &candidates, int target, std::vector<std::vector<int> > &res, vector<int> &combination, int begin) {
         if  (!target) {
             res.push_back(combination);
             return;
