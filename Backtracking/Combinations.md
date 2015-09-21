@@ -18,6 +18,7 @@ If n = 4 and k = 2, a solution is:
 
 ```
 方法1 :dfs加 backtracking
+
 vector<vector<int>> combine(int n, int k) {
         vector<vector<int>> result;
         vector<int> temp;
@@ -45,7 +46,7 @@ void getcombine(int n, int k,vector<vector<int>> &result,vector<int> temp,int cu
         
 }
 
-//方法2   C(n,k) = C(n-1, k-1) U n + C(n-1,k)  类似动态规划的方法
+方法2   利用公式C(n,k) = C(n-1, k-1) U n + C(n-1,k)  
 vector<vector<int> > combine(int n, int k) 
 {
 
