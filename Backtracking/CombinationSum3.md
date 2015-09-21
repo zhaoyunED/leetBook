@@ -1,8 +1,10 @@
+#CombinationSum3
 Find all possible combinations of k numbers that add up to a number n, 
 given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.
 
 Ensure that numbers within the set are sorted in ascending order.
 
+```
 Example 1:
 
 Input: k = 3, n = 7
@@ -19,7 +21,8 @@ Output:
 
 [[1,2,6], [1,3,5], [2,3,4]]
 
-
+```
+```
 // 稍微复杂点的深度搜索加回溯
 vector<vector<int>> combinationSum3(int k, int n) 
 {
@@ -46,3 +49,4 @@ void combination(vector<vector<int>>& result,int sum,vector<int>& tempRes,int st
             }
         }
 }
+```
