@@ -13,6 +13,7 @@ For example, given n = 3, a solution set is:
 ```
 思路： 递归过程需要记录还需要生成多少个  “（”和 “）”
 一开始 
+
 vector<string> generateParenthesis(int n) 
 {
         vector<string> res;
