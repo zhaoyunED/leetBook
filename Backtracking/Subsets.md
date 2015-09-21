@@ -18,7 +18,7 @@ If nums = [1,2,3], a solution is:
 ]
 
 
-
+```
 
 //·½·¨1 DFS+BACKTRACKING
  vector<vector<int> > subsets(vector<int> &S) 
@@ -81,3 +81,4 @@ vector<vector<int> > subsets(vector<int> &S)
                     subset_set[j].push_back (S[i]);
         return subset_set;
 }
+```
