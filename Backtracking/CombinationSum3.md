@@ -24,7 +24,7 @@ Output:
 ```
 ```
 思路：稍微复杂点的深度搜索加回溯
-每次先要判断当前K个数
+每次先要判断当前K个数的和能否达到sum若不能 则
 
 vector<vector<int>> combinationSum3(int k, int n) 
 {
