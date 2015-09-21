@@ -59,8 +59,10 @@ void dfs(vector<vector<int> > &result,vector<int> &vec, vector<int> &a, int star
 
 方法2：
 迭代法
-一开始集合 只有[] 空元素
+一开始集合只有[] 空元素
 
+一次迭代后 变成 {[],[1]}
+二次迭代后 变成 {[],[1],[3],[1,3]}
 
 vector<vector<int> > subsets(vector<int> &S)
 {
