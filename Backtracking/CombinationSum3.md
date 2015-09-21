@@ -23,7 +23,7 @@ Output:
 
 ```
 ```
-// 稍微复杂点的深度搜索加回溯
+思路：稍微复杂点的深度搜索加回溯
 vector<vector<int>> combinationSum3(int k, int n) 
 {
         vector<vector<int>> result;
