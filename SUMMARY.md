@@ -119,4 +119,4 @@
     * [MaximalRectangle](Stack/MaximalRectangle.md) 
     * [SimplifyPath](Stack/SimplifyPath.md)
     * [ValidParentheses](Stack/ValidParentheses.md)
-*[Backtracking]
+* [Backtracking](Backtracing/README.md)
