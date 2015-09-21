@@ -17,15 +17,9 @@ A solution set is:
 
 
 ---
-
-
-
-
-
-
-
-//和combinationsum 基本一样 关键就是元素能否重复
 ```
+思路：
+和combinationsum 基本一样 关键就是元素能否重复
 vector<vector<int> > combinationSum2(vector<int> &num, int target)
 {
         vector<int> vecTmp;
