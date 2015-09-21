@@ -5,6 +5,10 @@ For example, given n = 3, a solution set is:
 "((()))", "(()())", "(())()", "()(())", "()()()"
 
 
+---
+
+
+
 
 ```
 vector<string> generateParenthesis(int n) 
