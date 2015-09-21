@@ -58,7 +58,7 @@ void dfs(vector<vector<int> > &result,vector<int> &vec, vector<int> &a, int star
 
 
 方法2：
-迭代法
+迭代法 假设集合元素只有：{1,3,5}
 一开始集合只有[] 空元素
 
 一次迭代后 变成 {[],[1]}
