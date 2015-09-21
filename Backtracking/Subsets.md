@@ -75,7 +75,7 @@ vector<vector<int> > subsets(vector<int> &S)
     return res;
   }
 
-//Î»²Ù×÷
+方法3： 利用了 位运算
 
 vector<vector<int> > subsets(vector<int> &S)
 {
