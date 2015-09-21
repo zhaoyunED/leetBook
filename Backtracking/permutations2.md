@@ -7,7 +7,9 @@ For example,
 
 //若是用num的引用 并且 递归完仍然swap(num[i], num[k]) 是会出现重复的结果
 //这是和第一个题目不同的地方
-void recursion(vector<int> num, int i, int j, vector<vector<int> > &res) {
+```
+void recursion(vector<int> num, int i, int j, vector<vector<int> > &res) 
+{
         if (i == j-1) {
             res.push_back(num);
             return;
@@ -19,9 +21,11 @@ void recursion(vector<int> num, int i, int j, vector<vector<int> > &res) {
         }
 }
 
- vector<vector<int> > permuteUnique(vector<int> &num) {
+vector<vector<int> > permuteUnique(vector<int> &num) 
+{
         sort(num.begin(), num.end());
         vector<vector<int> >res;
         recursion(num, 0, num.size(), res);
         return res;
-    }
+}
+```
