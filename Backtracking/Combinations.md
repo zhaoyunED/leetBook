@@ -46,7 +46,7 @@ void getcombine(int n, int k,vector<vector<int>> &result,vector<int> temp,int cu
         
 }
 
-方法2   利用公式C(n,k) = C(n-1, k-1) + C(n-1,k)  
+方法2   利用公式C(n,k) = C(n-1, k-1) U n + C(n-1,k)  
 vector<vector<int> > combine(int n, int k) 
 {
 
