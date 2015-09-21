@@ -16,7 +16,8 @@ If n = 4 and k = 2, a solution is:
 
 ```
 
-//方法1 dfs加 backtracking
+```
+方法1 :dfs加 backtracking
 vector<vector<int>> combine(int n, int k) {
         vector<vector<int>> result;
         vector<int> temp;
@@ -73,3 +74,4 @@ vector<vector<int> > combine(int n, int k)
 
         return result;
 }
+```
