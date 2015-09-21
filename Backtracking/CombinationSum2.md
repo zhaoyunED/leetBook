@@ -19,7 +19,8 @@ A solution set is:
 ---
 ```
 思路：
-和combinationsum 基本一样 关键就是元素能否重复
+和combinationsum 基本一样 区别就是元素能否重复使用
+
 vector<vector<int> > combinationSum2(vector<int> &num, int target)
 {
         vector<int> vecTmp;
