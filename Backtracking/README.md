@@ -12,3 +12,4 @@
 * [LetterCombinationsofaPhoneNumber](LetterCombinationsofaPhoneNumber.md)
 * [WordSearch](WordSearch.md)
 * [PalindromePartitioning](PalindromePartitioning.md)
+* [GrayCode](GrayCode.md)
