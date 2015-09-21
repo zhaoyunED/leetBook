@@ -16,6 +16,10 @@ A solution is ["cats and dog", "cat sand dog"].
 
 
 ``` 
+思路：
+题目略复杂，但总体上还是DFS+Bk
+
+
 void dfs(vector<string> &result,vector<int> * vect,int end,vector<string> cur,string s)
 {
            
