@@ -18,6 +18,9 @@ A solution set is:
 
 
 ```
+思路：依然是DFS+BK
+对于每个数一直加加到>=target为止
+
 vector<std::vector<int> > combinationSum(vector<int> &candidates, int target) {
         sort(candidates.begin(), candidates.end());
         vector<std::vector<int> > res;
