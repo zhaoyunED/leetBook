@@ -24,7 +24,7 @@ If nums = [1,2,2], a solution is:
 
 ```
 思路：
-跟Subsets的思路一致，只是要考虑
+跟Subsets的思路（DFS+Backtracking）一致，只是要考虑
 vector<vector<int>> subsetsWithDup(vector<int>& nums)
 {
         
