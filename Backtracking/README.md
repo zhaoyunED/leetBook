@@ -8,3 +8,4 @@
 * [WordBread2](WordBread2.md)
 * [Combination Sum](Combination Sum.md)
 * [CombinationSum2](CombinationSum2.md)
+* [CombinationSum3](CombinationSum3.md)
