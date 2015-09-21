@@ -21,6 +21,7 @@ A solution is ["cats and dog", "cat sand dog"].
 
 开始需要记录每个点之前 那些点是可以切割的
 用vector<int>[s.size()+1] 来保存
+
 void dfs(vector<string> &result,vector<int> * vect,int end,vector<string> cur,string s)
 {
            
