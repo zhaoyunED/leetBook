@@ -27,7 +27,8 @@ If nums = [1,2,3], a solution is:
 
 ```
 
-//·½·¨1 DFS+BACKTRACKING
+方法1：
+思路就是 DFS+BACKTRACKING
  vector<vector<int> > subsets(vector<int> &S) 
     {
         
