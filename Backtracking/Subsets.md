@@ -57,7 +57,10 @@ void dfs(vector<vector<int> > &result,vector<int> &vec, vector<int> &a, int star
 }
 
 
-//·½·¨2 ITERATIVE ·½·¨
+方法2：
+迭代法
+一开始集合 只有[] 空元素
+
 
 vector<vector<int> > subsets(vector<int> &S)
 {
