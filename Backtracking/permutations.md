@@ -1,3 +1,4 @@
+#Permutations
 Given a collection of numbers, return all possible permutations.
 
 For example,
@@ -6,8 +7,13 @@ For example,
 
 
 
+---
 
-//典型的DFS加回溯 的题目
+
+
+
+典型的DFS加回溯 的题目
+```
 vector<vector<int> > permute(vector<int> &num) {
         vector<vector<int>> result;
         if (num.size() == 0)
@@ -32,3 +38,4 @@ vector<vector<int> > permute(vector<int> &num) {
             swap(num[i],num[start]);
         }
     }
+```
