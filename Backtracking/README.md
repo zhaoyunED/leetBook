@@ -6,6 +6,7 @@
 * [Subsets](Subsets.md)
 * [Subsets2](Subsets2.md)
 * [WordBreak2](WordBreak2.md)
+* [Combinations](Combinations.md)
 * [Combination Sum](Combination Sum.md)
 * [CombinationSum2](CombinationSum2.md)
 * [CombinationSum3](CombinationSum3.md)
