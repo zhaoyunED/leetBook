@@ -19,7 +19,7 @@ Although the above answer is in lexicographical order, your answer could be in a
 
 
 ```
-//方法1
+方法1：
 vector<string> letterCombinations(string digits) 
 {
         vector<string> res;
@@ -38,7 +38,7 @@ vector<string> letterCombinations(string digits)
         backtracking(table,res,local,0,digits);
         return res;
 }
-//典型的backtracking方式
+
 void backtracking(const vector<vector<char>>& table, vector<string>& res, string& local, int index, const string& digits) 
 {
         if(index==digits.size())
