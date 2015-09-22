@@ -2,4 +2,5 @@
 
 * [NumberOfIslands](./NumberOfIslands.md)
 * [Surrounded Regions](./Surrounded Regions.md) 
-* [GenerateParentheses](./GenerateParentheses.md) 
+* [WordLadder](./WordLadder.md) 
+* [WordLadder2](./WordLadder2.md)
