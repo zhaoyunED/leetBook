@@ -12,6 +12,11 @@ You may assume that there will be only one unique solution.
 
 
 ```
+思路：
+本体是要求解决数独问题。数独盘面是个九宫，每一宫又分为九个小格。
+对于每一个空的格子，我们可以放 1-9的任意一个数。
+
+
 void solveSudoku(vector<vector<char> > &board) {
         solve(board, 0);
 }
