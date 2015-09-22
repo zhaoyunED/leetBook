@@ -22,7 +22,8 @@ Example 2:
 Answer: 3
 ```
 
-//DFS
+```
+方法1 ：DFS
 void contaminate(vector<vector<char> > &grid, int i, int j)
 {
         if(i>0&&grid[i-1][j]=='1'){
@@ -114,3 +115,4 @@ void BFS(vector<vector<char>> &grid, int x, int y)
             }
         }
 }
+```
