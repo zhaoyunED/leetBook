@@ -13,6 +13,8 @@ both indicate a queen and an empty space respectively.
 
 思路：
 递归过程中记录每行存放的皇后的位置
+每行每个位置都可试探是否能够放皇后，判断能否放皇后用以下代码
+if((A[i]==A[r])||(abs(A[i]-A[r]))==(r-i)) 表示是否在同一列或者同一个斜线上
 
 void printQueen(vector<int> &A,int n,vector<vector<string>> &result)
     {
