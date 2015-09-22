@@ -21,8 +21,10 @@ X O X X
 ---
 
 
-//UNION FIND
+
 ```
+方法1：利用并查集 
+代码来自 leetcode
 class UF
 {
 private:
