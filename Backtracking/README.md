@@ -14,3 +14,4 @@
 * [WordSearch](WordSearch.md)
 * [PalindromePartitioning](PalindromePartitioning.md)
 * [GrayCode](GrayCode.md)
+* [RestoreIPAddresses](RestoreIPAddresses.md)
