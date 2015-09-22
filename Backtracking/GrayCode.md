@@ -1,3 +1,4 @@
+#GrayCode
 The gray code is a binary numeral system where two successive values differ in only one bit.
 
 Given a non-negative integer n representing the total number of bits in the code, print the sequence of gray code. 
@@ -17,7 +18,12 @@ For example, [0,2,3,1] is also a valid gray code sequence according to the above
 For now, the judge is able to judge based on one instance of gray code sequence. Sorry about that.
 
 
+---
 
+
+
+
+```
 //·½·¨1
 vector<int> grayCode(int n) {
         int size = 1<<n;
@@ -48,3 +54,4 @@ vector<int> grayCode(int n) {
     }
     return result;
 }
+```
