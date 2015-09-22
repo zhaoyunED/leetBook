@@ -2,8 +2,10 @@ Given two words (beginWord and endWord), and a dictionary, find the length of sh
 from beginWord to endWord, such that:
 
 #WordLadder
+Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
+
 Only one letter can be changed at a time
-Each intermediate word must exist in the dictionary
+Each intermediate word must exist in the word list
 For example,
 
 ```
