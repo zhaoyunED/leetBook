@@ -139,3 +139,7 @@
     * [N-Queen](Backtracing/N-Queen.md)
     * [N-Queen2](Backtracing/N-Queen2.md)   
 * [BFS](BFS/README.md)
+    * [NumberOfIslands](./NumberOfIslands.md)
+    * [Surrounded Regions](./Surrounded Regions.md) 
+    * [WordLadder](./WordLadder.md) 
+    * [wordLadder2](./wordLadder2.md)
