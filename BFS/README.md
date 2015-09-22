@@ -3,4 +3,4 @@
 * [NumberOfIslands](./NumberOfIslands.md)
 * [Surrounded Regions](./Surrounded Regions.md) 
 * [WordLadder](./WordLadder.md) 
-* [WordLadder2](./WordLadder2.md)
+* [wordLadder2](./wordLadder2.md)
