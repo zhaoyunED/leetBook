@@ -9,8 +9,6 @@ both indicate a queen and an empty space respectively.
 ---
 
 
-
-代码如下：
 ```
 void printQueen(vector<int> &A,int n,vector<vector<string>> &result)
     {
