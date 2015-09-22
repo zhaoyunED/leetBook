@@ -21,6 +21,7 @@ You may assume that there will be only one unique solution.
   当前小九宫格
 这三块都不能出现和该数字相同的数
 
+代码依然来自 leetcode上面的大神
 void solveSudoku(vector<vector<char> > &board) {
         solve(board, 0);
 }
