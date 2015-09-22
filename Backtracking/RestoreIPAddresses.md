@@ -9,6 +9,7 @@ return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
 
 
 //DFS + »ØËÝ
+```
 vector<string> restoreIpAddresses(string s)
 {
         vector<int> nums;  
@@ -55,3 +56,4 @@ void getAllIp(vector<string> &result,string s,int idx,vector<int> nums)
             nums.pop_back(); 
         }
 }
+```
