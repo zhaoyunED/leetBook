@@ -11,7 +11,7 @@ both indicate a queen and an empty space respectively.
 
 ```
 
-思路：
+思路：对于
 
 void printQueen(vector<int> &A,int n,vector<vector<string>> &result)
     {
