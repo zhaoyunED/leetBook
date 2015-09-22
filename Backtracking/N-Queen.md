@@ -16,7 +16,7 @@ both indicate a queen and an empty space respectively.
 每行每个位置都可试探是否能够放皇后，判断能否放皇后用以下代码
 if((A[i]==A[r])||(abs(A[i]-A[r]))==(r-i)) 表示是否在同一列或者同一个斜线上
 
-若每行都成功放置了一个皇后后，就可以利用已储存的信息输出最终字符串
+若每行都成功放置了一个皇后后，就可以利用已储存的信息构造输出最终字符串
 
 void printQueen(vector<int> &A,int n,vector<vector<string>> &result)
     {
