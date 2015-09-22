@@ -16,3 +16,4 @@
 * [GrayCode](GrayCode.md)
 * [RestoreIPAddresses](RestoreIPAddresses.md)
 * [SudokuSolver](SudokuSolver.md)
+* [N-Queen](N-Queen.md)
