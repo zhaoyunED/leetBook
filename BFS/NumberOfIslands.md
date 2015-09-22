@@ -24,6 +24,8 @@ Answer: 3
 
 ```
 方法1 ：DFS
+从某个“1”点出发，一直深度遍历周围所有为1的grid
+
 void contaminate(vector<vector<char> > &grid, int i, int j)
 {
         if(i>0&&grid[i-1][j]=='1'){
