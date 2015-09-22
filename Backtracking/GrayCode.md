@@ -23,7 +23,7 @@ For example, [0,2,3,1] is also a valid gray code sequence according to the above
 
 
 ```
-//·½·¨1
+方法1：
 vector<int> grayCode(int n) {
         int size = 1<<n;
         vector<int> grayCodes;
