@@ -1,3 +1,4 @@
+#letterCombinations
 Given a digit string, return all possible letter combinations that the number could represent.
 
 A mapping of digit to letters (just like on the telephone buttons) is given below.
@@ -13,6 +14,7 @@ Although the above answer is in lexicographical order, your answer could be in a
 
 
 
+```
 //方法1
 vector<string> letterCombinations(string digits) 
 {
@@ -106,3 +108,4 @@ vector<string> letterCombinations(string digits)
         dfs(0,digits.size(),digits,"");
         return ret;
  }
+```
