@@ -4,7 +4,7 @@ such that:
 Only one letter can be changed at a time
 Each intermediate word must exist in the dictionary
 For example,
-
+```
 Given:
 start = "hit"
 end = "cog"
@@ -14,6 +14,7 @@ Return
     ["hit","hot","dot","dog","cog"],
     ["hit","hot","lot","log","cog"]
   ]
+```
 Note:
 All words have the same length.
 All words contain only lowercase alphabetic characters.
