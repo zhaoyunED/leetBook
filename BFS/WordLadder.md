@@ -26,7 +26,7 @@ All words have the same length.
 
 思路：
 
-利用广度优先搜索，每次找和队列中字符串相差1的字符串 并添加到队列中 
+利用广度优先搜索，每次找和队列中字符串相差1的字符串 并添加到队列中，直到找到end字符串
 
  public:
     int ladderLength(string start, string end, unordered_set<string> &dict) 
