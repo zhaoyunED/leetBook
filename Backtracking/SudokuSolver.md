@@ -6,6 +6,7 @@ You may assume that there will be only one unique solution.
 
 
 
+```
 void solveSudoku(vector<vector<char> > &board) {
         solve(board, 0);
 }
@@ -40,8 +41,8 @@ bool solve(vector<vector<char> > &board, int position)
 }
     
     
-    bool check(vector<vector<char> > &board, int pos)
-    {
+bool check(vector<vector<char> > &board, int pos)
+{
         int v = pos/9;
         int h = pos%9;
         char target = board[v][h];
@@ -81,4 +82,5 @@ bool solve(vector<vector<char> > &board, int position)
         }
 
         return true;
-    }
+}
+```
