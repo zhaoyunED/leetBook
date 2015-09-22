@@ -138,3 +138,4 @@
     * [SudokuSolver](Backtracing/SudokuSolver.md)
     * [N-Queen](Backtracing/N-Queen.md)
     * [N-Queen2](Backtracing/N-Queen2.md)   
+* [BFS](BFS/README.md)
