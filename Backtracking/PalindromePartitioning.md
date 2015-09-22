@@ -3,6 +3,7 @@ Given a string s, partition s such that every substring of the partition is a pa
 
 Return all possible palindrome partitioning of s.
 
+```
 For example, given s = "aab",
 Return
 
@@ -10,6 +11,10 @@ Return
     ["aa","b"],
     ["a","a","b"]
   ]
+
+```
+---
+
 
 ```
 //C++ 版本 backtracking
