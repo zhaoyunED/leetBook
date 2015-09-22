@@ -15,3 +15,4 @@
 * [PalindromePartitioning](PalindromePartitioning.md)
 * [GrayCode](GrayCode.md)
 * [RestoreIPAddresses](RestoreIPAddresses.md)
+* [SudokuSolver](SudokuSolver.md)
