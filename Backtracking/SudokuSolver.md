@@ -14,8 +14,11 @@ You may assume that there will be only one unique solution.
 ```
 思路：
 本体是要求解决数独问题。数独盘面是个九宫，每一宫又分为九个小格。
-对于每一个空的格子，我们可以放 1-9的任意一个数。
-
+对于每一个空的格子，我们可以放 1-9的任意一个数，放完了之后需要判定放的数是否合适，判断需要考虑3部分：
+  当前行
+  当前列
+  当前小九宫格
+这三块都不能出现和该数字相同的数
 
 void solveSudoku(vector<vector<char> > &board) {
         solve(board, 0);
