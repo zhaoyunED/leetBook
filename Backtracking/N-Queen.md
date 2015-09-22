@@ -3,7 +3,13 @@ Given an integer n, return all distinct solutions to the n-queens puzzle.
 Each solution contains a distinct board configuration of the n-queens' placement, where 'Q' and '.' 
 both indicate a queen and an empty space respectively.
 
+
+---
+
+
+
 代码如下：
+```
 void printQueen(vector<int> &A,int n,vector<vector<string>> &result)
     {
         vector<string> r;
@@ -50,3 +56,4 @@ public:
         nqueens(A,0,n,result);  
         return result; 
     }
+```
