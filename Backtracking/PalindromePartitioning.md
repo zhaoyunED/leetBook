@@ -10,6 +10,7 @@ Return
     ["a","a","b"]
   ]
 
+```
 //C++ 版本 backtracking
 void getPalin(vector<vector<bool>>& vect,string s)
     {
@@ -76,7 +77,7 @@ void dfs(vector<vector<string>> &result,vector<string> cur,int idx,string s,vect
         }
 }
     
-//根据生成好的回文标记数组对字符串进行划分
+根据生成好的回文标记数组对字符串进行划分
 void dfs(String s, int begin, char [][] palindrome_map, ArrayList<String> array, ArrayList<ArrayList<String>> result) {
         if(begin==s.length()) {
             result.add(array);
@@ -106,3 +107,4 @@ public ArrayList<ArrayList<String>> partition(String s) {
         dfs(s,0,palindrome_map,array,result);
         return result;
 }
+```
