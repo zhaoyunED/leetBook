@@ -17,6 +17,9 @@ Return
 
 
 ```
+提供了C++ 版本和 Java版本 的方法，代码都是来自leetcode上
+
+
 //C++ 版本 backtracking
 void getPalin(vector<vector<bool>>& vect,string s)
     {
