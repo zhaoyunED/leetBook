@@ -23,7 +23,8 @@ word = "ABCB", -> returns false.
 //已被走过的点，回溯的时候要改回状态.  注意若是索引出了边界就回溯
 //若是走到了终点 就是把word遍历完 则返回true
 
- bool isInboard(int i, int j,vector<vector<char>>& board)
+``` 
+bool isInboard(int i, int j,vector<vector<char>>& board)
     {
         if(i < 0|| i >= board.size() || j < 0 || j >= board[i].size())
             return false;
@@ -56,8 +57,8 @@ word = "ABCB", -> returns false.
     }
 
 
-    bool exist(vector<vector<char>>& board, string word) 
-	{
+bool exist(vector<vector<char>>& board, string word) 
+{
         
         if(board.size() == 0 || board[0].size() == 0 )return false;
         vector<vector<bool>> b_board(board.size(),vector<bool>(board[0].size(),false));
@@ -65,4 +66,5 @@ word = "ABCB", -> returns false.
             for(int j = 0; j < board[i].size(); j ++)
                 if(DFS(i, j, 0,board,word,b_board))return true;
         return false;
-    }
+}
+```
