@@ -55,8 +55,9 @@ void backtracking(const vector<vector<char>>& table, vector<string>& res, string
 
 
 
-//方法2 简单粗暴的dfs 其实也是包含回溯 只不过形参是 非引用 消耗的内存多一些
- private:
+方法2 简单粗暴的dfs 其实也是包含回溯 只不过形参是 非引用消耗的内存多一些
+
+private:
     map<char,vector<char>> dict;
     vector<string> ret;
 public:
