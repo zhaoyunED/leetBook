@@ -22,7 +22,7 @@ X O X X
 
 
 //UNION FIND
-class UF
+```class UF
 {
 private:
     int* id;     // id[i] = parent of i
@@ -46,7 +46,7 @@ public:
     }
     int find(int p) {
         while (p != id[p]) {
-            id[p] = id[id[p]];    // path compression by halving
+            id[p] = id[id[p]];    // 路径压缩
             p = id[p];
         }
         return p;
@@ -175,3 +175,4 @@ void solve(vector<vector<char> > &board) {
         }
     }
 }
+```
