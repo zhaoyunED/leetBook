@@ -22,7 +22,8 @@ X O X X
 
 
 //UNION FIND
-```class UF
+```
+class UF
 {
 private:
     int* id;     // id[i] = parent of i
