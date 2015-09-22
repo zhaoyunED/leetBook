@@ -25,6 +25,7 @@ X O X X
 ```
 方法1：利用并查集 
 代码来自 leetcode
+
 class UF
 {
 private:
@@ -112,7 +113,7 @@ public:
 
 
 
-//BFS
+方法2：广度优先搜索
 
 void bfsBoundary(vector<vector<char> >& board, int w, int l)
 {
