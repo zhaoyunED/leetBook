@@ -65,8 +65,8 @@ int numIslands(vector<vector<char>> &grid)
 }
 
 
-方法2：BFS
-//广度优先搜索 用一个队列来保存 
+方法2：广度优先搜索 用一个队列来保存 
+
 int numIslands(vector<vector<char>> &grid)
 {
         if(grid.size() == 0 || grid[0].size() == 0)
