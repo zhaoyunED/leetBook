@@ -29,8 +29,7 @@ All words contain only lowercase alphabetic characters.
 ```
 方法1 是通过不断的找可能的字符与现有比较字符的距离是否为1
 
-方法2 是通过不断的剩余字典中的字符串与现有比较字符的距离是否为1，若这个字典很大话时间会很长
-//function 1
+
 vector<vector<string>> findLadders(string start, string end, unordered_set<string> &dict) {
           vector<vector<string> >ans;
           if(start == end) return ans;
@@ -96,7 +95,8 @@ private:
         c.pop_back();
     }
 
-//function 2
+
+方法2 是通过不断的剩余字典中的字符串与现有比较字符的距离是否为1，若这个字典很大话时间会很长
 vector<vector<string>> findLadders(string start, string end, unordered_set<string> &dict) 
 {
 	vector<vector<string> >ans;
