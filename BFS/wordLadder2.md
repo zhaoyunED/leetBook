@@ -22,6 +22,10 @@ All words contain only lowercase alphabetic characters.
 
 
 
+---
+
+
+
 ```
 方法1 是通过不断的找可能的字符与现有比较字符的距离是否为1
 
