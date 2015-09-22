@@ -80,7 +80,7 @@ bool check(vector<vector<char> > &board, int pos)
             }
         }
 
-        //subgrid
+        //确定小九宫格 的 起始行 起始列
         int beginx = v/3*3;
         int beginy = h/3*3;
         for(int i = beginx; i < beginx+3; i ++)
