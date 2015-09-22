@@ -11,7 +11,7 @@ Now, instead outputting board configurations, return the total number of distinc
 
 
 ```
-和 N-QUEEN 1 一模一样
+思路：和 N-QUEEN 1 思路是一样
 
 int totalNQueens(int n) {
         int result =0;
