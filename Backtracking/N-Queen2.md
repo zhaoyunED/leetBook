@@ -1,11 +1,16 @@
-N-Queen2
+#N-Queen2
 
 Follow up for N-Queens problem.
 
 Now, instead outputting board configurations, return the total number of distinct solutions.
 
 
+---
 
+
+
+
+```
 //和 N-QUEEN 1 一模一样
 int totalNQueens(int n) {
         int result =0;
@@ -40,3 +45,4 @@ int totalNQueens(int n) {
                 Queen(vec,n,cur+1,total);
         }
     }
+```
