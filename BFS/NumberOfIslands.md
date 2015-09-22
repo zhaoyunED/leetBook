@@ -3,6 +3,7 @@ An island is surrounded by water and is formed by connecting adjacent lands hori
 You may assume all four edges of the grid are all surrounded by water.
 
 
+```
 Example 1:
 
 11110
@@ -18,7 +19,7 @@ Example 2:
 00100
 00011
 Answer: 3
-
+```
 
 //DFS
 void contaminate(vector<vector<char> > &grid, int i, int j)
