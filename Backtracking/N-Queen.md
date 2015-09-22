@@ -11,7 +11,8 @@ both indicate a queen and an empty space respectively.
 
 ```
 
-思路：对于
+思路：
+递归过程中记录每行存放的皇后的位置
 
 void printQueen(vector<int> &A,int n,vector<vector<string>> &result)
     {
