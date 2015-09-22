@@ -38,7 +38,7 @@ vector<int> grayCode(int n) {
     }
 
 
-//·½·¨2
+方法2：
 vector<int> grayCode(int n) {
         vector<int> result(1, 0);        
     for (int i = 0; i < n; i++) {
