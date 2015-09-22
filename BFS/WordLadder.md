@@ -26,6 +26,11 @@ All words have the same length.
 
 
 ```
+
+思路：
+
+利用广度优先搜索
+
  public:
     int ladderLength(string start, string end, unordered_set<string> &dict) 
 {
