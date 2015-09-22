@@ -5,6 +5,7 @@ The word can be constructed from letters of sequentially adjacent cell,
 where "adjacent" cells are those horizontally or vertically neighboring. 
 The same letter cell may not be used more than once.
 
+```
 For example,
 Given board =
 
@@ -16,7 +17,7 @@ Given board =
 word = "ABCCED", -> returns true,
 word = "SEE", -> returns true,
 word = "ABCB", -> returns false.
-
+```
 
 
 //思路很简单，从每个点出发都试一遍，每次移动的过程中记录
