@@ -17,3 +17,4 @@
 * [RestoreIPAddresses](RestoreIPAddresses.md)
 * [SudokuSolver](SudokuSolver.md)
 * [N-Queen](N-Queen.md)
+* [N-Queen2](N-Queen2.md)
