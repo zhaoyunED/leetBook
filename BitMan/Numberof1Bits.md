@@ -7,6 +7,10 @@ so the function should return 3.
 
 
 
+---
+
+
+
 ```
 int hammingWeight(uint32_t n)
 {
