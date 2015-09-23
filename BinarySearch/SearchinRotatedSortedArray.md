@@ -41,6 +41,8 @@ int search(vector<int>& nums, int target)
 方法2
 先找到旋转后数组中元素最小的值的下标low，这样数组旋转(移动)的距离就是low
 
+之后用传统的二分查找来查询元素target
+
 int search(vector<int>& nums, int target) 
 {
         int lo=0,hi=nums.size()-1;
