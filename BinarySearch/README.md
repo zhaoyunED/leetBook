@@ -6,3 +6,4 @@
 * [SearchInsetPosition](SearchInsetPosition.md)
 * [SearchforaRange](SearchforaRange.md)
 * [FindMinimuminRotatedSortedArray](FindMinimuminRotatedSortedArray.md)
+* [FindMinimuminRotatedSortedArray]
