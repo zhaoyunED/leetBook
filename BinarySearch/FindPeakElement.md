@@ -21,7 +21,7 @@ Your solution should be in logarithmic complexity.
 
 
 ```
-//标准的二分查找方法
+方法1：标准的二分查找方法
 int findPeakElement(const vector<int> &num)
 {
         int low = 0, high = num.size() - 1;
