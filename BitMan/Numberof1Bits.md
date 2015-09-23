@@ -11,6 +11,8 @@ so the function should return 3.
 
 思路：
 
+这是老题目了,n&(n-1) 是将最低位的为1的位变成0
+
 ```
 int hammingWeight(uint32_t n)
 {
