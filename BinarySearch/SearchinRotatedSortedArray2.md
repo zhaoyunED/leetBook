@@ -10,7 +10,7 @@ Write a function to determine if a given target is in the array.
 ---
 
 
-// Worst case O(n)
+
 ```
 bool search(vector<int>& A, int key) {
         
@@ -18,13 +18,13 @@ bool search(vector<int>& A, int key) {
         
         while (l <= r) {
             int m = l + (r - l)/2;
-            if (A[m] == key) return true; //return m in Search in Rotated Array I
-            if (A[l] < A[m]) { //left half is sorted
+            if (A[m] == key) return true; //return m
+            if (A[l] < A[m]) { //左边是排好序的
                 if (A[l] <= key && key < A[m])
                     r = m - 1;
                 else
                     l = m + 1;
-            } else if (A[l] > A[m]) { //right half is sorted
+            } else if (A[l] > A[m]) { //右边是排好序的
                 if (A[m] < key && key <= A[r])
                     l = m + 1;
                 else
