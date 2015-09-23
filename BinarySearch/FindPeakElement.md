@@ -14,8 +14,12 @@ Note:
 Your solution should be in logarithmic complexity.
 
 
+---
+
+题目要求时间复杂度在O(lgn)
 
 
+```
 //标准的二分查找方法
 int findPeakElement(const vector<int> &num)
 {
@@ -92,3 +96,4 @@ int findPeakElement(const vector<int> &num)
         }
         return low;
 }
+```
