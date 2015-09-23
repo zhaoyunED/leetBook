@@ -4,6 +4,7 @@ Integers in each row are sorted from left to right.
 The first integer of each row is greater than the last integer of the previous row.
 For example,
 
+```
 Consider the following matrix:
 
 [
@@ -12,6 +13,11 @@ Consider the following matrix:
   [23, 30, 34, 50]
 ]
 Given target = 3, return true.
+```
+
+
+---
+
 
 ```
 //方法1 两次二分查找
