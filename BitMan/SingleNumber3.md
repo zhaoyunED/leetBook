@@ -21,6 +21,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 找到a与b最低不相同的位
 按照这位 值 的0或者1 分成两组 
 异或 一遍 即可求得a与b
+
 vector<int> singleNumber(vector<int>& nums)
 {
          int diff = accumulate(nums.begin(), nums.end(), 0, bit_xor<int>());
