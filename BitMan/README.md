@@ -1,4 +1,4 @@
 # **位运算**
 
 * [BitwiseANDofNumbersRange](./BitwiseANDofNumbersRange.md)
-* [SearchinRotatedSortedArray](./SearchinRotatedSortedArray.md) 
+* [Numberof1Bits](./SearchinRotatedSortedArray.md) 
