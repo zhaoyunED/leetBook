@@ -1,9 +1,11 @@
+#
 Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
 
 Integers in each row are sorted in ascending from left to right.
 Integers in each column are sorted in ascending from top to bottom.
 For example,
 
+```
 Consider the following matrix:
 
 [
@@ -16,7 +18,13 @@ Consider the following matrix:
 Given target = 5, return true.
 
 Given target = 20, return false.
+```
 
+
+---
+
+
+```
 //¶þ·Ö²éÕÒµÄÓ¦ÓÃ
 
  bool searchMatrix(vector<vector<int>>& matrix, int target)
@@ -55,3 +63,4 @@ Given target = 20, return false.
 		
 		return false;
     }
+```
