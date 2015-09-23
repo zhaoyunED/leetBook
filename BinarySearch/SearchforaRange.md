@@ -18,6 +18,9 @@ return [3, 4].
 
 
 ```
+思路：
+先找区间的左边界，再找区间的右边界
+
 vector<int> searchRange(int A[], int n, int target) {
         vector<int> res;
         if(n <= 0)
