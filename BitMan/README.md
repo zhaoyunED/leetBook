@@ -1,4 +1,4 @@
 # **位运算**
 
-* [FindPeakElement](./FindPeakElement.md)
+* [BitwiseANDofNumbersRange](./FindPeakElement.md)
 * [SearchinRotatedSortedArray](./SearchinRotatedSortedArray.md) 
