@@ -13,7 +13,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 ```
 思路：
 可参考题目FirstMissingPositive
-对于遇到的第一个Nuber
+对于数组中每个元素 若是  nums[i] != i 那么将 num[i]
 
 int missingNumber(vector<int>& nums) 
 {
