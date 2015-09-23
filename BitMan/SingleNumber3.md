@@ -23,7 +23,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 vector<int> singleNumber(vector<int>& nums)
 {
          int diff = accumulate(nums.begin(), nums.end(), 0, bit_xor<int>());
-        diff &= -diff;
+        diff &= -diff;//最低不相同的位对应的值
         vector<int> rets(2, 0);
         for (int num : nums)
             rets[!(num & diff)] ^= num;
