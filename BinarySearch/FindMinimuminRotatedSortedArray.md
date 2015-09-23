@@ -8,6 +8,7 @@ Find the minimum element.
 You may assume no duplicate exists in the array.
 
 
+```
 int findMin(vector<int>& nums)
 {
         int left = 0;
@@ -27,3 +28,4 @@ int findMin(vector<int>& nums)
         
         return nums[left];
 }
+```
