@@ -18,6 +18,8 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 若是  nums[i]>=n 跳过这个元素
 若是  nums[i]<n  并且nums[i] != i 那么将 num[i] swap到第i个位置上， swap来的新元素若还是 ！=i 继续swap 直到nums[i]>=n
 
+最后遍历一遍数组
+
 int missingNumber(vector<int>& nums) 
 {
         
