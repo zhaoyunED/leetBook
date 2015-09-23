@@ -6,7 +6,7 @@
 
 
 
-
+```
 //1
 uint32_t reverseBits(uint32_t n)
 {
@@ -100,3 +100,4 @@ private int reverseByte(byte b) {
     cache.put(b, value);
     return value;
 }
+```
