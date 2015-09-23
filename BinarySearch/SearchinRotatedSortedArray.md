@@ -50,7 +50,7 @@ int search(vector<int>& nums, int target)
             if(nums[mid]>nums[hi]) lo=mid+1;
             else hi=mid;
         }//先找到拐点，然后再用传统的二分查找方法
-        // lo==hi is the index of the smallest value and also the number of places rotated.
+        
         int rot=lo;
         lo=0;hi=nums.size()-1;
         // The usual binary search and accounting for rotation.
