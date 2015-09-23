@@ -12,6 +12,7 @@ Write a function to determine if a given target is in the array.
 
 
 ```
+思路：
 bool search(vector<int>& A, int key) {
         
         int l = 0, r = A.size()-1;
