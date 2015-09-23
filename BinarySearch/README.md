@@ -1,4 +1,4 @@
 # **二分搜索**
 
-* [FindPeakElement](./NumberOfIslands.md)
+* [FindPeakElement](./FindPeakElement.md)
 * [Surrounded Regions](./Surrounded Regions.md) 
