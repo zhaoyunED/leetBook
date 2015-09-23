@@ -1,3 +1,4 @@
+#Numberof1Bits
 Write a function that takes an unsigned integer and returns the number of 
 ¡¯1' bits it has (also known as the Hamming weight).
 
@@ -6,7 +7,7 @@ so the function should return 3.
 
 
 
-
+```
 int hammingWeight(uint32_t n)
 {
         int res=0;
@@ -17,3 +18,4 @@ int hammingWeight(uint32_t n)
         }
         return res;
 }
+```
