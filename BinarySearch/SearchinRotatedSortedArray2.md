@@ -6,6 +6,10 @@ Would this affect the run-time complexity? How and why?
 
 Write a function to determine if a given target is in the array.
 
+
+---
+
+
 // Worst case O(n)
 ```
 bool search(vector<int>& A, int key) {
