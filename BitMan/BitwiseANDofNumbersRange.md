@@ -23,7 +23,7 @@ int rangeBitwiseAnd(int m, int n)
 }
 
 方法2
-更快一些
+不断把n的最后一位为1的位变成0 看是否和m相等，应该更快一些
 int rangeBitwiseAnd(int m, int n)
 {
     while(n > m) { 
