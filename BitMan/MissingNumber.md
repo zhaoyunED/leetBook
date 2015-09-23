@@ -12,7 +12,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 ```
 思路：
-可参考FirstMissingPositive
+可参考题目FirstMissingPositive
 
 
 int missingNumber(vector<int>& nums) 
