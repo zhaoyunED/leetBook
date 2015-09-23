@@ -16,7 +16,7 @@ Write a function to determine if a given target is in the array.
 基本思路是和SearchinRotatedSortedArray一致的。但是允许重复元素出现后该算法的最差时间复杂度变为了O(n)
 
 考虑 11111113 rotate之后 变为  11311111
-此时 A[m] == A[l] == A[h]
+此时 A[m] == A[l] == A[h] 无法判断
 
 
 
