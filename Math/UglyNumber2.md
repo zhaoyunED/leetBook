@@ -10,6 +10,7 @@ Note that 1 is typically treated as an ugly number.
 
 ```
 思路：利用了归并排序的思想
+
 int nthUglyNumber(int n) 
 {
         if(n <= 0) return false; // get rid of corner cases 
