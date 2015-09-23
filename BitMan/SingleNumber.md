@@ -9,7 +9,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 
 ```
-思路：
+思路：将数组里面的元素异或一遍
 
 int singleNumber(int A[], int n)
 {
