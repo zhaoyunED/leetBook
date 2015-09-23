@@ -39,12 +39,12 @@ int search(vector<int>& nums, int target)
 }
 
 方法2
+
+
 int search(vector<int>& nums, int target) 
 {
         int lo=0,hi=nums.size()-1;
-        // find the index of the smallest value using binary search.
-        // Loop will terminate since mid < hi, and lo or hi will shrink by at least 1.
-        // Proof by contradiction that mid < hi: if mid==hi, then lo==hi and loop would have been terminated.
+       
         while(lo<hi){
             int mid=lo+(hi-lo)/2;
             if(nums[mid]>nums[hi]) lo=mid+1;
