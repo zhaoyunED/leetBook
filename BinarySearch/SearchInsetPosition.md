@@ -11,6 +11,10 @@ Here are few examples.
 [1,3,5,6], 0 → 0
 ```
 
+
+---
+
+
 ```
 int searchInsert(vector<int>& nums, int target)   //典型的二分查找
 {
