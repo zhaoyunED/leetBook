@@ -4,3 +4,4 @@
 * [SearchinRotatedSortedArray](./SearchinRotatedSortedArray.md) 
 * [SearchinRotatedSortedArray2](./SearchinRotatedSortedArray2.md)
 * [SearchInsetPosition](SearchInsetPosition.md)
+* [SearchforaRange]
