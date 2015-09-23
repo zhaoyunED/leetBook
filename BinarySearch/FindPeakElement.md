@@ -40,7 +40,7 @@ int findPeakElement(const vector<int> &num)
 
 方法2
 
-//If num[i-1] < num[i] > num[i+1], then num[i] is peak
+num[i-1] < num[i] > num[i+1], then num[i] is peak
 //If num[i-1] < num[i] < num[i+1], then num[i+1...n-1] must contains a peak
 //If num[i-1] > num[i] > num[i+1], then num[0...i-1] must contains a peak
 //If num[i-1] > num[i] < num[i+1], then both sides have peak (n is num.length)
