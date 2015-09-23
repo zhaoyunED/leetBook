@@ -3,7 +3,7 @@ Given an integer, write a function to determine if it is a power of two.
 
 ```
 思路：
-
+判断一个数是否是
 bool isPowerOfTwo(int n)
 {
         if(n == INT_MIN)
