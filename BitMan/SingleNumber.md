@@ -9,6 +9,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 
 ```
+思路：
 
 int singleNumber(int A[], int n)
 {
