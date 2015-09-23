@@ -22,3 +22,4 @@
 * [HappyNumber](HappyNumber.md)
 * [PermutationSequence](PermutationSequence.md)
 * [UglyNumber](UglyNumber.md)
+* [UglyNumber2](UglyNumber2.md)
