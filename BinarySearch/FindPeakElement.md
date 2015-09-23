@@ -45,7 +45,7 @@ int findPeakElement(const vector<int> &num)
 若 num[i-1] < num[i] < num[i+1], 那么 num[i+1...n-1] 一定包含一个峰点
 若 num[i-1] > num[i] > num[i+1], 那么 num[0...i-1] 一定包含一个峰点
 若 num[i-1] > num[i] < num[i+1], 那么两边都有可能包含峰值
-但代码实际写起来 就是
+但代码实际写起来和方法1是一致的
 public int findPeakElement(int[] num) {    
     return helper(num,0,num.length-1);
 }
