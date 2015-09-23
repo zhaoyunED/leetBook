@@ -1,6 +1,7 @@
 #Power of Two
 Given an integer, write a function to determine if it is a power of two.
 
+```
 //ÀàËÆÇó ¶þ½øÖÆÖÐ1µÄ¸öÊý
 bool isPowerOfTwo(int n)
 {
@@ -15,3 +16,4 @@ bool isPowerOfTwo(int n)
         
         return res == 1;
 }
+```
