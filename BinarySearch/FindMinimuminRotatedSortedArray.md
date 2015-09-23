@@ -8,6 +8,10 @@ Find the minimum element.
 You may assume no duplicate exists in the array.
 
 
+---
+
+
+
 ```
 int findMin(vector<int>& nums)
 {
