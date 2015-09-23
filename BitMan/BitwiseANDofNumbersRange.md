@@ -22,8 +22,8 @@ int rangeBitwiseAnd(int m, int n)
         return m<<i;
 }
 
-//方法2
-//更快一些
+方法2
+更快一些
 int rangeBitwiseAnd(int m, int n)
 {
     while(n > m) { 
