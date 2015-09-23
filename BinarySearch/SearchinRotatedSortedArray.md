@@ -12,7 +12,7 @@ You may assume no duplicate exists in the array.
 
 
 ```
-//方法1
+方法1
 int search(vector<int>& nums, int target) 
 {
         int lo = 0;
