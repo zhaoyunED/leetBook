@@ -12,7 +12,7 @@ If this function is called many times, how would you optimize it?
 
 ---
 
-
+我从leetcode上搜集了
 
 
 
