@@ -20,7 +20,7 @@ The array may contain duplicates.
 ```
 思路：
 同理Search in Rotate array 2
-只有 mid left right 都相等的时候 才无法判断 left ++
+只有 mid left right 都相等的时候 才无法判断 此时只能left ++
 
 int findMin(vector<int>& nums) {
         int left =0;
