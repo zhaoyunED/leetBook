@@ -38,7 +38,7 @@ int search(vector<int>& nums, int target)
         return nums[lo] == target ? lo : -1;
 }
 
-//方法2
+方法2
 int search(vector<int>& nums, int target) 
 {
         int lo=0,hi=nums.size()-1;
