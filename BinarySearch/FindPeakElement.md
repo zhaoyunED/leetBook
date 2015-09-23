@@ -38,9 +38,7 @@ int findPeakElement(const vector<int> &num)
  }
 
 
-//方法2
-//This problem is similar to Local Minimum. And according to the given condition, 
-//num[i] != num[i+1], there must exist a O(logN) solution. So we use binary search for this problem.
+方法2
 
 //If num[i-1] < num[i] > num[i+1], then num[i] is peak
 //If num[i-1] < num[i] < num[i+1], then num[i+1...n-1] must contains a peak
