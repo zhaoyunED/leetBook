@@ -20,7 +20,7 @@ int singleNumber(vector<int>& nums)
             two = two | one&num;
             one = one | num;
             
-            two = two & ~three;
+            two = two & ~three;  //把出现3次的 从2次和1次中去掉
             one = one & ~three;
             
         }
