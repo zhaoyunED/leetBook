@@ -2,3 +2,4 @@
 
 * [FindPeakElement](./FindPeakElement.md)
 * [SearchinRotatedSortedArray](./SearchinRotatedSortedArray.md) 
+* [SearchinRotatedSortedArray2](./SearchinRotatedSortedArray2.md)
