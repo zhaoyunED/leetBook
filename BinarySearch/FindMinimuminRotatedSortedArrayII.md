@@ -1,3 +1,4 @@
+#
 Follow up for "Find Minimum in Rotated Sorted Array":
 What if duplicates are allowed?
 
@@ -9,6 +10,10 @@ Suppose a sorted array is rotated at some pivot unknown to you beforehand.
 Find the minimum element.
 
 The array may contain duplicates.
+
+
+
+---
 
 
 
