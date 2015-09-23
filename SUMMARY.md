@@ -104,6 +104,8 @@
     * [PlusOne](Math/PlusOne.md)
     * [HappyNumber](Math/HappyNumber.md)
     * [PermutationSequence](Math/PermutationSequence.md)
+    * [UglyNumber](UglyNumber.md)
+    * [UglyNumber2](UglyNumber2.md)
 * [Sort](Sort/README.md)
     * [LargestNumber](./LargestNumber.md) 
     * [InsertInterval](./InsertInterval.md)
@@ -154,5 +156,4 @@
     * [Searcha2DMatrix](BinarySearch/Searcha2DMatrix.md)
     * [Searcha2DMatrix2](BinarySearch/Searcha2DMatrix2.md)
 * [BitMan](BitMan/README.md)
-    * [UglyNumber](UglyNumber.md)
-    * [UglyNumber2](UglyNumber2.md)
+   
