@@ -1,3 +1,4 @@
+#
 Follow up for "Search in Rotated Sorted Array":
 What if duplicates are allowed?
 
@@ -6,6 +7,7 @@ Would this affect the run-time complexity? How and why?
 Write a function to determine if a given target is in the array.
 
 // Worst case O(n)
+```
 bool search(vector<int>& A, int key) {
         
         int l = 0, r = A.size()-1;
@@ -50,3 +52,4 @@ Therefore, we are able to construct a worst case input which runs in O(n), for e
 Besides,Basically, whenever you see A[m] == A[l] && A[m] != A[h], you know A[l] to A[m] must be identical, 
 so you only need to search the right half. So is the case of A[m] != A[l] && A[m] == A[h]. 
 The only case you need to search both half is when A[m] == A[l] == A[h].
+```
