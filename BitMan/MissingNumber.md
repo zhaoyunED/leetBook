@@ -13,7 +13,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 ```
 思路：
 可参考题目FirstMissingPositive
-对于数组中每个元素 若是  nums[i] != i 那么将 num[i] swap到第i个位置上， swap来的新元素若还是 ！=i 继续swap 如果能够nums[i]<n
+对于数组中每个元素 若是  nums[i] != i 那么将 num[i] swap到第i个位置上， swap来的新元素若还是 ！=i 继续swap 如果能够 nums[i]<n
 
 int missingNumber(vector<int>& nums) 
 {
