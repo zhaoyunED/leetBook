@@ -11,7 +11,8 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 ---
 
 ```
-int missingNumber(vector<int>& nums) {
+int missingNumber(vector<int>& nums) 
+{
         
         int n = nums.size();
         for(int i=0;i<n;i++)
