@@ -13,7 +13,7 @@ Consider the following matrix:
 ]
 Given target = 3, return true.
 
-
+```
 //方法1 两次二分查找
 
 bool searchMatrix(vector<vector<int> > &matrix, int target) {
@@ -80,3 +80,4 @@ bool searchMatrix(vector<vector<int> > &matrix, int target)
         }
         return matrix[r / m][r % m] == target;
 }
+```
