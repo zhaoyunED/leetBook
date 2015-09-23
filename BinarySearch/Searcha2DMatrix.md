@@ -21,7 +21,8 @@ Given target = 3, return true.
 
 
 ```
-The first integer of each row is greater than the last integer of the previous row 表明了这个数组其实就是一个排好序的数列，只不过用二维数组的形式表示了出来，所以我们方法一 可以用两次二分查找找到对应元素  或者直接把二维
+The first integer of each row is greater than the last integer of the previous row 
+表明了这个数组其实就是一个排好序的数列，只不过用二维数组的形式表示了出来，所以我们方法一 可以用两次二分查找找到对应元素  或者方法2直接把二维数组当成一个序列来看
 
 方法1 两次二分查找
 
