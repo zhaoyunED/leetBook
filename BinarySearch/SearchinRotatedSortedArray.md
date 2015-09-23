@@ -53,7 +53,7 @@ int search(vector<int>& nums, int target)
         
         int rot=lo;
         lo=0;hi=nums.size()-1;
-        // The usual binary search and accounting for rotation.
+        
         while(lo<=hi){
             int mid=lo+(hi-lo)/2;
             int realmid=(mid+rot)%nums.size();
