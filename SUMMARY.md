@@ -156,4 +156,11 @@
     * [Searcha2DMatrix](BinarySearch/Searcha2DMatrix.md)
     * [Searcha2DMatrix2](BinarySearch/Searcha2DMatrix2.md)
 * [BitMan](BitMan/README.md)
-   
+   * [BitwiseANDofNumbersRange](./BitwiseANDofNumbersRange.md)
+    * [Numberof1Bits](./Numberof1Bits.md)
+    * [Power of Two](./Power of Two.md)
+    * [ReverseBit](ReverseBit.md)
+    * [SingleNumber](SingleNumber.md)
+    * [SingleNumber2](SingleNumber2.md)
+    * [SingleNumber3](SingleNumber3.md)
+    * [MissingNumber](MissingNumber.md)
