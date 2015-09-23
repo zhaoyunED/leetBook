@@ -11,6 +11,8 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 ---
 
 ```
+思路：
+可参考
 int missingNumber(vector<int>& nums) 
 {
         
