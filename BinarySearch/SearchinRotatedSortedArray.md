@@ -7,6 +7,10 @@ You are given a target value to search. If found in the array return its index, 
 
 You may assume no duplicate exists in the array.
 
+
+---
+
+
 ```
 //方法1
 int search(vector<int>& nums, int target) 
