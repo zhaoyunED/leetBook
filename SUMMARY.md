@@ -153,4 +153,4 @@
     * [FindMinimuminRotatedSortedArrayII](BinarySearch/FindMinimuminRotatedSortedArrayII.md)
     * [Searcha2DMatrix](BinarySearch/Searcha2DMatrix.md)
     * [Searcha2DMatrix2](BinarySearch/Searcha2DMatrix2.md)
-*[BitMan](BitMan/README.md)
+* [BitMan](BitMan/README.md)
