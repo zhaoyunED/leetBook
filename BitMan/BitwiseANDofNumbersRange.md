@@ -1,8 +1,10 @@
+#
 Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
 
 For example, given the range [5, 7], you should return 4.
 
 
+```
 //方法1
 //找最左边相同的部门 其余剩下的总是 为AND为0
 int rangeBitwiseAnd(int m, int n)
@@ -25,3 +27,4 @@ int rangeBitwiseAnd(int m, int n)
     }
     return n;
 }
+```
