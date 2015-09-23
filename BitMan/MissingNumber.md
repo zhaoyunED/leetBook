@@ -20,6 +20,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 最后遍历一遍数组若是 nums[i] != i 返回i
 
+
 int missingNumber(vector<int>& nums) 
 {
         
