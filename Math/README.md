@@ -21,3 +21,4 @@
 * [PlusOne](PlusOne.md)
 * [HappyNumber](HappyNumber.md)
 * [PermutationSequence](PermutationSequence.md)
+* [UglyNumber](UglyNumber.md)
