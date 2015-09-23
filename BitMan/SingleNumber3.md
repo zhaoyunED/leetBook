@@ -10,6 +10,11 @@ Note:
 The order of the result is not important. So in the above example, [5, 3] is also correct.
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant space complexity?
 
+
+
+---
+
+
 ```
 //先求得 a^b
 // 找到a与b最低不相同的位
