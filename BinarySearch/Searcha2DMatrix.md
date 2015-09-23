@@ -74,7 +74,7 @@ bool searchMatrix(vector<vector<int> > &matrix, int target) {
     }
 
 
-//方法2 直接看成一个连贯的array
+方法2 直接看成一个连贯的array
 
 bool searchMatrix(vector<vector<int> > &matrix, int target) 
 {
