@@ -17,6 +17,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 ```
 思路：
+
 先求得 a^b
 找到a与b最低不相同的位
 按照这位 值 的0或者1 分成两组 
