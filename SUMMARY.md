@@ -143,3 +143,4 @@
     * [Surrounded Regions](BFS/Surrounded Regions.md) 
     * [WordLadder](BFS/WordLadder.md) 
     * [wordLadder2](BFS/wordLadder2.md)
+* [BinarySearch](BinarySearch/README.md)
