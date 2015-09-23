@@ -18,6 +18,8 @@ Write a function to determine if a given target is in the array.
 考虑 11111113 rotate之后 变为  11311111
 此时 A[m] == A[l] == A[h]
 
+
+
 bool search(vector<int>& A, int key) {
         
         int l = 0, r = A.size()-1;
