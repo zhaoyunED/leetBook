@@ -1,3 +1,4 @@
+#SearchRange
 Given a sorted array of integers, find the starting and ending position of a given target value.
 
 Your algorithm's runtime complexity must be in the order of O(log n).
@@ -12,7 +13,7 @@ return [3, 4].
 
 
 
-
+```
 vector<int> searchRange(int A[], int n, int target) {
         vector<int> res;
         if(n <= 0)
@@ -55,3 +56,4 @@ vector<int> searchRange(int A[], int n, int target) {
             return -1;
         return high; // q3 若只有一个元素 最终A[high]= target and low>high 返回high
     }
+```
