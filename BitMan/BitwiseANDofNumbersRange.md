@@ -4,6 +4,10 @@ Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of 
 For example, given the range [5, 7], you should return 4.
 
 
+---
+
+
+
 ```
 //方法1
 //找最左边相同的部门 其余剩下的总是 为AND为0
