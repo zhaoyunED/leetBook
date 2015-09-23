@@ -10,7 +10,7 @@ For example, given the range [5, 7], you should return 4.
 
 ```
 方法1
-找最左边相同的部门 其余剩下的总是 为AND为0
+找最左边相同的部门 其余剩下的总是AND为0
 int rangeBitwiseAnd(int m, int n)
 {
         int i = 0;
