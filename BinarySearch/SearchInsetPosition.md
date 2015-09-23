@@ -16,7 +16,9 @@ Here are few examples.
 
 
 ```
-int searchInsert(vector<int>& nums, int target)   //典型的二分查找
+方法：
+标准的二分查找...
+int searchInsert(vector<int>& nums, int target)   
 {
         int left =0,right = nums.size()-1;
         while(left<=right)
