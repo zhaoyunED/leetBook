@@ -39,7 +39,7 @@ int search(vector<int>& nums, int target)
 }
 
 方法2
-先找到旋转后数组中元素最小的值
+先找到旋转后数组中元素最小的值的下标，这样数组旋转
 
 int search(vector<int>& nums, int target) 
 {
