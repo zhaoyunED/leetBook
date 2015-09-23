@@ -79,8 +79,8 @@ public int helper(int[] num,int start,int end){
 }
 
 
-//方法3
-//always 寻找 局部最大的那个元素
+方法3
+always 寻找 局部最大的那个元素
 int findPeakElement(const vector<int> &num)
 {
         int low = 0;
