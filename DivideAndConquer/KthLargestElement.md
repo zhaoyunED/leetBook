@@ -19,7 +19,7 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 先做一次partition，统计数值小的那块partition集合的数目
 * 若等于K 可直接返回nums[index]
 * 若大于K 在数值小的那块partition集合中继续寻找第K大的元素
-* 若小于K 在数值大的那块partition集合中寻找k-length大的元素(length为数值小的partition集合的数目)
+* 若小于K 在数值大的那块partition集合中寻找k-length大的元素(length为数值小的partition集合的大小)
 
 ```
 int partition(vector<int>& nums, int i, int j)
