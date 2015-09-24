@@ -1,4 +1,4 @@
-
+#JumpGame
 Given an array of non-negative integers, you are initially positioned at the first index of the array.
 
 Each element in the array represents your maximum jump length at that position.
@@ -14,7 +14,7 @@ A = [3,2,1,0,4], return false.
 
 
 
-
+```
 //基本都是贪心的思想
 //方法1
  bool canJump(int A[], int n) {
@@ -62,3 +62,4 @@ bool canJump(vector<int>& nums)
             return true;
 }
 
+```
