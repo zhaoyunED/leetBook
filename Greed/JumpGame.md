@@ -40,7 +40,7 @@ A = [3,2,1,0,4], return false.
         }
     }
 
-//方法2
+方法2
 
 bool canJump(vector<int>& nums) 
 {
