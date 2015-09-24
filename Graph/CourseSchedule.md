@@ -56,8 +56,7 @@ bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
         
         vector<int> color(numCourses, 0);
         
-        for(auto s:prerequisites)
-        {
+        for(auto s:prerequisites)//构造图的过程
            if(table[s.second].find(s.first) == table[s.second].end())
 			{
 				table[s.second].insert(s.first);
