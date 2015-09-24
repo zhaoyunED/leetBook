@@ -1,5 +1,5 @@
 # **哈希**
 
-* [IsomorphicStrings](./Different Ways to Add Parentheses.md)
+* [IsomorphicStrings](./IsomorphicStrings.md)
 * [KthLargestElement](./KthLargestElement.md) 
 * [MedianofTwoSortedArrays](./MedianofTwoSortedArrays.md) 
