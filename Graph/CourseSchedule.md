@@ -77,6 +77,7 @@ bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
 
 方法2：BFS
 不断找当前入度数为0的节点，将该节点放到拓扑队列的末尾（同时可以求出整个拓扑队列）
+最终队列里节点的数目和所有节点的数目相同的话那么就是可以完成课程。
 
 bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites)
 {
