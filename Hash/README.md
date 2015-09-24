@@ -2,4 +2,4 @@
 
 * [IsomorphicStrings](./IsomorphicStrings.md)
 * [SubstringwithConcatentionofAllWords](./SubstringwithConcatentionofAllWords.md) 
-* [TwoSum](./MedianofTwoSortedArrays.md) 
+* [TwoSum](./TwoSum.md) 
