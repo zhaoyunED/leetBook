@@ -164,3 +164,4 @@
     * [SingleNumber2](BitMan/SingleNumber2.md)
     * [SingleNumber3](BitMan/SingleNumber3.md)
     * [MissingNumber](BitMan/MissingNumber.md)
+* [c_string_func]
