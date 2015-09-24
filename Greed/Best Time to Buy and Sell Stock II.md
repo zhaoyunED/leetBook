@@ -31,7 +31,7 @@ int maxProfit(vector<int>& prices)
 
 
 或者更简单粗暴的代码
-//直接把相邻的正差值  全部加起来 就行
+直接把相邻的正差值  全部加起来 就行
 public int maxProfit(int[] prices)
 {
         int total = 0;
