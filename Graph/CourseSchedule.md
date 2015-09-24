@@ -33,7 +33,7 @@ and to take course 0 you should also have finished course 1. So it is impossible
 
 方法1：DFS
 
-DFS过程中
+DFS过程中若是产生了回边 那么就是
 
 bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
 {
