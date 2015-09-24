@@ -39,8 +39,9 @@ int jump(vector<int>& nums)
         return ++ret;
 }
 
-//方法二  每次判断一个新的index是否在 curRch范围内
-//curRch表示每一步所能走到的最远的地方
+方法二  
+每次判断一个新的index是否在 curRch范围内
+curRch表示每一步所能走到的最远的地方
 int jump(int A[], int n)
 {
          int ret = 0;
