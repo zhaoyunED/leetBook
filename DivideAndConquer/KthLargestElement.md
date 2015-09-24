@@ -17,6 +17,8 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 思路：类似快速排序的思想
 先做一次partition，统计数值小的那块partition集合的数目
+
+
 ```
 int partition(vector<int>& nums, int i, int j)
     {
