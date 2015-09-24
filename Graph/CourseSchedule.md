@@ -33,7 +33,7 @@ and to take course 0 you should also have finished course 1. So it is impossible
 
 方法1：DFS
 
-DFS过程中若是产生了回边 那么就是产生了环路，
+DFS过程中若是产生了回边 那么就是产生了环路，那么对应课程就是不能完成的
 
 bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
 {
