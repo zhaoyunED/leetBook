@@ -7,8 +7,9 @@ Find the median of the two sorted arrays. The overall run time complexity should
 
 
 
-//不断筛掉 不符合的区域段
+
 ```
+//不断筛掉 不符合的区域段
 double findKth(vector<int>& nums1, int s1,int e1,vector<int>& nums2, int s2, int e2, int k)  
 {
        if(e1-s1 > e2-s2) //总是保持nums1的区域段比nums2的区域段小
