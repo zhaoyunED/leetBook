@@ -1,5 +1,5 @@
 # **分治**
 
-* [Different](./permutations.md)
+* [Different Ways to Add](./permutations.md)
 * [permutations2](./permutations2.md) 
 * [GenerateParentheses](./GenerateParentheses.md) 
