@@ -51,7 +51,7 @@ UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node)
 }
 
 
-//BFS
+方法2：BFS
 
 UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node)
 {
