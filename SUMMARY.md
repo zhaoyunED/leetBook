@@ -166,3 +166,6 @@
     * [MissingNumber](BitMan/MissingNumber.md)
 * [c_string_func](c_string_func/cstr_func.md)
 * [DivideAndConquer](DivideAndConquer/README.md)
+    * [Different Ways to Add Parentheses](./Different Ways to Add Parentheses.md)
+    * [KthLargestElement](./KthLargestElement.md) 
+    * [MedianofTwoSortedArrays](./MedianofTwoSortedArrays.md) 
