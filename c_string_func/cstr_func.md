@@ -1,7 +1,7 @@
 
 C语言 关于几个字符串处理的函数，面试中会有问到的可能性
 ```
-//
+求字符串的长度
 int strlen(const char* str)
 {
 	assert(NULL != str);
