@@ -18,7 +18,7 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 思路：类似快速排序的思想
 先做一次partition，统计数值小的那块partition集合的数目
 * 若等于K 可直接返回nums[index]
-* 若大于K 在数值小的那块partition集合中继续寻找
+* 若大于K 在数值小的那块partition集合中继续寻找第K大的元素
 
 ```
 int partition(vector<int>& nums, int i, int j)
