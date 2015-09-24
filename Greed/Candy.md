@@ -85,7 +85,6 @@ int candy(vector<int> &ratings) {
      for (int i = 0; i < size; i++)
      {
          result+=num[i];
-        // cout<<num[i]<<" ";
      }
      return result;
     }
