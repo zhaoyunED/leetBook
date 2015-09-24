@@ -55,7 +55,8 @@ Output: [-34, -14, -10, -10, 10]
         return result;
 }
 
-//¶¯¹æ
+
+方法2:
 vector<int> diffWaysToCompute(string input) {
         unordered_map<string, vector<int>> dpMap;
         return computeWithDP(input, dpMap);
