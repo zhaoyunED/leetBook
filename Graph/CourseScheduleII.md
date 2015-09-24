@@ -1,4 +1,4 @@
-
+#CourseSchedule
 There are a total of n courses you have to take, labeled from 0 to n - 1.
 
 Some courses may have prerequisites, for example to take course 0 you have to first take course 1, 
@@ -27,6 +27,7 @@ Another correct ordering is[0,2,1,3].
 思路：
 用类似邻接表的结构存储图
 用BFS类似的方法进行拓扑排序
+
 vector<int> findOrder(int numCourses, vector<pair<int, int>>& prerequisites) 
 {
         vector<unordered_set<int>> table(numCourses);
