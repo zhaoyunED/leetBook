@@ -11,6 +11,7 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 
 //类似快速排序的思想
+```
 int partition(vector<int>& nums, int i, int j)
     {
         if (i == j) return i;
@@ -23,10 +24,10 @@ int partition(vector<int>& nums, int i, int j)
         {
             if(nums[k] <= pivot)
             {
-                std::swap(nums[k], nums[i0 ++]);
+                swap(nums[k], nums[i0 ++]);
             }
         }
-        std::swap(nums[i0], nums[j]);
+        swap(nums[i0], nums[j]);
         return i0;
     }
     
@@ -48,3 +49,4 @@ int findKthLargest(vector<int>& nums, int k)
 
     return findKthEle(nums,0,len-1,k);
 }
+```
