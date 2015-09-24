@@ -26,7 +26,7 @@ Visually, the graph looks like the following:
 
 ---
 
-
+```
 //DFS
 //×îºó·µ»Ø hash[node];
 unordered_map<UndirectedGraphNode *,UndirectedGraphNode *> hash;
@@ -82,3 +82,4 @@ UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node)
         }
         return record[node];
     }
+```
