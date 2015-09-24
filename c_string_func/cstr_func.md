@@ -15,7 +15,7 @@ int strcmp(const char* str1,const char* str2)
 {
 	assert(NULL != str1 && NULL!=str2);
 	int ret =0;
-	while((ret = *(unsigned char*)str1 - *(unsigned char*)str2) && *str1)
+	while(!(ret = *(unsigned char*)str1 - *(unsigned char*)str2) && *str1)
 	{
 		str1++;
 		str2++;
