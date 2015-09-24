@@ -31,7 +31,7 @@ and to take course 0 you should also have finished course 1. So it is impossible
 2. BFS (Kahn算法)
 
 
-//DFS
+方法1：DFS
 
 bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
 {
