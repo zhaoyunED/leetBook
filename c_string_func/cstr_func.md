@@ -36,7 +36,7 @@ char *strcat(char *strDest,const char* strSrc)
 	return address;
 }
 
-字符串复制 将strSrc的内容接到strDest
+字符串复制 将strSrc的内容复制到以strDest为起始位置的地方
 char* strcpy(char* strDest,const char* strSrc )
 {
 	assert(NULL!=strDest && NULL != strSrc);
