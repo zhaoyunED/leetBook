@@ -26,6 +26,8 @@ Visually, the graph looks like the following:
 
 ---
 
+一下代码来自leetcode
+
 ```
 方法1：DFS
 一个全局hashmap hash[node]; 用来保存已经生成的新的节点
