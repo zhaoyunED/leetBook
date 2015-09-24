@@ -26,11 +26,7 @@ int canCompleteCircuit(vector<int>& gas, vector<int>& cost)
 {
         int i, j, n = gas.size();
 
-        /*
-         * If start from i, stop before station x -> no station k from i + 1 to x - 1 can reach x.
-         * Bcoz if so, i can reach k and k can reach x, then i reaches x. Contradiction.
-         * Thus i can jump directly to x instead of i + 1, bringing complexity from O(n^2) to O(n).
-         */
+        
         // start from station i
         for (i = 0; i < n; i += j) {
             int gas_left = 0;
