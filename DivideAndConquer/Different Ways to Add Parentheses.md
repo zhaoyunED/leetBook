@@ -1,7 +1,8 @@
+#
 Given a string of numbers and operators, return all possible results from computing all the 
 different possible ways to group numbers and operators. The valid operators are +, - and *.
 
-
+```
 Example 1
 Input: "2-1-1".
 
@@ -20,7 +21,11 @@ Input: "2*3-4*5"
 (((2*3)-4)*5) = 10
 Output: [-34, -14, -10, -10, 10]
 
+```
+---
 
+
+```
 //µÝ¹é
  vector<int> diffWaysToCompute(string input)
 {
@@ -97,3 +102,4 @@ vector<int> computeWithDP(string input, unordered_map<string, vector<int>> &dpMa
         dpMap[input] = result;
         return result;
 }
+```
