@@ -12,7 +12,7 @@ Given "foo", "bar", return false.
 Given "paper", "title", return true.
 
 
-
+```
 bool isIsomorphic(string s, string t)
 {
         char map_s[128] = { 0 };
@@ -26,3 +26,4 @@ bool isIsomorphic(string s, string t)
         }
         return true; 
 }
+```
