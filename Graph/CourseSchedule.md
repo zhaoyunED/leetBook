@@ -76,7 +76,7 @@ bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
 
 
 
-//BFS
+方法2：BFS
 
 bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites)
 {
