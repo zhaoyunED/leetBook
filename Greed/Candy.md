@@ -14,7 +14,6 @@ What is the minimum candies you must give?
 
 ```
 以下代码摘自leetcode讨论区
-
 方法1：
 int candy(vector<int>& ratings) {
         int nCandyCnt = 0;///Total candies
