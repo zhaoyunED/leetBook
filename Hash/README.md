@@ -8,4 +8,4 @@
 * [ValidSudo](ValidSudo.md)
 * [Anagrams](Anagrams.md)
 * [Valid Anagram](Valid Anagram.md)
-* [ContainsDuplicates](ContainsDuplicates.md)
+* [ContainsDuplicate2](ContainsDuplicate2.md)
