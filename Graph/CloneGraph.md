@@ -28,7 +28,7 @@ Visually, the graph looks like the following:
 
 ```
 方法1：DFS
-//×îºó·µ»Ø hash[node];
+一个全局hashmap hash[node];
 unordered_map<UndirectedGraphNode *,UndirectedGraphNode *> hash;
     
 UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node)
