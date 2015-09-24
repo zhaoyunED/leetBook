@@ -5,6 +5,7 @@ You may complete as many transactions as you like (ie, buy one and sell one shar
 However, you may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 
 
+```
 //典型的贪心算法题目
 
 int maxProfit(vector<int>& prices)
@@ -36,3 +37,4 @@ public int maxProfit(int[] prices)
 
 		return total;
 }
+```
