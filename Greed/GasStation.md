@@ -12,7 +12,7 @@ Return the starting gas station's index if you can travel around the circuit onc
 
 ```
 方法1：
-思路：
+思路：需要从每个点出发来判断是否能
 int canCompleteCircuit(vector<int>& gas, vector<int>& cost)
 {
         int i, j, n = gas.size();
