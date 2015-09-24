@@ -6,3 +6,4 @@
 * [RepeatedDNASequences](RepeatedDNASequences.md)
 * [ContainsDuplicate](ContainsDuplicate.md)
 * [ValidSudo](ValidSudo.md)
+* [Anagrams](Anagrams.md)
