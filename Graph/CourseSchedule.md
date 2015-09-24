@@ -33,6 +33,8 @@ and to take course 0 you should also have finished course 1. So it is impossible
 
 方法1：DFS
 
+DFS过程中
+
 bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
 {
         color[num] =-1; //正在被访问还没有访问完事
