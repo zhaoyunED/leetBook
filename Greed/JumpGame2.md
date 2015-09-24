@@ -13,7 +13,7 @@ The minimum number of jumps to reach the last index is 2. (Jump 1 step from inde
 
 ---
 
-
+```
 //方法1 每次找到i点范围内 能达到最远距离的那个index
 int jump(vector<int>& nums) 
 {
@@ -55,3 +55,4 @@ int jump(int A[], int n)
         }
         return ret;
 }
+```
