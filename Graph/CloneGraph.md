@@ -28,7 +28,7 @@ Visually, the graph looks like the following:
 
 ```
 方法1：DFS
-一个全局hashmap hash[node];
+一个全局hashmap hash[node]; 用来保存已经生成的新的节点
 unordered_map<UndirectedGraphNode *,UndirectedGraphNode *> hash;
     
 UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node)
