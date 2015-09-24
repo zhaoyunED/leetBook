@@ -164,4 +164,4 @@
     * [SingleNumber2](BitMan/SingleNumber2.md)
     * [SingleNumber3](BitMan/SingleNumber3.md)
     * [MissingNumber](BitMan/MissingNumber.md)
-* [C_string_func](c_string_func/cstr_func.md)
+* [c_string_func](c_string_func/cstr_func.md)
