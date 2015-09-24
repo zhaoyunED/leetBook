@@ -179,3 +179,4 @@
     * [GasStation](Greed/GasStation.md)
     * [JumpGame](Greed/JumpGame.md)
     * [JumpGame2](Greed/JumpGame2.md)
+* [Hash](Hash/README.md)
