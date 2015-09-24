@@ -2,4 +2,4 @@
 
 * [Different Ways to Add Parentheses](./Different Ways to Add Parentheses.md)
 * [KthLargestElement](./KthLargestElement.md) 
-* [MedianofTwoSortedArrays](./GenerateParentheses.md) 
+* [MedianofTwoSortedArrays](./MedianofTwoSortedArrays.md) 
