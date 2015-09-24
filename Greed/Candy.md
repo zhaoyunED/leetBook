@@ -14,7 +14,6 @@ What is the minimum candies you must give?
 
 ```
 方法1：
-
 int candy(vector<int>& ratings) {
         int nCandyCnt = 0;///Total candies
     int nSeqLen = 0;  /// Continuous ratings descending sequence length
