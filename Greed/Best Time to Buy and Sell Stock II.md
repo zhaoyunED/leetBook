@@ -8,7 +8,7 @@ However, you may not engage in multiple transactions at the same time (ie, you m
 
 ```
 思路：
-典型的贪心算法题目，能够进行尽可能多的交易次数
+典型的贪心算法题目，能够进行尽可能多的交易次数大大降低了这个题目的难度
 
 int maxProfit(vector<int>& prices)
 {
