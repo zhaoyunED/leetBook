@@ -1,5 +1,6 @@
 
 
+```
 //
 int strlen(const char* str)
 {
@@ -43,3 +44,4 @@ char* strcpy(char* strDest,const char* strSrc )
 	while( (*strDest++ = *strSrc++) !='\0' );
 	return strD;
 }
+```
