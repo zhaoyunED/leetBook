@@ -37,7 +37,7 @@ int canCompleteCircuit(vector<int>& gas, vector<int>& cost)
 }
 
 
-
+方法2：
 int canCompleteCircuit(vector<int> &gas, vector<int> &cost)
 {
         int start = gas.size()-1;
