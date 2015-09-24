@@ -1,8 +1,14 @@
+#MedianofTwoSortedArrays
 There are two sorted arrays nums1 and nums2 of size m and n respectively. 
 Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
 
+---
+
+
+
 //不断筛掉 不符合的区域段
+```
 double findKth(vector<int>& nums1, int s1,int e1,vector<int>& nums2, int s2, int e2, int k)  
 {
        if(e1-s1 > e2-s2) //总是保持nums1的区域段比nums2的区域段小
@@ -37,3 +43,4 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2)
              return (r1+r2)/2.0;
          }
 }
+```
