@@ -4,3 +4,4 @@
 * [Candy](./Candy.md)
 * [GasStation](GasStation.md)
 * [JumpGame](JumpGame.md)
+* [JumpGame2]
