@@ -9,6 +9,7 @@ Find the median of the two sorted arrays. The overall run time complexity should
 
 
 ```
+思路：要求时间复杂度为O(lg(m+n))
 不断筛掉 不符合的区域段
 double findKth(vector<int>& nums1, int s1,int e1,vector<int>& nums2, int s2, int e2, int k)  
 {
