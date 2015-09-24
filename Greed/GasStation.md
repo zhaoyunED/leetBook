@@ -15,7 +15,7 @@ Return the starting gas station's index if you can travel around the circuit onc
 思路：需要从每个点出发来判断是否能围着circle绕一圈,每个点花费时间O(N),总时间复杂度为O(N^2)
 这显然不是我们希望的算法时间复杂度
 有一个规律我们可以利用： 若是一个station i出发，但是在
-x之前停了下来
+x之前停了下来，那么说明了
 int canCompleteCircuit(vector<int>& gas, vector<int>& cost)
 {
         int i, j, n = gas.size();
