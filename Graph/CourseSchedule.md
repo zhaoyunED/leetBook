@@ -16,6 +16,7 @@ and to take course 0 you should also have finished course 1. So it is impossible
 
 
 
+```
 //DFS
 
 bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
@@ -100,3 +101,4 @@ bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites)
         return count ==0;
         
 }
+```
