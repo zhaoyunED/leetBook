@@ -64,6 +64,7 @@ int canCompleteCircuit(vector<int> &gas, vector<int> &cost)
        return sum >= 0 ? start : -1;
 }
 
-
+方法3：
+可转换成求循环数组的最大子数组和的问题
 
 ```
