@@ -3,6 +3,7 @@ such that nums[i] = nums[j] and the difference between i and j is at most k.
 
 
 
+```
 //距离为k之内的 数据不允许重复
 //大于K之后把之前的数据从set里面删除掉
 bool containsNearbyDuplicate(vector<int>& nums, int k)
@@ -21,3 +22,4 @@ bool containsNearbyDuplicate(vector<int>& nums, int k)
 
        return false;
 }
+```
