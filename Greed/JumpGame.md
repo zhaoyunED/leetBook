@@ -50,8 +50,7 @@ bool canJump(vector<int>& nums)
         return(truepos==0); 
 }
 
-//方法3
-
+方法3
 bool canJump(vector<int>& nums)
 {
         if(nums.size()<=1) return true;
