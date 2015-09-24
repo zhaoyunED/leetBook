@@ -22,6 +22,10 @@ and to take course 0 you should also have finished course 1. So it is impossible
 
 
 ```
+思路：
+整个题目就是判断图是否有正确的拓扑路径的问题
+
+
 //DFS
 
 bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
