@@ -10,7 +10,7 @@ int strlen(const char* str)
 	return len;
 }
 
-//
+比较两个字符串
 int strcmp(const char* str1,const char* str2)
 {
 	assert(NULL != str1 && NULL!=str2);
