@@ -5,6 +5,7 @@ station (i+1). You begin the journey with an empty tank at one of the gas statio
 
 Return the starting gas station's index if you can travel around the circuit once, otherwise return -1.
 
+```
 int canCompleteCircuit(vector<int>& gas, vector<int>& cost)
 {
         int i, j, n = gas.size();
@@ -49,3 +50,4 @@ int canCompleteCircuit(vector<int> &gas, vector<int> &cost)
        }
        return sum >= 0 ? start : -1;
 }
+```
