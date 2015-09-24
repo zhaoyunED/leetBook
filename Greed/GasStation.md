@@ -16,7 +16,7 @@ Return the starting gas station's index if you can travel around the circuit onc
 这显然不是我们希望的算法时间复杂度
 有一个规律我们可以利用： 若是一个station i出发，但是在
 x之前停了下来，那么说明了从i+1....x-1之间点 都不能到达x点。
-为什么？ 若是 从i可以到达i+1...x-1之间的某一个点k,并且从k能够到达x，那么说明
+为什么？ 若是 从i可以到达i+1...x-1之间的某一个点k,并且从k能够到达x，那么说明i可以到达x点.
 int canCompleteCircuit(vector<int>& gas, vector<int>& cost)
 {
         int i, j, n = gas.size();
