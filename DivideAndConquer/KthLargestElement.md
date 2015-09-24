@@ -22,7 +22,7 @@ int partition(vector<int>& nums, int i, int j)
         if (i == j) return i;
 
         int pivot = nums[i];
-        std::swap(nums[i], nums[j]);
+        swap(nums[i], nums[j]);
 
         int i0 = i;
         for(int k = i; k < j; k ++)
