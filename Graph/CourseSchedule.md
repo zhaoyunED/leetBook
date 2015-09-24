@@ -76,7 +76,7 @@ bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
 
 
 方法2：BFS
-不断找当前入度数为0的节点，将该节点放到
+不断找当前入度数为0的节点，将该节点放到拓扑队列的末尾
 
 bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites)
 {
