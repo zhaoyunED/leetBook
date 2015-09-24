@@ -66,7 +66,8 @@ int candy(vector<int>& ratings) {
     return nCandyCnt;
 }
 
-//·½·¨2
+方法2：
+
 int candy(vector<int> &ratings) {
         
     int size=ratings.size();
