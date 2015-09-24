@@ -7,3 +7,4 @@
 * [ContainsDuplicate](ContainsDuplicate.md)
 * [ValidSudo](ValidSudo.md)
 * [Anagrams](Anagrams.md)
+* [Valid Anagram](Valid Anagram.md)
