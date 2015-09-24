@@ -24,8 +24,9 @@ Another correct ordering is[0,2,1,3].
 
 
 ```
-//用类似邻接表的结构存储图
-//用BFS类似的方法进行拓扑排序
+思路：
+用类似邻接表的结构存储图
+用BFS类似的方法进行拓扑排序
 vector<int> findOrder(int numCourses, vector<pair<int, int>>& prerequisites) 
 {
         vector<unordered_set<int>> table(numCourses);
