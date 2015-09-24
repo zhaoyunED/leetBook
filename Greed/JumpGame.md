@@ -20,7 +20,7 @@ A = [3,2,1,0,4], return false.
 
 
 ```
-//基本都是贪心的思想
+方法基本都是贪心的思想
 //方法1
  bool canJump(int A[], int n) {
         if(n==0||n==1){  
