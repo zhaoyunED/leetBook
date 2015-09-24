@@ -26,7 +26,7 @@ Output: [-34, -14, -10, -10, 10]
 
 
 ```
-//µÝ¹é
+方法1：分治的方法
  vector<int> diffWaysToCompute(string input)
 {
         vector<int> result;
