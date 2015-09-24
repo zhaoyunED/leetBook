@@ -15,6 +15,7 @@ The minimum number of jumps to reach the last index is 2. (Jump 1 step from inde
 
 ```
 承接上题，这题是要求出能达到数目末尾需要的最少的步数
+
 //方法1 每次找到i点范围内 能达到最远距离的那个index
 int jump(vector<int>& nums) 
 {
