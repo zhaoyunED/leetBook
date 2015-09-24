@@ -7,7 +7,8 @@ However, you may not engage in multiple transactions at the same time (ie, you m
 
 
 ```
-//典型的贪心算法题目
+思路：
+典型的贪心算法题目
 
 int maxProfit(vector<int>& prices)
 {
