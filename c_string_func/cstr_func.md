@@ -26,7 +26,7 @@ int strcmp(const char* str1,const char* str2)
 	return ret;
 }
 
-拼接字符串
+拼接字符串 将
 char *strcat(char *strDest,const char* strSrc)
 {
 	char *address = strDest;
