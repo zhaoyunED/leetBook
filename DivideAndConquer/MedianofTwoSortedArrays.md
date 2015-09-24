@@ -10,7 +10,8 @@ Find the median of the two sorted arrays. The overall run time complexity should
 
 ```
 思路：要求时间复杂度为O(lg(m+n)) 那么迭代的O(n)算法肯定不能用，既然已经是排好序的队列，我们可以用二分法来把问题不断缩小规模(分治),这样子就能满足时间复杂度为O(lg(m+n))
-不断筛掉 不符合的区域段
+注：不断筛掉 不符合的区域段
+
 double findKth(vector<int>& nums1, int s1,int e1,vector<int>& nums2, int s2, int e2, int k)  
 {
        if(e1-s1 > e2-s2) //总是保持nums1的区域段比nums2的区域段小
