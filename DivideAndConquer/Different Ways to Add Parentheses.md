@@ -56,7 +56,7 @@ Output: [-34, -14, -10, -10, 10]
 }
 
 
-方法2:
+方法2:利用一个 map来保存已经计算的过数值集，有点类似动规的空间换时间
 vector<int> diffWaysToCompute(string input) {
         unordered_map<string, vector<int>> dpMap;
         return computeWithDP(input, dpMap);
