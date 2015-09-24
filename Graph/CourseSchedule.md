@@ -28,7 +28,9 @@ and to take course 0 you should also have finished course 1. So it is impossible
 求拓扑路径有两种方式
 
 1. DFS
-2. BFS
+2. BFS (Kahn算法)
+
+
 //DFS
 
 bool DFS(vector<unordered_set<int>>& table,vector<int> &color,int num)
