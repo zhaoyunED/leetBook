@@ -13,6 +13,10 @@ Given "foo", "bar", return false.
 Given "paper", "title", return true.
 
 
+---
+
+
+
 ```
 bool isIsomorphic(string s, string t)
 {
