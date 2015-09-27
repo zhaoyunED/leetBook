@@ -23,4 +23,5 @@ bool containsDuplicate(vector<int>& nums)
 }
 
 上述两个方法都是利用了STL里面的方法，常规方法用hashmap来保存每一个数是否出现过也是可以的
+
 ```
