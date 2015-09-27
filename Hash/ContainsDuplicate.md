@@ -21,4 +21,6 @@ bool containsDuplicate(vector<int>& nums)
         nums.erase(unique(nums.begin(),nums.end()),nums.end());
         return (size!=nums.size());
 }
+
+上述两个方法都是利用了
 ```
