@@ -15,13 +15,14 @@ Return:
 
 ---
 
+
+```
 思路：
 //We can simply use s[i] & 7 to get the last digit which are just the last 3 bits
 //A:01000001
 //T:01010100
 //C:01000011
 //G:01000111
-```
 vector<string> findRepeatedDnaSequences(string s) {
     unordered_map<int, int> m;
     vector<string> r;
