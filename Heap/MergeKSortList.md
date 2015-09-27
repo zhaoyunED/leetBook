@@ -39,10 +39,8 @@ ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
         }
 }
 
-//利用归并排序  O(n*k*lgk)
 
-
-//优先队列  O(n*k*lg(n))
+方法2：优先队列  O(n*k*lg(n))
 
 public ListNode mergeKLists(List<ListNode> lists) 
 {
