@@ -23,6 +23,8 @@ A:01000001
 T:01010100
 C:01000011
 G:01000111
+
+根据最后三位就可以辨别出来
 //We can simply use s[i] & 7 to get the last digit which are just the last 3 bits
 
 vector<string> findRepeatedDnaSequences(string s) {
