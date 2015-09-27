@@ -8,6 +8,10 @@ s = "rat", t = "car", return false.
 Note:
 You may assume the string contains only lowercase alphabets.
 
+
+---
+
+
 ```
 bool isAnagram(string s, string t)
 {
