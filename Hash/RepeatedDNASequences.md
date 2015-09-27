@@ -24,9 +24,9 @@ T:01010100
 C:01000011
 G:01000111
 
-根据最后三位就可以辨别出来
+根据最后三位就可以辨别出来，这样一段段字符串是用最后三位拼接起来
 
-利用 s[i] & 7 得到字符的最后三位,再利用hahsmap来保存
+利用 s[i] & 7 得到字符的最后三位,再利用hahsmap来保存已出现过
 
 vector<string> findRepeatedDnaSequences(string s) {
     unordered_map<int, int> m;
