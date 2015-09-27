@@ -14,7 +14,7 @@ Output: index1=1, index2=2
 ---
 
 
-//ÀûÓÃhashÀ´±£´æ ¶ÔÓ¦µÄindex
+思路：编程之美上的一道题目,利用HASH可以保证时间复杂度在O(N)
 ```
 vector<int> twoSum(vector<int>& nums, int target) 
 {
