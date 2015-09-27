@@ -3,14 +3,14 @@ All DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, fo
 When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.
 
 Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
-
+```
 For example,
 
 Given s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT",
 
 Return:
 ["AAAAACCCCC", "CCCCCAAAAA"].
-
+```
 //We can simply use s[i] & 7 to get the last digit which are just the last 3 bits
 //A:01000001
 //T:01010100
