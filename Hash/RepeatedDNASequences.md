@@ -26,7 +26,7 @@ G:01000111
 
 根据最后三位就可以辨别出来
 
-利用 s[i] & 7 得到字符的最后三位
+利用 s[i] & 7 得到字符的最后三位,再利用hahsmap来保存
 
 vector<string> findRepeatedDnaSequences(string s) {
     unordered_map<int, int> m;
