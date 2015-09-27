@@ -40,8 +40,7 @@ ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
 }
 
 
-方法2：
-优先队列  O(n*k*lg(n))
+方法2：优先队列  O(n*k*lg(n))
 
 public ListNode mergeKLists(List<ListNode> lists) 
 {
