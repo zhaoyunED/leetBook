@@ -1,8 +1,10 @@
+#MergeKSortedList
 Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
 
 
 
+```
 //朴素方法  O(n*k) ?\\O(n*k*k)
 ListNode *mergeKLists(vector<ListNode *> &lists) {
         if(lists.empty()){
@@ -70,3 +72,4 @@ public ListNode mergeKLists(List<ListNode> lists)
         }
         return dummy.next;
 }
+```
