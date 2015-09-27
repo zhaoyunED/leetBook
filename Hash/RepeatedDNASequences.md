@@ -15,6 +15,7 @@ Return:
 //T:01010100
 //C:01000011
 //G:01000111
+```
 vector<string> findRepeatedDnaSequences(string s) {
     unordered_map<int, int> m;
     vector<string> r;
@@ -23,3 +24,4 @@ vector<string> findRepeatedDnaSequences(string s) {
             r.push_back(s.substr(i - 9, 10));
     return r;
 }
+```
