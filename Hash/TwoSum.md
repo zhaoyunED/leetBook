@@ -11,6 +11,7 @@ Output: index1=1, index2=2
 
 
 //ÀûÓÃhashÀ´±£´æ ¶ÔÓ¦µÄindex
+```
 vector<int> twoSum(vector<int>& nums, int target) 
 {
         vector<int> result;
@@ -30,3 +31,4 @@ vector<int> twoSum(vector<int>& nums, int target)
         
         return result;
 }
+```
