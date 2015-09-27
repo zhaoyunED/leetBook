@@ -18,13 +18,13 @@ Return:
 
 ```
 思路：要找到所有长度为10的出现两次以上的DNA串
-观察ATCG的二进制
-
+观察ATCG字符的二进制
+A:01000001
+T:01010100
+C:01000011
+G:01000111
 //We can simply use s[i] & 7 to get the last digit which are just the last 3 bits
-//A:01000001
-//T:01010100
-//C:01000011
-//G:01000111
+
 vector<string> findRepeatedDnaSequences(string s) {
     unordered_map<int, int> m;
     vector<string> r;
