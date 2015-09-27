@@ -181,7 +181,7 @@
     * [JumpGame2](Greed/JumpGame2.md)
 * [Hash](Hash/README.md)
     * [IsomorphicStrings](Hash/IsomorphicStrings.md)
-    * [SubstringwithConcatentionofAllWords](Hash/SubstringwithConcatentionofAllWords.md) 
+    * [SubstringwithConcatentionofAllWords](Hash/SubstringwithConcatenationofAllWords.md) 
     * [TwoSum](Hash/TwoSum.md) 
     * [RepeatedDNASequences](Hash/RepeatedDNASequences.md)
     * [ContainsDuplicate](Hash/ContainsDuplicate.md)
