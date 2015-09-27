@@ -13,6 +13,7 @@ You should return the indices: [0,9].
 
 
 
+ ```
  vector<int> findSubstring(string S, vector<string> &L) 
 {
          vector<int> ans;
@@ -64,3 +65,4 @@ You should return the indices: [0,9].
 
         return ans;
 }
+```
