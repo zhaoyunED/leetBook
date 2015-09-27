@@ -26,7 +26,7 @@ G:01000111
 
 根据最后三位就可以辨别出来
 
-//We can simply use s[i] & 7 to get the last digit which are just the last 3 bits
+利用 s[i] & 7 得到字符的最后三位
 
 vector<string> findRepeatedDnaSequences(string s) {
     unordered_map<int, int> m;
