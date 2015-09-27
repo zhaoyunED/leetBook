@@ -10,6 +10,7 @@ A valid Sudoku board (partially filled) is not necessarily solvable. Only the fi
 
 
 
+```
 //只是简单的检查一下数独板上的数字是否冲突
 bool isValidSudoku(vector<vector<char> > &board) 
 {
@@ -27,3 +28,4 @@ bool isValidSudoku(vector<vector<char> > &board)
 
       return true;
 }
+```
