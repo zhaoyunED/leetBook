@@ -8,7 +8,7 @@ Your function should return true if any value appears at least twice in the arra
 
 
 ```
-
+方法1：
 bool containsDuplicate(vector<int>& nums) {
         return nums.size() > set<int>(nums.begin(), nums.end()).size();        
     }
