@@ -16,7 +16,12 @@ A valid Sudoku board (partially filled) is not necessarily solvable. Only the fi
 
 
 ```
-//只是简单的检查一下数独板上的数字是否冲突
+思路：
+只是简单的检查一下数独板上的数字是否冲突
+used1 表示 对应的数字是否在某行出现过
+used2 表示 对应的数字是否在某列出现过
+used3 表示 对应的数字是否在某小九宫格出现过
+
 bool isValidSudoku(vector<vector<char> > &board) 
 {
       int used1[9][9] = {0}, used2[9][9] = {0}, used3[9][9] = {0};//used3表示9个小九宫格
