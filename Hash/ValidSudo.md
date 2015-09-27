@@ -24,7 +24,7 @@ used3 表示 对应的数字是否在某小九宫格出现过
 
 bool isValidSudoku(vector<vector<char> > &board) 
 {
-      int used1[9][9] = {0}, used2[9][9] = {0}, used3[9][9] = {0};//used3表示9个小九宫格
+      int used1[9][9] = {0}, used2[9][9] = {0}, used3[9][9] = {0};
 
       for(int i = 0; i < board.size(); ++ i)
             for(int j = 0; j < board[i].size(); ++ j)
