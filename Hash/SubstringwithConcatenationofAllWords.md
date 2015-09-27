@@ -30,7 +30,7 @@ You should return the indices: [0,9].
         for (int i = 0; i < wl; ++i) { 
             int left = i, count = 0;
             unordered_map<string, int> tdict;
-            for (int j = i; j <= n - wl; j += wl) {//Ò»¸ö¸öwordµÄÅÐ¶Ï
+            for (int j = i; j <= n - wl; j += wl) {
                 string str = S.substr(j, wl);
                 // a valid word, accumulate results
                 if (dict.count(str)) {
