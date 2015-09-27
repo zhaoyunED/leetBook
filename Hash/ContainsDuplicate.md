@@ -14,10 +14,11 @@ bool containsDuplicate(vector<int>& nums) {
     }
 
 
-bool containsDuplicate(vector<int>& nums) {
+bool containsDuplicate(vector<int>& nums) 
+{
         int size=nums.size();
         sort(nums.begin(),nums.end());
         nums.erase(unique(nums.begin(),nums.end()),nums.end());
         return (size!=nums.size());
-    }
+}
 ```
