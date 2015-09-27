@@ -7,13 +7,13 @@ Your function should return true if any value appears at least twice in the arra
 ---
 
 
-//·½·¨1
 ```
+
 bool containsDuplicate(vector<int>& nums) {
         return nums.size() > set<int>(nums.begin(), nums.end()).size();        
     }
 
-//·½·¨2
+
 bool containsDuplicate(vector<int>& nums) {
         int size=nums.size();
         sort(nums.begin(),nums.end());
