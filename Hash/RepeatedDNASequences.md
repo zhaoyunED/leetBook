@@ -15,7 +15,7 @@ Return:
 
 ---
 
-
+思路：
 //We can simply use s[i] & 7 to get the last digit which are just the last 3 bits
 //A:01000001
 //T:01010100
