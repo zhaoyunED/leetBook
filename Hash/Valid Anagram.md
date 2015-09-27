@@ -7,7 +7,7 @@ s = "rat", t = "car", return false.
 Note:
 You may assume the string contains only lowercase alphabets.
 
-
+```
 bool isAnagram(string s, string t)
 {
         if (s.length() != t.length()) return false;
@@ -20,4 +20,5 @@ bool isAnagram(string s, string t)
         for (int i = 0; i < 26; i++)
             if (counts[i]) return false;
         return true;
-    }
+}
+```
