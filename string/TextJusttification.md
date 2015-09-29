@@ -11,6 +11,7 @@ the empty slots on the left will be assigned more spaces than the slots on the r
 
 For the last line of text, it should be left justified and no extra space is inserted between words.
 
+```
 For example,
 words: ["This", "is", "an", "example", "of", "text", "justification."]
 L: 16.
@@ -20,8 +21,12 @@ Return the formatted lines as:
    "This    is    an",
    "example  of text",
    "justification.  "
-]
+]```
 Note: Each word is guaranteed not to exceed L in length.
+
+
+---
+
 
 
 
