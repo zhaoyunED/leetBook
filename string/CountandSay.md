@@ -15,6 +15,7 @@ Note: The sequence of integers will be represented as a string.
 
 ```
 思路：
+可以利用stringstream进行字符串处理
 
 string convert(string say)
     {
