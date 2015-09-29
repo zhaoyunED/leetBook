@@ -3,6 +3,7 @@ Write a function to find the longest common prefix string amongst an array of st
 
 
 //
+```
 string longestCommonPrefix(vector<string>& strs) 
 {
         if (strs.empty()) return "";
@@ -12,3 +13,4 @@ string longestCommonPrefix(vector<string>& strs)
                     return strs[0].substr(0, pos);
         return strs[0];
 }
+```
