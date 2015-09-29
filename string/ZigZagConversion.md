@@ -12,6 +12,10 @@ string convert(string text, int nRows);
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 ```
 
+
+---
+
+
 //·½·¨1
 string convert(string s, int numRows) 
 {
