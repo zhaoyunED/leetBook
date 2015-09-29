@@ -16,7 +16,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 ---
 
 ```
-//·½·¨1
+方法1：
 string convert(string s, int numRows) 
 {
         if (s == "" || numRows == 1) return s;
