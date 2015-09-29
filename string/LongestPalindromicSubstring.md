@@ -10,6 +10,8 @@ and there exists one unique longest palindromic substring.
 
 ```
 思路：求最长回文序列是个经典的题目，有三种常见的解法
+可详看文章：
+
 
 
 方法一 O(n^2)的算法 粗暴法
