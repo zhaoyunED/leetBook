@@ -14,8 +14,9 @@ Given "abcd", return "dcbabcd".
 
 ```
 方法1:
-KMP算法 将s反转之后拼到后面，算最后的字符串中 既是前缀子串又是后缀子串中的最长串
-//即是 最长的不需要变动的部分
+KMP算法 将s反转之后拼到后面，算拼接后的字符串中 既是前缀子串又是后缀子串中的最长串
+
+即是 最长的不需要变动的部分
 string shortestPalindrome(string s)
 {
         string rev_s = s;
