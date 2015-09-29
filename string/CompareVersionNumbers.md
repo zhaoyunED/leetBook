@@ -11,6 +11,10 @@ Here is an example of version numbers ordering:
 
 0.1 < 1.1 < 1.2 < 13.37
 
+
+---
+
+
 int compareVersion(string version1, string version2)
 {
         int i = 0; 
