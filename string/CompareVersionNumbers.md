@@ -14,7 +14,7 @@ Here is an example of version numbers ordering:
 
 ---
 
-
+```
 int compareVersion(string version1, string version2)
 {
         int i = 0; 
@@ -47,3 +47,4 @@ int compareVersion(string version1, string version2)
 
     return 0;
 }
+```
