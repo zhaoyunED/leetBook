@@ -19,7 +19,7 @@ Note: Do not use the eval built-in library function.
 
 ```
 方法1：
-利用istringstream
+利用 istringstream
 int calculate(string s) {
         istringstream in('+' + s + '+');
         long long total = 0, term = 0, n;
