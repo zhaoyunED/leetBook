@@ -23,7 +23,7 @@ Reduce them to a single space in the reversed string.
 
 
 ```
-//
+
 void reverseWord(string &s,int left, int right)
 {
 	while(left <right)
@@ -33,7 +33,7 @@ void reverseWord(string &s,int left, int right)
 		s[right--] = temp;
 	}
 }
-//O(1)空间
+O(1)空间
 void reverseWords(string &s) 
 {
       int i;
