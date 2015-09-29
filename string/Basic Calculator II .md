@@ -41,7 +41,8 @@ int calculate(string s) {
  }
 
 方法2 ：
-利用stack
+利用stack栈
+
   int calculate(string s) {
         stack<char> opS;
        stack<int>  numS;
