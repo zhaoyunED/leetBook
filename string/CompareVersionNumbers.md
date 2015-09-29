@@ -15,6 +15,9 @@ Here is an example of version numbers ordering:
 ---
 
 ```
+思路：
+先判断小数点前面的大小，若相等在判断小数点后面的大小
+
 int compareVersion(string version1, string version2)
 {
         int i = 0; 
