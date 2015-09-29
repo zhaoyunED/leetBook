@@ -18,8 +18,8 @@ Note: Do not use the eval built-in library function.
 
 
 ```
-//·½·¨1
-//ÀûÓÃ istringstream
+方法1：
+利用istringstream
 int calculate(string s) {
         istringstream in('+' + s + '+');
         long long total = 0, term = 0, n;
