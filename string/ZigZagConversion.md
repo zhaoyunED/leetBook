@@ -15,7 +15,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
 ---
 
-
+```
 //·½·¨1
 string convert(string s, int numRows) 
 {
@@ -86,3 +86,4 @@ public:
         return *retval;
     }
 };
+```
