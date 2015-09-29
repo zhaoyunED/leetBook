@@ -1,4 +1,4 @@
 # **字符串**
 
-* [CloneGraph](./CloneGraph.md)
+* [TextJusttification](./TextJusttification.md)
 * [CourseSchedule](./CourseSchedule.md)
