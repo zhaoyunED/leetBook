@@ -13,8 +13,7 @@ Note: The sequence of integers will be represented as a string.
 ---
 
 
-
-//一个简单的循环迭代处理
+```
 string convert(string say)
     {
         stringstream ss;
@@ -46,3 +45,4 @@ string countAndSay(int n)
         }
         return result;
 }
+```
