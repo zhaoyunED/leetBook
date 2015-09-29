@@ -14,6 +14,7 @@ Note: The sequence of integers will be represented as a string.
 
 
 ```
+思路：
 string convert(string say)
     {
         stringstream ss;
