@@ -9,7 +9,7 @@ and there exists one unique longest palindromic substring.
 
 
 ```
-思路：求最长回文序列是个经典的题目，有三种常见的解法
+思路：求最长回文子串是个经典的题目，有三种常见的解法
 可详看文章：
 
 
