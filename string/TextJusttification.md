@@ -30,7 +30,6 @@ Note: Each word is guaranteed not to exceed L in length.
 
 
 
-
 ```
 vector<string> fullJustify(vector<string>& words, int L) {
          vector<string> res;
