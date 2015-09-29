@@ -1,3 +1,4 @@
+#ReverseString
 Given an input string, reverse the string word by word.
 
 For example,
@@ -17,6 +18,7 @@ Yes. However, your reversed string should not contain leading or trailing spaces
 How about multiple spaces between two words?
 Reduce them to a single space in the reversed string.
 
+```
 //
 void reverseWord(string &s,int left, int right)
 {
@@ -54,5 +56,5 @@ void reverseWords(string &s)
 
 	reverseWord(s,0,j-1);
 }
-
+```
 //方法二
