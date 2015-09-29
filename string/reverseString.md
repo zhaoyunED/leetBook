@@ -18,6 +18,10 @@ Yes. However, your reversed string should not contain leading or trailing spaces
 How about multiple spaces between two words?
 Reduce them to a single space in the reversed string.
 
+
+---
+
+
 ```
 //
 void reverseWord(string &s,int left, int right)
