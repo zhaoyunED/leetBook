@@ -7,7 +7,9 @@ Given "aacecaaa", return "aaacecaaa".
 
 Given "abcd", return "dcbabcd".
 
-//KMP算法 将s反转之后拼到后面，算最后的字符串中 既是前缀子串又是后缀子串中的最长串
+```
+方法1:
+KMP算法 将s反转之后拼到后面，算最后的字符串中 既是前缀子串又是后缀子串中的最长串
 //即是 最长的不需要变动的部分
 string shortestPalindrome(string s)
 {
@@ -36,7 +38,7 @@ public:
   int n = s.length();
   if (n == 0) return "^$";
   string ret(2*n+3, '#');
-  ret[0] = '^';ret[2*n+1] = '$';
+  ret[0] = '^';ret[2*n+1] = '```;
   for (int i = 1; i <= n; i++)  ret[2*i]=s[i-1];
 
   return ret;
@@ -79,3 +81,4 @@ string shortestPalindrome(string s) {
   return temp+s;
 
 }
+```
