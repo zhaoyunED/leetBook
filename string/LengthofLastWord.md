@@ -1,3 +1,4 @@
+#LengthofLastWord
 Given a string s consists of upper/lower-case alphabets and empty space characters ' ', 
 return the length of last word in the string.
 
@@ -11,7 +12,7 @@ return 5.
 
 
 
-
+```
 int lengthOfLastWord(string s)
 {
       int i;int size = s.length();
@@ -19,3 +20,4 @@ int lengthOfLastWord(string s)
       i = s.find_last_of(' ');
       return (i==-1)?size:size-i-1;
 }
+```
