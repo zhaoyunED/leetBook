@@ -19,7 +19,7 @@ Note: Do not use the eval built-in library function.
 
 ```
 方法1：
-利用 istringstream
+利用istringstream
 int calculate(string s) {
         istringstream in('+' + s + '+');
         long long total = 0, term = 0, n;
@@ -40,7 +40,8 @@ int calculate(string s) {
         return total;
  }
 
- //·½·¨2 ÀûÓÃstack
+方法2 ：
+利用stack
   int calculate(string s) {
         stack<char> opS;
        stack<int>  numS;
