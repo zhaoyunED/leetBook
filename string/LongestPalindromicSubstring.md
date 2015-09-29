@@ -1,10 +1,11 @@
+#
 Given a string S, find the longest palindromic substring in S. You may assume that the maximum length of S is 1000, 
 and there exists one unique longest palindromic substring.
 
 
 
-
-//方法一 O(n^2)的算法 粗暴法
+```
+方法一 O(n^2)的算法 粗暴法
 
 string longestPalindrome(string s) 
 {
@@ -33,7 +34,7 @@ string longestPalindrome(string s)
         return s.substr(ss, max);
 }
 
-//方法二 Is it O(n) ?
+方法二 
 
  string longestPalindrome(string s) 
 {
@@ -53,7 +54,8 @@ string longestPalindrome(string s)
         return s.substr(min_start, max_len);
  }
 
- //方法三 Manacher's algorithm
+
+方法三 Manacher's algorithm
  
 string longestPalindrome(string s) 
 {
@@ -92,3 +94,4 @@ string longestPalindrome(string s)
 	}
 	return s.substr((resCenter - maxLen)/2, maxLen);
 }
+```
