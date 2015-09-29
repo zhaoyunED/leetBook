@@ -36,10 +36,11 @@ string shortestPalindrome(string s)
 
 
 
-//方法2 Manacher's 算法
-//已总结过
-public:
-    string preProcess(string s) {
+方法2 
+Manacher's 算法
+已总结过
+
+string preProcess(string s) {
   int n = s.length();
   if (n == 0) return "^$";
   string ret(2*n+3, '#');
