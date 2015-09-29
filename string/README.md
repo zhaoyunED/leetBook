@@ -7,7 +7,6 @@
 * [CompareVersionNumbers](./CompareVersionNumbers.md)
 * [LongestPalindromicSubstring](./LongestPalindromicSubstring.md)
 * [Basic Calculator II](./Basic Calculator II.md)
-* [reverseString](./reverseString.md)
 * [Shortest Palindrome](./Shortest Palindrome.md)
 * [LongestCommonPrefix](./LongestCommonPrefix.md)
 * [ReverseWordsinaString](./ReverseWordsinaString.md)
