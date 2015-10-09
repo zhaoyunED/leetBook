@@ -1,6 +1,7 @@
 #Flatten Binary Tree to Linked List
 Given a binary tree, flatten it to a linked list in-place.
 
+
 ```
 For example,
 Given
