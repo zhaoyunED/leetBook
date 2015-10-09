@@ -65,10 +65,11 @@ bool validate(TreeNode* node, TreeNode* &prev)
 }
 
 
-//方法3
-bool isValidBST(TreeNode *root) {
+方法3
+bool isValidBST(TreeNode *root) 
+{
         return isValidBSTHelper(root, LONG_MIN, LONG_MAX);
-    }
+}
 
 // decide if tree is a BST within range (lower, upper), exclusive
 bool isValidBSTHelper(TreeNode *root, long lower, long upper)
