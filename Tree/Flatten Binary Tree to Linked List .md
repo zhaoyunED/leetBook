@@ -31,6 +31,7 @@ If you notice carefully in the flattened tree, each node's right child points to
 
 
 //·½·¨1 µÝ¹é  beautiful
+```
 private TreeNode prev = null;
 
 public void flatten(TreeNode root) {
@@ -64,7 +65,8 @@ public static void flatten(TreeNode root)
 }
 
 //µü´ú
-void flatten(TreeNode *root) {
+void flatten(TreeNode *root)
+{
         if(root == NULL) return;  
 		while(root){  
 			if(root->left){  
@@ -77,4 +79,6 @@ void flatten(TreeNode *root) {
 			}  
 			root = root->right;  
 		}  
-    }
+}
+
+```
