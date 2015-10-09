@@ -30,8 +30,10 @@ If you notice carefully in the flattened tree, each node's right child points to
 
 
 
-//·½·¨1 µÝ¹é  beautiful
+
 ```
+
+方法1：
 private TreeNode prev = null;
 
 public void flatten(TreeNode root) {
