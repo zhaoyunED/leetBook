@@ -47,7 +47,7 @@ public void flatten(TreeNode root) {
 }
 
 
-//µÝ¹é
+方法2：
 private static TreeNode lastVisited = null;
 
 public static void flatten(TreeNode root)
