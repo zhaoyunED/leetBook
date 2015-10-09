@@ -33,7 +33,7 @@ If you notice carefully in the flattened tree, each node's right child points to
 
 ```
 
-方法1：保留
+方法1：保留prev 自底向上的生成
 private TreeNode prev = null;
 
 public void flatten(TreeNode root) {
