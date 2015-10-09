@@ -31,6 +31,10 @@ If you notice carefully in the flattened tree, each node's right child points to
 
 
 
+---
+
+
+
 ```
 
 方法1：保留prev 自底向上的生成
@@ -47,7 +51,8 @@ public void flatten(TreeNode root) {
 }
 
 
-方法2：保存上一个访问的的元素lastVisited自上而下的构造
+方法2：
+保存上一个访问的的元素lastVisited自上而下的构造
 
 private static TreeNode lastVisited = null;
 
