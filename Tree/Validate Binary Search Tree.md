@@ -47,7 +47,8 @@ public:
 };
 
 
-//方法2 和方法1基本一样// 用一个变量来保存 prev 
+方法2 :
+和方法1基本一样 用一个变量来保存 prev 
 bool isValidBST(TreeNode* root)
 {
         TreeNode* prev =NULL;
