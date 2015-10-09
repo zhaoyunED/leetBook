@@ -10,7 +10,7 @@ Both the left and right subtrees must also be binary search trees.
 
 
 //方法1
-
+```
 class Solution {
     bool first = true;
     int prev = 0;
@@ -71,3 +71,5 @@ bool isValidBSTHelper(TreeNode *root, long lower, long upper)
     long val = (long)root->val;
     return (val > lower && val < upper && isValidBSTHelper(root->left, lower, val) && isValidBSTHelper(root->right, val, upper));
 }
+
+```
