@@ -72,7 +72,8 @@ public static void flatten(TreeNode root)
         flatten(savedRight);
 }
 
-方法3：
+
+方法3：迭代的方法
 void flatten(TreeNode *root)
 {
         if(root == NULL) return;  
