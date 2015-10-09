@@ -1,5 +1,5 @@
 # **树**
 
-* [BinaryTreeMaximumPathSum](./CloneGraph.md)
+* [BinaryTreeMaximumPathSum](./BinaryTreeMaximumPathSum.md)
 * [CourseSchedule](./CourseSchedule.md)
 * [CourseScheduleII](CourseScheduleII.md)
