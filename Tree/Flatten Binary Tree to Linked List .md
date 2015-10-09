@@ -25,8 +25,8 @@ The flattened tree should look like:
              6
 
 ```
-Hints:
-If you notice carefully in the flattened tree, each node's right child points to the next node of a pre-order traversal.
+**Hints:
+If you notice carefully in the flattened tree, each node's right child points to the next node of a pre-order traversal.**
 
 
 
