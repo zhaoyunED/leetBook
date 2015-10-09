@@ -33,7 +33,7 @@ If you notice carefully in the flattened tree, each node's right child points to
 
 ```
 
-方法1：
+方法1：保留
 private TreeNode prev = null;
 
 public void flatten(TreeNode root) {
@@ -66,7 +66,7 @@ public static void flatten(TreeNode root)
         flatten(savedRight);
 }
 
-//µü´ú
+方法3：
 void flatten(TreeNode *root)
 {
         if(root == NULL) return;  
