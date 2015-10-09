@@ -48,6 +48,7 @@ public void flatten(TreeNode root) {
 
 
 方法2：保存上一个访问的的元素lastVisited
+
 private static TreeNode lastVisited = null;
 
 public static void flatten(TreeNode root)
