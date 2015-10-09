@@ -10,6 +10,10 @@ Both the left and right subtrees must also be binary search trees.
 
 
 
+---
+
+
+
 //方法1
 ```
 class Solution {
