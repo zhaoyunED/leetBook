@@ -23,6 +23,9 @@ Return the sum = 12 + 13 = 25.
 
 
 ```
+思路：
+一个深度优先搜索的过程..
+
 int sumNumbers(TreeNode* root)
 {
         int result =0;
