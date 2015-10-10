@@ -17,6 +17,7 @@ Given n = 3, your program should return all 5 unique BST's shown below.
 
 
 ```
+方法1：递归的方法
 vector<TreeNode*> generateTrees(int n) {
         vector<TreeNode*> result;
         if(n==0) 
