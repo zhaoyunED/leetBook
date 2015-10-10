@@ -36,9 +36,6 @@ int numTrees(int n)
 
 
 
-
-
-
 方法2:
 利用卡特兰数
 
