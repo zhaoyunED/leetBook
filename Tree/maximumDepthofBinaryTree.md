@@ -6,7 +6,7 @@ The maximum depth is the number of nodes along the longest path from the root no
 ```
 思路：easy级别的题目，可用DFS和BFS两种方法实现
 
-//DFS
+方法1：DFS
 int maxDepth(TreeNode* root)
 {
         if(root)
