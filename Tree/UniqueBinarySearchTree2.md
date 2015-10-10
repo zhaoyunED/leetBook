@@ -63,6 +63,7 @@ vector<TreeNode*> getTree(int from,int to)
 
 
 方法2：迭代的方法
+代码摘自leetcode discuss.....
 
 vector<TreeNode *> generateTrees(int n) {
     vector<TreeNode *> tmp;
