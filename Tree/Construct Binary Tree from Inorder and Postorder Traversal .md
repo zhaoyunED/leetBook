@@ -1,9 +1,10 @@
+#Construct Binary Tree from Inorder and Postorder Traversal
 Given inorder and postorder traversal of a tree, construct the binary tree.
 
 Note:
 You may assume that duplicates do not exist in the tree.
 
-
+```
 TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         if(inorder.size() == 0)
             return nullptr;
@@ -66,3 +67,4 @@ TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder)
         }
         return root;
 }
+```
