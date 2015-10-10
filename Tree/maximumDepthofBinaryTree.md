@@ -18,7 +18,7 @@ int maxDepth(TreeNode* root)
         return 0;
 }
 
-//BFS
+方法2：BFS
 int maxDepth(TreeNode *root)
 {
     if(root == NULL)
