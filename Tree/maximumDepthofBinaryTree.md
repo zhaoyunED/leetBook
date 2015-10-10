@@ -1,8 +1,10 @@
+#Maximum Depth of Binary Tree
 Given a binary tree, find its maximum depth.
 
 The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
-
+```
+思路：easy级别的题目，可用DFS和BFS两种方法实现
 //DFS
 int maxDepth(TreeNode* root)
 {
@@ -41,3 +43,4 @@ int maxDepth(TreeNode *root)
 
     return res;
 }
+```
