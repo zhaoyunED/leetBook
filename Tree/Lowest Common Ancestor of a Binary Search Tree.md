@@ -6,8 +6,10 @@ Given a binary search tree (BST), find the lowest common ancestor (LCA) of two g
 ---
 
 
-//easy ÌâÄ¿
+
 ```
+思路：根据性质来判断，时间复杂度为O(lgN)
+
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         TreeNode* cur = root;
         while (true) {
