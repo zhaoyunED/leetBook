@@ -5,6 +5,10 @@ Two binary trees are considered equal if they are structurally identical and the
 
 
 
+---
+
+
+
 
 ```
 bool isSameTree(TreeNode* p, TreeNode* q)
