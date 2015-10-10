@@ -17,7 +17,8 @@ Given n = 3, there are a total of 5 unique BST's.
 
 
 ```
-//动态规划方法
+方法1：
+动态规划方法
 
 int numTrees(int n)
 {
