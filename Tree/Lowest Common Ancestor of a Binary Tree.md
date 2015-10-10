@@ -13,6 +13,8 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 求两个节点的最小公共父节点有三种常用的方法
 
 此处只列上递归的方法
+三种方法详解请看：
+
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q)
 {
         if(!root)
