@@ -62,7 +62,7 @@ vector<TreeNode*> getTree(int from,int to)
 
 
 
-方法2：递归的方法
+方法2：迭代的方法
 
 vector<TreeNode *> generateTrees(int n) {
     vector<TreeNode *> tmp;
