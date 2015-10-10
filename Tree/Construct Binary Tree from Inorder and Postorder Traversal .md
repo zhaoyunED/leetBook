@@ -7,6 +7,7 @@ You may assume that duplicates do not exist in the tree.
 
 ---
 
+方法1：递归的方法
 
 ```
 TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
