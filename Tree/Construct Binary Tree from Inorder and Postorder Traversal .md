@@ -36,7 +36,7 @@ TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
     }
 
 
-//µü´ú·¨
+方法2：非递归的方法
 
 TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder)
 {
