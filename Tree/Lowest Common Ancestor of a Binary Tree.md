@@ -1,9 +1,17 @@
+#
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 
 
 
+---
 
-TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+
+
+
+```
+
+TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q)
+{
         if(!root)
             return NULL;
         
@@ -17,4 +25,5 @@ TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         if(right==NULL) return left;
         
         return root;
-    }
+}
+```
