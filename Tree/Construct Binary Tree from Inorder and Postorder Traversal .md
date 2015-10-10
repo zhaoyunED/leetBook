@@ -9,6 +9,7 @@ You may assume that duplicates do not exist in the tree.
 
 方法1：递归的方法
 
+思路：postorder中最后一个元素即为根节点，根据此节点把inorder的元素分为左子树
 ```
 TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         if(inorder.size() == 0)
