@@ -40,7 +40,7 @@ int numTrees(int n)
 
 
 方法2:
-卡特兰数
+利用卡特兰数
 
 int numTrees(int n) {
     //cantalan树
