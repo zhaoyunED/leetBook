@@ -7,6 +7,7 @@ Given a binary search tree (BST), find the lowest common ancestor (LCA) of two g
 
 
 //easy ÌâÄ¿
+```
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         TreeNode* cur = root;
         while (true) {
@@ -17,3 +18,4 @@ TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
             else return cur; 
         }
     }
+```
