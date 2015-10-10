@@ -3,6 +3,7 @@ Given a binary tree, imagine yourself standing on the right side of it,
 return the values of the nodes you can see ordered from top to bottom.
 
 For example:
+```
 Given the following binary tree,
    1            <---
  /   \
@@ -10,11 +11,15 @@ Given the following binary tree,
  \     \
   5     4       <---
 You should return [1, 3, 4].
+```
+
+---
 
 
+```
 class Solution {
 
-int level = 0;//number of numbers that have been "seen".
+int level = 0;//已经看到的元素数目
     vector<int> answer;
 public:
     vector<int> rightSideView(TreeNode *root) {
@@ -32,3 +37,4 @@ public:
     }
     
 };
+```
