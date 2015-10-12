@@ -16,9 +16,8 @@ A solution using O(n) space is pretty straight forward. Could you devise a const
 1. 给定一个串 {1, 4, 3, 7, 9}, 只找到 4(!<=)3, 那么只需要swap这两个节点就能recover整个树.
 2. 给定一个串 {1, 9, 4, 5, 3, 10},找到 9(!<=)4 和 5(!<=)3, 
 swap  9和3 可recover整个树.
-我们通过两个指针one,two来记录 两个 调换的node
-因此 one 指针 只被修改1次
-two 指针 可能 被修改两次 或者1次
+我们通过两个指针one,two来记录 两个 调换的node,当发生以下情况是,就记录指针
+因此 one 指针 只被修改1次，two 指针 可能 被修改两次 或者1次
 
 void recoverTree(TreeNode* root) {
         if(root ==NULL)
