@@ -42,7 +42,7 @@ vector<int> preorderTraversal(TreeNode *root)
         return result;
 }
 
-//非递归方式
+方法2：非递归方式
 
 vector<int> preorderTraversal(TreeNode *root)
 {
