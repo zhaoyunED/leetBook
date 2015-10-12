@@ -9,8 +9,7 @@ Note: next() and hasNext() should run in average O(1) time and uses O(h) memory,
 ---
 
 
-//ÈçÍ¬ÖÐÐò±éÀú
-
+```
 public:
     stack<TreeNode *> s;
     BSTIterator(TreeNode *root) {
@@ -43,3 +42,4 @@ public:
             }
         }
     }
+```
