@@ -18,7 +18,8 @@ Note: Recursive solution is trivial, could you do it iteratively?
 
 
 ```
-//递归方式
+题意：完成二叉树的先序遍历
+递归方式
 
 void preorder(TreeNode *root, vector<int> &result)
 {
@@ -55,7 +56,8 @@ vector<int> preorderTraversal(TreeNode *root)
             TreeNode* n = s.top(); 
             result.push_back(n->val);
             s.pop();
-            //根据栈后进先出的特点先存入右子树，再存入左子树，确保                                了每次都先访问节点的左子树，然后是右子树
+            //根据栈后进先出的特点先存入右子树，再存入左子树，
+            确保了每次都先访问节点的左子树，然后是右子树
             if(n->right) s.push(n->right);
             if(n->left) s.push(n->left);
 
