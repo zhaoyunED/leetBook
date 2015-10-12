@@ -17,6 +17,7 @@ You may assume that it is a perfect binary tree (ie, all leaves are at the same 
 and every parent has two children).
 
 For example,
+```
 Given the following perfect binary tree,
          1
        /  \
@@ -30,10 +31,12 @@ After calling your function, the tree should look like:
      / \  / \
     4->5->6->7 -> NULL
 
+```
 
 
-
-void connect(TreeLinkNode *root) {
+```
+void connect(TreeLinkNode *root) 
+{
         if (root == NULL) return;
         TreeLinkNode *pre = root;
         TreeLinkNode *cur = NULL;
@@ -47,4 +50,5 @@ void connect(TreeLinkNode *root) {
                 }
             pre = pre->left;
         }
-    }
+}
+```
