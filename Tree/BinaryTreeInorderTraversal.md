@@ -21,6 +21,7 @@ Note: Recursive solution is trivial, could you do it iteratively?
 
 ```
 题意：完成二叉树的中序遍历
+
 方法1:递归的方法
 vector<int> inorderTraversal(TreeNode* root)
 {
@@ -44,7 +45,7 @@ void inorder(TreeNode *root,vector<int> &ret)
 }
 
 
-//非递归的方法
+方法2：非递归的方法
 
 vector<int> inorderTraversal(TreeNode* root)
 {
