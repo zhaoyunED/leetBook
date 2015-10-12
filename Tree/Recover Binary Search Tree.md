@@ -14,7 +14,7 @@ A solution using O(n) space is pretty straight forward. Could you devise a const
 ```
 通过两个指针来记录 两个 调换的node
 1. 给定一个串 {1, 4, 3, 7, 9}, 只找到 4(!<=)3, 那么只需要swap这两个节点就能recover整个树.
-2. Given a sequence {1, 9, 4, 5, 3, 10}, you get first pair 9(!<=)4 and second pair 5(!<=)3, 
+2. 给定一个串 {1, 9, 4, 5, 3, 10}, you get first pair 9(!<=)4 and second pair 5(!<=)3, 
 swap pair 9(!<=)3 and sequence is in order.
 
 因此 one 指针 只被修改1次
