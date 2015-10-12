@@ -21,6 +21,7 @@ return its bottom-up level order traversal as:
 ```
 思路：
 同样的方法 同 题目Binary Tree Level Order Traversal
+层次遍历完成之后再把元素reverse一下即可
 // 递归 DFS
 
 vector<vector<int>> levelOrderBottom(TreeNode* root)
