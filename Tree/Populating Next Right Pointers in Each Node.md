@@ -1,10 +1,12 @@
+#Populating Next Right Pointers in Each Node
 Given a binary tree
-
+```
     struct TreeLinkNode {
       TreeLinkNode *left;
       TreeLinkNode *right;
       TreeLinkNode *next;
     }
+    ```
 Populate each next pointer to point to its next right node. If there is no next right node, 
 the next pointer should be set to NULL.
 
@@ -32,6 +34,10 @@ After calling your function, the tree should look like:
     4->5->6->7 -> NULL
 
 ```
+
+
+---
+
 
 
 ```
