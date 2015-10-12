@@ -1,6 +1,6 @@
 Invert a binary tree.
 
-     4
+```     4
    /   \
   2     7
  / \   / \
@@ -11,12 +11,17 @@ to
   7     2
  / \   / \
 9   6 3   1
+```
 Trivia:
 This problem was inspired by this original tweet by Max Howell:
-Google: 90% of our engineers use the software you wrote (Homebrew), but you can¡¯t invert a binary tree on a whiteboard so fuck off.
+Google: 90% of our engineers use the software you wrote (Homebrew), but you can't invert a binary tree on a whiteboard so fuck off.
 
 
-//just µÝ¹é
+---
+
+
+```
+方法1：递归的方法
 TreeNode* invertTree(TreeNode* root)
 {        
         if(root)
@@ -49,3 +54,4 @@ TreeNode* invertTree(TreeNode* root)
         }
         return root; 
 }
+```
