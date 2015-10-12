@@ -19,7 +19,8 @@ Note: Recursive solution is trivial, could you do it iteratively?
 
 ```
 题意：完成二叉树的先序遍历
-递归方式
+
+方法1：递归方式
 
 void preorder(TreeNode *root, vector<int> &result)
 {
