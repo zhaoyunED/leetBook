@@ -1,5 +1,5 @@
 Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
-
+```
 For example, this binary tree is symmetric:
 
     1
@@ -13,8 +13,13 @@ But the following is not:
   2   2
    \   \
    3    3
+  ```
 
 
+---
+
+
+```
 bool isSymmetric(TreeNode* root)
 {
         if(root)
@@ -43,3 +48,4 @@ bool bSys(TreeNode* left,TreeNode* right){
             return true;
         else return false;
 }
+```
