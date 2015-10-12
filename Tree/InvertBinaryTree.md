@@ -40,7 +40,7 @@ TreeNode* invertTree(TreeNode* root)
         return root;
 }
 
-//·ÇµÝ¹é
+方法2：迭代的方法
 TreeNode* invertTree(TreeNode* root)
 {
         if (!root) return NULL;
