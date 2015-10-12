@@ -11,7 +11,7 @@ A solution using O(n) space is pretty straight forward. Could you devise a const
 ---
 
 
-
+```
 //通过指针来记录 两个 调换的node
 //1. Given a sequence {1, 4, 3, 7, 9}, you find pair 4(!<=)3, swap this pair and sequence is in order.
 // 2. Given a sequence {1, 9, 4, 5, 3, 10}, you get first pair 9(!<=)4 and second pair 5(!<=)3, 
@@ -20,6 +20,7 @@ A solution using O(n) space is pretty straight forward. Could you devise a const
 //an unordered sequence into ordered. 
 // 因此 one 指针 只被修改1次
 // two 指针 可能 被修改两次 或者1次
+
 void recoverTree(TreeNode* root) {
         if(root ==NULL)
             return;
@@ -54,3 +55,4 @@ void recoverTree(TreeNode* root) {
             recover(root->right,one,two,pre);
         }
     }
+```
