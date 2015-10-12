@@ -7,6 +7,7 @@ Note:
 
 You may only use constant extra space.
 For example,
+```
 Given the following binary tree,
          1
        /  \
@@ -19,8 +20,9 @@ After calling your function, the tree should look like:
       2 -> 3 -> NULL
      / \    \
     4-> 5 -> 7 -> NULL
+```
 
-
+```
 void connect(TreeLinkNode *root)
 {
         if(!root)
@@ -40,3 +42,4 @@ void connect(TreeLinkNode *root)
             tempChild->next = NULL;
         }
 }
+```
