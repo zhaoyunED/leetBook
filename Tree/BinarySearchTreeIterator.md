@@ -10,7 +10,8 @@ Note: next() and hasNext() should run in average O(1) time and uses O(h) memory,
 
 
 ```
-public:
+思路：
+用一个栈来辅助保存二叉搜索树的信息
     stack<TreeNode *> s;
     BSTIterator(TreeNode *root) {
         pushLeft(root);
