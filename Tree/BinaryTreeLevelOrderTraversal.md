@@ -17,8 +17,14 @@ return its level order traversal as:
 ]
 ```
 
-//方法1 递归方法
 
+---
+
+思路：完成二叉树的层次遍历是一个老题目，可用递归和非递归的方式来实现
+
+方法1 递归方法
+
+```
 vector<vector<int>> levelOrder(TreeNode* root)
 {
         vector<vector<int>> result;
@@ -44,10 +50,10 @@ void level(TreeNode* root,int depth,vector<vector<int>> &result)
         }
         
 }
+```
 
-
-//方法2 BFS方法
-
+方法2 BFS方法
+```
 vector<vector<int>> levelOrder(TreeNode* root) {
         vector<vector<int>> result;
         if(!root) return result;
@@ -92,4 +98,4 @@ vector<vector<int>> levelOrder(TreeNode* root) {
         
         return result;
 }
-
+```
