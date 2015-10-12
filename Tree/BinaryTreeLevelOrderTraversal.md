@@ -52,7 +52,7 @@ void level(TreeNode* root,int depth,vector<vector<int>> &result)
 }
 ```
 
-方法2 BFS方法
+方法2 BFS方法，即迭代的方法
 ```
 vector<vector<int>> levelOrder(TreeNode* root) {
         vector<vector<int>> result;
