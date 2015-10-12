@@ -8,6 +8,10 @@ A solution using O(n) space is pretty straight forward. Could you devise a const
 
 
 
+---
+
+
+
 //通过指针来记录 两个 调换的node
 //1. Given a sequence {1, 4, 3, 7, 9}, you find pair 4(!<=)3, swap this pair and sequence is in order.
 // 2. Given a sequence {1, 9, 4, 5, 3, 10}, you get first pair 9(!<=)4 and second pair 5(!<=)3, 
