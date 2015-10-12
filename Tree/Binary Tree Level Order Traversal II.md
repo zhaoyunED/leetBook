@@ -3,6 +3,7 @@ Given a binary tree, return the bottom-up level order traversal of its nodes' va
 (ie, from left to right, level by level from leaf to root).
 
 For example:
+```
 Given binary tree {3,9,20,#,#,15,7},
     3
    / \
@@ -15,10 +16,11 @@ return its bottom-up level order traversal as:
   [9,20],
   [3]
 ]
+```
 
-
-
-//同样的方法 同 1
+```
+思路：
+同样的方法 同 题目Binary Tree Level Order Traversal
 // 递归 DFS
 
 vector<vector<int>> levelOrderBottom(TreeNode* root)
@@ -92,3 +94,4 @@ vector<vector<int>> levelOrder(TreeNode* root) {
         reverse(result.begin(),result.end()); // this 
         return result;
 }
+```
