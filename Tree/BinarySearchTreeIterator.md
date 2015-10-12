@@ -12,6 +12,7 @@ Note: next() and hasNext() should run in average O(1) time and uses O(h) memory,
 ```
 思路：
 用一个栈来辅助保存二叉搜索树的信息,栈顶保存的是当前二叉搜索树中最小的元素的节点，每次弹出最小节点后，掉用pushLeft将该节点的右子树压入栈.
+
 代码摘自leetcode讨论区...
 
     stack<TreeNode *> s;
