@@ -21,8 +21,9 @@ return its zigzag level order traversal as:
 ---
 
 
-方法1：
+
 ```
+思路：跟二叉树的层次遍历接近，加入一个辅助变量来判断每层节点加入的方向
 vector<vector<int>> zigzagLevelOrder(TreeNode* root)
 {
        vector<vector<int>> result;
