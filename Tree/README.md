@@ -24,4 +24,4 @@
 * [Binary Tree Level Order Traversal](Binary Tree Level Order Traversal)
 * [Binary Tree Level Order Traversal II](Binary Tree Level Order Traversal II.md)
 * [BinaryTreePreorderTraversal](BinaryTreePreorderTraversal.md)
-* [BinaryTreeInorderTraversal]()
+* [BinaryTreeInorderTraversal](BinaryTreeInorderTraversal.md)
