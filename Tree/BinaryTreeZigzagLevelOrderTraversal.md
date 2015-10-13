@@ -21,7 +21,8 @@ return its zigzag level order traversal as:
 ---
 
 
-//»¨Ê½²ã´Î±éÀú
+方法1：
+```
 vector<vector<int>> zigzagLevelOrder(TreeNode* root)
 {
        vector<vector<int>> result;
@@ -61,3 +62,4 @@ vector<vector<int>> zigzagLevelOrder(TreeNode* root)
        
        return result;
 }
+```
