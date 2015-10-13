@@ -15,7 +15,9 @@ You may assume that duplicates do not exist in the tree.
 ```
 
 方法1：递归的方法
-思路：
+思路：先序遍历的第一个节点就是根节点，再找到中序遍历中的该根节点，将中序遍历可以划分成该根节点的左右两个子树...递归的执行下去
+
+代码摘自leetcode 讨论区
 
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder)
 {
