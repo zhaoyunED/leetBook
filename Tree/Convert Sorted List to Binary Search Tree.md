@@ -9,7 +9,7 @@ Given a singly linked list where elements are sorted in ascending order, convert
 
 
 ```
-//找中间节点
+方法1思路：找中间节点,时间复杂度为O(nlgn)
 TreeNode* sortedListToBST(ListNode* head)
 {
          return sortedListToBST( head, NULL );
