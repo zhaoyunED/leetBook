@@ -20,7 +20,7 @@ Your code should preferably run in O(n) time and use only O(1) memory.
 
 
 
-//方法1 先计算length
+方法1 先计算length
 ```
 int getLen(ListNode *head) {
         int len = 0;
