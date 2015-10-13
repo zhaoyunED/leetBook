@@ -2,6 +2,7 @@
 Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
 For example:
+```
 Given the below binary tree and sum = 22,
               5
              / \
@@ -15,7 +16,7 @@ return
    [5,4,11,2],
    [5,8,4,5]
 ]
-
+```
 
 //典型的 DFS 求 全部路径的问题
 vector<vector<int>> pathSum(TreeNode* root, int sum)
