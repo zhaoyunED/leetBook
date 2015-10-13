@@ -10,3 +10,4 @@
 * [Construct Binary Tree from Preorder and Inorder Traversal](Construct Binary Tree from Preorder and Inorder Traversal.md)
 * [Lowest Common Ancestor of a Binary Search Tree](Lowest Common Ancestor of a Binary Search Tree.md)
 * [Lowest Common Ancestor of a Binary Tree](Lowest Common Ancestor of a Binary Tree.md)
+* [UniqueBinarySearchTree](UniqueBinarySearchTree.md)
