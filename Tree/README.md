@@ -7,6 +7,7 @@
 * [Validate Binary Search Tree](Validate Binary Search Tree.md)
 * [BinarySearchTreeIterator](BinarySearchTreeIterator.md)
 * [Recover Binary Search Tree](Recover Binary Search Tree.md)
+* [Kth Smallest Element in a BST](Kth Smallest Element in a BST.md)
 * [Convert Sorted Array to Binary Search Tree ](Convert Sorted Array to Binary Search Tree .md)
 * [Convert Sorted List to Binary Search Tree](Convert Sorted List to Binary Search Tree.md)
 * [Construct Binary Tree from Inorder and Postorder Traversal](Construct Binary Tree from Inorder and Postorder Traversal.md)
