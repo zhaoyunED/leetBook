@@ -16,8 +16,8 @@ It can have between 1 and 2h nodes inclusive at the last level h.
 
 
 
-//先算两边的树的深度若一样 直接返回
-//之后分治
+思路：先算两边的树的深度若一样 直接返回；若不一样，递归分治
+```
 int countNodes(TreeNode* root) {
         if (!root)
             return 0;
@@ -31,5 +31,5 @@ int countNodes(TreeNode* root) {
             return countNodes(root->left) + countNodes(root->right) + 1 ;
         }
     }
-
+```
 
