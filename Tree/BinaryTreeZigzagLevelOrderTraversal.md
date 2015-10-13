@@ -3,6 +3,7 @@ Given a binary tree, return the zigzag level order traversal of its nodes' value
 (ie, from left to right, then right to left for the next level and alternate between).
 
 For example:
+```
 Given binary tree {3,9,20,#,#,15,7},
     3
    / \
@@ -15,6 +16,10 @@ return its zigzag level order traversal as:
   [20,9],
   [15,7]
 ]
+
+```
+---
+
 
 //»¨Ê½²ã´Î±éÀú
 vector<vector<int>> zigzagLevelOrder(TreeNode* root)
