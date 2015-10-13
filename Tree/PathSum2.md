@@ -18,7 +18,12 @@ return
 ]
 ```
 
-//典型的 DFS 求 全部路径的问题
+
+---
+
+
+```
+思路：典型的 DFS 求 全部路径的问题
 vector<vector<int>> pathSum(TreeNode* root, int sum)
 {
         vector<vector<int>> result;
@@ -44,3 +49,4 @@ void  getpathSum(vector<vector<int>>& result, int sum,int cursum,vector<int> cur
         if(node->right)
             getpathSum(result,sum,cursum+node->val,cur,node->right);
 }
+```
