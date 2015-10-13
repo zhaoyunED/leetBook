@@ -20,3 +20,4 @@
 * [Populating Next Right Pointers in Each Node](Populating Next Right Pointers in Each Node.md)
 * [Populating Next Right Pointers in Each Node II](Populating Next Right Pointers in Each Node II.md)
 * [InvertBinaryTree](InvertBinaryTree.md)
+* [SymmetricTree](SymmetricTree.md)
