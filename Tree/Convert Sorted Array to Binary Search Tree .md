@@ -8,6 +8,8 @@ Given an array where elements are sorted in ascending order, convert it to a hei
 ---
 
 ```
+思路：不断的找中点，时间复杂度为O(N)
+
 TreeNode *sortedArrayToBST(vector<int> &num)
 {
     return BuildTree(num,0,num.size()-1);
