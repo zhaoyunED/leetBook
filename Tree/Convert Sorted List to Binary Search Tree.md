@@ -37,8 +37,7 @@ TreeNode *sortedListToBST(ListNode *head, ListNode *tail)
 }
 
 
-方法2  利用中序遍历的思路
-//run time complexity is still O(N).
+方法2  利用中序遍历的思路,时间复杂度为 O(N).
 ListNode *list;
 int count(ListNode *node){
         int size = 0;
