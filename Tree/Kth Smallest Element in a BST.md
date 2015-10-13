@@ -1,3 +1,4 @@
+#Kth Smallest Element in a BST
 Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
 
 Note: 
@@ -11,6 +12,10 @@ Hint:
 Try to utilize the property of a BST.
 What if you could modify the BST node's structure?
 The optimal runtime complexity is O(height of BST).
+
+
+
+---
 
 
 //类似中序遍历 时间复杂度为O(k)
