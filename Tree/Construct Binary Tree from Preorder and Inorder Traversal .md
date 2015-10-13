@@ -13,6 +13,8 @@ You may assume that duplicates do not exist in the tree.
 
 
 ```
+
+方法1：
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder)
 {
         if(preorder.size()==0)
