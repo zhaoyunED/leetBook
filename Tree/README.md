@@ -11,3 +11,4 @@
 * [Lowest Common Ancestor of a Binary Search Tree](Lowest Common Ancestor of a Binary Search Tree.md)
 * [Lowest Common Ancestor of a Binary Tree](Lowest Common Ancestor of a Binary Tree.md)
 * [UniqueBinarySearchTree](UniqueBinarySearchTree.md)
+* [UniqueBinarySearchTree2](UniqueBinarySearchTree2.md)
