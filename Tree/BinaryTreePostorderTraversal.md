@@ -18,7 +18,8 @@ Note: Recursive solution is trivial, could you do it iteratively?
 
 ```
 题意：完成二叉树的后序遍历
-//·ÇµÝ¹é
+
+方法1：迭代法
 
 vector<int> postorderTraversal(TreeNode *root)
 {
