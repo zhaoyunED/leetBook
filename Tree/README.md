@@ -6,6 +6,7 @@
 * [Flatten Binary Tree to Linked List](Flatten Binary Tree to Linked List.md)
 * [Validate Binary Search Tree](Validate Binary Search Tree.md)
 * [BinarySearchTreeIterator](BinarySearchTreeIterator.md)
+* [Recover Binary Search Tree](Recover Binary Search Tree.md)
 * [Convert Sorted Array to Binary Search Tree ](Convert Sorted Array to Binary Search Tree .md)
 * [Convert Sorted List to Binary Search Tree](Convert Sorted List to Binary Search Tree.md)
 * [Construct Binary Tree from Inorder and Postorder Traversal](Construct Binary Tree from Inorder and Postorder Traversal.md)
@@ -26,3 +27,4 @@
 * [BinaryTreePreorderTraversal](BinaryTreePreorderTraversal.md)
 * [BinaryTreeInorderTraversal](BinaryTreeInorderTraversal.md)
 * [BinaryTreePostorderTraversal](BinaryTreePostorderTraversal.md)
+* 
