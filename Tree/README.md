@@ -30,3 +30,5 @@
 * [BinaryTreePostorderTraversal](BinaryTreePostorderTraversal.md)
 * [Binary Tree Zigzag Level Order Traversal](Binary Tree Zigzag Level Order Traversal.md)
 * [CountCompleteTreeNodes](CountCompleteTreeNodes.md)
+* [PathSum](PathSum.md)
+* [PathSum2](PathSum2.md)
