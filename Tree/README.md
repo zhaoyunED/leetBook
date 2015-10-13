@@ -28,7 +28,7 @@
 * [BinaryTreePreorderTraversal](BinaryTreePreorderTraversal.md)
 * [BinaryTreeInorderTraversal](BinaryTreeInorderTraversal.md)
 * [BinaryTreePostorderTraversal](BinaryTreePostorderTraversal.md)
-* [Binary Tree Zigzag Level Order Traversal](Binary Tree Zigzag Level Order Traversal.md)
+* [Binary Tree Zigzag Level Order Traversal](BinaryTreeZigzagLevelOrderTraversal.md)
 * [CountCompleteTreeNodes](CountCompleteTreeNodes.md)
 * [PathSum](PathSum.md)
 * [PathSum2](PathSum2.md)
