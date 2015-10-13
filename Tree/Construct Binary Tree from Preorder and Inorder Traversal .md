@@ -41,7 +41,7 @@ template<typename Iter>
 
 
 
-//µü´ú·¨
+方法2：迭代的方法
 
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder)
 {
