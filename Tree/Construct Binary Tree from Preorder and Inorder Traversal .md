@@ -15,6 +15,7 @@ You may assume that duplicates do not exist in the tree.
 ```
 
 方法1：递归的方法
+思路：
 
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder)
 {
