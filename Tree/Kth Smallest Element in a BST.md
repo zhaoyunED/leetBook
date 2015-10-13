@@ -18,8 +18,10 @@ The optimal runtime complexity is O(height of BST).
 ---
 
 
-//类似中序遍历 时间复杂度为O(k)
-int kthSmallest(TreeNode* root, int k) {
+```
+类似中序遍历 时间复杂度为O(k)
+int kthSmallest(TreeNode* root, int k) 
+{
         stack<TreeNode*> st;
         TreeNode* p = root;
         while(p || !st.empty())
@@ -37,4 +39,5 @@ int kthSmallest(TreeNode* root, int k) {
             p = p->right;
             
         }
-    }
+}
+```
