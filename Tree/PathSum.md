@@ -14,8 +14,8 @@ Given the below binary tree and sum = 22,
 return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 ```
 
-//treeÖÐ µÄ µäÐÍÀûÓÃ DFS µÄÌâÄ¿
-
+思路：使用DFS
+```
 bool hasPathSum(TreeNode* root, int sum) {
         if (root == NULL)
             return false;
@@ -32,3 +32,4 @@ bool hasPathSum(TreeNode* root, int sum) {
                 
         return false;
     }
+```
