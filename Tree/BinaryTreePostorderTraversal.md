@@ -1,6 +1,7 @@
 #BinaryTreePostorderTraversal
 Given a binary tree, return the postorder traversal of its nodes' values.
 
+```
 For example:
 Given binary tree {1,#,2,3},
    1
@@ -10,10 +11,12 @@ Given binary tree {1,#,2,3},
    3
 return [3,2,1].
 
+```
 Note: Recursive solution is trivial, could you do it iteratively?
 
 
 
+```
 //·ÇµÝ¹é
 
 vector<int> postorderTraversal(TreeNode *root)
@@ -38,7 +41,7 @@ vector<int> postorderTraversal(TreeNode *root)
         return result;
 }
 
-//µÝ¹é
+方法2：递归方法
 
 void postorder(TreeNode *root,vector<int> &result)
 {
@@ -56,3 +59,4 @@ vector<int> postorderTraversal(TreeNode *root)
         postorder(root,result);
         return result;
 }
+```
