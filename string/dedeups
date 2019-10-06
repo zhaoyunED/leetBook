@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexicon version="1.0" xmlns="http://www.w3.org/2005/01/pronunciation-lexicon" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/pls.xsd" xmlns:claws="http://www.example.com/claws7tags" alphabet="ipa" xml:lang="de-DE">
+  <lexeme >
+    <grapheme>heute</grapheme>
+    <alias>Willkommen bei</alias>
+  </lexeme>
+  <lexeme >
+    <!-- verb past participle, verb past tense -->
+    <grapheme>nicht</grapheme>
+    <phoneme>IH A lng S2 . AEX AU A + AEX S1</phoneme>
+  </lexeme>
+</lexicon>
