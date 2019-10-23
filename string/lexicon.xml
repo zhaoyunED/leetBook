@@ -5,4 +5,9 @@
     <grapheme>six</grapheme>
     <alias>world wide</alias>
   </lexeme>
+  <lexeme >
+    <!-- verb past participle, verb past tense -->
+    <grapheme>data</grapheme>
+    <phoneme>dɛˈ.mo</phoneme>
+  </lexeme>
 </lexicon>
